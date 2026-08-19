@@ -1,7 +1,10 @@
 const INTEL_KEY = "cci-intel-signals-v1";
 const INTEL_RUNS_KEY = "cci-intel-runs-v1";
+const INTEL_REMOTE_URL = "./data/intel_signals.json?v=20260819-scheduler1";
+const ENABLE_BROWSER_CLIENT_GOOGLE_NEWS = localStorage.getItem("cci-enable-client-google-news") === "true";
 const intel = {
   config: null,
+  remoteMeta: null,
   signals: JSON.parse(localStorage.getItem(INTEL_KEY) || "[]"),
   runs: JSON.parse(localStorage.getItem(INTEL_RUNS_KEY) || "[]"),
   filters: {}
@@ -11,6 +14,65 @@ const saveIntel = () => {
   localStorage.setItem(INTEL_KEY, JSON.stringify(intel.signals.slice(0, 400)));
   localStorage.setItem(INTEL_RUNS_KEY, JSON.stringify(intel.runs.slice(0, 80)));
 };
+
+const GENERIC_MATCH_TERMS = new Set([
+  "peru", "empresa", "proyecto", "proyectos", "oficina", "oficinas", "terreno", "terrenos",
+  "inversion", "inversiones", "infraestructura", "licencia", "licencias", "permiso", "permisos",
+  "ampliacion", "expansion", "planta", "almacen", "almacenes", "local", "sede", "apertura",
+  "obra", "obras", "concesion", "licitacion", "arrendamiento", "alquiler", "lima", "sac",
+  "proinversion", "gestion", "funcionarios", "directorio", "constitucion", "puerto", "puertos",
+  "grupo", "gobierno", "internacional", "nacional", "logistica", "transporte", "mina", "mineria",
+  "tecnologia", "construccion", "corporativo", "comercial", "industrial", "servicios", "para",
+  "produccion", "energia", "deuda", "contrato", "cobre", "nueva tienda", "centro de distribucion"
+]);
+const isDistinctiveTerm = (term) => term.length > 4 && /\s/.test(term) && !GENERIC_MATCH_TERMS.has(term);
+
+function compatibleStateSignal(signal) {
+  return {
+    id: signal.id,
+    title: signal.title,
+    summary: signal.summary || "",
+    source: signal.sourceName || signal.source || "",
+    date: String(signal.publishedAt || signal.createdAt || "").slice(0, 10),
+    tags: signal.matchedKeywords || [],
+    type: signal.signalType || "Oportunidad"
+  };
+}
+
+function mergeIntelSignals(incoming) {
+  const current = new Map(intel.signals.map((signal) => [signal.externalId || signal.id, signal]));
+  incoming.forEach((signal) => {
+    const id = signal.externalId || signal.id;
+    if (!id) return;
+    current.set(id, { ...(current.get(id) || {}), ...signal });
+  });
+  intel.signals = [...current.values()]
+    .sort((a, b) => new Date(b.publishedAt || b.createdAt || 0) - new Date(a.publishedAt || a.createdAt || 0))
+    .slice(0, 400);
+
+  const stateIds = new Set(state.signals.map((signal) => signal.id));
+  intel.signals.forEach((signal) => {
+    if (!stateIds.has(signal.id)) state.signals.unshift(compatibleStateSignal(signal));
+  });
+  state.signals = state.signals.slice(0, 260);
+}
+
+async function loadPublishedIntelSignals() {
+  try {
+    const res = await fetch(INTEL_REMOTE_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const payload = await res.json();
+    const signals = Array.isArray(payload) ? payload : payload.signals || [];
+    mergeIntelSignals(signals);
+    intel.remoteMeta = Array.isArray(payload) ? { generatedAt: null, totals: null } : payload;
+    saveIntel();
+    save();
+    return signals.length;
+  } catch (err) {
+    console.warn("No se pudo leer data/intel_signals.json", err);
+    return 0;
+  }
+}
 
 async function loadIntelConfig() {
   if (intel.config) return intel.config;
@@ -69,11 +131,12 @@ function matchClientToItem(client, item, config, forcedClientConfig = null) {
   const exactTitle = clientName && title.includes(clientName);
   const exactSummary = clientName && summary.includes(clientName);
   const kws = [...toks(client.palabras_clave), ...((cconf?.keywords || []).map(norm))]
-    .filter((x) => x.length > 3 && !["peru", "empresa", "proyecto", "oficina", "terreno"].includes(x));
+    .filter((x) => x.length > 3);
   const matchedKeywords = [...new Set(kws.filter((kw) => hay.includes(kw)).slice(0, 12))];
+  const distinctiveMatches = matchedKeywords.filter(isDistinctiveTerm);
   const signalTypes = signalKeywordTypes(hay, config);
   const hasSignal = signalTypes.length > 0;
-  const hasSpecificClientMatch = exactTitle || exactSummary || matchedKeywords.length > 0 || forcedClientConfig;
+  const hasSpecificClientMatch = exactTitle || exactSummary || distinctiveMatches.length > 0 || forcedClientConfig;
   if (!hasSpecificClientMatch || !hasSignal) return null;
 
   const locationTerms = toks(client.ubicacion).filter((x) => !["por", "confirmar", "peru", "lima"].includes(x));
@@ -83,7 +146,7 @@ function matchClientToItem(client, item, config, forcedClientConfig = null) {
   let score = 0;
   if (exactTitle) score += 35;
   if (!exactTitle && exactSummary) score += 20;
-  if (matchedKeywords.length) score += Math.min(25, 8 + matchedKeywords.length * 4);
+  if (distinctiveMatches.length) score += Math.min(25, 8 + distinctiveMatches.length * 4);
   score += Math.min(25, signalTypes.reduce((a, x) => a + x.weight, 0) * 3);
   if (officialSource) score += 15;
   if (locationMatch) score += 10;
@@ -184,15 +247,7 @@ async function normalizeAndStoreItems(items, config, forcedClientConfig = null) 
         ...match
       };
       intel.signals.unshift(signal);
-      state.signals.unshift({
-        id: signal.id,
-        title: signal.title,
-        summary: signal.summary,
-        source: signal.sourceName,
-        date: signal.publishedAt.slice(0, 10),
-        tags: signal.matchedKeywords,
-        type: signal.signalType
-      });
+      state.signals.unshift(compatibleStateSignal(signal));
     }
   }
   state.signals = state.signals.slice(0, 240);
@@ -208,7 +263,9 @@ async function runIntelRefresh() {
     const directSources = (config.sources || []).filter((s) =>
       s.backendEnabled && s.feedUrl && ["gestion_economia_rss", "elcomercio_economia_rss", "elcomercio_dia1_rss", "elcomercio_casaymas_rss"].includes(s.id)
     );
-    const googleClients = (config.clients || []).filter((c) => c.enabled && c.googleNewsRssUrl && c.confidence !== "bajo").slice(0, 8);
+    const googleClients = ENABLE_BROWSER_CLIENT_GOOGLE_NEWS
+      ? (config.clients || []).filter((c) => c.enabled && c.googleNewsRssUrl && c.confidence !== "bajo").slice(0, 8)
+      : [];
     const jobs = [
       ...directSources.map((source) => ({ source })),
       ...googleClients.map((client) => ({ source: rssClientSource(client), client }))
@@ -227,7 +284,7 @@ async function runIntelRefresh() {
     state.settings.lastIntelSync = new Date().toISOString();
     saveIntel();
     save();
-    toast("Inteligencia actualizada", `${totalNew} nuevas se\xf1ales, ${totalMatched} coincidencias, ${totalRead} items leidos.`);
+    toast("Inteligencia actualizada", `${totalNew} nuevas señales, ${totalMatched} coincidencias, ${totalRead} items leidos.`);
     render();
   } catch (err) {
     toast("Error de inteligencia", err.message || String(err));
@@ -255,12 +312,14 @@ function optFilter(keyName, label, values) {
 function intelligenceView() {
   const rows = filteredIntelSignals();
   const last = state.settings.lastIntelSync ? new Date(state.settings.lastIntelSync).toLocaleString() : "Aun no ejecutado";
+  const remoteLast = intel.remoteMeta?.generatedAt ? new Date(intel.remoteMeta.generatedAt).toLocaleString() : "Pendiente";
+  const remoteTotals = intel.remoteMeta?.totals;
   return `${head("Inteligencia comercial", "Alertas reales", `<button class="btn primary" data-action="run-intel">Actualizar inteligencia</button>`)}
     <section class="grid kpi-grid">
-      ${kpi("Se\xf1ales guardadas", intel.signals.length, "Deduplicadas por URL y cliente")}
+      ${kpi("Señales guardadas", intel.signals.length, "Deduplicadas por URL y cliente")}
       ${kpi("Alta relevancia", intel.signals.filter((s) => s.priority === "Alta").length, "Score >= 70")}
-      ${kpi("Fuentes configuradas", intel.config?.sources?.length || 12, "RSS, Google News y HTML planificado")}
-      ${kpi("Ultima ejecuci\xf3n", last, "MVP desde navegador")}
+      ${kpi("Fuentes configuradas", intel.config?.sources?.length || 12, remoteTotals ? `${remoteTotals.sourcesOk || 0} OK / ${remoteTotals.sourcesError || 0} con error` : "RSS, Google News y HTML")}
+      ${kpi("Scheduler", remoteLast, `Manual: ${last}`)}
     </section>
     <section class="card pad" style="margin-top:16px">
       <div class="toolbar intel-toolbar">
@@ -272,7 +331,7 @@ function intelligenceView() {
         ${optFilter("status", "Estado", ["new", "reviewed", "dismissed", "opportunity"])}
       </div>
       <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Cliente</th><th>Tipo</th><th>Titulo</th><th>Fuente</th><th>Score</th><th>Estado</th><th>Abrir</th></tr></thead><tbody>
-        ${rows.map((s) => `<tr><td>${h(String(s.publishedAt || "").slice(0, 10))}</td><td>${h(s.clientName)}</td><td>${pill(s.signalType)}</td><td><strong>${h(s.title)}</strong><div class="muted">${h(s.summary || "")}</div><div class="pill-row">${s.matchedKeywords.slice(0, 5).map((x) => pill(x)).join("")}</div></td><td>${h(s.sourceName)}</td><td>${pill(s.relevanceScore, cls(s.priority))}</td><td>${pill(s.status)}</td><td>${s.url ? `<a class="btn" href="${h(s.url)}" target="_blank" rel="noopener">Abrir</a>` : ""}</td></tr>`).join("") || `<tr><td colspan="8"><div class="empty">Todavia no hay se\xf1ales reales. Usa Actualizar inteligencia.</div></td></tr>`}
+        ${rows.map((s) => `<tr><td>${h(String(s.publishedAt || "").slice(0, 10))}</td><td>${h(s.clientName)}</td><td>${pill(s.signalType)}</td><td><strong>${h(s.title)}</strong><div class="muted">${h(s.summary || "")}</div><div class="pill-row">${s.matchedKeywords.slice(0, 5).map((x) => pill(x)).join("")}</div></td><td>${h(s.sourceName)}</td><td>${pill(s.relevanceScore, cls(s.priority))}</td><td>${pill(s.status)}</td><td>${s.url ? `<a class="btn" href="${h(s.url)}" target="_blank" rel="noopener">Abrir</a>` : ""}</td></tr>`).join("") || `<tr><td colspan="8"><div class="empty">Todavia no hay señales reales. Usa Actualizar inteligencia.</div></td></tr>`}
       </tbody></table></div>
     </section>`;
 }
@@ -299,7 +358,7 @@ if (typeof routes !== "undefined") {
     const c = state.clients.find((x) => x.id === clientId);
     if (!c) return html;
     const recent = intel.signals.filter((s) => s.clientId === c.id).slice(0, 5);
-    const block = `<div class="card pad"><div class="section-title"><h2>Se\xf1ales reales</h2>${pill(`${recent.length} recientes`)}</div>${recent.map((s) => `<div class="alert-item"><div class="alert-head"><strong>${h(s.title)}</strong>${pill(s.relevanceScore, cls(s.priority))}</div><span class="muted">${h(s.sourceName)} - ${h(String(s.publishedAt).slice(0, 10))}</span></div>`).join("") || `<div class="empty">Sin se\xf1ales reales para este cliente.</div>`}</div>`;
+    const block = `<div class="card pad"><div class="section-title"><h2>Señales reales</h2>${pill(`${recent.length} recientes`)}</div>${recent.map((s) => `<div class="alert-item"><div class="alert-head"><strong>${h(s.title)}</strong>${pill(s.relevanceScore, cls(s.priority))}</div><span class="muted">${h(s.sourceName)} - ${h(String(s.publishedAt).slice(0, 10))}</span></div>`).join("") || `<div class="empty">Sin señales reales para este cliente.</div>`}</div>`;
     return html.replace("</section>", `${block}</section>`);
   };
 }
@@ -324,4 +383,6 @@ action = function (a, id) {
   return previousIntelAction(a, id);
 };
 
-loadIntelConfig().then(() => { if (view === "intelligence") render(); }).catch((err) => console.warn(err));
+Promise.all([loadIntelConfig(), loadPublishedIntelSignals()])
+  .then(() => { if (view === "intelligence" || view === "dashboard" || view === "alerts") render(); })
+  .catch((err) => console.warn(err));
