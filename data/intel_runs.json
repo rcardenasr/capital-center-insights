@@ -1,0 +1,14 @@
+[
+  {
+    "runId": "RUN-initial-safe-mode",
+    "sourceId": "scheduler",
+    "sourceName": "Scheduler seguro",
+    "startedAt": "2026-08-19T16:19:22.000Z",
+    "finishedAt": "2026-08-19T16:19:22.000Z",
+    "status": "success",
+    "itemsRead": 148,
+    "itemsNew": 0,
+    "itemsMatched": 0,
+    "error": "Google News por cliente desactivado por defecto para no enviar nombres de clientes a servicios externos."
+  }
+]
