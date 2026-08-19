@@ -33,6 +33,7 @@ function compatibleStateSignal(signal) {
     title: signal.title,
     summary: signal.summary || "",
     source: signal.sourceName || signal.source || "",
+    url: signal.url || "",
     date: String(signal.publishedAt || signal.createdAt || "").slice(0, 10),
     tags: signal.matchedKeywords || [],
     type: signal.signalType || "Oportunidad"
@@ -50,9 +51,11 @@ function mergeIntelSignals(incoming) {
     .sort((a, b) => new Date(b.publishedAt || b.createdAt || 0) - new Date(a.publishedAt || a.createdAt || 0))
     .slice(0, 400);
 
-  const stateIds = new Set(state.signals.map((signal) => signal.id));
+  const stateById = new Map(state.signals.map((signal) => [signal.id, signal]));
   intel.signals.forEach((signal) => {
-    if (!stateIds.has(signal.id)) state.signals.unshift(compatibleStateSignal(signal));
+    const compatible = compatibleStateSignal(signal);
+    if (stateById.has(signal.id)) Object.assign(stateById.get(signal.id), compatible);
+    else state.signals.unshift(compatible);
   });
   state.signals = state.signals.slice(0, 260);
 }
@@ -331,7 +334,7 @@ function intelligenceView() {
         ${optFilter("status", "Estado", ["new", "reviewed", "dismissed", "opportunity"])}
       </div>
       <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Cliente</th><th>Tipo</th><th>Titulo</th><th>Fuente</th><th>Score</th><th>Estado</th><th>Abrir</th></tr></thead><tbody>
-        ${rows.map((s) => `<tr><td>${h(String(s.publishedAt || "").slice(0, 10))}</td><td>${h(s.clientName)}</td><td>${pill(s.signalType)}</td><td><strong>${h(s.title)}</strong><div class="muted">${h(s.summary || "")}</div><div class="pill-row">${s.matchedKeywords.slice(0, 5).map((x) => pill(x)).join("")}</div></td><td>${h(s.sourceName)}</td><td>${pill(s.relevanceScore, cls(s.priority))}</td><td>${pill(s.status)}</td><td>${s.url ? `<a class="btn" href="${h(s.url)}" target="_blank" rel="noopener">Abrir</a>` : ""}</td></tr>`).join("") || `<tr><td colspan="8"><div class="empty">Todavia no hay señales reales. Usa Actualizar inteligencia.</div></td></tr>`}
+        ${rows.map((s) => `<tr><td>${h(String(s.publishedAt || "").slice(0, 10))}</td><td>${h(s.clientName)}</td><td>${pill(s.signalType)}</td><td><strong>${sourceAnchor(s, h(s.title))}</strong><div class="muted">${h(s.summary || "")}</div><div class="pill-row">${s.matchedKeywords.slice(0, 5).map((x) => pill(x)).join("")}</div></td><td>${sourceAnchor(s, h(s.sourceName))}</td><td>${pill(s.relevanceScore, cls(s.priority))}</td><td>${pill(s.status)}</td><td>${s.url ? `<a class="btn" href="${h(s.url)}" target="_blank" rel="noopener">Abrir</a>` : ""}</td></tr>`).join("") || `<tr><td colspan="8"><div class="empty">Todavia no hay señales reales. Usa Actualizar inteligencia.</div></td></tr>`}
       </tbody></table></div>
     </section>`;
 }
@@ -358,7 +361,7 @@ if (typeof routes !== "undefined") {
     const c = state.clients.find((x) => x.id === clientId);
     if (!c) return html;
     const recent = intel.signals.filter((s) => s.clientId === c.id).slice(0, 5);
-    const block = `<div class="card pad"><div class="section-title"><h2>Señales reales</h2>${pill(`${recent.length} recientes`)}</div>${recent.map((s) => `<div class="alert-item"><div class="alert-head"><strong>${h(s.title)}</strong>${pill(s.relevanceScore, cls(s.priority))}</div><span class="muted">${h(s.sourceName)} - ${h(String(s.publishedAt).slice(0, 10))}</span></div>`).join("") || `<div class="empty">Sin señales reales para este cliente.</div>`}</div>`;
+    const block = `<div class="card pad"><div class="section-title"><h2>Señales reales</h2>${pill(`${recent.length} recientes`)}</div>${recent.map((s) => `<div class="alert-item"><div class="alert-head"><strong>${sourceAnchor(s, h(s.title))}</strong>${pill(s.relevanceScore, cls(s.priority))}</div><span class="muted">${sourceAnchor(s, h(s.sourceName))} - ${h(String(s.publishedAt).slice(0, 10))}</span></div>`).join("") || `<div class="empty">Sin señales reales para este cliente.</div>`}</div>`;
     return html.replace("</section>", `${block}</section>`);
   };
 }

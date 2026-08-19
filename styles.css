@@ -383,6 +383,17 @@ tr:hover td {
   text-align: left;
 }
 
+.source-link {
+  color: var(--blue-900);
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.source-link:hover {
+  color: var(--blue-700);
+  text-decoration: underline;
+}
+
 .pill-row {
   display: flex;
   flex-wrap: wrap;
