@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-08-19T16:19:22.000Z",
+  "country": "PE",
+  "sourcesConfigured": 12,
+  "clientsConfigured": 33,
+  "clientGoogleNewsEnabled": false,
+  "totals": {
+    "itemsRead": 148,
+    "itemsNew": 0,
+    "itemsMatched": 0,
+    "sourcesOk": 10,
+    "sourcesError": 0
+  },
+  "signals": []
+}
