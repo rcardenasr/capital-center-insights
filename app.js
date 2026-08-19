@@ -31,8 +31,27 @@ let view = state.session ? "dashboard" : "login", clientId = null, filters = {},
 const $ = (s, x = document) => x.querySelector(s), $$ = (s, x = document) => [...x.querySelectorAll(s)];
 const h = (v) => String(v ?? "").replace(/[&<>"']/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#039;" })[m]);
 const norm = (v) => String(v || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+const key = (v) => norm(v).replace(/[^a-z0-9]/g, "");
+const aliases = {
+  nombre_cliente: ["nombrecliente", "cliente", "clientes", "razonsocial", "razonsocialcliente", "nombre", "nombres"],
+  empresa: ["empresa", "compania", "cliente", "razonsocial"],
+  rubro: ["rubro", "sector", "industria", "actividad", "giro"],
+  tipo_activo: ["tipoactivo", "activo", "tipoinmueble", "tipopredio"],
+  ubicacion: ["ubicacion", "direccion", "zona", "localidad"],
+  distrito: ["distrito"],
+  provincia: ["provincia"],
+  departamento: ["departamento", "region"],
+  area: ["area", "aream2", "m2", "hectareas", "ha"],
+  palabras_clave: ["palabrasclave", "keywords", "tags", "intereses"],
+  estado: ["estado", "situacion", "status"],
+  observaciones: ["observaciones", "comentarios", "notas", "ncontrato", "contrato", "codigocontrato", "numerocontrato"]
+};
 const toks = (v) => norm(v).split(/[,;/\s]+/).filter((x) => x.length > 2);
 const save = () => localStorage.setItem(KEY, JSON.stringify(state));
+function bestHeader(field) {
+  const wanted = aliases[field] || [key(field)];
+  return headers.find((hh) => wanted.includes(key(hh))) || headers.find((hh) => wanted.some((a) => key(hh).includes(a) || a.includes(key(hh)))) || "";
+}
 function score(c, s) {
   const hay = norm([s.title, s.summary, s.tags.join(" ")].join(" "));
   const loc = [c.ubicacion, c.distrito, c.provincia, c.departamento].map(norm).filter(Boolean).filter((x) => hay.includes(x)).length;
@@ -82,76 +101,85 @@ const routes = {
 };
 function alertCard(a) { return `<article class="alert-item"><div class="alert-head"><strong>${h(a.title)}</strong>${pill(`${a.priority} - ${a.score}`, cls(a.priority))}</div><span class="muted">${h(a.summary)}</span><div class="pill-row">${pill(a.type)}${pill(a.source)}${pill(a.date)}</div></article>`; }
 function bind() {
-  $$('[data-view]').forEach((b) => b.onclick = () => { view = b.dataset.view; clientId = null; render(); });
-  $$('[data-client]').forEach((b) => b.onclick = () => { clientId = b.dataset.client; view = 'detail'; render(); });
-  $$('[data-action]').forEach((b) => b.onclick = () => action(b.dataset.action, b.dataset.id));
-  $('#q')?.addEventListener('input', (e) => { filters.q = e.target.value; render(); });
-  $$('[data-filter]').forEach((s) => s.onchange = (e) => { filters[e.target.dataset.filter] = e.target.value; render(); });
-  $('#settings')?.addEventListener('submit', (e) => { e.preventDefault(); const f = Object.fromEntries(new FormData(e.target)); state.settings = { ...state.settings, ...f, browserNotifications: f.browserNotifications === 'true' }; save(); toast('Configuracion guardada', 'Los cambios ya se reflejan.'); render(); });
+  $$("[data-view]").forEach((b) => b.onclick = () => { view = b.dataset.view; clientId = null; render(); });
+  $$("[data-client]").forEach((b) => b.onclick = () => { clientId = b.dataset.client; view = "detail"; render(); });
+  $$("[data-action]").forEach((b) => b.onclick = () => action(b.dataset.action, b.dataset.id));
+  $("#q")?.addEventListener("input", (e) => { filters.q = e.target.value; render(); });
+  $$("[data-filter]").forEach((s) => s.onchange = (e) => { filters[e.target.dataset.filter] = e.target.value; render(); });
+  $("#settings")?.addEventListener("submit", (e) => { e.preventDefault(); const f = Object.fromEntries(new FormData(e.target)); state.settings = { ...state.settings, ...f, browserNotifications: f.browserNotifications === "true" }; save(); toast("Configuracion guardada", "Los cambios ya se reflejan."); render(); });
 }
 function action(a, id) {
-  if (a === 'logout') { state.session = null; save(); view = 'login'; return render(); }
-  if (a === 'import') return importModal();
-  if (a === 'new') return clientModal();
-  if (a === 'simulate') return simulate(id);
-  if (a === 'reset') { state.clients = demoClients; state.signals = demoSignals; save(); toast('Demo restaurada', 'La base volvio a su estado inicial.'); render(); }
-  if (a === 'notify') return notify();
+  if (a === "logout") { state.session = null; save(); view = "login"; return render(); }
+  if (a === "import") return importModal();
+  if (a === "new") return clientModal();
+  if (a === "simulate") return simulate(id);
+  if (a === "reset") { state.clients = demoClients; state.signals = demoSignals; save(); toast("Demo restaurada", "La base volvio a su estado inicial."); render(); }
+  if (a === "notify") return notify();
 }
 function notify() {
-  if (!('Notification' in window)) return toast('No disponible', 'Este navegador no soporta notificaciones.');
-  Notification.requestPermission().then((p) => { state.settings.browserNotifications = p === 'granted'; save(); toast('Notificaciones', p === 'granted' ? 'Permiso concedido.' : 'Permiso no concedido.'); render(); });
+  if (!("Notification" in window)) return toast("No disponible", "Este navegador no soporta notificaciones.");
+  Notification.requestPermission().then((p) => { state.settings.browserNotifications = p === "granted"; save(); toast("Notificaciones", p === "granted" ? "Permiso concedido." : "Permiso no concedido."); render(); });
 }
 function simulate(id) {
   const c = state.clients.find((x) => x.id === id) || state.clients[Math.floor(Math.random() * state.clients.length)];
-  const s = { id: `SIG-${Date.now()}`, title: `Nueva noticia relevante para ${c.nombre_cliente}`, summary: `Se detecto una novedad demo asociada a ${c.ubicacion}.`, source: 'Motor demo Capital Center', date: d(), tags: [c.distrito, c.provincia, ...toks(c.palabras_clave).slice(0, 3)], type: 'Oportunidad' };
-  state.signals.unshift(s); save(); toast('Alerta detectada', s.title);
-  if (state.settings.browserNotifications && window.Notification?.permission === 'granted') new Notification('Capital Center Intelligence', { body: s.title });
+  const s = { id: `SIG-${Date.now()}`, title: `Nueva noticia relevante para ${c.nombre_cliente}`, summary: `Se detecto una novedad demo asociada a ${c.ubicacion}.`, source: "Motor demo Capital Center", date: d(), tags: [c.distrito, c.provincia, ...toks(c.palabras_clave).slice(0, 3)], type: "Oportunidad" };
+  state.signals.unshift(s); save(); toast("Alerta detectada", s.title);
+  if (state.settings.browserNotifications && window.Notification?.permission === "granted") new Notification("Capital Center Intelligence", { body: s.title });
   render();
 }
 function clientModal() {
-  modal(`<div class="modal-header"><h2>Nuevo cliente</h2><button class="btn" data-close>Cerrar</button></div><form class="modal-body" id="newc"><div class="mapping-grid">${fields.map((f) => `<div class="field"><label>${labels[f]}</label><input name="${f}"></div>`).join('')}</div><div class="modal-footer"><button class="btn" type="button" data-close>Cancelar</button><button class="btn primary">Guardar cliente</button></div></form>`);
-  $('#newc').onsubmit = (e) => { e.preventDefault(); const c = Object.fromEntries(new FormData(e.target)); c.id = `CLI-${Date.now()}`; state.clients.unshift(c); save(); closeModal(); toast('Cliente creado', c.nombre_cliente || 'Nuevo registro.'); view = 'clients'; render(); };
+  modal(`<div class="modal-header"><h2>Nuevo cliente</h2><button class="btn" data-close>Cerrar</button></div><form class="modal-body" id="newc"><div class="mapping-grid">${fields.map((f) => `<div class="field"><label>${labels[f]}</label><input name="${f}"></div>`).join("")}</div><div class="modal-footer"><button class="btn" type="button" data-close>Cancelar</button><button class="btn primary">Guardar cliente</button></div></form>`);
+  $("#newc").onsubmit = (e) => { e.preventDefault(); const c = Object.fromEntries(new FormData(e.target)); c.id = `CLI-${Date.now()}`; state.clients.unshift(c); save(); closeModal(); toast("Cliente creado", c.nombre_cliente || "Nuevo registro."); view = "clients"; render(); };
 }
 function importModal() {
   rows = []; headers = []; mapping = {};
   modal(`<div class="modal-header"><div><div class="eyebrow">Importacion</div><h2>Cargar clientes desde Excel o CSV</h2></div><button class="btn" data-close>Cerrar</button></div><div class="modal-body"><div class="field"><label>Archivo .xlsx o .csv</label><input id="file" type="file" accept=".xlsx,.xls,.csv"></div><div id="importbox"><div class="empty">Selecciona un archivo para ver la preview.</div></div></div><div class="modal-footer"><button class="btn" data-close>Cancelar</button><button class="btn primary" id="go" disabled>Importar registros</button></div>`);
-  $('#file').onchange = readFile; $('#go').onclick = doImport;
+  $("#file").onchange = readFile; $("#go").onclick = doImport;
 }
 function readFile(e) {
   const file = e.target.files[0], r = new FileReader();
   r.onload = (x) => {
-    if (file.name.toLowerCase().endsWith('.csv')) parseCsv(String(x.target.result));
-    else if (window.XLSX) { const wb = XLSX.read(x.target.result, { type: 'array' }); rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { defval: '' }); headers = Object.keys(rows[0] || {}); }
-    else return toast('Excel no disponible', 'No cargo la libreria de Excel.');
-    fields.forEach((f) => mapping[f] = headers.find((hh) => norm(hh).replace(/[_\s]/g, '').includes(norm(f).replace(/_/g, ''))) || '');
+    if (file.name.toLowerCase().endsWith(".csv")) parseCsv(String(x.target.result));
+    else if (window.XLSX) { const wb = XLSX.read(x.target.result, { type: "array" }); rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { defval: "" }); headers = Object.keys(rows[0] || {}); }
+    else return toast("Excel no disponible", "No cargo la libreria de Excel.");
+    fields.forEach((f) => mapping[f] = bestHeader(f));
     renderImport();
   };
-  file.name.toLowerCase().endsWith('.csv') ? r.readAsText(file) : r.readAsArrayBuffer(file);
+  file.name.toLowerCase().endsWith(".csv") ? r.readAsText(file) : r.readAsArrayBuffer(file);
 }
 function parseCsv(text) {
   const lines = text.split(/\r?\n/).filter((l) => l.trim()).map(csvLine);
-  headers = lines[0] || []; rows = lines.slice(1).map((r) => Object.fromEntries(headers.map((x, i) => [x, r[i] || ''])));
+  headers = lines[0] || []; rows = lines.slice(1).map((r) => Object.fromEntries(headers.map((x, i) => [x, r[i] || ""])));
 }
 function csvLine(line) {
-  const out = []; let cur = '', q = false;
-  for (let i = 0; i < line.length; i++) { const c = line[i]; if (c === '"' && line[i + 1] === '"') { cur += '"'; i++; } else if (c === '"') q = !q; else if (c === ',' && !q) { out.push(cur.trim()); cur = ''; } else cur += c; }
+  const out = []; let cur = "", q = false;
+  for (let i = 0; i < line.length; i++) { const c = line[i]; if (c === '"' && line[i + 1] === '"') { cur += '"'; i++; } else if (c === '"') q = !q; else if (c === "," && !q) { out.push(cur.trim()); cur = ""; } else cur += c; }
   out.push(cur.trim()); return out;
 }
 function renderImport() {
-  $('#go').disabled = !rows.length;
-  $('#importbox').innerHTML = `<div class="section-title"><h2>Preview (${rows.length} registros)</h2><span class="muted">Mapea las columnas antes de guardar</span></div><div class="mapping-grid">${fields.map((f) => `<div class="field"><label>${labels[f]}</label><select data-map="${f}"><option value="">Sin mapear</option>${headers.map((x) => `<option ${mapping[f] === x ? 'selected' : ''}>${h(x)}</option>`).join('')}</select></div>`).join('')}</div><div class="table-wrap"><table><thead><tr>${headers.map((x) => `<th>${h(x)}</th>`).join('')}</tr></thead><tbody>${rows.slice(0, 6).map((r) => `<tr>${headers.map((x) => `<td>${h(r[x])}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-  $$('[data-map]').forEach((s) => s.onchange = (e) => mapping[e.target.dataset.map] = e.target.value);
+  $("#go").disabled = !rows.length;
+  $("#importbox").innerHTML = `<div class="section-title"><h2>Preview (${rows.length} registros)</h2><span class="muted">Mapea las columnas antes de guardar</span></div><div class="mapping-grid">${fields.map((f) => `<div class="field"><label>${labels[f]}</label><select data-map="${f}"><option value="">Sin mapear</option>${headers.map((x) => `<option ${mapping[f] === x ? "selected" : ""}>${h(x)}</option>`).join("")}</select></div>`).join("")}</div><div class="table-wrap"><table><thead><tr>${headers.map((x) => `<th>${h(x)}</th>`).join("")}</tr></thead><tbody>${rows.slice(0, 6).map((r) => `<tr>${headers.map((x) => `<td>${h(r[x])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  $$("[data-map]").forEach((s) => s.onchange = (e) => mapping[e.target.dataset.map] = e.target.value);
 }
 function doImport() {
-  const added = rows.map((r, i) => { const c = { id: `IMP-${Date.now()}-${i}` }; fields.forEach((f) => c[f] = mapping[f] ? r[mapping[f]] || '' : ''); c.nombre_cliente ||= c.empresa || `Cliente importado ${i + 1}`; return c; });
-  state.clients = [...added, ...state.clients]; save(); closeModal(); view = 'clients'; toast('Importacion completada', `${added.length} clientes agregados.`); render();
+  const contractHeader = headers.find((x) => ["ncontrato", "contrato", "codigocontrato", "numerocontrato"].includes(key(x)));
+  const added = rows.map((r, i) => {
+    const contract = contractHeader ? String(r[contractHeader] || "").trim() : "";
+    const c = { id: contract || `IMP-${Date.now()}-${i}` };
+    fields.forEach((f) => c[f] = mapping[f] ? r[mapping[f]] || "" : "");
+    c.nombre_cliente ||= c.empresa || `Cliente importado ${i + 1}`;
+    c.empresa ||= c.nombre_cliente;
+    if (contract && !String(c.observaciones || "").includes(contract)) c.observaciones = `Contrato: ${contract}${c.observaciones ? " | " + c.observaciones : ""}`;
+    return c;
+  });
+  state.clients = [...added, ...state.clients]; save(); closeModal(); view = "clients"; toast("Importacion completada", `${added.length} clientes agregados.`); render();
 }
 function modal(html) {
-  const m = document.createElement('div'); m.className = 'modal-backdrop'; m.id = 'modal'; m.innerHTML = `<div class="modal" role="dialog" aria-modal="true">${html}</div>`; document.body.appendChild(m);
-  $$('[data-close]', m).forEach((b) => b.onclick = closeModal); m.onclick = (e) => { if (e.target === m) closeModal(); };
+  const m = document.createElement("div"); m.className = "modal-backdrop"; m.id = "modal"; m.innerHTML = `<div class="modal" role="dialog" aria-modal="true">${html}</div>`; document.body.appendChild(m);
+  $$("[data-close]", m).forEach((b) => b.onclick = closeModal); m.onclick = (e) => { if (e.target === m) closeModal(); };
 }
-const closeModal = () => $('#modal')?.remove();
+const closeModal = () => $("#modal")?.remove();
 function toast(t, m) {
-  const n = document.createElement('div'); n.className = 'toast'; n.innerHTML = `<strong>${h(t)}</strong><span>${h(m)}</span>`; $('#toast-region').appendChild(n); setTimeout(() => n.remove(), 4200);
+  const n = document.createElement("div"); n.className = "toast"; n.innerHTML = `<strong>${h(t)}</strong><span>${h(m)}</span>`; $("#toast-region").appendChild(n); setTimeout(() => n.remove(), 4200);
 }
 render();
