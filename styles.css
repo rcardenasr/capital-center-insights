@@ -48,11 +48,23 @@ button {
   padding: 52px;
   color: var(--white);
   background:
-    linear-gradient(145deg, rgba(16, 59, 102, 0.94), rgba(75, 44, 116, 0.9) 58%, rgba(169, 21, 62, 0.88)),
-    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.2), transparent 36%);
+    linear-gradient(145deg, rgba(16, 59, 102, 0.96), rgba(37, 72, 107, 0.94) 54%, rgba(126, 8, 25, 0.88));
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.login-logo {
+  width: min(310px, 100%);
+  border-radius: 8px;
+  padding: 18px 20px;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.brand-logo-img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .brand-mark {
@@ -131,7 +143,7 @@ button {
 }
 
 .sidebar {
-  background: var(--blue-900);
+  background: linear-gradient(180deg, #103b66 0%, #123f6b 58%, #0d355d 100%);
   color: var(--white);
   padding: 24px 18px;
   position: sticky;
@@ -143,11 +155,17 @@ button {
 }
 
 .sidebar .brand {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 4px 8px 20px;
+  display: grid;
+  gap: 10px;
+  padding: 4px 8px 22px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.brand-logo {
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 10px 24px rgba(2, 8, 23, 0.14);
 }
 
 .brand strong {
@@ -164,7 +182,7 @@ button {
 
 .nav {
   display: grid;
-  gap: 6px;
+  gap: 8px;
 }
 
 .nav button {
@@ -176,7 +194,7 @@ button {
   border-radius: 8px;
   color: rgba(255, 255, 255, 0.78);
   background: transparent;
-  padding: 11px 12px;
+  padding: 12px 14px;
   text-align: left;
 }
 
@@ -262,6 +280,20 @@ h3 {
 
 .btn.ghost {
   background: transparent;
+}
+
+.sidebar .btn.ghost {
+  width: 100%;
+  justify-content: center;
+  margin-top: auto;
+  border-color: rgba(255, 255, 255, 0.64);
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.sidebar .btn.ghost:hover {
+  border-color: var(--white);
+  background: rgba(255, 255, 255, 0.13);
 }
 
 .grid {

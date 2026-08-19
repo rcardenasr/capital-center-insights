@@ -67,18 +67,19 @@ const cls = (p) => p === "Alta" ? "high" : p === "Media" ? "medium" : "low";
 const nav = (v, t, b = "") => `<button class="${view === v ? "active" : ""}" data-view="${v}"><span>${t}</span>${b ? `<span class="badge">${b}</span>` : ""}</button>`;
 const head = (e, t, a = "") => `<div class="topbar"><div><div class="eyebrow">${e}</div><h1 class="page-title">${t}</h1></div><div class="actions">${a}</div></div>`;
 const kpi = (t, v, n) => `<article class="card kpi"><span>${t}</span><strong>${v}</strong><small>${n}</small></article>`;
+const brandLogo = `<img class="brand-logo-img" src="./assets/capital-center-logo.svg" alt="Capital Center">`;
 function sourceAnchor(item, label) {
   return item?.url ? `<a class="source-link" href="${h(item.url)}" target="_blank" rel="noopener">${label}</a>` : label;
 }
 function render() {
   const app = $("#app");
   if (view === "login") {
-    app.innerHTML = `<section class="login-shell"><div class="login-brand"><div><span class="brand-mark">CC</span><h2 class="brand-title">Capital Center Intelligence</h2><p>Monitoreo comercial e inmobiliario para detectar novedades, riesgos y oportunidades asociadas a clientes y activos estrategicos.</p></div><p>Demo MVP con clientes ficticios, reglas de relevancia y notificaciones listas para presentacion.</p></div><div class="login-panel"><form class="login-card" id="login"><p class="eyebrow">Acceso piloto</p><h1>Ingresa al panel</h1><p>Usa las credenciales demo precargadas para explorar la plataforma.</p><div class="field"><label>Correo</label><input type="email" value="demo@capitalcenter.pe"></div><div class="field"><label>Clave</label><input type="password" value="capitaldemo"></div><button class="btn primary">Entrar al piloto</button></form></div></section>`;
+    app.innerHTML = `<section class="login-shell"><div class="login-brand"><div><div class="login-logo">${brandLogo}</div><h2 class="brand-title">Capital Center Intelligence</h2><p>Monitoreo comercial e inmobiliario para detectar novedades, riesgos y oportunidades asociadas a clientes y activos estrategicos.</p></div><p>Demo MVP con clientes ficticios, reglas de relevancia y notificaciones listas para presentacion.</p></div><div class="login-panel"><form class="login-card" id="login"><p class="eyebrow">Acceso piloto</p><h1>Ingresa al panel</h1><p>Usa las credenciales demo precargadas para explorar la plataforma.</p><div class="field"><label>Correo</label><input type="email" value="demo@capitalcenter.pe"></div><div class="field"><label>Clave</label><input type="password" value="capitaldemo"></div><button class="btn primary">Entrar al piloto</button></form></div></section>`;
     $("#login").onsubmit = (e) => { e.preventDefault(); state.session = { at: new Date().toISOString() }; save(); view = "dashboard"; render(); toast("Sesion iniciada", "Bienvenido al piloto."); };
     return;
   }
   const n = alerts().filter((a) => a.priority !== "Baja").length;
-  app.innerHTML = `<div class="app-shell"><aside class="sidebar"><div class="brand"><span class="brand-mark">${h(state.settings.logoText)}</span><div><strong>${h(state.settings.companyName)}</strong><span>Intelligence</span></div></div><nav class="nav">${nav("dashboard", "Dashboard")}${nav("clients", "Clientes")}${nav("alerts", "Centro de alertas", n)}${nav("settings", "Configuracion")}</nav><button class="btn ghost" data-action="logout">Cerrar sesion</button></aside><main class="main">${routes[view]?.() || routes.dashboard()}</main></div>`;
+  app.innerHTML = `<div class="app-shell"><aside class="sidebar"><div class="brand"><div class="brand-logo">${brandLogo}</div><span>Intelligence</span></div><nav class="nav">${nav("dashboard", "Dashboard")}${nav("clients", "Clientes")}${nav("alerts", "Centro de alertas", n)}${nav("settings", "Configuracion")}</nav><button class="btn ghost logout-btn" data-action="logout">Cerrar sesion</button></aside><main class="main">${routes[view]?.() || routes.dashboard()}</main></div>`;
   bind();
 }
 const routes = {
