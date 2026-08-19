@@ -1,0 +1,15 @@
+.intel-toolbar {
+  grid-template-columns: minmax(220px, 1fr) repeat(5, minmax(130px, 170px));
+}
+
+@media (max-width: 980px) {
+  .intel-toolbar {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .intel-toolbar {
+    grid-template-columns: 1fr;
+  }
+}
