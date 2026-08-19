@@ -21,6 +21,8 @@ jobs:
           node-version: "20"
 
       - name: Run intelligence scheduler
+        env:
+          ENABLE_CLIENT_GOOGLE_NEWS: "true"
         run: node scripts/run_intelligence.js
 
       - name: Commit generated intelligence data

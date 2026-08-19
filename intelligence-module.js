@@ -1,7 +1,7 @@
 const INTEL_KEY = "cci-intel-signals-v1";
 const INTEL_RUNS_KEY = "cci-intel-runs-v1";
 const INTEL_REMOTE_URL = "./data/intel_signals.json?v=20260819-scheduler1";
-const ENABLE_BROWSER_CLIENT_GOOGLE_NEWS = localStorage.getItem("cci-enable-client-google-news") === "true";
+const ENABLE_BROWSER_CLIENT_GOOGLE_NEWS = localStorage.getItem("cci-enable-client-google-news") !== "false";
 const intel = {
   config: null,
   remoteMeta: null,
