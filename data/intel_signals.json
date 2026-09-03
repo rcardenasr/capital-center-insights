@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-03T04:39:47.378Z",
+  "generatedAt": "2026-09-03T11:23:30.552Z",
   "country": "PE",
   "sourcesConfigured": 12,
   "clientsConfigured": 33,
   "clientGoogleNewsEnabled": true,
   "totals": {
-    "itemsRead": 527,
-    "itemsNew": 4,
-    "itemsMatched": 129,
+    "itemsRead": 577,
+    "itemsNew": 38,
+    "itemsMatched": 136,
     "sourcesOk": 43,
     "sourcesError": 0
   },
@@ -46,7 +46,7 @@
       "url": "https://elcomercio.pe/economia/inflacion-interanual-en-lima-llega-a-444-y-toca-su-nivel-mas-alto-desde-el-2023-noticia/",
       "publishedAt": "2026-09-01T19:23:41.000Z",
       "firstSeenAt": "2026-09-01T21:06:53.741Z",
-      "lastSeenAt": "2026-09-03T04:39:18.685Z",
+      "lastSeenAt": "2026-09-03T11:23:01.763Z",
       "createdAt": "2026-09-01T21:06:53.741Z",
       "rawMetadata": {
         "method": "rss_directo",
@@ -576,7 +576,7 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaVBCWlBUX1NuT01BVkVZSFBYdTEyWXR4blpzdkt6R2F2bUpNeDdncG5LYjFYQlVJLS01bEJZcG1lblFOZU84MGVDaUdnNXJpN29QajRpUlQ3WjRxcVpjLVgxeHM0SEJKaV9fZFNhblJwX1lvUGZmWk9CVnQ0T2pGTVFycTdPVVV6dHFkM0F2QkFESVhGcHpKb0djbVU4dHQ5U1NodEd3WQ?oc=5",
       "publishedAt": "2026-08-13T12:09:49.000Z",
       "firstSeenAt": "2026-08-19T18:56:52.295Z",
-      "lastSeenAt": "2026-09-03T04:39:39.158Z",
+      "lastSeenAt": "2026-09-03T11:23:21.604Z",
       "createdAt": "2026-08-19T18:56:52.295Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -611,6 +611,30 @@
       "clientName": "DAILY",
       "matchedKeywords": [],
       "signalType": "expansion",
+      "relevanceScore": 50,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "894ff433a8804c59824646a55ba0a3c43ed2c57c9557d7fed6e9475af019cf26-10000041",
+      "externalId": "894ff433a8804c59824646a55ba0a3c43ed2c57c9557d7fed6e9475af019cf26-10000041",
+      "sourceId": "google_news_daily",
+      "sourceName": "Google News - DAILY",
+      "title": "Galería de Obras que dialogan con los relieves rocosos de Perú - 1 - ArchDaily",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWGFwQ1BOSHhWaHRfcjRVdHVxRy1nYnJmLXZfTVBBM21XWDc4Wi1ObFpQMzAtWk9FYVJZYlpYRmpNUW1EczBRX1hHQkdkZ09qTmRsWHlsSTdPV1VsUVJrVW1pNkpSbkZ5X0tfT1lnTlpRNlhDbXVDMlhJQXRIeE9ucHF5SHhEdWRaSFg0M0sxTW1JSGRGa1pxRU5CSFJ6dnNTZTJvbDhTVGwzd25zSDc0NWJkRWo5YTRlekpBMTVVSWRKdzFpNEpfZEVlcENFS3JTWV9tSHd0WnFsNWFfVEVjelkyc1pZUmp3X3Jod0Y1NmNvc0FkYWd4RVZWcUNuZw?oc=5\" target=\"_blank\">Galería de Obras que dialogan con los relieves rocosos de Perú - 1</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ArchDaily</font>",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWGFwQ1BOSHhWaHRfcjRVdHVxRy1nYnJmLXZfTVBBM21XWDc4Wi1ObFpQMzAtWk9FYVJZYlpYRmpNUW1EczBRX1hHQkdkZ09qTmRsWHlsSTdPV1VsUVJrVW1pNkpSbkZ5X0tfT1lnTlpRNlhDbXVDMlhJQXRIeE9ucHF5SHhEdWRaSFg0M0sxTW1JSGRGa1pxRU5CSFJ6dnNTZTJvbDhTVGwzd25zSDc0NWJkRWo5YTRlekpBMTVVSWRKdzFpNEpfZEVlcENFS3JTWV9tSHd0WnFsNWFfVEVjelkyc1pZUmp3X3Jod0Y1NmNvc0FkYWd4RVZWcUNuZw?oc=5",
+      "publishedAt": "2026-08-08T08:50:35.000Z",
+      "firstSeenAt": "2026-09-03T11:23:28.535Z",
+      "lastSeenAt": "2026-09-03T11:23:28.535Z",
+      "createdAt": "2026-09-03T11:23:28.535Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000041",
+      "clientName": "DAILY",
+      "matchedKeywords": [],
+      "signalType": "infraestructura",
       "relevanceScore": 50,
       "priority": "Media",
       "locationText": "",
@@ -760,6 +784,30 @@
       "status": "new"
     },
     {
+      "id": "d8c24dd10708622151e6b562e50999405c3d2d5ca08ae9db5b5190284a6afb60-10000041",
+      "externalId": "d8c24dd10708622151e6b562e50999405c3d2d5ca08ae9db5b5190284a6afb60-10000041",
+      "sourceId": "google_news_daily",
+      "sourceName": "Google News - DAILY",
+      "title": "Galería de Un invernadero para la coexistencia de plantas y humanos en El Carmen, Perú / salazarsequeromedina - 13 - ArchDaily",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9wJBVV95cUxObUVRZ2wzTEdDb0g1X0JYdC1GWm0yUEZHdnhqTUdyQVFXOUxqOXk4RVNfQTY0MGZ5QW5XcmVxMlpudGNjY2ZaSzJMOFhGZEZkZXRjSjNtNDBSMmRMS1B5TEhIaUEzU19TamNNR2ZDUzhManYtWFNzQjFIdUpXSW1BVkdHbHhHbGwxVW9HWndKOWIzRHpTMWE4Q1JKSm0xWFFtal9TRXZQcjJVem96alRmSUw5S0JiNzJITmU2X2ZkeVpFZkc0UzdhanpTMDVOLXBWRnRscGhpWjhOQ0RlYmFwX0Rzd2pqaUxWRzluN2ZYM1RmbDZYTmlBSmdoYjFhUFZOaVp5T0lCMUFTb19nZGlwYmZTdjhwcnJvNFJxS2lIMG5NM2hSa3FWanNQX0wybFNzRTdmaXRfbWNmMWpMLU9NTlZKZUlSaWlybFo3RDlKbHZtVHJ6cDBfVVZJSk55RnUzYk9xWWRGQTRlU2tNZFJ6UnJZX191d2M?oc=5\" target=\"_blank\">Galería de Un invernader",
+      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxObUVRZ2wzTEdDb0g1X0JYdC1GWm0yUEZHdnhqTUdyQVFXOUxqOXk4RVNfQTY0MGZ5QW5XcmVxMlpudGNjY2ZaSzJMOFhGZEZkZXRjSjNtNDBSMmRMS1B5TEhIaUEzU19TamNNR2ZDUzhManYtWFNzQjFIdUpXSW1BVkdHbHhHbGwxVW9HWndKOWIzRHpTMWE4Q1JKSm0xWFFtal9TRXZQcjJVem96alRmSUw5S0JiNzJITmU2X2ZkeVpFZkc0UzdhanpTMDVOLXBWRnRscGhpWjhOQ0RlYmFwX0Rzd2pqaUxWRzluN2ZYM1RmbDZYTmlBSmdoYjFhUFZOaVp5T0lCMUFTb19nZGlwYmZTdjhwcnJvNFJxS2lIMG5NM2hSa3FWanNQX0wybFNzRTdmaXRfbWNmMWpMLU9NTlZKZUlSaWlybFo3RDlKbHZtVHJ6cDBfVVZJSk55RnUzYk9xWWRGQTRlU2tNZFJ6UnJZX191d2M?oc=5",
+      "publishedAt": "2026-08-01T14:59:43.000Z",
+      "firstSeenAt": "2026-09-03T11:23:28.535Z",
+      "lastSeenAt": "2026-09-03T11:23:28.535Z",
+      "createdAt": "2026-09-03T11:23:28.535Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000041",
+      "clientName": "DAILY",
+      "matchedKeywords": [],
+      "signalType": "infraestructura",
+      "relevanceScore": 50,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "b8b9f97267cf96e38532a9a12c4997d78eb801a3dd5343c13818332ad71d9e91-10000041",
       "externalId": "b8b9f97267cf96e38532a9a12c4997d78eb801a3dd5343c13818332ad71d9e91-10000041",
       "sourceId": "google_news_daily",
@@ -793,7 +841,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNZFB4dWRjdkljUmFaTnctdnZtOGRvYU5yUGEzZjVQRDJvQVhPV0tEUElsYmhSM0gzd1puMm1yTDlWaEZPdDhqalRsX1g5ZTlUbTd3cDJqN3VjZXVlbU1MbzNUQ1lERXlTSEpEUWlNZFQ4TkY5ZkotU1ltSXpNNHhpbDhSRExsZGJGZUlsX0tGa3dEWkFZb1NoejB1cU5BcmNUMzNXd0xZWTNRQktWZ2VKaDlqRWRZenJ4QVRWaGxOb3piY21TZUNaeWFieUdJcF9YZnI3LUtjcnRFT0NRanNTWkpCN28zYl9rV2wtSl8taVNSd3ZVcGJrbTJJOUVyVjFZWDZRN3drY1ROUTAzUzBkNXAtM0hDY2doWk51RTBFOGlxQ1NFNEJkYmpNRXVfZVZaSWFBM2VoUlRnV0k2bDgyZFZsbDhaRlpNNURVVXpXRlYwNXpHSW1uZUU1Q0pNOVNGX0pDNXJMdUVBcVY1Y2M2ZEtjQ0VhU2RSRjB3dHlQMmdoUmVKdmc?oc=5",
       "publishedAt": "2026-07-31T10:54:59.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.200Z",
-      "lastSeenAt": "2026-09-03T04:39:45.691Z",
+      "lastSeenAt": "2026-09-03T11:23:28.534Z",
       "createdAt": "2026-08-19T18:56:59.200Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -841,7 +889,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQXNSaExWNVdwelZkMzJpeW9tRm5jTjBKd2YtWVp4QjJtMk1UbUkyQm5iZVJqdl9Fb1owZXY3QVhOTUZBVk9aenVkYWpUc1RZRmFUV3lEcjhqUUp0MHlKYzRNWFlZTzhuLXBCc09RY3ROdmhvdVRuMEtyeV9QaDhLUXF6ODNHVDEtWTktaGJ2UGw0czlaazlLNGk2YURnUHhnNklJQVJuWHFDN2cxTFd5UkV2ZlYyamxEdmtsUkNLaVR5QQ?oc=5",
       "publishedAt": "2026-07-27T07:00:00.000Z",
       "firstSeenAt": "2026-08-31T05:44:52.640Z",
-      "lastSeenAt": "2026-09-03T04:39:38.293Z",
+      "lastSeenAt": "2026-09-03T11:23:20.643Z",
       "createdAt": "2026-08-31T05:44:52.640Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -852,6 +900,33 @@
         "las bambas"
       ],
       "signalType": "infraestructura",
+      "relevanceScore": 62,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "cd854c43c2ec7b8cd14aab1b859823d9aba4b40c6ac2759ab1ba217eca3f0556-entel",
+      "externalId": "cd854c43c2ec7b8cd14aab1b859823d9aba4b40c6ac2759ab1ba217eca3f0556-entel",
+      "sourceId": "google_news_entel",
+      "sourceName": "Google News - ENTEL",
+      "title": "Entel Perú y gobierno de Keiko Fujimori: “Se vienen años de estabilidad política para el país y un ambiente propicio” para la inversión - df.cl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR3h5VTFzeFd4MU5rTFdSX29GYjI4ZEc4c1I5NGZuTXRyUkFDemFaX0V2U2xhOERVbDcxc0cxTHVwenNzMGxLem9nMm5VU0o0dE43RnJpcVJ0SjJuVG5kOFNIV05IUzhGaEF6djNTakdnNERoYXZqdTZYdkloamM2RW16V2JXZmdCallOUXBJTklBMGs0LXd6akFyU21EUnpHbmdaR2dYeXhFbkU?oc=5\" target=\"_blank\">Entel Perú y gobierno de Keiko Fujimori: “Se vienen años de estabilidad política para el país y un ambiente propicio” para la inversión</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">df.cl</font>",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR3h5VTFzeFd4MU5rTFdSX29GYjI4ZEc4c1I5NGZuTXRyUkFDemFaX0V2U2xhOERVbDcxc0cxTHVwenNzMGxLem9nMm5VU0o0dE43RnJpcVJ0SjJuVG5kOFNIV05IUzhGaEF6djNTakdnNERoYXZqdTZYdkloamM2RW16V2JXZmdCallOUXBJTklBMGs0LXd6akFyU21EUnpHbmdaR2dYeXhFbkU?oc=5",
+      "publishedAt": "2026-07-27T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:29.320Z",
+      "lastSeenAt": "2026-09-03T11:23:29.320Z",
+      "createdAt": "2026-09-03T11:23:29.320Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "entel",
+      "clientName": "ENTEL",
+      "matchedKeywords": [
+        "entel peru",
+        "inversion"
+      ],
+      "signalType": "inversion",
       "relevanceScore": 62,
       "priority": "Media",
       "locationText": "",
@@ -939,7 +1014,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQMEktU0wwRFYxM1B3Tk15aE02akJwVEZXSXlpME54ejAzOWttU2hOUVB2NlRFR2lyd3Ywc2V1WWxoQ2lXbEdRazluVm9ndlQ1bGw3aHVoYVZOS1gxV2s5amhLRGhfZU1TU1MxaW9xVmRwT0FTWnQyUlZsMXRKbW5TWEt4RklCVmxtMWdCN0hmMUE1NU1RMktscmNJdnhCQm1wMldNMzRlNGsycGd6c0hEQU5nMjNQSUQ1QmhCOTdoYjBIc1RVWTVIV0JnS2UzcDlEUGcyZG9XVTlwYnJod2VfSWRtOEViREJDZFc1THBrdU0weFc5Vzh2UExpdWNOaU45VmZZV05ZdzRkWEk?oc=5",
       "publishedAt": "2026-07-25T08:13:46.000Z",
       "firstSeenAt": "2026-08-22T01:54:04.237Z",
-      "lastSeenAt": "2026-09-03T04:39:45.692Z",
+      "lastSeenAt": "2026-09-03T11:23:28.534Z",
       "createdAt": "2026-08-22T01:54:04.237Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1011,7 +1086,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQMmlvY2Z3VFFOQXFZcmdYRTJsN0hQRHdWc3NqSVh5aDA5YVlBQ0ZGVnE5ekF3VmNzekJKeXJPR0tab0QwdXJfcDVvNmlPQlIyVUVMQ3pfVWhiSU85SHVLdXJYMnJfdEZrc3B4OTVnaC15VUw1bFRWTWZKdVFSME9GTWVjNE9XTnVLQ1Jyc3dKYm9UWlc2LUFPeXVCazh1R2tmUGpNd29DU3BWX1lOaHBlY0RkSUlONDdkc3B4d3ZCS2s1TE9nSU9DaEFCNmw5N1FtMkUyNHdOaDNVZTdxald4RnNsaURtR1RZZS1UY0JtUlNBQXk5THp4RFBoSnR0ZHctVm02VlBHdUJhX3d3d3pESS1xU3hqUTFaWEhuSmRlbkdTMEgzbkp1V1dTM09hTklMcGctNXhwMDI1MjZLbHdUdWU3NzllT1YybFRYVi1VNE4?oc=5",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.044Z",
-      "lastSeenAt": "2026-09-03T04:39:43.508Z",
+      "lastSeenAt": "2026-09-03T11:23:26.331Z",
       "createdAt": "2026-08-19T18:56:57.044Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1022,6 +1097,30 @@
       "signalType": "norma_permiso",
       "relevanceScore": 12,
       "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "bd320ed6e29a6e6c5843dcfd17ade6e9f4aab65b21e3d986c5a53878d813f146-10000020",
+      "externalId": "bd320ed6e29a6e6c5843dcfd17ade6e9f4aab65b21e3d986c5a53878d813f146-10000020",
+      "sourceId": "google_news_carbonell",
+      "sourceName": "Google News - CARBONELL",
+      "title": "José Alberto Carbonell, responsable del Port de Barcelona: “La intermodal de Noáin no es solo una inversión lógica, también es una manera de acercar Navarra al mundo” - Diario de Noticias de Navarra",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRmtyalpnVDlMVnVZZ0U3UFFWbGZUWWRyVzMwcnhlOVVaZzZINVBPYXNHazVxbVRqcS1LOXlJXzdqV2NNREZxRHlLUS1JWk5MNkxHak55UE9DNFdjNEdJTy1BUzRIOXhWY3hHbW96R2taOTRuRXBDaGVCbW1VMXJkNndLQ2l6Yi03WVVoMnlveXhvSGhtOWg3dXdxaHAtaTgwbU41dXdpLUxZTWfSAbABQVVfeXFMUGw1Qk53SmJoaUlXTXp3YWFOQ1RVZFNzaEhkZ19mTlppRkN2dVdXUkhzQ2NidTI3Mm9jVF9UV19RRGJ1Y0M5TEluT0d5V2NJM29UTmNKRUl4RUxSbGV6dkwxbURwRmpGVC1wZnFjc0lzRjYwNHZMU3FlQ0ZjaUFoUHI4VWdUMzdxUl9VTjFqY2x0RTFneUsweFNEdXRwVUNSV0F1SnE3b3d2M3lXQ0lhSks?oc=5\" target=\"_blank\">José Alberto Carbonell, responsable del Port de Barcelon",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRmtyalpnVDlMVnVZZ0U3UFFWbGZUWWRyVzMwcnhlOVVaZzZINVBPYXNHazVxbVRqcS1LOXlJXzdqV2NNREZxRHlLUS1JWk5MNkxHak55UE9DNFdjNEdJTy1BUzRIOXhWY3hHbW96R2taOTRuRXBDaGVCbW1VMXJkNndLQ2l6Yi03WVVoMnlveXhvSGhtOWg3dXdxaHAtaTgwbU41dXdpLUxZTWfSAbABQVVfeXFMUGw1Qk53SmJoaUlXTXp3YWFOQ1RVZFNzaEhkZ19mTlppRkN2dVdXUkhzQ2NidTI3Mm9jVF9UV19RRGJ1Y0M5TEluT0d5V2NJM29UTmNKRUl4RUxSbGV6dkwxbURwRmpGVC1wZnFjc0lzRjYwNHZMU3FlQ0ZjaUFoUHI4VWdUMzdxUl9VTjFqY2x0RTFneUsweFNEdXRwVUNSV0F1SnE3b3d2M3lXQ0lhSks?oc=5",
+      "publishedAt": "2026-07-21T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:24.271Z",
+      "lastSeenAt": "2026-09-03T11:23:24.271Z",
+      "createdAt": "2026-09-03T11:23:24.271Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000020",
+      "clientName": "CARBONELL",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 50,
+      "priority": "Media",
       "locationText": "",
       "status": "new"
     },
@@ -1059,7 +1158,7 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTUlXMkhQYW9CT3dRSEZjZnJBdy0tOGNvRFZrY00yOW9FOV9sX29CcmNld2hsM0lCdElqa2J0dkFSbU9HaWE1WFJQRzRuaGQtY1hkME0yZ3ZTd0xiR2ZPdnl5YVp1QW1yVC1FWnRjZGx3c1BHd0VoYTVxejE4Ulc4bFp2djFxbklMdU0yUjZwVTM?oc=5",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "firstSeenAt": "2026-08-30T21:13:03.823Z",
-      "lastSeenAt": "2026-09-02T16:40:18.660Z",
+      "lastSeenAt": "2026-09-03T11:23:20.644Z",
       "createdAt": "2026-08-30T21:13:03.823Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1108,7 +1207,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNLVp3cmR4cHA3ODEyVWxPM1IyWjFCaXNxNWZZaWxXZkkxUGo5YXZGNEM2SlZucF83TWs4ckl4UURVaEdrb2I3eExvSGUwelFlSEljc1ZSUVVBVENVbmRVbmRiZE5kNklSbFg3VXpfV3RNYk1KeW4wQ0VqbXZFV0hEY3JzdzlpT0FiV2NMWUV3NmZYMmU3cV9oVmZuRWk4OWtvQkVJRWxfSE40QTBCYzc1bnZpMm1vTmJPdUVZVGI5TURRRFljUFBZMFlKeTZVMkg3UTVXUnJ5Q3VzRnpqYkJGOFNZTUpEZ0p0U19sWlRGc1pmVlNpNUg0R0VGc0htV1dwRDVjR1pHMWlocmhtd3c?oc=5",
       "publishedAt": "2026-07-14T13:18:37.000Z",
       "firstSeenAt": "2026-08-30T12:00:15.661Z",
-      "lastSeenAt": "2026-09-03T04:39:45.691Z",
+      "lastSeenAt": "2026-09-03T11:23:28.534Z",
       "createdAt": "2026-08-30T12:00:15.661Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1156,7 +1255,7 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEhHX1lpcE1lTmJNM3k0Q1VmaDFUTmJISWUyTTBwZGQ2UldReVY3dG85UjhSVFptQzdRbF9GV3Jyb21WbTVIMDJDd05kYVBzSU1CQjc1LVVGOEY2dlZfMVZBV0VRWm02OFVKMlN6V09aUVppM1EwN0NJOE0tMFNuZUZlWDJEOS1qMFo2dzJJbw?oc=5",
       "publishedAt": "2026-07-13T07:00:00.000Z",
       "firstSeenAt": "2026-08-22T18:52:25.220Z",
-      "lastSeenAt": "2026-09-03T04:39:46.314Z",
+      "lastSeenAt": "2026-09-03T11:23:29.321Z",
       "createdAt": "2026-08-22T18:52:25.220Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1206,7 +1305,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNLW5SX3dSMjMyWGd1NnhkVXdvUjRaUEF0LVBydHVYZjNwYXh5U0ZrdFFja3dYaDZlWDhBMkhLWmRiQTkxZFpfcFZZMkRTT2ZCQ0pQdkFVMHNyRzBHYjc3RHBMUnRKcVQxVU5vaUdHZlRkWnBBTWllVzRmS1dId25rRGNxczBvYXZQVkYxMUJUSWUwRV94ZWEyQk5BRDNQV1hJVkxxLXJnM1hHeVFKaE4wUG9Oa2lmSm1UdnZSZ01YSEcwc1cxdWJEcURNVFBkVEh5TW56QmpVUXIwMjZIdzZOZS0tNVhHWVJHMGZnOGlmd3BxVVozVmYxenhqaElNX01IRUttTVJ6bElDV1U?oc=5",
       "publishedAt": "2026-07-13T04:27:42.000Z",
       "firstSeenAt": "2026-08-21T02:01:11.835Z",
-      "lastSeenAt": "2026-09-02T11:26:59.971Z",
+      "lastSeenAt": "2026-09-03T11:23:28.534Z",
       "createdAt": "2026-08-21T02:01:11.835Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1317,6 +1416,30 @@
       "status": "new"
     },
     {
+      "id": "d55e08d317628a6844509f840190d4dc6607359f8f8312a0d735ee544088a188-10000001",
+      "externalId": "d55e08d317628a6844509f840190d4dc6607359f8f8312a0d735ee544088a188-10000001",
+      "sourceId": "google_news_bambas",
+      "sourceName": "Google News - BAMBAS",
+      "title": "Perú registra más de US$2.000 millones en inversiones mineras ent... - Industrial Info Resources",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxPY0hZdjc4ZjUzQTJmY19SYzVucnRlNU93S1V5UU9TYkNESEFhVmJfVGo3dzBQQ1lfZXFpaWV0RVdTS2xiQmRoRW9LMDFlZzlaemRBUWtORG9pWnllN18wZF9qYzJ5YnNubERraVUtX0RkX1FvTGYzVl9wMi13WndQbnZ5OGhIQlc2VWNoVEhxX09aV2RPNkVkbVY5N0pKUXdPb1ZRdVRka3E5ajBHaWNaaDN4aHFBZzZhV01NS0VZclphSVhnMmNadUZIS1I4TnJ1cXJBMDMtQXlvOUpHRmZxbkJn?oc=5\" target=\"_blank\">Perú registra más de US$2.000 millones en inversiones mineras ent...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Info Resources</font>",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPY0hZdjc4ZjUzQTJmY19SYzVucnRlNU93S1V5UU9TYkNESEFhVmJfVGo3dzBQQ1lfZXFpaWV0RVdTS2xiQmRoRW9LMDFlZzlaemRBUWtORG9pWnllN18wZF9qYzJ5YnNubERraVUtX0RkX1FvTGYzVl9wMi13WndQbnZ5OGhIQlc2VWNoVEhxX09aV2RPNkVkbVY5N0pKUXdPb1ZRdVRka3E5ajBHaWNaaDN4aHFBZzZhV01NS0VZclphSVhnMmNadUZIS1I4TnJ1cXJBMDMtQXlvOUpHRmZxbkJn?oc=5",
+      "publishedAt": "2026-07-01T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:20.643Z",
+      "lastSeenAt": "2026-09-03T11:23:20.643Z",
+      "createdAt": "2026-09-03T11:23:20.643Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000001",
+      "clientName": "BAMBAS",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 15,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "b55e15d1ab9fb22cc64d9077b61598f90329a875244a9c0e49d8134180487c77-10000041",
       "externalId": "b55e15d1ab9fb22cc64d9077b61598f90329a875244a9c0e49d8134180487c77-10000041",
       "sourceId": "google_news_daily",
@@ -1341,6 +1464,30 @@
       "status": "new"
     },
     {
+      "id": "b23591443fa9ace1e54fbde8ec01c13d79eac250df04665cf5104db99877f3cd-10000025",
+      "externalId": "b23591443fa9ace1e54fbde8ec01c13d79eac250df04665cf5104db99877f3cd-10000025",
+      "sourceId": "google_news_lenovo",
+      "sourceName": "Google News - LENOVO",
+      "title": "Nokia y Lenovo amplían acuerdo de licencias cruzadas de patentes - DPL News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOdjR1TGlra2JiNXF0TzJBUDJjY05ZbWZUSmdXT1hicFZlUERzNVFZck4wRlhyUVY4QXZBb25PWHpRbGc1bWFnNGVJTXFYbDllTXhRa1g0TjhxVnVFV0ZoV25qUVctOVVxUTlWOGtFMmpBOF9VQ3BwSFpQbkVBVzRMVDhBaw?oc=5\" target=\"_blank\">Nokia y Lenovo amplían acuerdo de licencias cruzadas de patentes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DPL News</font>",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdjR1TGlra2JiNXF0TzJBUDJjY05ZbWZUSmdXT1hicFZlUERzNVFZck4wRlhyUVY4QXZBb25PWHpRbGc1bWFnNGVJTXFYbDllTXhRa1g0TjhxVnVFV0ZoV25qUVctOVVxUTlWOGtFMmpBOF9VQ3BwSFpQbkVBVzRMVDhBaw?oc=5",
+      "publishedAt": "2026-06-18T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:25.768Z",
+      "lastSeenAt": "2026-09-03T11:23:25.768Z",
+      "createdAt": "2026-09-03T11:23:25.768Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000025",
+      "clientName": "LENOVO",
+      "matchedKeywords": [],
+      "signalType": "norma_permiso",
+      "relevanceScore": 47,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "056e783f12ec6096f75e1ccfb32aac6f1ccfb9996e4467108360d4be9eb43fd7-10000025",
       "externalId": "056e783f12ec6096f75e1ccfb32aac6f1ccfb9996e4467108360d4be9eb43fd7-10000025",
       "sourceId": "google_news_lenovo",
@@ -1350,7 +1497,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNmFGNlR0RG9OUEZrdmdpNmtVV0JsX2s5R0ZvUGE4ZFI3OHoxWlJYa0FFTlJzZjExbWRhU291MGZVM1FwOXJzRjV3YzBTcjQ3OUZSRmJuU01yUWpfcS11MllBY0UybVFRb1FIYXphcEVkUERNNURpby1BN1hsWHVzN0JBRHFiUndVVVRPMHhlMnU0YjhLQ2lJdVZCclU1V19Semd3UmZYaThDV2hPY2dVRmp3cEpURnJxdEpiX0d0VWRsZnNRM0pvRVlvM1JacWhJVmtUVWdQUjE0dkxVbnNjNThWbUNDZw?oc=5",
       "publishedAt": "2026-06-16T07:00:00.000Z",
       "firstSeenAt": "2026-08-30T12:00:12.880Z",
-      "lastSeenAt": "2026-09-03T04:39:43.046Z",
+      "lastSeenAt": "2026-09-03T11:23:25.768Z",
       "createdAt": "2026-08-30T12:00:12.880Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1423,7 +1570,7 @@
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUUhUNGY2Sjh3eVhNeW5KeG9aSjJiU1hiRE5wQlI4UG9Qc2JtOThmN2RwZ2otREZKZkVUWVNhOXI1UmNhODloRmJ5LXg0blBNT2FYbWlib1RLUzNmWUhZWlV6blBuYTVPTTRNZnhmSEZGRG80bnZLdmF4ZExxcF9BZldTMFJjZ0Rxa2wyV2VsR3RCQ1JsQzFkbWhIRFNUZVhmOTE4eXdCQXE5Z0dUc18xNUFvdl9mWDJwX1dOWXN5MjJOaVhIUHZmLWJTUG5DV0RqSVYtZWZRb0tadWdTcXc5LWZ6Wm5EWmdITWtOdlVhVkFEbUV3Y0U1M3dB?oc=5",
       "publishedAt": "2026-06-11T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:56.260Z",
-      "lastSeenAt": "2026-09-03T04:39:43.048Z",
+      "lastSeenAt": "2026-09-03T11:23:25.768Z",
       "createdAt": "2026-08-19T18:56:56.260Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1449,7 +1596,7 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYXBxbzROaXVVazRwNHAzS3BoeHp2UVNPZWhSYnRrdzNuYW1IQmpqSUhtX01NMjlTMzh4TWtLMUpTOTBSaUt6b2NiN0wtZ3FWWFExZkdYLWJqNVdpVU0xVlNmYXhNcFRtZXg4UllORHZjNE15M0dvbGVja19kMnRmaHh0UlFpUWxFOG5MdkxyR3h3REZFTENsa3ZiRGxBMi1jYk9MNXI1TThKaUZjNjN3MXBoN1YxUQ?oc=5",
       "publishedAt": "2026-06-09T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:51.263Z",
-      "lastSeenAt": "2026-09-03T04:39:38.293Z",
+      "lastSeenAt": "2026-09-03T11:23:20.644Z",
       "createdAt": "2026-08-19T18:56:51.263Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1475,7 +1622,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVG9nOHpIZGRlcUd2eEdwMDU0UmNSVFVYQmdoczZVVFFTZWV6WUY4NjNnZWlfSTVzOEJNLW1GMDhIMy1fTlAyT05pOWFIWm4zcE84STQtTVFIUHVpZUlFcFROS2k3bVBVVEFVUG9mN1ZhLTBqYXFDTFN3RHE5SEhUVlpQalpvUUJSNml5TF9iLXE3eUJjY1dIOUVGRkFvYzhLRUQ5Z05FVmcxRVl4UXNITWhfSnhyQlFoS01RMWpmOExfekNSc1M0ay1GMlpSS1FEc1lyOWt5NVJyTm1NV3ZjLTlsQUpoZVVsU0pYNnJR?oc=5",
       "publishedAt": "2026-06-08T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:51.262Z",
-      "lastSeenAt": "2026-09-03T04:39:38.293Z",
+      "lastSeenAt": "2026-09-03T11:23:20.643Z",
       "createdAt": "2026-08-19T18:56:51.262Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1512,6 +1659,56 @@
       "signalType": "inversion",
       "relevanceScore": 66,
       "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "1a207dd265135996413923b9cfcca10d60b048cefae34248a10227c922500dec-10000001",
+      "externalId": "1a207dd265135996413923b9cfcca10d60b048cefae34248a10227c922500dec-10000001",
+      "sourceId": "google_news_bambas",
+      "sourceName": "Google News - BAMBAS",
+      "title": "Ferreyros suma nuevo contrato tras adjudicación de Las Bambas: ¿qué equipos entregará? - Gestión",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc1RFZGJVMjQxMWVmZm5OUngtNU0xN3B1LXRPaHNGRVlibVdCMmVxbXotV1JyWHYyR2laUG1UVVFlT1RxRjN0bkdWdTF2UHhJSFRTQWFOT3ZmclQ1YUptUVZ1OU1ySzZLYTZNU2dobWlZS1hqYnJaWU9PSTkzeFhnemZLeE00WEFpbW5MWXN0U1M1ankzcUlNXzZEaXhOZmM5c1JTMm1pRmQ4TzVqTjI2R0VEOHRHRFk0aWcybE45NHVfZUk?oc=5\" target=\"_blank\">Ferreyros suma nuevo contrato tras adjudicación de Las Bambas: ¿qué equipos entregará?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gestión</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc1RFZGJVMjQxMWVmZm5OUngtNU0xN3B1LXRPaHNGRVlibVdCMmVxbXotV1JyWHYyR2laUG1UVVFlT1RxRjN0bkdWdTF2UHhJSFRTQWFOT3ZmclQ1YUptUVZ1OU1ySzZLYTZNU2dobWlZS1hqYnJaWU9PSTkzeFhnemZLeE00WEFpbW5MWXN0U1M1ankzcUlNXzZEaXhOZmM5c1JTMm1pRmQ4TzVqTjI2R0VEOHRHRFk0aWcybE45NHVfZUk?oc=5",
+      "publishedAt": "2026-06-01T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:20.644Z",
+      "lastSeenAt": "2026-09-03T11:23:20.644Z",
+      "createdAt": "2026-09-03T11:23:20.644Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000001",
+      "clientName": "BAMBAS",
+      "matchedKeywords": [
+        "las bambas"
+      ],
+      "signalType": "licitacion_concesion",
+      "relevanceScore": 59,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "1432f60b863ff620c408397887d7a184871b0686c4775dce8ff7a686f4f5b86d-10000001",
+      "externalId": "1432f60b863ff620c408397887d7a184871b0686c4775dce8ff7a686f4f5b86d-10000001",
+      "sourceId": "google_news_bambas",
+      "sourceName": "Google News - BAMBAS",
+      "title": "Canciller afirma que el Perú apuesta por una minería sostenible, integrada y tecnológica para atraer inversión responsable - Infobae",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQlRXeTFwM0NxNjNyeldmTXMwdGJ5ak91eWRLdXpiX1hCemJ4WlRfQjN1QzRub2lRWmUtWHhhSjAtMUxvQmRBX0JDUFRBSDRYMzJSZFhDaUVDMXM0b2x4Y0lJSTdwZV9ZYVhWZzc5SEQxaXlkeFlkYjZSSzlsbEdpby12d2J4YkRqTHZGck82dkVhNnB6bE1NTWo1MWoyb3FvSEVFYnExUnZ0QnMzNDdyb1poY1NzSkk3MVE0NVdsS3hOV1VOZXVjdW1ZQ1FSSzZCbmxHVTREdnBKLXRnVW0tYlVXd2ZCVG5kLUlFNkc5Qm9USjJR0gGPAkFVX3lxTE5BZjNSYUJNN3pleDcwY3NBRFRaOHNOenliR2RtX3A3ckpSUURQWk1xaHpoTlR3WTRhYUlPb0JiZWdGbnE1cTVXa3JNT3pZQXJnMkExY3N5bEpST1phTmI5ODVBb0I2OE1TdktwdTNvTXlaLU5HNkRkdU1zRGdxeW14bDFlNGdhNlp3d0xmRmozZWtxc2FpMjZXVDFKUlNoWkRnOE",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQlRXeTFwM0NxNjNyeldmTXMwdGJ5ak91eWRLdXpiX1hCemJ4WlRfQjN1QzRub2lRWmUtWHhhSjAtMUxvQmRBX0JDUFRBSDRYMzJSZFhDaUVDMXM0b2x4Y0lJSTdwZV9ZYVhWZzc5SEQxaXlkeFlkYjZSSzlsbEdpby12d2J4YkRqTHZGck82dkVhNnB6bE1NTWo1MWoyb3FvSEVFYnExUnZ0QnMzNDdyb1poY1NzSkk3MVE0NVdsS3hOV1VOZXVjdW1ZQ1FSSzZCbmxHVTREdnBKLXRnVW0tYlVXd2ZCVG5kLUlFNkc5Qm9USjJR0gGPAkFVX3lxTE5BZjNSYUJNN3pleDcwY3NBRFRaOHNOenliR2RtX3A3ckpSUURQWk1xaHpoTlR3WTRhYUlPb0JiZWdGbnE1cTVXa3JNT3pZQXJnMkExY3N5bEpST1phTmI5ODVBb0I2OE1TdktwdTNvTXlaLU5HNkRkdU1zRGdxeW14bDFlNGdhNlp3d0xmRmozZWtxc2FpMjZXVDFKUlNoWkRnOEhtOUNWWjQ3T0dETGtUbUFmZDVESUtLaDlDRzI5TjQtRFNwamhVa1ZHc3BXSGt0bHJfOVVsUzl3UV9tRmRaaU1BZXNITldFUklyOHczbUExc2ZJLWhqWDlRV2VWTElsT0R3RDl3S05WNTROUTg?oc=5",
+      "publishedAt": "2026-05-26T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:20.644Z",
+      "lastSeenAt": "2026-09-03T11:23:20.644Z",
+      "createdAt": "2026-09-03T11:23:20.644Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000001",
+      "clientName": "BAMBAS",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 15,
+      "priority": "Baja",
       "locationText": "",
       "status": "new"
     },
@@ -1653,7 +1850,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRVdfaHRpci0yd2ZwVXdNaXJhZk8tUDRZWGw4Y0pYeXY5TWxZXzB4TmVKcFZ4RjR0UUlwU0EyQzZBMXo3bmh2cVBSVnBpS0R4Q1dBZjJFYjFERy0waXJRTmF6UVFTYVZYT2JOaWNKdFBQUHZYZWZDb0pvNEV6UXY3VjJXQXh0Nm5kblhvNTNNU0toNnpOaEhn?oc=5",
       "publishedAt": "2026-05-13T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.722Z",
-      "lastSeenAt": "2026-08-20T19:04:34.638Z",
+      "lastSeenAt": "2026-09-03T11:23:24.270Z",
       "createdAt": "2026-08-19T18:56:54.722Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1666,6 +1863,30 @@
       "signalType": "infraestructura",
       "relevanceScore": 15,
       "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "b83d8a8de45bdb8b0730a7516f361cfd3a68b6c28d9a29ce3a1dfee04830754b-10000004",
+      "externalId": "b83d8a8de45bdb8b0730a7516f361cfd3a68b6c28d9a29ce3a1dfee04830754b-10000004",
+      "sourceId": "google_news_3m",
+      "sourceName": "Google News - 3M",
+      "title": "Corfo 2026: $28,3M para startups de mujeres con 85% de cofinanciamiento - El Ecosistema Startup",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0pXeDdrMUhSSUFvSW9RcFVHS25OQkxyZVFNcHE5N0ZBVXBhYlliWm40TFI1QmRldDZzQUNDeW9DUlNVaHFaazh2Y3RBU0VWdDU2eFZyUEFjUFpqSTBJakFGR2NWdkpHZmdqNHNUQUdsMWRUS25wTWRpaUlVcFRNSEd6WUthQlNPQWxYcEhvd1NON25PaVE5dnY3RDVoc1E?oc=5\" target=\"_blank\">Corfo 2026: $28,3M para startups de mujeres con 85% de cofinanciamiento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">El Ecosistema Startup</font>",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0pXeDdrMUhSSUFvSW9RcFVHS25OQkxyZVFNcHE5N0ZBVXBhYlliWm40TFI1QmRldDZzQUNDeW9DUlNVaHFaazh2Y3RBU0VWdDU2eFZyUEFjUFpqSTBJakFGR2NWdkpHZmdqNHNUQUdsMWRUS25wTWRpaUlVcFRNSEd6WUthQlNPQWxYcEhvd1NON25PaVE5dnY3RDVoc1E?oc=5",
+      "publishedAt": "2026-05-13T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:21.605Z",
+      "lastSeenAt": "2026-09-03T11:23:21.605Z",
+      "createdAt": "2026-09-03T11:23:21.605Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000004",
+      "clientName": "3M",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 50,
+      "priority": "Media",
       "locationText": "",
       "status": "new"
     },
@@ -1729,7 +1950,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONDJocFREMnpxQTFYYVhzSkdScDVHdTltQ1FGM3ZLUzhpNU9VaFAxNUNxcVVBdFpSY1RpZGJDdjFUbVVfWFQ2U0xrRS1raDh2MG9yTlFwSTcyaDRrc1RELS1OUS1DTE9QNW9Xa3p5SFpldHZFdmt3TXFvMllPaW95MTNkNllEVm53X09GT1JKWmxwVWxkZ0JDTHN6WEtBcGVHQkE1azhuWklWS1VoZzczQTB3?oc=5",
       "publishedAt": "2026-05-07T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:55.114Z",
-      "lastSeenAt": "2026-09-03T04:39:41.918Z",
+      "lastSeenAt": "2026-09-03T11:23:24.574Z",
       "createdAt": "2026-08-19T18:56:55.114Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1755,7 +1976,7 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJFekdLRmlkcnliU2stSXhuRWkxNzFVMnNYbDluUnpHYU5rMHFkNWNWdENDdHFxTllrSDVtTm1ya3hwVkx4Ump5RmNPM0tuTHZDWjR0RlRuV0lNNmptLUdOMkxDOFRQUFVrVDdYZTJhVWxCQ1VCR0F2amd1X3V6R05EZHdHU19TLWNsd25JT2w3c3JxNVI5QldZRGN2bVdlVFc5R21PMHFpbVh2TTJ1ZnBydlpUSEhwelcxZGJSTjB5T2lDSXdrM3BEdTFCNWs?oc=5",
       "publishedAt": "2026-05-06T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:09.371Z",
-      "lastSeenAt": "2026-09-03T04:39:38.293Z",
+      "lastSeenAt": "2026-09-03T11:23:20.643Z",
       "createdAt": "2026-08-19T16:37:09.371Z",
       "clientId": "10000001",
       "clientName": "BAMBAS",
@@ -1764,6 +1985,30 @@
       ],
       "signalType": "inversion",
       "relevanceScore": 62,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "00fb2a2ec08a333ea57da06b7a7e1796ddb42284989e2c9b9f686114840ab961-entel",
+      "externalId": "00fb2a2ec08a333ea57da06b7a7e1796ddb42284989e2c9b9f686114840ab961-entel",
+      "sourceId": "google_news_entel",
+      "sourceName": "Google News - ENTEL",
+      "title": "Entel da el salto en el sector telecomunicaciones con el satélite de Elon Musk: ya se envía WhatsApp sin señal móvil - La República",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNLXVWOTlabDVQNHZ6WlYxWV9qX3hJZWV6aFU1ckpMdUVtTU1QcUZoNU5mMkU0aWEyRExUdDdHSTBHV0htWW9nOXhPZXBwU3cxT2ZQYUJaMFpaSktZejBuQUtuaXpkQUdyRjlpVFQ2NHYxSG0zOEhwMDYxU3o4VTQ1SFRXNml3UTIzak5JOXNPcklnQ3BZUkFBMUN4RUJtZVByX0hyUVlQY2wwRVlpQ2QtVzktRUQ5aEJXMG9HVzZhaTQ0alExS01VVWdDcElUdEs5SmtTWUNVSm5DX214RHI5QjZDU1dyNm5kS0JjazREaUk1RXFpQm55a0xpaHdXVHQySlHSAYcCQVVfeXFMTWpwZUlfRUxpSWdKOWYzSjM3MjFUenFGSlRRVzlIOVFFUlE2TG1Kb1VpYTVzOThlVHFGc3lrUXRhU2s2RElmWU00dm9KVnpsWnZtQlNjUDJQaWU4Y3dtSUQtTGhEMUtIaWhJRHRRbm1RMzdvUjRvUEZFajJXWllHTmJOeHZJNzUydUw1dzlwVW5ZeWhoUV",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNLXVWOTlabDVQNHZ6WlYxWV9qX3hJZWV6aFU1ckpMdUVtTU1QcUZoNU5mMkU0aWEyRExUdDdHSTBHV0htWW9nOXhPZXBwU3cxT2ZQYUJaMFpaSktZejBuQUtuaXpkQUdyRjlpVFQ2NHYxSG0zOEhwMDYxU3o4VTQ1SFRXNml3UTIzak5JOXNPcklnQ3BZUkFBMUN4RUJtZVByX0hyUVlQY2wwRVlpQ2QtVzktRUQ5aEJXMG9HVzZhaTQ0alExS01VVWdDcElUdEs5SmtTWUNVSm5DX214RHI5QjZDU1dyNm5kS0JjazREaUk1RXFpQm55a0xpaHdXVHQySlHSAYcCQVVfeXFMTWpwZUlfRUxpSWdKOWYzSjM3MjFUenFGSlRRVzlIOVFFUlE2TG1Kb1VpYTVzOThlVHFGc3lrUXRhU2s2RElmWU00dm9KVnpsWnZtQlNjUDJQaWU4Y3dtSUQtTGhEMUtIaWhJRHRRbm1RMzdvUjRvUEZFajJXWllHTmJOeHZJNzUydUw1dzlwVW5ZeWhoUVdqdmp3S21xQUxYMm1mdWFqVnlzbGxIMWNCWHMzWE5xZW1aczVzWlp0T1QzcjN1TFluNGJHNkt1cHBPZThZNWxXbHRxZnNDUmttX1o0ZWFHQ21UNkV2S2hXTTFackdnRUY1bnRfZk55S0R0aUE1R3lLR3c?oc=5",
+      "publishedAt": "2026-05-05T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:29.320Z",
+      "lastSeenAt": "2026-09-03T11:23:29.320Z",
+      "createdAt": "2026-09-03T11:23:29.320Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "entel",
+      "clientName": "ENTEL",
+      "matchedKeywords": [],
+      "signalType": "licitacion_concesion",
+      "relevanceScore": 47,
       "priority": "Media",
       "locationText": "",
       "status": "new"
@@ -1778,7 +2023,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWWZaM01kRDFuYnlyVUNfemxZZm15Ym1oREs5cGpoOE9TdU5ZZTNsdGQzaTJxZzBDa1huSUFHaXdUUHZaci1lQTNzZlI4dnRLN2VSMk1Sbi1pc3p3WW42SnJtY3E2SmlyY2pFOFdJcXA2em1TZjlUMjNmNWlVUXljY3YycDVEQmNsTUFNMkRpRTFpLVNVLTdrRTZ0bzhBVHJQLTllUUlQOVhNSkh2eDAzM0JzdVJKbERDOG1seWVXRFRURVozaHdfQm5kU3l0d2Y3RmhTU2xMVThIRzQ2UFE?oc=5",
       "publishedAt": "2026-05-04T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:56.259Z",
-      "lastSeenAt": "2026-09-03T04:39:43.047Z",
+      "lastSeenAt": "2026-09-03T11:23:25.766Z",
       "createdAt": "2026-08-19T18:56:56.259Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1828,7 +2073,7 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44TFY3aEJmMGJ0eEFoMERkbF9tdnZ3VlhfZGxsdmlfS2s1SENuOWphSUl6SWFNYmg2dC0zc202ZWFCcjNTZkM1YVptYmRiRlp1ME5aQkVRcFMzUngyaVBWVGhKR09JT2F6dkpHaXlpRVJIdmVfVEEyeVhfUTc3MHc?oc=5",
       "publishedAt": "2026-04-23T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.863Z",
-      "lastSeenAt": "2026-09-03T04:39:46.314Z",
+      "lastSeenAt": "2026-09-03T11:23:29.320Z",
       "createdAt": "2026-08-19T18:56:59.863Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1880,7 +2125,7 @@
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTV9zaGRRSHk4NmJRVnEzWmZCbjdWUVhiX3BQMzdidktoNHcxSjZ3VWVfRnRsOUpsdXdJWnhCWkF1RTdDeUg4VHE2eV9XcndsdmdLSzlfU01MX3EtSXhtd0xfUG01SWs3WTVzd2haQjl2bm90bERKTGI2LVZCenN4X2RBb2FsZFdyR3FrMm9najdwRUMwUHRrVUltYUV3TVl6UzFVdU5EcG1YelE4NVJJN3puZWdlYnNRbzFMaTZXRVlxQWx0eWdCcjFkQXcyWUwyc2Z1TEVwbUVwc1V1Z21OTG40U3lwNUJkbmtLWE5HSURUVVhwUVIwSm43RS1hT1XSAYQCQVVfeXFMUGM3cGphc01PNnZPV3Z1UjdvTzdXQnlmN0xYTS1WTXpIa2pjZjRDbzBfVmh1VUw5WUNFQVFaQ3N5aXhTM3BZb1Y1NG9qQTBMTmZKS1RaSUtWN08xYkdZQVVmb2JLUGJsOTl4ajItRmlrVWZ6andHdTg3cldVMWFRcTRQOGZYc0dEcFdEZENVMTFIWjU5OUNhZWhHUUprMkFOSWhOWEpLMGdOMjNVaWhOZ1NPbzBzM1dJYXpjWTRsUHlkTlY1XzYzSDdpMFdoZG5OazRWNDdPd0dzanlRX2M3YjBSczZKeHZiSlpxcWNTZkNubjhEWUJnekx4dmxqQUlGT0Eyb3A?oc=5",
       "publishedAt": "2026-04-22T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.863Z",
-      "lastSeenAt": "2026-09-03T04:39:46.313Z",
+      "lastSeenAt": "2026-09-03T11:23:29.319Z",
       "createdAt": "2026-08-19T18:56:59.863Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1906,7 +2151,7 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPakRobURvYmlYSzJQMzB5VEpSRWxyMGZLUmltQ3VjQjVKaTFfRWI2LWhWc1RqdTlWMUtFRlcyOUZ6akx1UVZGWWZnT2RmbDBndm1ZRkVKVENERlBqOW9tOWtDUDRXZGlIZVBMaThmR2I5U3J0NThrdnJ1SzV2SWhFUW1yc2Fzc1ZhSndHeHpDRk80cEtlTjczbGZJQk9iVHlNYXR3bkpVQXdQb0d3Z04w?oc=5",
       "publishedAt": "2026-04-22T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.863Z",
-      "lastSeenAt": "2026-08-22T13:04:49.399Z",
+      "lastSeenAt": "2026-09-03T11:23:29.321Z",
       "createdAt": "2026-08-19T18:56:59.863Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1932,7 +2177,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ3lRT0JUTk9DNUFmdjFVVnFLSmVuN1NVZEdMTTBvU21WblI1VThjQnhZU2dVYUd6V3FEQ3daR3dXSjMyQ2dnMzlGaTJicVRBUXVMdHN4ZlZpLVQ5UFdFY2hScGNpMWhHeHVMSVZfUDB0cmR3MXV5U3NpRDN5XzZFc1BCVzlpcERpRWdHVS1yMGF3eXhPaGR5Rk9CVGV5Z2pPckR4Wmln?oc=5",
       "publishedAt": "2026-04-22T07:00:00.000Z",
       "firstSeenAt": "2026-08-31T05:44:52.639Z",
-      "lastSeenAt": "2026-09-03T04:39:38.293Z",
+      "lastSeenAt": "2026-09-03T11:23:20.643Z",
       "createdAt": "2026-08-31T05:44:52.639Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1958,7 +2203,7 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUDZUdkQxMk1OandWTDdYUmx0YTFSUFphdEQyb05YeXR5Vlc3dmR4V3JDUUY2S1plUXkzNmppOUxkb0RqNlU0dzB3d2RuMVZ2b0VnanhtX28xWUR4ZjZLTGFZcXpTX3YyN1BrOWptcG5DMXg3U2hXeUFKb3ZwdTY2SndQVTZHZXJvZXJWSVlldG83TWpzVG5pU2RHVmdDY0xyamtsTDV4dGtrd1c1T1Y2Wk1hX2RsX3BQWFZ0b2swUXlQUEJIY3hnZmo1OA?oc=5",
       "publishedAt": "2026-04-09T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.429Z",
-      "lastSeenAt": "2026-09-03T04:39:43.850Z",
+      "lastSeenAt": "2026-09-03T11:23:26.732Z",
       "createdAt": "2026-08-19T18:56:57.429Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1997,6 +2242,58 @@
       "signalType": "infraestructura",
       "relevanceScore": 15,
       "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "69c9dfc81ee53716d3cdd623edb3630e86c898ead60d50f87abd2db3243c3b43-10000001",
+      "externalId": "69c9dfc81ee53716d3cdd623edb3630e86c898ead60d50f87abd2db3243c3b43-10000001",
+      "sourceId": "google_news_bambas",
+      "sourceName": "Google News - BAMBAS",
+      "title": "Las Bambas impulsa el progreso social para orientar inversiones en regiones mineras - rumbominero.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1RwSHI2WVdiajJPOGVXbkJaazdfRDVzRFA4X0lWUUhWY2NKQW9sal9nN3FSd1VLdjFVcUxKRkYyS194eG9pVWpxYXFPTlFNS2RvbXJXYVBnQ0VySFdoRTBOWHZaWkhaaEdkaThxOGJ6TWtXdFdVUWJZRnNSWTY2UXN2SjdCa2JaOXN6S241X0lBVmEyVXFPbmJ0azNVSGdPUkdMQXRNaV9SUFlVT0FV?oc=5\" target=\"_blank\">Las Bambas impulsa el progreso social para orientar inversiones en regiones mineras</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rumbominero.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1RwSHI2WVdiajJPOGVXbkJaazdfRDVzRFA4X0lWUUhWY2NKQW9sal9nN3FSd1VLdjFVcUxKRkYyS194eG9pVWpxYXFPTlFNS2RvbXJXYVBnQ0VySFdoRTBOWHZaWkhaaEdkaThxOGJ6TWtXdFdVUWJZRnNSWTY2UXN2SjdCa2JaOXN6S241X0lBVmEyVXFPbmJ0azNVSGdPUkdMQXRNaV9SUFlVT0FV?oc=5",
+      "publishedAt": "2026-04-07T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:20.644Z",
+      "lastSeenAt": "2026-09-03T11:23:20.644Z",
+      "createdAt": "2026-09-03T11:23:20.644Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000001",
+      "clientName": "BAMBAS",
+      "matchedKeywords": [
+        "las bambas"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 62,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "b94340a046ab95b18a8f1b67f20c2d3ee849c1596090cc395a32f418b1a03e38-10000001",
+      "externalId": "b94340a046ab95b18a8f1b67f20c2d3ee849c1596090cc395a32f418b1a03e38-10000001",
+      "sourceId": "google_news_bambas",
+      "sourceName": "Google News - BAMBAS",
+      "title": "Las Bambas subraya la importancia del progreso social para orientar inversiones con impacto territorial - desdeadentro.pe",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTDB6ZW1mOUMtdWZjTTNRdmUybTI2dmF2Ny1SVWlRTnR2bEl0M3QwVGc0dUxKUGdfdHZrMVN3OEFkLWxZVjlWakhsSkM0VzBqM29Ld2YzUnJabk03WGNpeUpteER3dmJFMDNmYjBsOW44eVdfRnBGcUlRWG1tUjlQaWExZkFfLXk2ZXVPOXVEUU9QSjh3VmlUUU42SXZVR2R0V1k0cmhsNHRyaUU1ZmRqaUdjcEhhQ244Yk16WjJIZGhnV1FXbE1GeGwwTDdjaEZCcW9QMXBENA?oc=5\" target=\"_blank\">Las Bambas subraya la importancia del progreso social para orientar inversiones con impacto territorial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">desdeadentro.pe</font>",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTDB6ZW1mOUMtdWZjTTNRdmUybTI2dmF2Ny1SVWlRTnR2bEl0M3QwVGc0dUxKUGdfdHZrMVN3OEFkLWxZVjlWakhsSkM0VzBqM29Ld2YzUnJabk03WGNpeUpteER3dmJFMDNmYjBsOW44eVdfRnBGcUlRWG1tUjlQaWExZkFfLXk2ZXVPOXVEUU9QSjh3VmlUUU42SXZVR2R0V1k0cmhsNHRyaUU1ZmRqaUdjcEhhQ244Yk16WjJIZGhnV1FXbE1GeGwwTDdjaEZCcW9QMXBENA?oc=5",
+      "publishedAt": "2026-04-06T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:20.643Z",
+      "lastSeenAt": "2026-09-03T11:23:20.643Z",
+      "createdAt": "2026-09-03T11:23:20.643Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000001",
+      "clientName": "BAMBAS",
+      "matchedKeywords": [
+        "las bambas"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 62,
+      "priority": "Media",
       "locationText": "",
       "status": "new"
     },
@@ -2127,6 +2424,32 @@
       "status": "new"
     },
     {
+      "id": "f03a7e2323a48a22f62195747ef70ac423ac1b10f95f2be1acae3aea9d2ccaa8-10000001",
+      "externalId": "f03a7e2323a48a22f62195747ef70ac423ac1b10f95f2be1acae3aea9d2ccaa8-10000001",
+      "sourceId": "google_news_bambas",
+      "sourceName": "Google News - BAMBAS",
+      "title": "En enero de 2026, la inversión minera alcanzó los US$ 398 millones - rumbominero.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ3RPakJkVGtWbHg0Wm5TSHl4Mkw1WGgwSndMVE1oenNIQjNxZnVMbmdROXdEQlhRRTZpZmtpOThXWEhZZ3hpdGo5aTFXaHVhWHlZTWxyajI2QjZWczhsQU5RSndoV21FdnBxVW01RlpEcGd6NHpvbGtnQ015eUhuVF9PY25CMjExZ2NrWlFfNWE?oc=5\" target=\"_blank\">En enero de 2026, la inversión minera alcanzó los US$ 398 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rumbominero.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ3RPakJkVGtWbHg0Wm5TSHl4Mkw1WGgwSndMVE1oenNIQjNxZnVMbmdROXdEQlhRRTZpZmtpOThXWEhZZ3hpdGo5aTFXaHVhWHlZTWxyajI2QjZWczhsQU5RSndoV21FdnBxVW01RlpEcGd6NHpvbGtnQ015eUhuVF9PY25CMjExZ2NrWlFfNWE?oc=5",
+      "publishedAt": "2026-03-23T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:20.644Z",
+      "lastSeenAt": "2026-09-03T11:23:20.644Z",
+      "createdAt": "2026-09-03T11:23:20.644Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000001",
+      "clientName": "BAMBAS",
+      "matchedKeywords": [
+        "inversion minera"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 27,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "d1362bfbae980ad1f071ec857e63515ff05ee27d9b94e19fc05d441a818bf152-10000001",
       "externalId": "d1362bfbae980ad1f071ec857e63515ff05ee27d9b94e19fc05d441a818bf152-10000001",
       "sourceId": "google_news_bambas",
@@ -2136,7 +2459,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYW45WEM3SmlCbHdPRHRtUENtN3lkMVFXaXV6bmV1WDBXMjJnTkU4VHYwR005S1hRVG0tMDNyU00zVjlTVmNTbERmdjRBSHlZc05YN3ZlWUxnN2Z2bGhTU0dvT3J4d2w2WFNYSUJ3WUdUNkpSNE5IcS1XMmF2S2hveklCcGs4cUh4UjRQUDN4VEZYQmFsZ3RJc2ZGTnVsclZBRjJWbms0Nms?oc=5",
       "publishedAt": "2026-03-06T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:09.370Z",
-      "lastSeenAt": "2026-09-03T04:39:38.293Z",
+      "lastSeenAt": "2026-09-03T11:23:20.645Z",
       "createdAt": "2026-08-19T16:37:09.370Z",
       "clientId": "10000001",
       "clientName": "BAMBAS",
@@ -2160,7 +2483,7 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdzhiTkg4bDlGVlctTDJCekJ6ckwzeHdKc1VyX1NtWGpSNzFSYlNtSXdudFBaY25IS2M4VFN5ZWRIWlhCa3dLYlg5N3BjUy1NZTBlNWRXcUJrdS1FM21MSWtIeVc1V1ZzQktmUUF1bjZ3djdpb0cwSFNlSVh1NTlNMEtobkhyd1JNODZjcW9MSDVuTXMtbU5SNTRWSVZZQ3FydlRTMUI3ZDlzQXdkeXFHNGVlWldIZw?oc=5",
       "publishedAt": "2026-03-06T08:00:00.000Z",
       "firstSeenAt": "2026-08-22T07:03:26.204Z",
-      "lastSeenAt": "2026-09-02T04:43:20.146Z",
+      "lastSeenAt": "2026-09-03T11:23:20.645Z",
       "createdAt": "2026-08-22T07:03:26.204Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2225,6 +2548,33 @@
       "status": "new"
     },
     {
+      "id": "e2dd88460b3cefb7171c07f952573b263a7ace21b79c43ef6ceffa7fbd357844-10000001",
+      "externalId": "e2dd88460b3cefb7171c07f952573b263a7ace21b79c43ef6ceffa7fbd357844-10000001",
+      "sourceId": "google_news_bambas",
+      "sourceName": "Google News - BAMBAS",
+      "title": "Antamina, Southern Perú y Las Bambas lideraron la inversión minera en 2025 - Instituto de Ingenieros de Minas del Perú - IIMP",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNS202dU1uU1JGbGZhWDdSUkpUY3h4LTUtbUZMXzVFZmdDQk9qamVxc3gzNEJlVVFkRUY0cWdIZ0NPUG1mMWk5SGRyMDlnb1RjTDc1X0FsREd0NXB3bTR1YUw4QjladDZQM2h3dzBLS0YteFY3TUlNbV8zT1VVQnlSbl9Yd1lmdXRub2JfanBkd0E1Ql8xOVl1dzZiYnBubFFyMXZ1UXE0WTlDVHk4NlE4?oc=5\" target=\"_blank\">Antamina, Southern Perú y Las Bambas lideraron la inversión minera en 2025</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Instituto de Ingenieros de Minas del Perú - IIMP</font>",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS202dU1uU1JGbGZhWDdSUkpUY3h4LTUtbUZMXzVFZmdDQk9qamVxc3gzNEJlVVFkRUY0cWdIZ0NPUG1mMWk5SGRyMDlnb1RjTDc1X0FsREd0NXB3bTR1YUw4QjladDZQM2h3dzBLS0YteFY3TUlNbV8zT1VVQnlSbl9Yd1lmdXRub2JfanBkd0E1Ql8xOVl1dzZiYnBubFFyMXZ1UXE0WTlDVHk4NlE4?oc=5",
+      "publishedAt": "2026-02-27T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:20.644Z",
+      "lastSeenAt": "2026-09-03T11:23:20.644Z",
+      "createdAt": "2026-09-03T11:23:20.644Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000001",
+      "clientName": "BAMBAS",
+      "matchedKeywords": [
+        "las bambas",
+        "inversion minera"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 66,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "801a687638e11920e7cde909381828d2e4e4ddd9ae3bedf23cbd9302e9043495-10000020",
       "externalId": "801a687638e11920e7cde909381828d2e4e4ddd9ae3bedf23cbd9302e9043495-10000020",
       "sourceId": "google_news_carbonell",
@@ -2234,7 +2584,7 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMkk2Rm9jcmUyMldQdUowRTFCQkxIS2c5clZ0WS1OTF92bl91MW1SSTZsWEUxM1JyQmF5cU1hY2pKNWhVTFYtNkh6SEpIbkZHY21iUHNZcDBwTHNxS2hkSnNadFFFNlJmZHJvbEpwcUM1VTVVQ0R4Z1YtNk9ybmtYSDNrZVNlU0dMNXVxWGVaZmozZHZNa01UZmEwbmc?oc=5",
       "publishedAt": "2026-02-19T08:00:00.000Z",
       "firstSeenAt": "2026-08-31T05:44:55.803Z",
-      "lastSeenAt": "2026-09-03T04:39:41.629Z",
+      "lastSeenAt": "2026-09-03T11:23:24.271Z",
       "createdAt": "2026-08-31T05:44:55.803Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2260,7 +2610,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZW5ZQ3VRbjJoZVFpYWZuV2RXZG8tUVVBeUtLTVNWU3ZSdlJCLUVDWjFuQ3VNeUozTGtEMHZKNUpsVGJLYUs0WWxoNERJYmJpbFVHUkxmUGRVYkpRUzlZM1EzcTVQSGpTa0I3N3NZWjExUnRzYTk0ZXd5OWN0UWVjMGFHZE5PSEZwX0gwMFVfMEtqWHJDZENJTTVGWldELVZLQTlnYVdMdGZBVHFPbndUbDNvZDl6N0oxYzUtd2Fwa1Q5dw?oc=5",
       "publishedAt": "2026-01-28T08:00:00.000Z",
       "firstSeenAt": "2026-08-25T19:02:07.439Z",
-      "lastSeenAt": "2026-09-03T04:39:39.445Z",
+      "lastSeenAt": "2026-09-03T11:23:21.895Z",
       "createdAt": "2026-08-25T19:02:07.439Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2310,7 +2660,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT0pieGQzMW1LWnZFYWcyVFJSVnI3VTJiVTZMWE1FR1lRSzNnXzdTSmNFeE91dzJyekFQYzZpNktFbW9LaFgySlpScG8za3RiWGlxbFN6TXZhRjNmZWs0ekgtRHZxZ1htRU13TUk1WGJiRFNBUXhGZFM2OHdieW5BdjdJMWRNc1h6bldOMFJEWFgtV1NMOUxTYnFfandPdVYwUFFMQkhkeXhmZ0lmWDRQdFZkeHBwSzBRN0Rz?oc=5",
       "publishedAt": "2026-01-15T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.079Z",
-      "lastSeenAt": "2026-09-03T04:39:41.019Z",
+      "lastSeenAt": "2026-09-03T11:23:23.563Z",
       "createdAt": "2026-08-19T18:56:54.079Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2325,6 +2675,30 @@
       "status": "new"
     },
     {
+      "id": "f022771205c6e63813f769bf8667bdd80b350ab5ccfecf1b466dba15cd814ce1-entel",
+      "externalId": "f022771205c6e63813f769bf8667bdd80b350ab5ccfecf1b466dba15cd814ce1-entel",
+      "sourceId": "google_news_entel",
+      "sourceName": "Google News - ENTEL",
+      "title": "Entel Digital presenta su unidad de Servicios de Ciberseguridad en Perú con una propuesta basada en operación avanzada e inteligencia regional - ITSitio",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAJBVV95cUxQQ0treHRlUUJfc3JYTlNTODVBaHhHZXJ3c1haakdMWUhVU01hRjNRX1FFNWFMZ1VpeUtVdlZ1U18zcjZzZWgyb0ZGVmdhQ1FFRU9RbFNjdy1rNGRpZTF3akhVbWg4UHl1dEIwZWphMG9RT1VuNktMUmlUR0F5UEdPTlhzeThOUEZDV1U5alVjUnZNVjAxWnJTVk5rQW56VjdzUFF4Zkt1NnE3cjl6dE5jOTQteFFpc0RhQkp2QXk2V1VYM3FJcWhjZnFyUWt1dFVSYkJCcm14WkZqcVFidzEtREs4bHc3cXNaMHZJRFB0TmNQZ0FvWjF5eDE3UGs5U2lrX19KcElMRDM?oc=5\" target=\"_blank\">Entel Digital presenta su unidad de Servicios de Ciberseguridad en Perú con una propuesta basada en operación avanzada e inteligencia regional</a>&nbsp;&nbsp;<font color=\"#",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQQ0treHRlUUJfc3JYTlNTODVBaHhHZXJ3c1haakdMWUhVU01hRjNRX1FFNWFMZ1VpeUtVdlZ1U18zcjZzZWgyb0ZGVmdhQ1FFRU9RbFNjdy1rNGRpZTF3akhVbWg4UHl1dEIwZWphMG9RT1VuNktMUmlUR0F5UEdPTlhzeThOUEZDV1U5alVjUnZNVjAxWnJTVk5rQW56VjdzUFF4Zkt1NnE3cjl6dE5jOTQteFFpc0RhQkp2QXk2V1VYM3FJcWhjZnFyUWt1dFVSYkJCcm14WkZqcVFidzEtREs4bHc3cXNaMHZJRFB0TmNQZ0FvWjF5eDE3UGs5U2lrX19KcElMRDM?oc=5",
+      "publishedAt": "2025-12-23T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:29.321Z",
+      "lastSeenAt": "2026-09-03T11:23:29.321Z",
+      "createdAt": "2026-09-03T11:23:29.321Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "entel",
+      "clientName": "ENTEL",
+      "matchedKeywords": [],
+      "signalType": "norma_permiso",
+      "relevanceScore": 57,
+      "priority": "Media",
+      "locationText": "San Isidro, Lima (sede corporativa); operación nacional",
+      "status": "new"
+    },
+    {
       "id": "d1bac2b42d0e397721fc503284118f6631a024e076771cf63c8d361c1be96b10-10000028",
       "externalId": "d1bac2b42d0e397721fc503284118f6631a024e076771cf63c8d361c1be96b10-10000028",
       "sourceId": "google_news_unacem",
@@ -2334,7 +2708,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUW1nU1FmYTBBUkpqX05aVFpVMFZNa3dHcjNET08xcVdpS0hsd2R4VWQ1RS14NFJMSXQzaTh3VzdzZGQ2R3FfOFdrOTVuMElFT2VQSktqaGN5Qnd4UjE1a0J2QjJiNW9OMk9GbTh2d0YzeEV0QU1GRVZZTC03Q3FpYk55Q3VXSzBONnJKUHlR?oc=5",
       "publishedAt": "2025-12-18T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.429Z",
-      "lastSeenAt": "2026-09-03T04:39:43.850Z",
+      "lastSeenAt": "2026-09-03T11:23:26.732Z",
       "createdAt": "2026-08-19T18:56:57.429Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2382,7 +2756,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ3Z6SVQ2OTZWa0lPc29ka0dzS3pnOFpxVjdVdlBxdDdTRGpyTnM2bGdtLXpyVVNrNVVSOXI4YUpDRHpKeHpXc0xNcUxWZ1dPbmN1aXlQX2lPanhZMEZQb0xIZk9lVEJKTlNmSTlGQmJRTFNtaTJzdnVwUE9UZE4xQTViWHpVa21nR1MwejF5ODhUY1lfVGJhald4ZTI1M3Q0cFhMX3IwSkFwUHEzdHN0cU9INDhpcTNnd0tlYV94S2o?oc=5",
       "publishedAt": "2025-12-11T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.079Z",
-      "lastSeenAt": "2026-09-03T04:39:41.020Z",
+      "lastSeenAt": "2026-09-03T11:23:23.563Z",
       "createdAt": "2026-08-19T18:56:54.079Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2429,7 +2803,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSzZNOU9ncl9oLTN6RkJLU1ZUWHQteGdDdFJ1dm1VQmRVSGVKTzlzdDRJTFB3TEdVM3FHTTYzbmJ2T2N0UmRRclM0blV5UGI3Mk8xZ2t2VFFjUFhGWV9TMkNEVGxKdURNVXY0elRxNVBFXy1oY0REVXlSaVdUa3BwTUZBZXJLLWZqeFU3aEtKUWFVdWx6VFNUdUkxR3pTYm9NQVV5TEU4YUtaYmNXYkl0LTVsUnRDRTJqdjBBeS1jaXB5d3Y1ZW1YdF9MV3JuYl8wdEE4bXZMUW13cEZkWjByR2Fwc3cyWEN6V0E?oc=5",
       "publishedAt": "2025-12-03T08:00:00.000Z",
       "firstSeenAt": "2026-08-21T02:01:13.118Z",
-      "lastSeenAt": "2026-09-03T04:39:46.851Z",
+      "lastSeenAt": "2026-09-03T11:23:29.963Z",
       "createdAt": "2026-08-21T02:01:13.118Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2503,7 +2877,7 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS1lLSkk0N2dIbmdSUDFYMGFHLTBXendxTUJ6c1ZDTHJyaXVnS2pkT2NlUFZZU1N0MnlxV0VmSDZ0aFpVRkpkWEJZdEx6QlpqRWx3VmduVjQ1dDZuUXdUbWtBQmN0eHg2X3RFRVJwdFZkYlBZWVREUXdxVXJNMWdqQjJqODlKR1JscTc0akkzU2YyWmZqUVM5X1JURW5yV2ppN21Qb2dKdVdqb0dIVlhGRDh5V0J1T0JVbnFUbQ?oc=5",
       "publishedAt": "2025-11-20T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:09.377Z",
-      "lastSeenAt": "2026-09-03T04:39:38.294Z",
+      "lastSeenAt": "2026-09-03T11:23:20.645Z",
       "createdAt": "2026-08-19T16:37:09.377Z",
       "clientId": "10000001",
       "clientName": "BAMBAS",
@@ -2527,7 +2901,7 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdy1ZSktGSjZyM3lwM1pkb3o2NGwtc1o0NGd3bGhnZmN3OFU3MVlrRUNtT3lOUGNkZHdnS2wzaWtBTjMxZkF6VkYxcm43cmYyY1AwTFFBMEFMOGRVdzllRjNTY1Jac3dXQkNhZXlla2pFcTNHc3NRYkdfNE1weVlwUWVlbW5Td1VrazJ2Ym5xdGVaQ28?oc=5",
       "publishedAt": "2025-11-20T08:00:00.000Z",
       "firstSeenAt": "2026-08-26T20:10:11.149Z",
-      "lastSeenAt": "2026-09-03T04:39:43.048Z",
+      "lastSeenAt": "2026-09-03T11:23:25.768Z",
       "createdAt": "2026-08-26T20:10:11.149Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2553,7 +2927,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWUdDOE45Ri11Q1loWjUwLV9sRE9Iczd3UVlZa2llQXVwdmE0RElQZy1aVXF2UndJLUlFVDMtOTloallTX1Rwdy1DN0ZlWXNKUW9SVFA4cGJFVnNwZjI5OHVxRDBNQlFsb2NPYTh1c0RqUHZQMnJLdlJ4dEFQaTc3aGFoZWppNHZlS1NfaUpoLXVEOGVNSG1paGdOaGg5YTVsUDVLVWw2Wi1CQm9yUGo5M19wOXVCMFk4c0JzQ240T0ZzYzlhaHI0Ti1JYldOY0pGVXI3Zg?oc=5",
       "publishedAt": "2025-11-18T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.429Z",
-      "lastSeenAt": "2026-09-03T04:39:43.850Z",
+      "lastSeenAt": "2026-09-03T11:23:26.733Z",
       "createdAt": "2026-08-19T18:56:57.429Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2570,6 +2944,56 @@
       "status": "new"
     },
     {
+      "id": "e1079b6f625832716ffc56b3a032c7349a9fc3b939cc7b3cda2f079c58851fdf-10000001",
+      "externalId": "e1079b6f625832716ffc56b3a032c7349a9fc3b939cc7b3cda2f079c58851fdf-10000001",
+      "sourceId": "google_news_bambas",
+      "sourceName": "Google News - BAMBAS",
+      "title": "Southern y Las Bambas impulsan inversión en Equipamiento Minero: alcanza US$ 675 millones en 2025 - rumbominero.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1pQZWtra2JDdVBwYi05QUY2WURUVmZaVWZKa1BWUUI3SlFWdC1HS05qZUQtS2FIMThaNDVhQ1ZiRTRlWE9RdG5yUmFJN01HT19ROF94SUVHS2NObWlaSGVIc3JxdEU2a3NfYXBSY0VBTGtNanJsZW0wOXVLYjBhQVRhQjF1Slo4Y2FUMTBwWnVySk1INFRya0x1eGtpdFlrMm1GWl95Zkx6QjF4UnZJRHFUMU5oVEk?oc=5\" target=\"_blank\">Southern y Las Bambas impulsan inversión en Equipamiento Minero: alcanza US$ 675 millones en 2025</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rumbominero.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1pQZWtra2JDdVBwYi05QUY2WURUVmZaVWZKa1BWUUI3SlFWdC1HS05qZUQtS2FIMThaNDVhQ1ZiRTRlWE9RdG5yUmFJN01HT19ROF94SUVHS2NObWlaSGVIc3JxdEU2a3NfYXBSY0VBTGtNanJsZW0wOXVLYjBhQVRhQjF1Slo4Y2FUMTBwWnVySk1INFRya0x1eGtpdFlrMm1GWl95Zkx6QjF4UnZJRHFUMU5oVEk?oc=5",
+      "publishedAt": "2025-11-18T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:20.645Z",
+      "lastSeenAt": "2026-09-03T11:23:20.645Z",
+      "createdAt": "2026-09-03T11:23:20.645Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000001",
+      "clientName": "BAMBAS",
+      "matchedKeywords": [
+        "las bambas"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 62,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "fb8db456cfff28d677bbad54e87eee00026903495ce884b8a1f3b80a347d6706-entel",
+      "externalId": "fb8db456cfff28d677bbad54e87eee00026903495ce884b8a1f3b80a347d6706-entel",
+      "sourceId": "google_news_entel",
+      "sourceName": "Google News - ENTEL",
+      "title": "Telco chilena Entel busca crecer mientras ajusta su capex - BNamericas",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0VJN2JRS054NEdxZTlwbk1wLXZvdml4QzFpSzNYX0cteWwtOFZWbG9JZmtaMXhjSFMxaXRYd0tlT0xkbGVRNG5hc0xSR25MLXJBa210c01ld0VFdHVTZTNaUmRMWkdQWUJKU0hUVnBEUUJ4WnFsNGktMERkLU4xX2R1R1U3QjdjOVB1QUNoWkc5NVk0SlJ6OQ?oc=5\" target=\"_blank\">Telco chilena Entel busca crecer mientras ajusta su capex</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BNamericas</font>",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0VJN2JRS054NEdxZTlwbk1wLXZvdml4QzFpSzNYX0cteWwtOFZWbG9JZmtaMXhjSFMxaXRYd0tlT0xkbGVRNG5hc0xSR25MLXJBa210c01ld0VFdHVTZTNaUmRMWkdQWUJKU0hUVnBEUUJ4WnFsNGktMERkLU4xX2R1R1U3QjdjOVB1QUNoWkc5NVk0SlJ6OQ?oc=5",
+      "publishedAt": "2025-11-04T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:29.321Z",
+      "lastSeenAt": "2026-09-03T11:23:29.321Z",
+      "createdAt": "2026-09-03T11:23:29.321Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "entel",
+      "clientName": "ENTEL",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 50,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "d5e216bbdf188ed493880db960c7e0fda5308b452723a742dbf56ab642155364-10000029",
       "externalId": "d5e216bbdf188ed493880db960c7e0fda5308b452723a742dbf56ab642155364-10000029",
       "sourceId": "google_news_embajadadeaustria",
@@ -2579,7 +3003,7 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTi1WY3V0Ui15OVdpWTE2RVdMbl9yT1oydHRvT3JUVkRmdWdyeWJzZjNCSno5VWZnZXBiMzM1dnAxQTVER0lpa0hObUI2ekpzWXBiV0VQWVVHaGZaSU53RmZkaXlobXp3eGtvRndicXZ0a1JrT2twaXNSUmthXzNuTkczeFNnUS04Vi1mRXJKZlRaWEI0NHBaMV9yRGVRXzdySVd1cXpoWG0waGpfSXc?oc=5",
       "publishedAt": "2025-11-04T07:43:50.000Z",
       "firstSeenAt": "2026-09-02T16:40:25.601Z",
-      "lastSeenAt": "2026-09-03T04:39:44.176Z",
+      "lastSeenAt": "2026-09-03T11:23:27.079Z",
       "createdAt": "2026-09-02T16:40:25.601Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2594,6 +3018,30 @@
       "status": "new"
     },
     {
+      "id": "d1e45d94e0e68086a0be0ce57dc2cf7fd9da890c01a81253d242ada125a95d7c-entel",
+      "externalId": "d1e45d94e0e68086a0be0ce57dc2cf7fd9da890c01a81253d242ada125a95d7c-entel",
+      "sourceId": "google_news_entel",
+      "sourceName": "Google News - ENTEL",
+      "title": "Entel reduce Capex, con mayor enfoque en clientes leales y nuevos servicios - DPL News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOWTNMNDhIZXpSdGdrYXE2Y3RMYldNOWY4UFNfalNUd2kxUTNEQ0ZlOGx0QTRJeHd5U1BhTUx4ZjVaSjlMUVpxYTd4LWdVbDBzYnk0aktmWFNHcjVxU19OcFc3T1BlWHJmUFFJUGRkd2ttN25nNW03S05qNFpyZ1VCYldlem4zaFZadTk0QjgtT3V1TUdyUnBHUkJzZw?oc=5\" target=\"_blank\">Entel reduce Capex, con mayor enfoque en clientes leales y nuevos servicios</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DPL News</font>",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWTNMNDhIZXpSdGdrYXE2Y3RMYldNOWY4UFNfalNUd2kxUTNEQ0ZlOGx0QTRJeHd5U1BhTUx4ZjVaSjlMUVpxYTd4LWdVbDBzYnk0aktmWFNHcjVxU19OcFc3T1BlWHJmUFFJUGRkd2ttN25nNW03S05qNFpyZ1VCYldlem4zaFZadTk0QjgtT3V1TUdyUnBHUkJzZw?oc=5",
+      "publishedAt": "2025-10-23T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:29.321Z",
+      "lastSeenAt": "2026-09-03T11:23:29.321Z",
+      "createdAt": "2026-09-03T11:23:29.321Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "entel",
+      "clientName": "ENTEL",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 50,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "3455a7e9238cebb8564cb5f4bdb98f502254149c46ac79533ced834f91cf7165-10000001",
       "externalId": "3455a7e9238cebb8564cb5f4bdb98f502254149c46ac79533ced834f91cf7165-10000001",
       "sourceId": "google_news_bambas",
@@ -2603,7 +3051,7 @@
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVzlEc016VlRrRC1zU0lFbEZ0Y1Zud2ZKd0w4Ry1yNnBmRUpSOW01aDRQZTFJaFp3VURONTl1bTNPMjlSbmxUZnJoYlU1YUVPaEx6ejg4TDU3RVUxbTNMV0h0SVdiX1NJZ2QyLXl6dURYempCOGdqQ0JJTDh1ZTg0TFNoYmtwNVdJVU1nbU9zMWhzQzJpQ0hhRDgzNGszTXdsQ1dKSkZybGtKWGFkVzRjNFBRWlJLV2h2RTNGZXNkcGU5TGR6UmZHYmVFb2tmSzdzUXg5ZHRYTXl0MWY4RzA0cTVB?oc=5",
       "publishedAt": "2025-10-20T07:00:00.000Z",
       "firstSeenAt": "2026-08-21T07:11:30.501Z",
-      "lastSeenAt": "2026-09-03T04:39:38.293Z",
+      "lastSeenAt": "2026-09-03T11:23:20.645Z",
       "createdAt": "2026-08-21T07:11:30.501Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2617,6 +3065,58 @@
       "signalType": "inversion",
       "relevanceScore": 66,
       "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "3165640f2e75bf67d1a3e7f34a0794904a357899864db33e94b93126bddf8402-10000028",
+      "externalId": "3165640f2e75bf67d1a3e7f34a0794904a357899864db33e94b93126bddf8402-10000028",
+      "sourceId": "google_news_unacem",
+      "sourceName": "Google News - UNACEM",
+      "title": "Holcim roza el límite de su capacidad instalada y evalúa ampliaciones en Perú tras crecimiento a triple dígito en 2025 - Infobae",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxPeVY5QmVza0pQbFRTVnRtc0tFRHVyTmUzanh5dUJoaVNZMkFnQXlGTFB2dXBJbXJWYWpyUHRJdWY3Vk9xbTFPMUJ5TVJ2cjd2bzZYbkV6NUE1LUdEVm1tUmg1S2NTbEFlQUZqOEM0SldFaFVKZHJWUFRzVWJ3T3Zma19KenotcnVRT0doQTRPalZFQTQxdk1xMG5YUHJpMzFMMVZBRVU0N2dCTFZWdGlPTmdqaUtBTG1tM3MxQm1kd3JVREtfR3VKOE9VT2pndnZBbkdTakNjaHFrbzdwMllWUEVqal9NaVVKemo5NEtvNlrSAYsCQVVfeXFMTnJMV1BOVVlmQUlTdEJCcGs4MWxRNnV1SFkxQ3NtN1JjeVd1aHM2NDhtZ2FtMFA5ckZYMGJHTFR2VGdGbXBIa3F3b2RQN0ZkcmNKN2xHRlBhZGlaaU5yMnhhb3kwYzZPTUx5NnoybEQ2NzlPcVhsWUdGMGNBM2xRS1E1bm1XZGJVcWtUZzlRRWRscFlxQTlwU2ZtY1RoY2RPc3VsUkQtVF",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPeVY5QmVza0pQbFRTVnRtc0tFRHVyTmUzanh5dUJoaVNZMkFnQXlGTFB2dXBJbXJWYWpyUHRJdWY3Vk9xbTFPMUJ5TVJ2cjd2bzZYbkV6NUE1LUdEVm1tUmg1S2NTbEFlQUZqOEM0SldFaFVKZHJWUFRzVWJ3T3Zma19KenotcnVRT0doQTRPalZFQTQxdk1xMG5YUHJpMzFMMVZBRVU0N2dCTFZWdGlPTmdqaUtBTG1tM3MxQm1kd3JVREtfR3VKOE9VT2pndnZBbkdTakNjaHFrbzdwMllWUEVqal9NaVVKemo5NEtvNlrSAYsCQVVfeXFMTnJMV1BOVVlmQUlTdEJCcGs4MWxRNnV1SFkxQ3NtN1JjeVd1aHM2NDhtZ2FtMFA5ckZYMGJHTFR2VGdGbXBIa3F3b2RQN0ZkcmNKN2xHRlBhZGlaaU5yMnhhb3kwYzZPTUx5NnoybEQ2NzlPcVhsWUdGMGNBM2xRS1E1bm1XZGJVcWtUZzlRRWRscFlxQTlwU2ZtY1RoY2RPc3VsUkQtVFpnenJIVktaRUFvd0o2dkdoYU43dEV2Zkh4ZVl6X2U2ai1jckR2T2tkZjRQM2RZZW95QU41T3lmRXRrYnBIMVhKcW9ZWmUzUVNjTVkxSGNOUXFSdWdUdm9OdXk5X0c2U3FaVHJJ?oc=5",
+      "publishedAt": "2025-10-19T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:26.732Z",
+      "lastSeenAt": "2026-09-03T11:23:26.732Z",
+      "createdAt": "2026-09-03T11:23:26.732Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000028",
+      "clientName": "UNACEM",
+      "matchedKeywords": [
+        "ampliacion"
+      ],
+      "signalType": "expansion",
+      "relevanceScore": 15,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "9d54a5ff637a24d44d14331f3c9e6e15d9bd6a40a20105c137f31c0c3c0e9d3e-10000004",
+      "externalId": "9d54a5ff637a24d44d14331f3c9e6e15d9bd6a40a20105c137f31c0c3c0e9d3e-10000004",
+      "sourceId": "google_news_3m",
+      "sourceName": "Google News - 3M",
+      "title": "Grupo de inversionistas compra el 25% de Ahorra Food Depot y marca el inicio de cambios estructurales - Perú Retail",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRW1HWXpiUjRBakN6WEtKeV9GTnJCN2ZDVDJnelRnNHc2QTJGbWZTM0xMeGpqQnFUR3dZMldOVVBkaE9iRGVXN0ZpenVHZTROdXR1M3N6NzRsWThSNlcwNWdPNkdpOU8xaHZ0djI4VDNEdlNwQlJ1SzBtR2paVkI1eW1IM1FsRUUtdk5wZUZVVVFCcTZVNmJaMFZ4X3RHQ1ZjY3MyR2UtaVFPVHRET3Axd1I1MFl6SVpfTGtmMVZscnZMaS1MZU1fZw?oc=5\" target=\"_blank\">Grupo de inversionistas compra el 25% de Ahorra Food Depot y marca el inicio de cambios estructurales</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Perú Retail</font>",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRW1HWXpiUjRBakN6WEtKeV9GTnJCN2ZDVDJnelRnNHc2QTJGbWZTM0xMeGpqQnFUR3dZMldOVVBkaE9iRGVXN0ZpenVHZTROdXR1M3N6NzRsWThSNlcwNWdPNkdpOU8xaHZ0djI4VDNEdlNwQlJ1SzBtR2paVkI1eW1IM1FsRUUtdk5wZUZVVVFCcTZVNmJaMFZ4X3RHQ1ZjY3MyR2UtaVFPVHRET3Axd1I1MFl6SVpfTGtmMVZscnZMaS1MZU1fZw?oc=5",
+      "publishedAt": "2025-10-14T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:21.605Z",
+      "lastSeenAt": "2026-09-03T11:23:21.605Z",
+      "createdAt": "2026-09-03T11:23:21.605Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000004",
+      "clientName": "3M",
+      "matchedKeywords": [
+        "inversion"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 35,
+      "priority": "Baja",
       "locationText": "",
       "status": "new"
     },
@@ -2682,7 +3182,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQXNNektwM1lZRFdJdVUxUmxENTFuckgySGhIWDJjdHJhazRKazdDWk15RVlkbHM1eUdNa25wMkd1VnMyVkdDYl96bWkxNmxONTlZdUZHS3EwbFRpZks3RVZOamtkdmRzWk12SkZWek1lYTRwbVFta3FWVC12M2U2dWRJVVY2OHpGRXZpRVpmRXpUNVRpRll0dzRaTHBSOU1vc2JJa3NfbTM1Y0FjYS1lV2hNVWdMMk5VQksyNlNOM0ZWQQ?oc=5",
       "publishedAt": "2025-09-18T07:00:00.000Z",
       "firstSeenAt": "2026-08-21T07:11:30.502Z",
-      "lastSeenAt": "2026-09-03T04:39:38.294Z",
+      "lastSeenAt": "2026-09-03T11:23:20.645Z",
       "createdAt": "2026-08-21T07:11:30.502Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2734,7 +3234,7 @@
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUFM1WFFUcEdOQy1Uel91SUV0RTQzV2IyZmtCTlZpX3VkZE5kb204enptODRNVUh4eWt6TGhmN2lLbV9VTms3WnJqN1lJSWpjQU5vZXE2aTBrSndILTZYWE9wU19SOEZTT0FySGxsR1FPMmswS0tIX3ZKMVVueG9mdVZnQXBpUUhUWGV5dXN5ZVdUd0xZNWtZZVB5VmdtblZYMmhhcl85MXVDckQ4ckxqaFFhWVNoY2JVaHpDOHgwQnpuU3ozZ1p2bUp5M3BMeVludFJyYkdHQm04VmpIMGhyaDJNTHR5ZVJsVUtPeHNReWQ?oc=5",
       "publishedAt": "2025-08-18T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.429Z",
-      "lastSeenAt": "2026-09-03T04:39:43.850Z",
+      "lastSeenAt": "2026-09-03T11:23:26.733Z",
       "createdAt": "2026-08-19T18:56:57.429Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2838,7 +3338,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbGFUZmpZb0hCbHBoYzRMS3M1WEM4SE82OHdRcVNZclluSmp0V3N1SS1mZXhscV9Rb3ZVNVYycGVMa3hKS3FUWG1idzBPdUF2ajR6NlNWcG53M2hyU2dtLVFTR3VDSVRBWDdzN1U5QU54OHc2WjNDYXhiQTQwQWhPRjVFajQxcmlZRWVnN0JQLUQ0UFRRUFZ2ckNhYUFEd0xSOEtyMVoyWkFGT3c5dFM0ai1DQ3VUNGNrQTktOWxpWGppUjUxZzk1aThDalpSV2JpUVpSSElVcWNzOVdxbzBwYjVnWGhQZ3BCNzUzbjRkc05yQkV2cksyLWdrclF2Vk1DcndYWnEzVm5vbHlLZXc?oc=5",
       "publishedAt": "2025-08-18T07:00:00.000Z",
       "firstSeenAt": "2026-08-29T20:59:22.472Z",
-      "lastSeenAt": "2026-09-03T04:39:43.850Z",
+      "lastSeenAt": "2026-09-03T11:23:26.732Z",
       "createdAt": "2026-08-29T20:59:22.472Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2865,7 +3365,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTnpFaURELU1MUjdvWnJTV1hQSTAyZ1lkSzN6MVZsNWFXOGlEeVBvM2h2WWNlRGZTYXZ1YklpMXduS2FOLTBmem45ZnVFTlhEMWNHODFFNmo1NlN4ZTdXd05GVGhYUUFNOXoxbi1kTGJLYmJlbkpLZWhVdW1PLTFMNGxmck1ac0JZZU9HMk93?oc=5",
       "publishedAt": "2025-08-14T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-09-03T04:39:46.852Z",
+      "lastSeenAt": "2026-09-03T11:23:29.964Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2904,6 +3404,30 @@
       "signalType": "norma_permiso",
       "relevanceScore": 59,
       "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "bda31e6e18ec2cd184f481847a4a4924a022f7d5ebd2771a43eef86b003d8327-10000004",
+      "externalId": "bda31e6e18ec2cd184f481847a4a4924a022f7d5ebd2771a43eef86b003d8327-10000004",
+      "sourceId": "google_news_3m",
+      "sourceName": "Google News - 3M",
+      "title": "MTC y concesionaria realizan jornada de seguridad vial en Puno para prevenir accidentes - altavoz.pe",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPRndNNk1Db0JBYjdib3VzTkQ1R1ZTUktiN2JBSjctODNSanZvT0V2Q1o4RW50VXNMOGdaamtJMEYzb0ZnaHRHZlhFQ2s0YVZrU3pHWGN5YV94dnNtWmJ3NnFFcTgzRktJNXJPVjd6LXRsRTRXUzY3VEI1UmdsU1p3UHc1dkN1eURoMlZkUXB2T1dJQlJmWkhjR1ZBZ0gzTVcyRkJ3TTZHaVBzLWtZbEpxOGZPTTBTUQ?oc=5\" target=\"_blank\">MTC y concesionaria realizan jornada de seguridad vial en Puno para prevenir accidentes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">altavoz.pe</font>",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRndNNk1Db0JBYjdib3VzTkQ1R1ZTUktiN2JBSjctODNSanZvT0V2Q1o4RW50VXNMOGdaamtJMEYzb0ZnaHRHZlhFQ2s0YVZrU3pHWGN5YV94dnNtWmJ3NnFFcTgzRktJNXJPVjd6LXRsRTRXUzY3VEI1UmdsU1p3UHc1dkN1eURoMlZkUXB2T1dJQlJmWkhjR1ZBZ0gzTVcyRkJ3TTZHaVBzLWtZbEpxOGZPTTBTUQ?oc=5",
+      "publishedAt": "2025-08-04T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:21.605Z",
+      "lastSeenAt": "2026-09-03T11:23:21.605Z",
+      "createdAt": "2026-09-03T11:23:21.605Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000004",
+      "clientName": "3M",
+      "matchedKeywords": [],
+      "signalType": "licitacion_concesion",
+      "relevanceScore": 12,
+      "priority": "Baja",
       "locationText": "",
       "status": "new"
     },
@@ -3072,7 +3596,7 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaFFsdEZCdmhlb3RoWTZDdVJhLVZtWHE2OW1jbngwbzk2WmxXQ2I5M1VoZVFRYjctSVNiYjVib3d5RVlxRE9TM1FMaF9qNlQycEtUOG8wVExMSV83M3pHem1uazRnS0RScUc3TUNFMjdoaXV5ZWZQaXBGRDBlZVE2WktMOUxfSV80dkdYMVY3UEc2eDhOWUFKVVB0U1lHUm1lWjhzRkdYaFFTeHJ0ZVVtQkxsb0g4MzI0dFZvUms2V0xnVW40LXprclRybw?oc=5",
       "publishedAt": "2025-06-01T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.430Z",
-      "lastSeenAt": "2026-08-24T02:00:46.218Z",
+      "lastSeenAt": "2026-09-03T11:23:26.733Z",
       "createdAt": "2026-08-19T18:56:57.430Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3195,7 +3719,7 @@
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNSmlmcTJtdS1xandBOXc4WWdqQlhUSkl5cUtYLVIzOC1vMjRTTjRmd2dMOUVaN2dDN1I2S2dqT3ZXMGcxcVRpNzN0bHEzSU9xdzRIdVB1V2ZHVUIzbFlsc09ITWwtZWFORFNQa2ZYNl9IRGJUVk9XYVFYUTI2Ukk3ME1FVXcwbGkxcjY1VzB6TzhxdDdTUllaSUo5VzZfMmZkR1BLektHUGN6ZEJSN1hTQUhwZ2FGaEQ0STF0VElJTWVieGUyNEFBZzNvUUE1cFpCQTAxZjZscWczT19sdU5jNFFjR3JiWXo0T2tHcDJJTldib3llbmc?oc=5",
       "publishedAt": "2025-04-28T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:22.542Z",
-      "lastSeenAt": "2026-09-03T04:39:46.852Z",
+      "lastSeenAt": "2026-09-03T11:23:29.964Z",
       "createdAt": "2026-08-19T16:37:22.542Z",
       "clientId": "jinzhao",
       "clientName": "JINZHAO",
@@ -3219,7 +3743,7 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ENHNROFBYbjAwdnNZM3YxeUQ2Sm1saFJJbWJvcmZ0RjdOc3lBZHQ2WXRqUkJJTTR4YjFZTTRmb3p5c195N291REFiNC1tdHFNdGp1TGdRalZHU2xpanNza2hnWmp2SVBQR0NxZUlJNXByU2luY0xZMHVn?oc=5",
       "publishedAt": "2025-04-28T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.591Z",
-      "lastSeenAt": "2026-09-03T04:39:46.853Z",
+      "lastSeenAt": "2026-09-03T11:23:29.964Z",
       "createdAt": "2026-08-19T18:57:00.591Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3243,7 +3767,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaVR4UlhVbElsVG1RZzk5d1ROajJYU05jQ3g2RE5CMnRhRlZrUC12S09sSm1xZFZzQ1VDczhwNk9Ua0hyOTJIdW1qY1hIUTRGYUxqUnd1OTNfRTFNeTFzSVlSeGtmS0JxTGFaRzlsWTI1N3VNdFFPc05fZ3ByVzAzY05jS2RNbTFNSGYzT2tkX1dLbUdlY0VfNmRjY2hqeXRTVTZ5aGJ4NEwwaDRmUGZnaVQ1QlVoVldBaE5ySTk2TXhfRE5ubXV6RW5XNHdSTjdPa1V1LWxFZ0lRT0k?oc=5",
       "publishedAt": "2025-04-22T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.864Z",
-      "lastSeenAt": "2026-09-03T04:39:46.314Z",
+      "lastSeenAt": "2026-09-03T11:23:29.321Z",
       "createdAt": "2026-08-19T18:56:59.864Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3269,7 +3793,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQY1hvSEdSXzJnNWdCb1pEQ21YZFVyVEJZR0pNdEpNWDJDOEExWUxjcEVBNXFMcXd5YzdyeGxxXzRDbklla0plMDU3YXRSVUdsYnd3WkI4QmQ5Z0Z2TF92aDBTWHplOTBFaFFDYjVJR0NYTnVNZDRqRmFHTUxNdEo0ekVHSlE5MHBDUkFiS01rQkMzbFRNYThhUlZnN1BXUUhVYlRsLV9sOUI2SmtkRU9MajliTkdDV2l6R0RuallhQ2hMWHlVeElhemNVbklhTFNBV0g40gHuAUFVX3lxTFBEZTVWYXJVSmF3TmxKMEF4RzNDaWhBaGNjVXRaY19MNGJ3MGZfQWJiazZ4VVQ4cmN3NHVHeXdSRklMQmwtb3Y4a1FZSjhYR2lhVm5BXzd3RVVaWXM2Y0l4eDEzSWZJNWlOLXhrTk55d2V0SWFaQ0lqTDhUMTROMUUycmRhcnpEZEU2ZDhCVXZRLXVvNWRzeXdrVW51TGJlX3JmaGdOcU9fUUpqZ1Z4SjZUYmFVdGV4MlRjaW00OXN6SExvZEJpeUthMVhldXdaSnZ5Z1RLMzROZ3FNNnVLRXc1MDBqelZWbWgxN21PT2c?oc=5",
       "publishedAt": "2025-04-09T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:56.260Z",
-      "lastSeenAt": "2026-09-03T04:39:43.048Z",
+      "lastSeenAt": "2026-09-03T11:23:25.766Z",
       "createdAt": "2026-08-19T18:56:56.260Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3295,7 +3819,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUks4S2hWdmVSQUpsSlVvS19IZGE5QldnZkYtU21obnVzOHpla1JNNHlIRm95MWF3ZjdEWmI5MUZwbzUtbHRjZE1JdmY1cm94cDBIclQwcFJMYTZDNmxaLWpIVG9ST0szbFpPeVJOcGxhRUJTLXVHbmxZNlJYRVlRS24wdEtTb3MzVDhjQ0lCNjRlU0JwTUVyS3FrVkRnWDVyVUxHdzZyOHhkVkNwbXNETUMyTm9heEZ5RTJfT20zdEZFS2NPdTFZ?oc=5",
       "publishedAt": "2025-04-07T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:56.259Z",
-      "lastSeenAt": "2026-09-03T04:39:43.047Z",
+      "lastSeenAt": "2026-09-03T11:23:25.766Z",
       "createdAt": "2026-08-19T18:56:56.259Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3321,7 +3845,7 @@
       "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxNU2hRNHYtV1FxeG82aUdQTXJyelMwWl94Nm8xelU5X2kwMV9QcDhJY0w0U3NHZ004T056b3Ixb01nQWtOd1JJMFR1VHMxSldfLWNCU3J4YTZOWThUX3hrSU0xN0VtUTBnaU9jZDF4ZzgwZ0ZROHZsR1dDWFpZcVhIcWdkYmRZTk01YTlacFBxRmdNd1FlTUpGcHFSd0h0czBpdUZXbXdacnhQY1dpYk5JbXZzNzNOamc5X214TXdYMFBrMVJtSm12MzU3RWE2bFNvWHM1N3FtQUxFamIxUXgyOFQxcVVjRWNIazlsdUF5Z2t1TGY1am1lUzRKQnFZTE1fb2tTdThTbjc2VXJKMENHNUtJTGY4TVBXcXlsb1RDVFN5REdueFl4dC12eURXODEtZ0QxMHZoNngwY2JLdF9EdWlaYkVPNUh3b3hxZk5MbXEwa3Bta2lBN1pfLVlmckRSTE9OSUQwbXczRU5MOUVlMw?oc=5",
       "publishedAt": "2025-03-25T07:00:00.000Z",
       "firstSeenAt": "2026-08-28T11:30:34.222Z",
-      "lastSeenAt": "2026-08-30T21:13:09.417Z",
+      "lastSeenAt": "2026-09-03T11:23:26.732Z",
       "createdAt": "2026-08-28T11:30:34.222Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3348,7 +3872,7 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSnkySjRSYWIwNV9iRC13bl9QZngwRC1LRFBXUDlGWlQ4MEtqdmE4dHZlMTZ6SmVkaUotUUtlbEd5dlVOMHZLY2Rsd09yOUJWSUxRNXBiYnp0bVVxeFU1TkhBcTU2MEJoVi1VblBYbmZCQlItbjgzSHFaRmEzRDhVemh0ai1mQnJYY21Gb0lCN0VDbmM0QjJvck1Zd0w?oc=5",
       "publishedAt": "2025-03-24T00:21:03.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-09-03T04:39:44.176Z",
+      "lastSeenAt": "2026-09-03T11:23:27.079Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3372,7 +3896,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTE85dkp3Ty15SzdRVDZ1S3N6ZHN4bVlHN2JyNjkta0tJalVzM2RaUEF1OHc3UkJYWjhzRTViRTNqc3FvX21YZUpXcklaeWxiUy0yajhUQl9lcWVYUHFyYmtzNDFhQjFuWEdMbFNOUGJwdlptRGNmWEFFOUg5YllGUWxYU3pweWpGaklvbGptdHdzR1lXVm0w?oc=5",
       "publishedAt": "2025-03-17T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-09-03T04:39:46.851Z",
+      "lastSeenAt": "2026-09-03T11:23:29.963Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3422,7 +3946,7 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbTNHel9rdlE4TVV4VVJzRHpVNDJoR0lfTGNuQ1o0SkNfdlVRQmpNRHJMOEg0TkExMzRZSFF0eWhFYl9hM0NabHF5eWVqOVM1bFo4RnFrVm5mVmtDOGVla0szbFE5ZFVaMkRPWkY4aDd0VWRTdlZMektza1hHNUNONjBLZU80dk10eXF0MzVHYVBpUUVxdE9ITjNncWZ2WnVkY0NtakVXS3hpQkRvMnc?oc=5",
       "publishedAt": "2025-03-13T08:15:09.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-09-03T04:39:44.176Z",
+      "lastSeenAt": "2026-09-03T11:23:27.078Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3432,6 +3956,30 @@
       "matchedKeywords": [],
       "signalType": "norma_permiso",
       "relevanceScore": 12,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "785d99fc624a51010ce837f17221267064176b8fe9614879ba6159c0d960b9bd-10000016",
+      "externalId": "785d99fc624a51010ce837f17221267064176b8fe9614879ba6159c0d960b9bd-10000016",
+      "sourceId": "google_news_libertyseguros",
+      "sourceName": "Google News - LIBERTY SEGUROS",
+      "title": "Grupo Financiero Atlántida llega a un acuerdo con Talanx A.G. para la compra de HDI-Seguros S.A. en Ecuador - Forbes Centroamérica",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOGQyUVByaGw5a3h3ZGtUR0YzYk1ZM3RJV2pjem9vZzVFLUNWaHpiV1ZEM2k1c2Y3XzVYMHRYdkRfVGFydmJ0TDhFWmRXY1ZEbWNKZkdYZ3JQeVhiWjZSTV9nTE5sazl3OVpDSmlWMnJpRDdRZmtEVm1xYXdIdDJ5OVlfN0hXQ2JZbTJwYlczcWtIMmh0V2JXWkEzVDJ1Y1VKRU9DWDBCNE4zaThHYVkzQmotLW5xc3lFeU9xWERCanRhN0NwSTJFd2g2bnBOVzNPbkpsc2xGR2gyR1h1S3plQ0ZKMA?oc=5\" target=\"_blank\">Grupo Financiero Atlántida llega a un acuerdo con Talanx A.G. para la compra de HDI-Seguros S.A. en Ecuador</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes Centroamérica</font>",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOGQyUVByaGw5a3h3ZGtUR0YzYk1ZM3RJV2pjem9vZzVFLUNWaHpiV1ZEM2k1c2Y3XzVYMHRYdkRfVGFydmJ0TDhFWmRXY1ZEbWNKZkdYZ3JQeVhiWjZSTV9nTE5sazl3OVpDSmlWMnJpRDdRZmtEVm1xYXdIdDJ5OVlfN0hXQ2JZbTJwYlczcWtIMmh0V2JXWkEzVDJ1Y1VKRU9DWDBCNE4zaThHYVkzQmotLW5xc3lFeU9xWERCanRhN0NwSTJFd2g2bnBOVzNPbkpsc2xGR2gyR1h1S3plQ0ZKMA?oc=5",
+      "publishedAt": "2025-02-27T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:22.838Z",
+      "lastSeenAt": "2026-09-03T11:23:22.838Z",
+      "createdAt": "2026-09-03T11:23:22.838Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000016",
+      "clientName": "LIBERTY SEGUROS",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 15,
       "priority": "Baja",
       "locationText": "",
       "status": "new"
@@ -3469,7 +4017,7 @@
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNaVpwdy1CWVhoM3Z4MzJ0SDYyRml4UHhJbURHcEFMZnJqYWJ5U3VJZWRmbndsalg0U3h5YWtMZ0F1V1l5Q3BkU21hNV9rRWc4anVHMmR2aVdCTkYyclpIT1A4Z1dyaGp6S1Z2bFg0OWw5a3FvOXhwNFRZbGRPVFdpOVpmR0tXMnhBcjVmdDlFZGYzcmlWYWFQcmlGVTNPUlFvakNTRm9NVXFaT0FnN0RyblhwU2x2bWlNSFNBLTdFdUU2Nm03M0RDMndEVlQxTmdPZzF3YTVrcERvcHJPRU5tWXFCd2ZqUVJ0bzAtR1ZuRUVfR214c2c?oc=5",
       "publishedAt": "2025-01-10T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:13.833Z",
-      "lastSeenAt": "2026-09-02T16:40:21.751Z",
+      "lastSeenAt": "2026-09-03T11:23:23.563Z",
       "createdAt": "2026-08-19T16:37:13.833Z",
       "clientId": "10000018",
       "clientName": "SCANIA",
@@ -3541,7 +4089,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS0NHQVROVnFfRm1jSWFhQlQxLVpTZ1pfZ2xOTFJCanYzeEJyVENIc2d4TDFkc1hKZVlLMldwV3NEQ29LcktKYUFrdXpVWUUtUk9BQV9fekVYNWRhelRrTEVxd1dwSjJuREtoR2dpandyQ1ZZMUcxWjdrTUpqdktuRnYwSlIyR0tTeERnZlB1T1dILXdSTTJnQ3ZQejVKQlpQZHhHSllsbWVSZTVIalpOQ0ZoQVdUcUNQa2hPSDAzSklWY3M?oc=5",
       "publishedAt": "2024-11-28T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:40:24.909Z",
-      "lastSeenAt": "2026-09-03T04:39:43.851Z",
+      "lastSeenAt": "2026-09-03T11:23:26.733Z",
       "createdAt": "2026-08-19T16:40:24.909Z",
       "clientId": "10000028",
       "clientName": "UNACEM",
@@ -3564,7 +4112,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcE13LUN5Y0xFUDFOUHU4ZE81Wm9ZYmUycHlONFFMQVFXcThKdDdQeVV2LTFXVmJoUWxDOXpBc29aMnhESHN5WlZ1TDBMV0VBU0JvaFRoZzNwSEdIa3BlT2VMTndMajE0aUJGSHNaX2k1ajRDOUlycVhuaFZfQnFucHlySFN3RmFienNjeHVqLTNQQldIeGQzYnJGNzBoZms5TWFqeDRiRHFxc0JPRXp3ek56MDRXcGFkQU9PVDRvVFRiUEVNRktidE1sbDlTNDdxRC1sTENTSDEyY0tfZFFF?oc=5",
       "publishedAt": "2024-11-15T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.722Z",
-      "lastSeenAt": "2026-09-03T04:39:41.629Z",
+      "lastSeenAt": "2026-09-03T11:23:24.271Z",
       "createdAt": "2026-08-19T18:56:54.722Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3601,6 +4149,30 @@
       "signalType": "infraestructura",
       "relevanceScore": 72,
       "priority": "Alta",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "be76e87c1fedb8d317ed4ab4318cd7cc275ac8aa380fa58a74e18036ffed3d29-10000041",
+      "externalId": "be76e87c1fedb8d317ed4ab4318cd7cc275ac8aa380fa58a74e18036ffed3d29-10000041",
+      "sourceId": "google_news_daily",
+      "sourceName": "Google News - DAILY",
+      "title": "La Carretera de la Costa Verde del Callao, en Perú, mejora la vida de los residentes locales - La Vanguardia",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM1hxQ1NqLUtBbUtERVo4MEg4TVFrVFVkQW5JWEdLS091elBBNTd1RWVLNzdQRktNUWtXS0FRRENUSmNHaWhxXy1iMmpLWWxmVzFQNENCbC1nQUpieVg2NDc0S0tJcjkwdG1Ja09aRnBYY3Y1Nms4VE5EenBGcWJUZks2WFBJS3JfTF93WWYyeUkzT2QzZUplLXlwcXNUMWdqLUQwTVUzMUVqTU9GLVAzS0tRbEJ2SDRobFVmUzJJUThUczBmR3loNw?oc=5\" target=\"_blank\">La Carretera de la Costa Verde del Callao, en Perú, mejora la vida de los residentes locales</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">La Vanguardia</font>",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM1hxQ1NqLUtBbUtERVo4MEg4TVFrVFVkQW5JWEdLS091elBBNTd1RWVLNzdQRktNUWtXS0FRRENUSmNHaWhxXy1iMmpLWWxmVzFQNENCbC1nQUpieVg2NDc0S0tJcjkwdG1Ja09aRnBYY3Y1Nms4VE5EenBGcWJUZks2WFBJS3JfTF93WWYyeUkzT2QzZUplLXlwcXNUMWdqLUQwTVUzMUVqTU9GLVAzS0tRbEJ2SDRobFVmUzJJUThUczBmR3loNw?oc=5",
+      "publishedAt": "2024-11-15T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:28.535Z",
+      "lastSeenAt": "2026-09-03T11:23:28.535Z",
+      "createdAt": "2026-09-03T11:23:28.535Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000041",
+      "clientName": "DAILY",
+      "matchedKeywords": [],
+      "signalType": "infraestructura",
+      "relevanceScore": 0,
+      "priority": "Baja",
       "locationText": "",
       "status": "new"
     },
@@ -3663,7 +4235,7 @@
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ET1ZhbW45OGk2M3ZrYkdETld1NHhsMllfbTFJXy14WWJZUVpzSnVxaE1LckJvcXFQU2VSRVVWQml6VGRtWVI3XzU2X21GOUFWLWlXOHBzaVp4djBTeG5LTWlraw?oc=5",
       "publishedAt": "2024-10-28T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.723Z",
-      "lastSeenAt": "2026-09-03T04:39:41.629Z",
+      "lastSeenAt": "2026-09-03T11:23:24.272Z",
       "createdAt": "2026-08-19T18:56:54.723Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3786,7 +4358,7 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZjN2Qzg4em9lZTRhdzJPaDBCMTZQNzJ1WFhpS2JMc0NEYnRuNVV6YU9yMlRha0NBaGI3N3BRWFVYVkhQajVUSUI3WU96UFJ5VFdVUG5rT2xGZDFtbHhHLXhXQzFBbW8teHlFOTJHTEZjYnp4dDdNTU1vcEtHM1YxRU14UlNyUEo0c1lTdUQyVFZZTzFpYzdnVjh2VW9LWG8?oc=5",
       "publishedAt": "2024-07-15T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.590Z",
-      "lastSeenAt": "2026-09-03T04:39:46.852Z",
+      "lastSeenAt": "2026-09-03T11:23:29.963Z",
       "createdAt": "2026-08-19T18:57:00.590Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3879,6 +4451,30 @@
       "status": "new"
     },
     {
+      "id": "81caaf18672c9ef1a1a0492e496dffe92d5be1cf4d271346b968d79d06694024-10000041",
+      "externalId": "81caaf18672c9ef1a1a0492e496dffe92d5be1cf4d271346b968d79d06694024-10000041",
+      "sourceId": "google_news_daily",
+      "sourceName": "Google News - DAILY",
+      "title": "Esta red de colegios que nació en Perú llega con una inversión inicial de US$ 13 millones - Forbes Ecuador",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkVhaU5zSGJROTBWWnhWMW4xQ2F4a1lnMzZPRC1qUlhuLW1DRDEtYzd3TlRkNmJNNnZBQnp3c3lpNk5MSEZBdzhxanJWeW1JQkhmUXpEQ2NMTFhjblN0VGxwbzRIeWVZb25ycUdXaGJfOW1wMnNCOWF2NEV0alg2SnA3WGs1R2NaWnJWNmJKWjdQZEFwVEMzM3RWeG9CX1V3T1NxQ0RZZGtDdFVzcjMtdnhRMjBkQkXSAbwBQVVfeXFMUG5RNHZRNEt2NDNSR2QzWkVybFpvdEtmQ25TSVVxNXZycFItaVd4eERXMDlZTEwtdm1lTlUwOGlXeU1XaFJvTVdUenpjZTFISFVlYS1QVkYzbFJrRlNRSmNHRDNFTVN5ck9rWWpuMW5WbXNtN3d2RzVlaHh1OE9jWjViMVJoOGRRY29vUG9Oa1ptQkZDS2NiWlJJMWpXRjRaODB6NTRla29BbHNBUjBSd3cxODRlb3dsRnQ2djU?oc=5\" target=\"_blank\">Esta red de colegios que",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkVhaU5zSGJROTBWWnhWMW4xQ2F4a1lnMzZPRC1qUlhuLW1DRDEtYzd3TlRkNmJNNnZBQnp3c3lpNk5MSEZBdzhxanJWeW1JQkhmUXpEQ2NMTFhjblN0VGxwbzRIeWVZb25ycUdXaGJfOW1wMnNCOWF2NEV0alg2SnA3WGs1R2NaWnJWNmJKWjdQZEFwVEMzM3RWeG9CX1V3T1NxQ0RZZGtDdFVzcjMtdnhRMjBkQkXSAbwBQVVfeXFMUG5RNHZRNEt2NDNSR2QzWkVybFpvdEtmQ25TSVVxNXZycFItaVd4eERXMDlZTEwtdm1lTlUwOGlXeU1XaFJvTVdUenpjZTFISFVlYS1QVkYzbFJrRlNRSmNHRDNFTVN5ck9rWWpuMW5WbXNtN3d2RzVlaHh1OE9jWjViMVJoOGRRY29vUG9Oa1ptQkZDS2NiWlJJMWpXRjRaODB6NTRla29BbHNBUjBSd3cxODRlb3dsRnQ2djU?oc=5",
+      "publishedAt": "2024-06-06T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:28.536Z",
+      "lastSeenAt": "2026-09-03T11:23:28.536Z",
+      "createdAt": "2026-09-03T11:23:28.536Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000041",
+      "clientName": "DAILY",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 0,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "15fdb1847f689abeb7f0172691a85918f59cbe3f71050de0efe238195628e453-10000001",
       "externalId": "15fdb1847f689abeb7f0172691a85918f59cbe3f71050de0efe238195628e453-10000001",
       "sourceId": "google_news_bambas",
@@ -3938,7 +4534,7 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVG9KRTJ3VVNBSVZwa3UzM2htbjVTSUdPbEtMVmwyY0pOMzAyclFEdF9QMVRQR1NhZVhLZ2RvRDFKUHBEMUE0Qkp0VHdlaGVMM1pUN1F3NU1HZXVWb3hUajZMTmhlbW1KMDZaMFhKLWhYVmQ4LUp6X0lpWmtsUVl3NDFSR084QVltaE5HSWlteEVGbVNWUE4tYjB3VUVXUQ?oc=5",
       "publishedAt": "2024-04-24T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.865Z",
-      "lastSeenAt": "2026-09-03T04:39:46.315Z",
+      "lastSeenAt": "2026-09-03T11:23:29.321Z",
       "createdAt": "2026-08-19T18:56:59.865Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3981,6 +4577,32 @@
       "status": "new"
     },
     {
+      "id": "e1a0e240c9b6cbaf84dc9b2e287a173cded69cf97c0b54f6a97836ad9fee69c0-jinzhao",
+      "externalId": "e1a0e240c9b6cbaf84dc9b2e287a173cded69cf97c0b54f6a97836ad9fee69c0-jinzhao",
+      "sourceId": "google_news_jinzhao",
+      "sourceName": "Google News - JINZHAO",
+      "title": "Puerto de Marcona a punto de licitarse pero hay riesgos que podrían frenarlo - Asociacion Peruana de Agentes Maritimos",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNblZhX04zMC1EZmtHYlNNc2dDQjFpSjBVaFcyTWVZTjBlenJZQ1cwcG5IVC1VbVMwdFQ1TlR0Zy1RQU5JSXFhNjFWekJORUEtMktHUjdvalNKMDdfclUwbmJub1lsM18xU0ZpUU1lRzlHSmVRUmo4aWxrTExwOHpQMG0zbklVQjg3bmdQY2NsdF9kRG44cTQtaEFKMnl3LUts?oc=5\" target=\"_blank\">Puerto de Marcona a punto de licitarse pero hay riesgos que podrían frenarlo</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Asociacion Peruana de Agentes Maritimos</font>",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNblZhX04zMC1EZmtHYlNNc2dDQjFpSjBVaFcyTWVZTjBlenJZQ1cwcG5IVC1VbVMwdFQ1TlR0Zy1RQU5JSXFhNjFWekJORUEtMktHUjdvalNKMDdfclUwbmJub1lsM18xU0ZpUU1lRzlHSmVRUmo4aWxrTExwOHpQMG0zbklVQjg3bmdQY2NsdF9kRG44cTQtaEFKMnl3LUts?oc=5",
+      "publishedAt": "2024-04-01T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:29.964Z",
+      "lastSeenAt": "2026-09-03T11:23:29.964Z",
+      "createdAt": "2026-09-03T11:23:29.964Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "jinzhao",
+      "clientName": "JINZHAO",
+      "matchedKeywords": [
+        "puerto"
+      ],
+      "signalType": "infraestructura",
+      "relevanceScore": 15,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "730683e0192a76c66cd40ebbe92b85bfc932fcea4ce630a853924913d2d97f81-jinzhao",
       "externalId": "730683e0192a76c66cd40ebbe92b85bfc932fcea4ce630a853924913d2d97f81-jinzhao",
       "sourceId": "google_news_jinzhao",
@@ -3990,7 +4612,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM2RKSDZYTVFBRWtOZTh6Zm5YOGZRRHZNOGVBX202Yk5LeFNDT3RwdVlUZlNRc1ktYi1UTnQ2dlVnUXRBdk9HTGNiRTJZVm9nVTBreElQNW4xbktnNjJmZl9wRlhSY1pMNUhDcGpiQmNaMnIxM1BWR0JkYUcxNUlJRHdCTU1Eb2YyYlM1VWFoRFNORmtyZ1hRUXZNc0xyNHlsS3E2MWlR?oc=5",
       "publishedAt": "2024-03-25T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.590Z",
-      "lastSeenAt": "2026-09-03T04:39:46.852Z",
+      "lastSeenAt": "2026-09-03T11:23:29.964Z",
       "createdAt": "2026-08-19T18:57:00.590Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4007,6 +4629,32 @@
       "status": "new"
     },
     {
+      "id": "3ee3c207a284b7ce201073e78990656cd43e688cc367c366c92a0cf7747a8852-jinzhao",
+      "externalId": "3ee3c207a284b7ce201073e78990656cd43e688cc367c366c92a0cf7747a8852-jinzhao",
+      "sourceId": "google_news_jinzhao",
+      "sourceName": "Google News - JINZHAO",
+      "title": "Empresa Jinzhao Mining construirá nuevo puerto de Marcona - Cuánto está el dólar",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOVnhCbXVLRldWcmEtWjNWNnZpS3lHR09DdDBFTUlsZ3B5MGVpU2phQ2lVOWpkT2xlYjFaSWpMN00ySk50c0l1MDZWRXNSeHFpeS1HaXk4NXplSE9TN2R3OXdweF90X0E1VmhtU3p5MUw3NzhJS1Zta2xRSFNnSDEybm1EVm0zLUZ1TEJHc1AtNFpZcm45Z1VLQXFDYU8?oc=5\" target=\"_blank\">Empresa Jinzhao Mining construirá nuevo puerto de Marcona</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cuánto está el dólar</font>",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVnhCbXVLRldWcmEtWjNWNnZpS3lHR09DdDBFTUlsZ3B5MGVpU2phQ2lVOWpkT2xlYjFaSWpMN00ySk50c0l1MDZWRXNSeHFpeS1HaXk4NXplSE9TN2R3OXdweF90X0E1VmhtU3p5MUw3NzhJS1Zta2xRSFNnSDEybm1EVm0zLUZ1TEJHc1AtNFpZcm45Z1VLQXFDYU8?oc=5",
+      "publishedAt": "2024-03-25T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:29.965Z",
+      "lastSeenAt": "2026-09-03T11:23:29.965Z",
+      "createdAt": "2026-09-03T11:23:29.965Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "jinzhao",
+      "clientName": "JINZHAO",
+      "matchedKeywords": [
+        "puerto"
+      ],
+      "signalType": "infraestructura",
+      "relevanceScore": 50,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "966c8176c26616290e3e7683f495eaf02b90f10407734b897a704bbd6a04ec3b-jinzhao",
       "externalId": "966c8176c26616290e3e7683f495eaf02b90f10407734b897a704bbd6a04ec3b-jinzhao",
       "sourceId": "google_news_jinzhao",
@@ -4016,7 +4664,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTXVLcnZmX2Q2bkk4eURNZGdsYWpFMXc0Szg3T0xvUXNtSlZSbWRxMEUzWU9tcEpacGFEbkpZRnNzdE14QTZhVFNob2w3SHFVWGpIdFBIOW5rRGFMRmgtdk5uQmQ0VTVteGhrM0poakEtQ21YYl81N2lBblNYdmVlcHJ5MFZpNnBaNnAxOUdkR1VrSGp5SmF4NFZoUDc1SF96Z3F1VEp0ZThsTWRIZkZwY0poYWdPbG5iR2fSAdQBQVVfeXFMUEZWSWpINndjNmp6Mk54SV96U0FmLVZGZVJYN0daY0NEa3o0VVd6N3FzcmNlM3ltR0xFcklUMkRlV3pjbzdCMnRYWUJ0X0VfNzBqRUUxb0lsQWUyamlDVS1pSXhZOEI0aFJCQzZBbU5ObXhudmgzX3d6ekZ1ZkpuVDRrNlc2eVh1Sm5ndEQ3SjE5ODRDYWdCWXlBQmR1dm5na1c5cFlVZG9DbzYzQkVTeFVjeGFkS0pLaFNzY3VSS00tVlRTVm1hSUZDSWJCRV9nZU1tSEY?oc=5",
       "publishedAt": "2024-03-23T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-09-01T21:07:25.099Z",
+      "lastSeenAt": "2026-09-03T11:23:29.963Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4094,7 +4742,7 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQa2VGSmFPN3R2RHlheXBNZ3lnMnJ3MDJGV2hrMms4ODZzQXoxZFBOWXF4b3NUUmxnQ3dqMEUyRElVNnI0b2NlSFdzLWJRei15QlpndEJZV1hwOUx4ZWlUazBiRmhGREhmeE1hVUlKV2d2NWhsbFFnaHNqSzlleW9PUHpBcTg5RWMyUWhveW5Tdl91RUVDa3JPdUhVOVVCUnNQdENSYnJzaGJtR0NPcFdrZjVWWks3UUtMaGx4MlNFM1Q2V3NUNnJkekp3?oc=5",
       "publishedAt": "2024-03-23T07:00:00.000Z",
       "firstSeenAt": "2026-08-20T01:55:01.786Z",
-      "lastSeenAt": "2026-09-03T04:39:46.852Z",
+      "lastSeenAt": "2026-09-03T11:23:29.963Z",
       "createdAt": "2026-08-20T01:55:01.786Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4121,7 +4769,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZGRUMzgzcjVybUxUM2hXNUZ2MXhQUlhlU2FxRDZXTjRvXzE1MXpPWEhiQVE2dTRhTHRCNVlmYUo0MzJIWjdoS2U4WEVtNDhodUJkckhDQzFRMkRZb2VnNnlzZm1QSkVSeXdJX3Q3M1g2a0M3Q0h0OEFjVDdHSWFhRlFkVHhiUnJBWkdKUHIzdktYR0Q2YXhGQkhoV1FQbDdYWmRfY1NBd2ZHVHVld3EzZ2tXZDYyWHdWLXc?oc=5",
       "publishedAt": "2024-03-23T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T04:39:46.853Z",
-      "lastSeenAt": "2026-09-03T04:39:46.853Z",
+      "lastSeenAt": "2026-09-03T11:23:29.965Z",
       "createdAt": "2026-09-03T04:39:46.853Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4197,7 +4845,7 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEdIZEdHOHBTYlRWMkZkZmZRWXkwR0k0U0FvajVpaDdLX05qQTdNaE9wdlFkMnMwZC1aYTYzTzZrcE83N0NJSU5zZU9TWWs1TVd3bFNxLTY1V0FMTXlMVmloaEY5VGJ2Y2pwcS0wTUFsS2QxQUsyWjN3aWdyTFJ3YnBBeUVBSG9tRzJobw?oc=5",
       "publishedAt": "2024-03-21T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:40:18.020Z",
-      "lastSeenAt": "2026-09-03T04:39:38.294Z",
+      "lastSeenAt": "2026-09-03T11:23:20.645Z",
       "createdAt": "2026-08-19T16:40:18.020Z",
       "clientId": "10000001",
       "clientName": "BAMBAS",
@@ -4248,7 +4896,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaXIxbEVlMkpORXA2emt1akN0S09UV2lUVlhLU1pzemxoaFpreURCaGNHME5UalE3akhJX1J3bl8xVmJEVDZGc3BCM3FnMEJmbkZLWDFrY3VuUE1tR1VHWFIyU1NobExnZEZEdjI1ZHhlLVpSM1M0TVZSanBFcFlvakp5Q1QxXzRmeUVnd0ZVTVRwWnVoMU96NFRTbm5jemduYVNFMWgwUmdJd0lXbnpXZVBCdUxPSGlGQmRvN3V6bmdjVUs2R0FlWl9tME1FUGFpUnlUNHhPR1dyZWtHenlhUU9FTWZfbW9NaFE?oc=5",
       "publishedAt": "2024-03-21T07:00:00.000Z",
       "firstSeenAt": "2026-08-23T07:05:57.400Z",
-      "lastSeenAt": "2026-09-03T04:39:46.853Z",
+      "lastSeenAt": "2026-09-03T11:23:29.964Z",
       "createdAt": "2026-08-23T07:05:57.400Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4274,7 +4922,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJZVM3eDFZUGVvbTFlNjhhRGRCZkI5WTIycjBoZm02VHdSdnNlQnNlMFlXN2V2QXVkRG1LV24yaDhyWjdRbFBnU04yTWJ1azVmVUJzZTBJSTIydG9RbnVYeE5IRjBIc0VaUUR4UmdOLU5ST2xuMkE?oc=5",
       "publishedAt": "2024-03-20T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T04:39:45.692Z",
-      "lastSeenAt": "2026-09-03T04:39:45.692Z",
+      "lastSeenAt": "2026-09-03T11:23:28.535Z",
       "createdAt": "2026-09-03T04:39:45.692Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4298,7 +4946,7 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTFN1OXdzV3d6QjRUb0dFNmlVWTBSeldNTHVuSUZvdGZsRjVibjhrdXFPekl5cWduTDJPaXduRzgyZEhWQ3Rtb2dDQkdtQmd4WWJsYzNObDN6Yy1jOXY1UVp4NlA0NUVrWjZ2RU9Zbk5pRnpqU3lBMEkxbmVPUWlUMklhM1lFZjJFUWNQZUhaSzh0XzhkdkZ3YllR?oc=5",
       "publishedAt": "2024-03-13T07:00:00.000Z",
       "firstSeenAt": "2026-09-02T11:27:01.099Z",
-      "lastSeenAt": "2026-09-03T04:39:46.853Z",
+      "lastSeenAt": "2026-09-03T11:23:29.965Z",
       "createdAt": "2026-09-02T11:27:01.099Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4341,6 +4989,30 @@
       "status": "new"
     },
     {
+      "id": "aad8a150188458edcdd890c691fd346ebcee2327d8d26b1b68f726f1a9709896-10000004",
+      "externalId": "aad8a150188458edcdd890c691fd346ebcee2327d8d26b1b68f726f1a9709896-10000004",
+      "sourceId": "google_news_3m",
+      "sourceName": "Google News - 3M",
+      "title": "En reestructuración, 3M nombra CEO con experiencia en fusiones y adquisiciones - Gestión",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTEJ5THF0WGVtck5DcFNpaVlKMlV5bnZpTjJ0Q0wxYWdsR2g1Qkc0eWlORUpwMHRmdjVycDRaVXJ4bUJyU29faW01M1lhOEVybldKYTBWWmxlcmM3bkZ2d0Z0R1IwdTBCQzlxYlhBdlc5dVc2WmJuaDQ5dG9TTlpOQUtoLXFEUTFMVUtZeTFMYTJkLW9wQkRyYmRCZU5qN3ZGVDA1R2VUeE9Wb3ljaHdBQ0o4aTlWR21YVWsxd0lRYnVzN0ZrR3pkWHJwRUJIdnhIM091SzQ4WVhVVExPT2x5VVZn?oc=5\" target=\"_blank\">En reestructuración, 3M nombra CEO con experiencia en fusiones y adquisiciones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gestión</font>",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTEJ5THF0WGVtck5DcFNpaVlKMlV5bnZpTjJ0Q0wxYWdsR2g1Qkc0eWlORUpwMHRmdjVycDRaVXJ4bUJyU29faW01M1lhOEVybldKYTBWWmxlcmM3bkZ2d0Z0R1IwdTBCQzlxYlhBdlc5dVc2WmJuaDQ5dG9TTlpOQUtoLXFEUTFMVUtZeTFMYTJkLW9wQkRyYmRCZU5qN3ZGVDA1R2VUeE9Wb3ljaHdBQ0o4aTlWR21YVWsxd0lRYnVzN0ZrR3pkWHJwRUJIdnhIM091SzQ4WVhVVExPT2x5VVZn?oc=5",
+      "publishedAt": "2024-03-12T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:21.605Z",
+      "lastSeenAt": "2026-09-03T11:23:21.605Z",
+      "createdAt": "2026-09-03T11:23:21.605Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000004",
+      "clientName": "3M",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 50,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "33366e87d6baf418adf0746fd87dab7f9cede586fe29998a27292240035cdc8e-10000028",
       "externalId": "33366e87d6baf418adf0746fd87dab7f9cede586fe29998a27292240035cdc8e-10000028",
       "sourceId": "google_news_unacem",
@@ -4350,7 +5022,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQi01M2pMQ0tGTjNNZmRFa2hjbGRwNm5vaTdubzlfemVSUnlDeXM1TXJvamd2RzE5OTFFLUhaS0wwM0ZTTnhWcHJJZnh3bm91UTF0ZkhTb0pURzZxRFo1X1NmNWFGdWlhOGdSZnA1eFhMRjRYbzJSZXBpdVZVUUVmSllJMkd3RXF1V1lqOFlXZFJic0FQTXB6eHFJYzVoNy0yems3SVZOSzRSSVpaZEVEYnBBaGszZlpYNE4wQ29JLU5sdE5JWFZaUGc5YS1FOG1UOW9NWkVjeFRVT2dHNzFvT3pRRU9Idw?oc=5",
       "publishedAt": "2024-03-06T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.430Z",
-      "lastSeenAt": "2026-09-03T04:39:43.852Z",
+      "lastSeenAt": "2026-09-03T11:23:26.733Z",
       "createdAt": "2026-08-19T18:56:57.430Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4400,7 +5072,7 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcTh2dUwwOWxOVWJzTzI2RDRVbU5mM2Z5WWdyOURyY1M1RGRPbGE3aE1sd1pET05WemFTWWZRenBfQlpnX085Ul80QUV2TWNxRF85a2NpRTNmYUJGemtVMndSZEY1ckp3N3A2b3hqSkQtdVZWbEtXMXRnbWdOakllV05rbzNpY2JGVjBnNjQ1ekdwaS1mZHg1T3hiMFhpcVk?oc=5",
       "publishedAt": "2024-03-04T04:12:24.000Z",
       "firstSeenAt": "2026-09-02T21:07:54.523Z",
-      "lastSeenAt": "2026-09-02T21:07:54.523Z",
+      "lastSeenAt": "2026-09-03T11:23:27.078Z",
       "createdAt": "2026-09-02T21:07:54.523Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4424,7 +5096,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX0l3V2VOOFk3YVJzWHVRYy1lS0UzUE1la3YzUjJyLVRlMXNCMDBZcHpiTVZqZUE4Y1R6VnFXcmpsbTVqVTJ5WlBYOS1rSVFWNlliamtqSTNpUHdWZnBnM1dCS1JwYl9rMWRQM1l3U2xKVUhJOVp6aTFEM3FvRk9tVWx2bVl0VDgwWVpOazdtdy1kcmVpVENPNkR0RlVWcjZGT1RLOTlrV0Q?oc=5",
       "publishedAt": "2024-03-04T04:09:52.000Z",
       "firstSeenAt": "2026-08-25T19:02:13.149Z",
-      "lastSeenAt": "2026-09-03T04:39:44.176Z",
+      "lastSeenAt": "2026-09-03T11:23:27.079Z",
       "createdAt": "2026-08-25T19:02:13.149Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4448,7 +5120,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOGp2LUJMMmxRcDhUZTBOU09VeERJMnc3RWhIbzJDSVNqcWVhZ0RSY0dUZzlEMU9UWjhwRmtIRl9GV0JWRG5IbEMyQy1rWHg1YTBzQ2ZLV1prazhsVUFIYi15bFQ4OFNBNnhUNHFwNUJVclNrRzlUbVBFNjBwazRRYURvZXJkSHFMN0FsdG93U1ROeVNQTzBRN2JIUkRYVnFyclF1bjhFZXNpbV9LVnZDcFVyRTZHOVE?oc=5",
       "publishedAt": "2024-03-04T04:09:13.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-09-03T04:39:44.176Z",
+      "lastSeenAt": "2026-09-03T11:23:27.079Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4472,7 +5144,7 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQc0F4NkxGZVRmdEV3aUlqTTVndlg4dDhld2kxZWFjNE9Zcy1Bcmw4QjZIdC01bzFiSktjbmJLekJhbFFfYlFMQjZJbnNNdUwtSm16OTVUSlNOOWhDNGM4NGhnVEM0UVBZZV92WEJRYzctTS1CRGdaTld6VEJQUXoyLXZ1eEJKaW9QQ1ZnTklQOXpkZTNDM1VlRjgzMS1DVmhxQ1R1RThDaUF5ZjBzYTZ5eXM4dXhwVjU0clNZQmpkd0I0aE0tNVJjckFqWjFWa1RiMXZMdXhEeVJRNDhqTEpFTnRSdEFvaURnM0FubWNnNXpXYVlCcUR6X0xjcC1kZXZzVmc?oc=5",
       "publishedAt": "2024-03-01T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:53.453Z",
-      "lastSeenAt": "2026-09-03T04:39:40.365Z",
+      "lastSeenAt": "2026-09-03T11:23:22.837Z",
       "createdAt": "2026-08-19T18:56:53.453Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4496,7 +5168,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNQVlNTjNFWHJzNGk3MldCUGl1UlF3OTZoY05pTlZRVkVUVXp1cHBCN3R3Nk9pWHd6S0l1eG1DMkhDcXFwNG95VUVxMWlqOERMYXgwYUp4eUtmT1N1YUw4bkQzdEZhd1ZYRUVoclFRdU9Ud3pQOUNUXzVRUUFYWlZSZVVDczhlQzAxak15M0tZTzZ0THAwYldqV3gxR2JpaDFkWll4Q3hqVmpTUVR5MFZMWjdqSTU0b2pPRWM0NnR2V0J4OUIxeFhycDdubE1aa3NrMS03ZGpLdGlwRUpNYzlkZHdzQWM0enFDNGRPNC1VOTdMN0lvX3haR0ZUU19lQmpaRWRMemlsTzhCdw?oc=5",
       "publishedAt": "2024-02-14T08:00:00.000Z",
       "firstSeenAt": "2026-08-30T16:46:29.133Z",
-      "lastSeenAt": "2026-09-03T04:39:43.853Z",
+      "lastSeenAt": "2026-09-03T11:23:26.734Z",
       "createdAt": "2026-08-30T16:46:29.133Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4568,7 +5240,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTXNkd1RXdU00Nm81SVlNZU1tT3BDbWhoWXl1dmtXaDBvd3FqcmZ6VTlnamoxVHJyT0hMaXBiQ0pZdDAteEkxMTJ5NjhIdHphelFjX1lPbDRmQ3U0cXpmVlVObU85NTZmMHU0enQ4cmNjSWo0UGY5aTRjc3pROHc2dHprY244Y0pIYXRaTXhOWGZRcXoyTkluQzl1Qm1NVy1zX2gwRkVHUVZQTmRRQ2xfd1ZXY3NJbTQ4Q3dncVNSMFU?oc=5",
       "publishedAt": "2024-01-14T14:56:02.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-09-03T04:39:44.176Z",
+      "lastSeenAt": "2026-09-03T11:23:27.079Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4583,6 +5255,57 @@
       "status": "new"
     },
     {
+      "id": "3fcd6466a31864255b0e752eca982fd601f669182245d95f309d0fe48e4d26d4-jinzhao",
+      "externalId": "3fcd6466a31864255b0e752eca982fd601f669182245d95f309d0fe48e4d26d4-jinzhao",
+      "sourceId": "google_news_jinzhao",
+      "sourceName": "Google News - JINZHAO",
+      "title": "Puerto de minerales en Marcona: Proinversión promueve su construcción y lo adjudicará en 90 días - Forbes Perú",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMEFsbW0yZ3hITmtKRk43VG9yaFNQSmVIMnplMzBoZlk0ay1zZmd3R1R1bzBLdmZWb1F2dDB4T3F6cktUUGJVUmYwSHk1V3BsbzlRbFpOMUFmQmRsRXpTNlpaLVdrZTZ2QnduMEdGUUItcWZUamE3NjR2bDdJdnJfZFRsaUdkenBpOXl2TzA3WWRmVVdwY0tMN3dLZXhsemRqWHB4bEZXMUtzWEJPcXBEZnRwRnZKcmo4WmljNzdCVGFKdHZzcnM4cF83aDJkNDM3Wk8xM3F4TV83NUNpc0E?oc=5\" target=\"_blank\">Puerto de minerales en Marcona: Proinversión promueve su construcción y lo adjudicará en 90 días</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes Perú</font>",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMEFsbW0yZ3hITmtKRk43VG9yaFNQSmVIMnplMzBoZlk0ay1zZmd3R1R1bzBLdmZWb1F2dDB4T3F6cktUUGJVUmYwSHk1V3BsbzlRbFpOMUFmQmRsRXpTNlpaLVdrZTZ2QnduMEdGUUItcWZUamE3NjR2bDdJdnJfZFRsaUdkenBpOXl2TzA3WWRmVVdwY0tMN3dLZXhsemRqWHB4bEZXMUtzWEJPcXBEZnRwRnZKcmo4WmljNzdCVGFKdHZzcnM4cF83aDJkNDM3Wk8xM3F4TV83NUNpc0E?oc=5",
+      "publishedAt": "2023-12-20T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:29.965Z",
+      "lastSeenAt": "2026-09-03T11:23:29.965Z",
+      "createdAt": "2026-09-03T11:23:29.965Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "jinzhao",
+      "clientName": "JINZHAO",
+      "matchedKeywords": [
+        "puerto",
+        "proinversion"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 35,
+      "priority": "Baja",
+      "locationText": "Arequipa (Pampa de Pongo), Ica (proyecto portuario) y oficina en Lima",
+      "status": "new"
+    },
+    {
+      "id": "aff5bc7599eef4354615ce5e46bc28a9e313899798c4dbea1092b897c127d3db-celeo",
+      "externalId": "aff5bc7599eef4354615ce5e46bc28a9e313899798c4dbea1092b897c127d3db-celeo",
+      "sourceId": "google_news_celeo",
+      "sourceName": "Google News - CELEO",
+      "title": "Celeo, la española de Elecnor y del fondo APG, gana concesiones en la mayor subasta eléctrica de Brasil - Radio Intereconomía",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNDlmM1NwRFVBNlhKMjJBMG8yem1ObDZpTE5TSWltNjV1YlZvRXV2NTFsUG10bHhrejRLOUY3RWtuaWVBbVFpV255T3lvUW1hTF9FT2VGNHdZX3hXVjlFZlpQSE83NGFJSjlOZDBncmtSOXZaTFI3bTZkWWx4em96YzJ1ZHl3N0FmUk94VEtKdEU1S3RRcFlFZVdWS0phUjd2NWdHbFpvTWlyUENrRE1MM2l4MC1wbUNBOWRrZ0FnS2MzdmVWVkVrYlZTdnkyd25rZzZHZ01ZeGpzMEJZSDlMekJwR1rSAfQBQVVfeXFMUE5Wa2FnbmdnRFNGZGZqUWprN0ptVmFQV2VZOWpycnFlOTd5V2ZtbnVxWHYwdDdTb196LU1XbTByd19kMVBJdXJDc1BOal94X0liR2Z2emV0clIteVpoMDZKQ2czQjZxMnhQZFd2Uy1DaDROMDRudXB4NnJxamRIWUJ4c3dFcFp1MW56NnFDb0xvbHVtTmM4QWVyczJBbXgyd3otVldFSnN3YXlfZlYzMEo3RU",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNDlmM1NwRFVBNlhKMjJBMG8yem1ObDZpTE5TSWltNjV1YlZvRXV2NTFsUG10bHhrejRLOUY3RWtuaWVBbVFpV255T3lvUW1hTF9FT2VGNHdZX3hXVjlFZlpQSE83NGFJSjlOZDBncmtSOXZaTFI3bTZkWWx4em96YzJ1ZHl3N0FmUk94VEtKdEU1S3RRcFlFZVdWS0phUjd2NWdHbFpvTWlyUENrRE1MM2l4MC1wbUNBOWRrZ0FnS2MzdmVWVkVrYlZTdnkyd25rZzZHZ01ZeGpzMEJZSDlMekJwR1rSAfQBQVVfeXFMUE5Wa2FnbmdnRFNGZGZqUWprN0ptVmFQV2VZOWpycnFlOTd5V2ZtbnVxWHYwdDdTb196LU1XbTByd19kMVBJdXJDc1BOal94X0liR2Z2emV0clIteVpoMDZKQ2czQjZxMnhQZFd2Uy1DaDROMDRudXB4NnJxamRIWUJ4c3dFcFp1MW56NnFDb0xvbHVtTmM4QWVyczJBbXgyd3otVldFSnN3YXlfZlYzMEo3RUw1Qy1sNnR0OVdaRkZyQXRHV2lqUWIwUzRmZFhJU21nY09sX1lzUFR4WGFCVjB3WjNXZTNOMl9VVmg2S3NNRUZvZA?oc=5",
+      "publishedAt": "2023-12-15T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:30.552Z",
+      "lastSeenAt": "2026-09-03T11:23:30.552Z",
+      "createdAt": "2026-09-03T11:23:30.552Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "celeo",
+      "clientName": "CELEO",
+      "matchedKeywords": [],
+      "signalType": "licitacion_concesion",
+      "relevanceScore": 47,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "635d2098a7f95efe5ae605ee52ec02f0a2422ce9916c48838af95b15848f8ae9-10000004",
       "externalId": "635d2098a7f95efe5ae605ee52ec02f0a2422ce9916c48838af95b15848f8ae9-10000004",
       "sourceId": "google_news_3m",
@@ -4592,7 +5315,7 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbXdKRUxZd1ljWWZPMFN1a0JRLTA4TWl3MXVBYUZPMy1mZnFPTlVCNzlwV3ZGZ2gyTzhzakNzdDdXTHdRTXc0OHRqQm53Qzdnd0lpemNCTmdwTWpUZHZkcTJaRkFHWFZFZ21CajhGUW10RVl6dndMTFVyek45ejR5Z2ltcnBLX3hUczBlNHgxY05XNEpaNXc?oc=5",
       "publishedAt": "2023-12-14T08:00:00.000Z",
       "firstSeenAt": "2026-08-23T02:03:00.142Z",
-      "lastSeenAt": "2026-08-26T20:10:06.763Z",
+      "lastSeenAt": "2026-09-03T11:23:21.606Z",
       "createdAt": "2026-08-23T02:03:00.142Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4609,6 +5332,33 @@
       "status": "new"
     },
     {
+      "id": "e1a9dbc7537c35fafac7ec251644481c320fc8bc4a9c7330bc199cfcdc28034f-10000028",
+      "externalId": "e1a9dbc7537c35fafac7ec251644481c320fc8bc4a9c7330bc199cfcdc28034f-10000028",
+      "sourceId": "google_news_unacem",
+      "sourceName": "Google News - UNACEM",
+      "title": "Unacem Perú estima inversiones por S/ 500 millones en el corto plazo - El Comercio Perú",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMTJqQ2dtekJxVnlJZkd0dGFOWE41NXpac3RpSHR1S29hZU5YZDB1YnNOQ2h3NV9XU0tEQkt6RXdLSTkzNEN4YlVsY1FTRTJWVHZZM2p4QndpMHlwei1faGZ5bTNET2Jvd3lTU1V4LWdJeDVMX0pKcU5NNmRZRnIxeTM0dVlGV1Fjcm05RmMzbzg5dFp5YzZtU3BEZTBnWk9yRDRMWU1zQVBLQnNIT2JuSExFMElKTFFLTm1VMl96dm9qcHUzVDFKdW5ybDYtX081LVllTVo4bXBuLXA2WlE?oc=5\" target=\"_blank\">Unacem Perú estima inversiones por S/ 500 millones en el corto plazo</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">El Comercio Perú</font>",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMTJqQ2dtekJxVnlJZkd0dGFOWE41NXpac3RpSHR1S29hZU5YZDB1YnNOQ2h3NV9XU0tEQkt6RXdLSTkzNEN4YlVsY1FTRTJWVHZZM2p4QndpMHlwei1faGZ5bTNET2Jvd3lTU1V4LWdJeDVMX0pKcU5NNmRZRnIxeTM0dVlGV1Fjcm05RmMzbzg5dFp5YzZtU3BEZTBnWk9yRDRMWU1zQVBLQnNIT2JuSExFMElKTFFLTm1VMl96dm9qcHUzVDFKdW5ybDYtX081LVllTVo4bXBuLXA2WlE?oc=5",
+      "publishedAt": "2023-11-30T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:26.734Z",
+      "lastSeenAt": "2026-09-03T11:23:26.734Z",
+      "createdAt": "2026-09-03T11:23:26.734Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000028",
+      "clientName": "UNACEM",
+      "matchedKeywords": [
+        "unacem peru",
+        "inversion"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 62,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "969ef7bb53075bed23b06b96b96c6d4a6c9ee7e1303919f942a9cba63e130d7d-10000028",
       "externalId": "969ef7bb53075bed23b06b96b96c6d4a6c9ee7e1303919f942a9cba63e130d7d-10000028",
       "sourceId": "google_news_unacem",
@@ -4618,7 +5368,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNclhQY2dVbGM1a20zNzVaSWZSZ3JmUXlQbFRIOFVJM0dXdEpRTXhSU3ZmeTdIMGZZRWRHdVp4Wmh4ZXJXcG53T0lRRGVkSzRmNkYzM2dBU0g0RUFiS3h3MVpJY3pxWl9RUFhZRkI4Y2p3Q3ViVXhPSDFKWFZuMWxXQ0pGVVJ3UnZEV2lUTmctdjVacHJSMmd3aHFpaEE2UHI1VTlLM1hFcno1YkU?oc=5",
       "publishedAt": "2023-11-08T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.430Z",
-      "lastSeenAt": "2026-09-03T04:39:43.851Z",
+      "lastSeenAt": "2026-09-03T11:23:26.733Z",
       "createdAt": "2026-08-19T18:56:57.430Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4718,7 +5468,7 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14MktPeFNnOFpPaWpvX3R1NUdmU3Uzdm9BTG9OSVJUSnFCbUtaMnAxR21icldSWHI4NlBfajBpWmRRUGVpNUVpQ0NCQy1FalllSl8tZk8xQzdfMFpR?oc=5",
       "publishedAt": "2023-10-31T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-09-03T04:39:46.852Z",
+      "lastSeenAt": "2026-09-03T11:23:29.964Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4771,7 +5521,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObTZYRXAycndrdWw5dW5VZXlSTE5uVzJKNkh5Q0FfdnIwMjlZb2VMUHptSjFYcTVSUnlNc3hPbE1BcXptdjNjWTQzSWVJNHZ3eDVFeFBYTmJCMld6UDNheGZYSDVNN0o1OGRpUkZpdmVWd0F4RkRONWh6NTYyVzJiOXRQX2dUdWFSdnE5dkVfd0xDVldWeWE4ZUVVd2RnTlNHYlhvNllDZDVvRTg?oc=5",
       "publishedAt": "2023-10-25T07:00:00.000Z",
       "firstSeenAt": "2026-08-25T07:12:47.735Z",
-      "lastSeenAt": "2026-09-03T04:39:47.377Z",
+      "lastSeenAt": "2026-09-03T11:23:30.552Z",
       "createdAt": "2026-08-25T07:12:47.735Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4795,7 +5545,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXloc1V5dVpsTVlCTTUyNnlTa2cyODRQMmhCZ0VBVlQ1X0tNNGJwZDYxUm5Ed2sxTUNhSE44NVVkbGdHbURmb1FINVpEZUVlQTdfYy0taFhIR2FWdXNsUFVXcFJ5SzN4Mi1MdTU0cGhfVmV6VEpYS1d3RmJRZzgzeWpWVWNtd1Yw?oc=5",
       "publishedAt": "2023-10-01T07:27:29.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-09-03T04:39:44.176Z",
+      "lastSeenAt": "2026-09-03T11:23:27.079Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4890,7 +5640,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ2ZJWmFxSUJYU0pWa0g3VXlHNlpQMjFWdEJMTnJIRjZIb25fOWRmWmt3UWVpYlhTc1hPc2U5T0ozbVd1azl4dE5iS241eUFqTVhYZ2tEOWt5elZaZE5RWDJTbUVkdFVnbW9hZVJLbXR4UG5lWDZ0dGZHNURwLWkwUkk2bWFOck9QS2ZuSGJhcndlSnh1T055R0RQSUpQeUt5?oc=5",
       "publishedAt": "2023-08-26T07:00:00.000Z",
       "firstSeenAt": "2026-08-25T19:02:12.746Z",
-      "lastSeenAt": "2026-09-03T04:39:43.852Z",
+      "lastSeenAt": "2026-09-03T11:23:26.734Z",
       "createdAt": "2026-08-25T19:02:12.746Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4992,7 +5742,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTG8zOHh0U1RVLWxROVliY3JEMnBqNV9pQ2xhazRXcTJwOTFrUXVqcUxUVHZkTl84Z0k5NEZDOTBDZ0toTWtuVy0wNFhHNXE4R3JUV0p2c3BnZDJtamtxZEJGS2VVQ19ZcTFjNi00amhDVFNoLUdvVlg0MktFdjlfSzM2OW0yYUFGWF9HcnNGT1A5V3YyTmUxYng1WjhSRkV3bE1aMjNZd0JzVUlIaFFRX0lwMFhwZTVNeWc?oc=5",
       "publishedAt": "2023-08-01T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:01.205Z",
-      "lastSeenAt": "2026-09-02T21:07:58.357Z",
+      "lastSeenAt": "2026-09-03T11:23:30.551Z",
       "createdAt": "2026-08-19T18:57:01.205Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5019,7 +5769,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPS0gxZmN1aEJZUGNSYW1icXpBa2RwMTYzTHZuUDJBZXB4UklBeFpJVHdISHZiMkt3NEpNSElwcExHaE13TnpBazZoSEJUakFIaHl6MzEyZV9heDdOY3ZZcTVHd3BGTElPU0paUHNtUjFHQUZCc3dkNkFHQWw0OGswazVEZUZQSHdkTGEtQVc3VzRMbW1jWE5jUEF2dEdteUZzM0ltMy1UM184Q1RmMnFCODlYRTVaYU1sd0dTeEVKcWJtX0lCWXJ3M19rTEdIQU1nWTMySm5VR2tBZTdFQlJ2STJpU1pKSGdVaTdtMndEWGF1dlFpV0VYcE45Ykxmb2xCTkxPWTF5Q2hseGtxbHMzQ1FIOU54dVZDUllpWDR6WElhNDhSb0x6N1BTeTdzNHR0Q3IwOURGVnhZQQ?oc=5",
       "publishedAt": "2023-07-31T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:23.558Z",
-      "lastSeenAt": "2026-09-03T04:39:47.377Z",
+      "lastSeenAt": "2026-09-03T11:23:30.552Z",
       "createdAt": "2026-08-19T16:37:23.558Z",
       "clientId": "celeo",
       "clientName": "CELEO",
@@ -5067,7 +5817,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOejRMeXBzRFFJdzRKUFFaQkNia0lWTFdyWGk5aEE4bTF1QnZuT0FvRDhWTU1ZbEJEaXRERlU1OF9BemFlejVzRm1kVlE2Z2RkdTFYN3lLbktxcUxqT18xTnJnM3p1RWhBS05OTnpRTWtnZjB0SDNjYXRsQklwSEhSWV9BbWo1eXJ1Nnh5WDNEbDNzNlVSRFp6VXhkZUJDcGxDbHBZbVJmNUg5THFYZllXRlN6ZFhBdDlrd2YzQzY3UkdxdW8?oc=5",
       "publishedAt": "2023-07-31T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:01.205Z",
-      "lastSeenAt": "2026-09-02T21:07:58.357Z",
+      "lastSeenAt": "2026-09-03T11:23:30.551Z",
       "createdAt": "2026-08-19T18:57:01.205Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5094,7 +5844,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPajVYeEdiUGVvQ0xoRGloZWFZZThVWWdjc3FaeDRqczd5cmtncEF4ZWV6TzVELUNSMzAtOW5rR24zcjE1azZIZTZSdDRJOVdMZ05tQ2pxd0s5VXJ6N05Wc1R1Yk1NWmRTM0g4MEhKSFhyUG9qZ1piaWQxeDhFWk5rQVlQUmRGUEtiM05rb3lpTjZsMDZDZTNuTkhES2lMcTRaX3hNQU1wNHJyb0ZSODZtREx6NXRVdW9mUDNoeEY2NzRsb0lSbVNjbHZZeG9lbUVQSkJXLTRHaXRPOFBneXfSAeMBQVVfeXFMTi1sd0dtOF9iTVFXZ2dyaXVyeTEwMXo3UkpTRnlaTHhoOGotMGlSbmJVa3RQaDJSR1RzaktWM2Z6ZVJEVE82V2s3TGNERFl6aUc1QV9heWdkbzEwS1d3WmtCZmlXMVJVVkRXSlJFX1ozWV9qbDJsd1BMNEx5T2trNWcwRFNYSU9tR3Z4ZlBjOThvU052Tk9rLVE2ckZXTmFfZ2VtcW4xaHRVT3JEcmpDUjRMMHp5S3pYUFA3T0w4WGlGdEk4X1c4OHQ5S3RNTHpMRHUzUmFfMnRrSXBxUU14RlRya3M?oc=5",
       "publishedAt": "2023-07-31T07:00:00.000Z",
       "firstSeenAt": "2026-08-21T07:11:39.682Z",
-      "lastSeenAt": "2026-09-03T04:39:47.377Z",
+      "lastSeenAt": "2026-09-03T11:23:30.552Z",
       "createdAt": "2026-08-21T07:11:39.682Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5145,7 +5895,7 @@
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNnJWYVc4bWx1M0RBSzFhT0hpOUZWME5GVGJ0NmVCckE0NDV6SDhlSUVzZVRxNkZWQVAtR3QyZFpBcUd2YmVicGJCaFJVbDNsTXhpQ1Vqcnl5cWFHYy1JREw3NHhKU0V5OVRNbWtWbDBpM1FMMk9jbS1hclpxZnhseTdncjlTLTlvN05HZDZ1WWZHaHpuRGRfc2JRWTNpaG1TamZOQXpsMDZvR1V3TkJQbzBaSEVQOHJJcDJNVUpkUFRMenZrOVpGSTBpY3V1YzVoSVVvcWlLc19jUmpHWF9nSnhRMFNuVHF0bWV4bUM0Q3FXQWxzZnNERmdqYw?oc=5",
       "publishedAt": "2023-07-10T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.590Z",
-      "lastSeenAt": "2026-09-03T04:39:46.853Z",
+      "lastSeenAt": "2026-09-03T11:23:29.964Z",
       "createdAt": "2026-08-19T18:57:00.590Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5256,6 +6006,30 @@
       "status": "new"
     },
     {
+      "id": "31e291070da9d8f0c7759e808465681e6114897632874e3c7d0a69b4b353892b-10000004",
+      "externalId": "31e291070da9d8f0c7759e808465681e6114897632874e3c7d0a69b4b353892b-10000004",
+      "sourceId": "google_news_3m",
+      "sourceName": "Google News - 3M",
+      "title": "¡Aprovecha la oferta! Tai Loy regala S/10 en compras por llevar botellas de plástico solo en el mes de junio - El Popular",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQZUJmUXNOZXFQaDk3RFJsS18tVnZodmxPZGhoNzNDVlA4V2JGQ0JJMUpiMXdaLXd5UzlSOHpvOERoMnNfMG9QZDRTdWdBZzd0eVAtc2dxbEh0VTVkVi1QRl9tOGtNSlZGaDZQZXE4VDdBelQ3cXlDS0VwaFBDVE5kMkR1SFhWeUd3UUw3YnZpcm5jRjQ5ZHpPd1RWNUdXLUdldnRnRzFjbzhKbnJSamczTlhtS1R2Z09ZQUlnWUpyb2FXdUUyTFA1Q0RsVGkyUjjSAdQBQVVfeXFMUGRlZ3doMnpGbXF5b2lfZGZETEtkUFUwV0hFYTJaZW5nRUdHeVRLVnRZNHNnX01CcEZLS0Z0SHVWLWxGSDhILU1xRkxzczZ3TklUS1EwYVREMm1QdGMzZGFTekdJOVdOU3I3RlhLelp2a2ViRjVnaURVck5sMjVxV09wcmZGZGV1VzVVSzhMRHVzbldubVBjcnNyME9aTmFWRS1VQjFIc3lVQ05SLXZFU3Y5THJaLVNCSGhONFpMR3RSMnZBdDRDU2",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZUJmUXNOZXFQaDk3RFJsS18tVnZodmxPZGhoNzNDVlA4V2JGQ0JJMUpiMXdaLXd5UzlSOHpvOERoMnNfMG9QZDRTdWdBZzd0eVAtc2dxbEh0VTVkVi1QRl9tOGtNSlZGaDZQZXE4VDdBelQ3cXlDS0VwaFBDVE5kMkR1SFhWeUd3UUw3YnZpcm5jRjQ5ZHpPd1RWNUdXLUdldnRnRzFjbzhKbnJSamczTlhtS1R2Z09ZQUlnWUpyb2FXdUUyTFA1Q0RsVGkyUjjSAdQBQVVfeXFMUGRlZ3doMnpGbXF5b2lfZGZETEtkUFUwV0hFYTJaZW5nRUdHeVRLVnRZNHNnX01CcEZLS0Z0SHVWLWxGSDhILU1xRkxzczZ3TklUS1EwYVREMm1QdGMzZGFTekdJOVdOU3I3RlhLelp2a2ViRjVnaURVck5sMjVxV09wcmZGZGV1VzVVSzhMRHVzbldubVBjcnNyME9aTmFWRS1VQjFIc3lVQ05SLXZFU3Y5THJaLVNCSGhONFpMR3RSMnZBdDRDU25TX2cwRTRrTGIwc2w?oc=5",
+      "publishedAt": "2023-06-14T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:21.606Z",
+      "lastSeenAt": "2026-09-03T11:23:21.606Z",
+      "createdAt": "2026-09-03T11:23:21.606Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000004",
+      "clientName": "3M",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 15,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "dc8715ce536cafb379a6a66e733dd378f9b48655b27fecf5beb4c416e90fba14-jinzhao",
       "externalId": "dc8715ce536cafb379a6a66e733dd378f9b48655b27fecf5beb4c416e90fba14-jinzhao",
       "sourceId": "google_news_jinzhao",
@@ -5289,7 +6063,7 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRHl3QVl3UUtnZWFrdEczRDI5SlB4U0xWS3gtV2xBRnBqR1dvNjU2YmdxTmJWM0V0b3Mtb1RQNjRPTkJaS3gzMmllMUkydU5lVDZLYU5QUm5MRXRxcFhvbUpwNVNPMTZwTlRFUVNqOXhDMWJaS0VxeTYxUmU3aXg1TkJ3bTdSeU9Sc1NSalRUQmdVTkJ3Y0NSV0Nkb2lqbkZYQ3Y1SklzUGI1MUZWMVUtWGVtT0I5TFJNWVJ2SVQtUQ?oc=5",
       "publishedAt": "2023-05-25T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.079Z",
-      "lastSeenAt": "2026-09-03T04:39:41.020Z",
+      "lastSeenAt": "2026-09-03T11:23:23.563Z",
       "createdAt": "2026-08-19T18:56:54.079Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5406,6 +6180,32 @@
       "status": "new"
     },
     {
+      "id": "cf849832b0eab8617063851285787a1e5d18fdab82c453861f9250efb4f965e2-10000004",
+      "externalId": "cf849832b0eab8617063851285787a1e5d18fdab82c453861f9250efb4f965e2-10000004",
+      "sourceId": "google_news_3m",
+      "sourceName": "Google News - 3M",
+      "title": "Brainlabs continúa su expansión en LATAM con las cuentas de Henkel y 3M - LatinSpots.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNNmZLUEtYajlLLWp4NXFWNkktcTAyMnYwV2JBdkdQai1kY1lDVjhUVzZyZGhTaWszODVxdDB6LUtyZ0hKQjJqZXhKZktlVzZ6SVU2bkpEOGJ6eHQzUlRxYmRtdUEtMjJPZVBaU284czNVOWFyZ0Z3RktMcHVoT3lxeXA1THdCOWJzZ3JsUGdVSGpXeFpUclJBdjd3RWpLNkU2emw0SU1PVmlIRlZJYVdF?oc=5\" target=\"_blank\">Brainlabs continúa su expansión en LATAM con las cuentas de Henkel y 3M</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatinSpots.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNmZLUEtYajlLLWp4NXFWNkktcTAyMnYwV2JBdkdQai1kY1lDVjhUVzZyZGhTaWszODVxdDB6LUtyZ0hKQjJqZXhKZktlVzZ6SVU2bkpEOGJ6eHQzUlRxYmRtdUEtMjJPZVBaU284czNVOWFyZ0Z3RktMcHVoT3lxeXA1THdCOWJzZ3JsUGdVSGpXeFpUclJBdjd3RWpLNkU2emw0SU1PVmlIRlZJYVdF?oc=5",
+      "publishedAt": "2023-03-10T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:21.605Z",
+      "lastSeenAt": "2026-09-03T11:23:21.605Z",
+      "createdAt": "2026-09-03T11:23:21.605Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000004",
+      "clientName": "3M",
+      "matchedKeywords": [
+        "expansion"
+      ],
+      "signalType": "expansion",
+      "relevanceScore": 50,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "543e6a291281c808d81128b11cc33a9dbe97bb527e35c3342776da54b5431d88-10000028",
       "externalId": "543e6a291281c808d81128b11cc33a9dbe97bb527e35c3342776da54b5431d88-10000028",
       "sourceId": "google_news_unacem",
@@ -5415,7 +6215,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPamk0Mkg0RFJjM1BNWEx4bjlnclR3Q2hvYnB3MWFyQkZFalVYdTZoWGZUZUlQa1JtOVdhTlgyaVRWZ0ZqMlhKMTg5NWtKSXl6cWxJMVFoOTlZSnliSFhrdXlIdTZoNVZ2RlB4a29sM0hKZk1Yd3lEaG5Xc1FfYTQ0SzlkSUF1UldIeHpIcDAtRUhxZ3NrQTVVYWRLYzJrZWZVVFkxdmUxUDM?oc=5",
       "publishedAt": "2023-01-22T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.430Z",
-      "lastSeenAt": "2026-09-03T04:39:43.852Z",
+      "lastSeenAt": "2026-09-03T11:23:26.733Z",
       "createdAt": "2026-08-19T18:56:57.430Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5466,7 +6266,7 @@
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQN0FaRmNmcEVCS0lyaHJ5Q3JVbGxCbjd2dWw5STFDcUR4T3Z6NzA3R0w4Z3IydU1Wa05fMkFURzREalNfUmdOOGVMTW9wTmVMN3E5QnFib1NGalNyN01LUVBxNlNhOFdrT0dJS3FHcGRzOXI2QnF5OTQxVnZYcURReXJBZVBMcmJmSzY4a01sZzF6NlI2bjFhNGJTTlpPdk5UR0VkaWJGekhfN2xuQWVReTZVV2h6R0VvUWVhVkxFTldnSDdvbHFGQ2RKN3hTMW5McmFRVXIxQWdDRWVBbm5BV05aRUczZDhtZmNBSXlxeGJmd29EaVow?oc=5",
       "publishedAt": "2023-01-18T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.591Z",
-      "lastSeenAt": "2026-09-03T04:39:46.853Z",
+      "lastSeenAt": "2026-09-03T11:23:29.964Z",
       "createdAt": "2026-08-19T18:57:00.591Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5570,7 +6370,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeGNxVURTU3BER3FSdGRZR1R1Nnk1eEp1MlpyRDhXSWdCOFZ5cmhKZThtUVQ3V2hBbHpmZUMzZXlkd2tMTWJKM0hmYUJmSVZXZy1HRHBtM3BVR2lqNGRmcnlUaEFhM1h3TFlFLXlyOWFjZUNnYkNHMlVGSnRTb3NPeEYxbF92TmNk?oc=5",
       "publishedAt": "2022-09-30T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:55.113Z",
-      "lastSeenAt": "2026-09-03T04:39:41.918Z",
+      "lastSeenAt": "2026-09-03T11:23:24.574Z",
       "createdAt": "2026-08-19T18:56:55.113Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5596,7 +6396,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTW5ESUs2Tzg1UDNvMjh1NXhuS3JiamlOODlaanJ3Tk5uT2lpRFVuNnd0cUdNLUpTel9GbFdwS3FlbGlQaW00RV9KdHZLTFByQkpiMEJZeHJfNHp5ZGU3ZUlpZ1lUclJoc3dwdFRYeVpGOG5hUXR2X1FPU2pmbzJucWZ1dmZQNEZuOE1GZGpBYmwxdVV5NTR6cw?oc=5",
       "publishedAt": "2022-09-28T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:56.260Z",
-      "lastSeenAt": "2026-09-03T04:39:43.048Z",
+      "lastSeenAt": "2026-09-03T11:23:25.767Z",
       "createdAt": "2026-08-19T18:56:56.260Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5644,7 +6444,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUjd0T3dHdm02S0RtWmVndWNpdFpPVktIbjRQdm9xeWtCWXVySV82RFZDVlg5YUNPV255Z3MtMlhnaXMwVG55SDcxVVUxMFMyN3paTmw4TDFnUFVvQWUtYjRqdG9YVFN3eGtJakF4WGdfQVRuQjdBeF9DTmVTbVRkajM0NC05OEZI0gGIAUFVX3lxTE85V3FmelV5VTl4YzVZbTJHWDRDNWJCRWhIUnBFMUJubUExcFZFSzVCN0dFY0NZRFY4SGxweUsyaC1kTzhmMWtlblhVeE0zbWpxdmpRQjc2RVZiNElTMFlNUzcxbXA0YWFYVF9mNUVGS1JPbDIwdFdNanJUc2VEaUozbkVrZG1sUEk?oc=5",
       "publishedAt": "2022-08-01T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:53.454Z",
-      "lastSeenAt": "2026-09-03T04:39:40.366Z",
+      "lastSeenAt": "2026-09-03T11:23:22.838Z",
       "createdAt": "2026-08-19T18:56:53.454Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5670,7 +6470,7 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XNXpjMzRYbGhaLWVvVU03aEFfcFdnQ195LUVaMXMwMjFLNTc5VjFoaVI1UUEzVS1PUEdxYk1zQ3RWcTNPcTZmdmMzb29fZHpPRHQtbWkxaVRwM0Q0WDlISmhTaE8zQTg?oc=5",
       "publishedAt": "2022-06-03T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:55.113Z",
-      "lastSeenAt": "2026-09-01T21:07:19.963Z",
+      "lastSeenAt": "2026-09-03T11:23:24.574Z",
       "createdAt": "2026-08-19T18:56:55.113Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5711,6 +6511,30 @@
       "status": "new"
     },
     {
+      "id": "a4bacb61a550173bb9f249b891c26cd51ed2ad87af7d53b1448ca50f7df8f4d1-10000041",
+      "externalId": "a4bacb61a550173bb9f249b891c26cd51ed2ad87af7d53b1448ca50f7df8f4d1-10000041",
+      "sourceId": "google_news_daily",
+      "sourceName": "Google News - DAILY",
+      "title": "\"Ideas de Hábitat. Arquitectura en Perú 2010-2020”, una recopilación de las mejores obras de la última década - ArchDaily",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS2tGbWpoQTl1RFRhSkIwRGhHdzN0WWlqRU9GMzYtOEJIN0E3MFNVbzFtdmJzTm9XUFE4bFhWU204OWhTbDVCY3VVVDVsNzcxVUFxVlhkLUdJdjNvWUs1RFlnNDl4OUNUTnVKZFNDMWZZZW1tQ1RvYTNQNlJ4WjM1b0NyNkJpTUdwdnhaZGJuaDJIM0VQTnB3VmtWUmxnZ1J1TVNQMnlzVTlKOGUzekpubXI3ano1OWNlYkhVX19PTC1YNGZNaDh5b3psemJObDNVQTlPSFlVV00?oc=5\" target=\"_blank\">\"Ideas de Hábitat. Arquitectura en Perú 2010-2020”, una recopilación de las mejores obras de la última década</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ArchDaily</font>",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS2tGbWpoQTl1RFRhSkIwRGhHdzN0WWlqRU9GMzYtOEJIN0E3MFNVbzFtdmJzTm9XUFE4bFhWU204OWhTbDVCY3VVVDVsNzcxVUFxVlhkLUdJdjNvWUs1RFlnNDl4OUNUTnVKZFNDMWZZZW1tQ1RvYTNQNlJ4WjM1b0NyNkJpTUdwdnhaZGJuaDJIM0VQTnB3VmtWUmxnZ1J1TVNQMnlzVTlKOGUzekpubXI3ano1OWNlYkhVX19PTC1YNGZNaDh5b3psemJObDNVQTlPSFlVV00?oc=5",
+      "publishedAt": "2022-02-25T08:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:28.535Z",
+      "lastSeenAt": "2026-09-03T11:23:28.535Z",
+      "createdAt": "2026-09-03T11:23:28.535Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000041",
+      "clientName": "DAILY",
+      "matchedKeywords": [],
+      "signalType": "infraestructura",
+      "relevanceScore": 50,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "df0d9811893f26b74dbaa62c1ed86c9b5acd1848d553878a473b2b2acb16130b-10000023",
       "externalId": "df0d9811893f26b74dbaa62c1ed86c9b5acd1848d553878a473b2b2acb16130b-10000023",
       "sourceId": "google_news_contrans",
@@ -5720,7 +6544,7 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUFU0UEpWbS1LZ09kWngxYzFVWWducGhvOG82dVFyMmR2bmRtZEdYZjdjaHRoQmtNb2dienlFVEwtNm5hLVdNdXBnT2xlcTRSUVJCNk5GdzVPLTUtRmlsNGpFZlRrREc5LThuWGhsNC1HcDNJeC1NajBzN0JCc1ZhNUNNMl9EOFlrSFlibUJrU1lVWnp0elRpVk9UaVg?oc=5",
       "publishedAt": "2022-01-18T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:55.600Z",
-      "lastSeenAt": "2026-09-03T04:39:42.392Z",
+      "lastSeenAt": "2026-09-03T11:23:25.108Z",
       "createdAt": "2026-08-19T18:56:55.600Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5772,7 +6596,7 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLXBXUEQ5Y3JSRG5BNkZEMHRVY0VSWnc4TndEZl85eUNEMkJoY3hqM3huU25YOV9IMmZadlFkRllTNkZ3RXFnZDFBNXgzQUNkYnlMX3BndVNiLTFhZS1nT0VhcnFHSVcyS1l2SlVqZURTTm1uUkNxamctOF9pN0tabW9udTNYN2FRcUNTa3kydHZKR2UzV3pxTHB4TllSZw?oc=5",
       "publishedAt": "2021-12-23T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:52.295Z",
-      "lastSeenAt": "2026-09-03T04:39:39.159Z",
+      "lastSeenAt": "2026-09-03T11:23:21.604Z",
       "createdAt": "2026-08-19T18:56:52.295Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5809,6 +6633,56 @@
       "signalType": "infraestructura",
       "relevanceScore": 50,
       "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "851fdf20b947f6c0cc934e5d1faa145878bd6d635018422be40037d90c34e2a9-eurocapital",
+      "externalId": "851fdf20b947f6c0cc934e5d1faa145878bd6d635018422be40037d90c34e2a9-eurocapital",
+      "sourceId": "google_news_eurocapital",
+      "sourceName": "Google News - EUROCAPITAL",
+      "title": "Inversión de impacto: ahora más que nunca - RankiaPro",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOaUpqM3JlWFF4NWhzX1pBMl9lWnIyZUFEamVFYzVQLVJvOVozQTFMMm5Sb2VDbmVPMHJ2dmd1THhBVjJUaE5fQ0JUb1ZBdWxXZV9VT3NWdXdodk9lQWZiaUJZb3JVSklnZzNrcUktazNlNExWcmJoUm1Fc2M2bHZQejNWRkNrQQ?oc=5\" target=\"_blank\">Inversión de impacto: ahora más que nunca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RankiaPro</font>",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaUpqM3JlWFF4NWhzX1pBMl9lWnIyZUFEamVFYzVQLVJvOVozQTFMMm5Sb2VDbmVPMHJ2dmd1THhBVjJUaE5fQ0JUb1ZBdWxXZV9VT3NWdXdodk9lQWZiaUJZb3JVSklnZzNrcUktazNlNExWcmJoUm1Fc2M2bHZQejNWRkNrQQ?oc=5",
+      "publishedAt": "2021-07-14T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:30.257Z",
+      "lastSeenAt": "2026-09-03T11:23:30.257Z",
+      "createdAt": "2026-09-03T11:23:30.257Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "eurocapital",
+      "clientName": "EUROCAPITAL",
+      "matchedKeywords": [
+        "inversion"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 15,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "e3ba188cea929d3c5244aab60d10a2e53a510f87b193f3c360717eca9fc6e1dd-10000004",
+      "externalId": "e3ba188cea929d3c5244aab60d10a2e53a510f87b193f3c360717eca9fc6e1dd-10000004",
+      "sourceId": "google_news_3m",
+      "sourceName": "Google News - 3M",
+      "title": "Argentina logra apertura del mercado peruano para cítricos y nueces - Agroempresario",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNdmRKWl9Caldwai04M3ZjTGlQR2FheFRkdDVxNVhWcEFQZzVabGNsUzU3T0xJMGZtX2U4WnYxbG5KTVR2a3djckljajAycVNiZEFHN0ZnenpnMDdORV8xdjNGNzd1SHk5YUFRLVRwZWNxT3RwR3M3RERtTEtzeGgyQ0pwQXFfcGRBc2prbk1uTC1OUTZOa0wzdTd5U2hncV9RSWZ2V3prMTItcFJ2emxfUGVOVQ?oc=5\" target=\"_blank\">Argentina logra apertura del mercado peruano para cítricos y nueces</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Agroempresario</font>",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdmRKWl9Caldwai04M3ZjTGlQR2FheFRkdDVxNVhWcEFQZzVabGNsUzU3T0xJMGZtX2U4WnYxbG5KTVR2a3djckljajAycVNiZEFHN0ZnenpnMDdORV8xdjNGNzd1SHk5YUFRLVRwZWNxT3RwR3M3RERtTEtzeGgyQ0pwQXFfcGRBc2prbk1uTC1OUTZOa0wzdTd5U2hncV9RSWZ2V3prMTItcFJ2emxfUGVOVQ?oc=5",
+      "publishedAt": "2021-06-26T19:10:08.000Z",
+      "firstSeenAt": "2026-09-03T11:23:21.605Z",
+      "lastSeenAt": "2026-09-03T11:23:21.605Z",
+      "createdAt": "2026-09-03T11:23:21.605Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000004",
+      "clientName": "3M",
+      "matchedKeywords": [],
+      "signalType": "expansion",
+      "relevanceScore": 35,
+      "priority": "Baja",
       "locationText": "",
       "status": "new"
     },
@@ -5899,7 +6773,7 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcGU4dzY5T2d5WGl5aG81d0M5bUh5UDE5XzFNbUw3UTFUQmstVXV6RV9KVERteXZpYTBuTWtCRHJzS3BrYmRpbHlYaGlFa216cWpwUTJ3eUp3UWxnV2xzYUVrb1dqUFI3WGR3MldMaWktcnV2MEk0MllIMzY5aGRZcUZKbU1McmFTb1ZMa21DV1lNMWNfenB1Z3VZSFRvdDMza3fSAaoBQVVfeXFMT05wS2J6Y0VaMlhSRENPNEFzY0tSVVJMRWpmZGpPdXZNOERabEdyYklrQmhsYzBFdzBZR3o5WjdjeGRBc2g1UzE2UE1haW1MbDFPbWRRem9ZcGtGbWlhRW5BRXAxa0llaWF0NWJGMWgtMHd3S2ZvNl9XSG9KUUwxWWVMSkU0R3J1THA3VEZXb0NoOExTMmExc3NHYkF0ODRzSUJaVmV4YjRfdlE?oc=5",
       "publishedAt": "2021-01-20T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.306Z",
-      "lastSeenAt": "2026-09-03T04:39:46.558Z",
+      "lastSeenAt": "2026-09-03T11:23:29.606Z",
       "createdAt": "2026-08-19T18:57:00.306Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6000,7 +6874,7 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUTdRYTRRMkZ6Vnc0Z3ZTVVd0NE03UTlLZWNxekowV251SGlQVG8zTGI0SmNLNDFFVjNOUUViQko0QWVPaF9Pa3czaUhwV2xrcFF1S3lQMFdrTDdEay1Sdkc3QUp0NGJkRGxKWW1yeGt1RU8xMjBYVkEta2hZczVNRFhLdGhBN09ZXzlvN9IBjAFBVV95cUxPUTdRYTRRMkZ6Vnc0Z3ZTVVd0NE03UTlLZWNxekowV251SGlQVG8zTGI0SmNLNDFFVjNOUUViQko0QWVPaF9Pa3czaUhwV2xrcFF1S3lQMFdrTDdEay1Sdkc3QUp0NGJkRGxKWW1yeGt1RU8xMjBYVkEta2hZczVNRFhLdGhBN09ZXzlvNw?oc=5",
       "publishedAt": "2019-12-12T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:52.925Z",
-      "lastSeenAt": "2026-09-03T04:39:39.840Z",
+      "lastSeenAt": "2026-09-03T11:23:22.308Z",
       "createdAt": "2026-08-19T18:56:52.925Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6049,7 +6923,7 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvLVBsaXJJSUJmNXJmRWgwNzBiV3I5dTVUUXJ6TWFreEJjUWVpc1htd2o1MTZNMmplcjRSTDV3djhCWFVUa25FYVVYcy1ITGxHS2xQbjF0SU52cG94Ni1EN2gzSVFDQXJhV3c?oc=5",
       "publishedAt": "2019-09-27T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:52.296Z",
-      "lastSeenAt": "2026-09-03T04:39:39.160Z",
+      "lastSeenAt": "2026-09-03T11:23:21.606Z",
       "createdAt": "2026-08-19T18:56:52.296Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6149,7 +7023,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbWh4bXNhb3RkNkY2anZVUC1WYS1VWXpnMUJVVmZVX0l1a0o0TFlNSkwzSnRwWnZtOGkySGpLVzRWdDhsUFhsWUV4dTR3eXBnbi1obUlhUVh4OFVFNmlQNmdZQjBXLWw4MkdfS2NGeXBNTXdlaWlVOTdwYWMtNTkyVFJ4YmczYlYtRGNOT045OEZGVU5nUi0wanF0aXJDRFFmejFfOW9hUGZGOHY5V2lRYzFlakNaT19sbVNPS01IOTfSAcYBQVVfeXFMTndzTnAzWU1YUm1TclI1TlF1T3hnQVpUYnZ5Z1BjY1F4cWo5bmlmaGY1QXdoSThBSkd5SnR5TDlGRGFpTVg2RXpiWTZ3X2pOT1g4eExMR3VURlNFWmZrdzlUZC0xbVlmV1RGWEVFRFBmNzlTalB5Y25NMy1DSUR2TUFyYjRxTDFSZ2gzM3BHRk84dXEtcU5kM1IwUUZGU0NZQjBvQ1ZadDZHd1JYZExrcUhINklib01Sb2txeGJHdE0zRHM2MDR3?oc=5",
       "publishedAt": "2018-03-05T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.722Z",
-      "lastSeenAt": "2026-09-02T21:07:51.430Z",
+      "lastSeenAt": "2026-09-03T11:23:24.271Z",
       "createdAt": "2026-08-19T18:56:54.722Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6238,6 +7112,54 @@
       "status": "new"
     },
     {
+      "id": "968101fc7540bbdea986b6a76daa29787566940ceffbe03a65a267916fe2159d-10000016",
+      "externalId": "968101fc7540bbdea986b6a76daa29787566940ceffbe03a65a267916fe2159d-10000016",
+      "sourceId": "google_news_libertyseguros",
+      "sourceName": "Google News - LIBERTY SEGUROS",
+      "title": "Liberty Mutual busca en Perú asegurar obras de construcción - El Comercio Perú",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOalQ0eVVlNEZpZzR0WmhaenN1Z1BTOTZLMm5MU1J3RUZMaVR3anpxSVVWam9jMFJWMG1mSnR4alpqT1l2WGdzSnZGWlNIMHgyNHZFSk9ldkFjMjJCTlFRbXBTSXA3R0FPVTJzbmdWWWg3bVVjZlJoLWFtb2hBb2hxdzNOd09kWlJQZE5iZW5xNTZjdmRZNHlfMWlHQ0dLZFJGMExWVDdmaFh5XzF6ZnJR?oc=5\" target=\"_blank\">Liberty Mutual busca en Perú asegurar obras de construcción</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">El Comercio Perú</font>",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalQ0eVVlNEZpZzR0WmhaenN1Z1BTOTZLMm5MU1J3RUZMaVR3anpxSVVWam9jMFJWMG1mSnR4alpqT1l2WGdzSnZGWlNIMHgyNHZFSk9ldkFjMjJCTlFRbXBTSXA3R0FPVTJzbmdWWWg3bVVjZlJoLWFtb2hBb2hxdzNOd09kWlJQZE5iZW5xNTZjdmRZNHlfMWlHQ0dLZFJGMExWVDdmaFh5XzF6ZnJR?oc=5",
+      "publishedAt": "2017-04-21T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:22.837Z",
+      "lastSeenAt": "2026-09-03T11:23:22.837Z",
+      "createdAt": "2026-09-03T11:23:22.837Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000016",
+      "clientName": "LIBERTY SEGUROS",
+      "matchedKeywords": [],
+      "signalType": "infraestructura",
+      "relevanceScore": 15,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "6281db45fea66ae65f13229dd23154890dc465af603a4506741185dbb45007a4-10000016",
+      "externalId": "6281db45fea66ae65f13229dd23154890dc465af603a4506741185dbb45007a4-10000016",
+      "sourceId": "google_news_libertyseguros",
+      "sourceName": "Google News - LIBERTY SEGUROS",
+      "title": "Liberty Mutual busca en Perú asegurar obras de construcción - El Comercio Perú",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNbjlJYTZXeUZpSFpBd3dSYzMxazc4QVFmdkpXZTBmTGFiMlp6RjY5UUNiYzd4REFabHRRV0ZFZWFkZER1QnN1V01xZ2hNYm1FWlhJS0cwUGpvSVMwRG9PR25CUGlyVkVheFFDYXRfNEhMNTZ0VnM2TG5SRXc1NzVhOGt3MXFYMGpHbV83V0lYWjlDdTZOVllkd0NCT2k?oc=5\" target=\"_blank\">Liberty Mutual busca en Perú asegurar obras de construcción</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">El Comercio Perú</font>",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbjlJYTZXeUZpSFpBd3dSYzMxazc4QVFmdkpXZTBmTGFiMlp6RjY5UUNiYzd4REFabHRRV0ZFZWFkZER1QnN1V01xZ2hNYm1FWlhJS0cwUGpvSVMwRG9PR25CUGlyVkVheFFDYXRfNEhMNTZ0VnM2TG5SRXc1NzVhOGt3MXFYMGpHbV83V0lYWjlDdTZOVllkd0NCT2k?oc=5",
+      "publishedAt": "2017-04-21T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:22.837Z",
+      "lastSeenAt": "2026-09-03T11:23:22.837Z",
+      "createdAt": "2026-09-03T11:23:22.837Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000016",
+      "clientName": "LIBERTY SEGUROS",
+      "matchedKeywords": [],
+      "signalType": "infraestructura",
+      "relevanceScore": 15,
+      "priority": "Baja",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "5f1f8c63c475aab17844a648549f2cf26314429891eb5076bde775981fe739af-10000020",
       "externalId": "5f1f8c63c475aab17844a648549f2cf26314429891eb5076bde775981fe739af-10000020",
       "sourceId": "google_news_carbonell",
@@ -6288,6 +7210,30 @@
       "status": "new"
     },
     {
+      "id": "4c3889bd41f37b45bcafb986ab2d750e0e3092a6a2aa5a90dffe1f52de46dbea-10000014",
+      "externalId": "4c3889bd41f37b45bcafb986ab2d750e0e3092a6a2aa5a90dffe1f52de46dbea-10000014",
+      "sourceId": "google_news_teleperformance",
+      "sourceName": "Google News - TELEPERFORMANCE",
+      "title": "Francés Teleperformance compra LanguageLine Solutions de EE.UU. por US$ 1,520 mlns. | ECONOMIA - Gestión",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOaE9MaUZkeEtZT3FqOHo0OHZKN1NKTnl6NFJUaXZsYXE3VEVnakZmQ291NHV3aTZLTTNfejlfSUpZTGY5SVpucGNLVFhoRUhOWGNHSVVpZUZBOS1YbGFxMV9mZFlSdXBjVFdkRnp3cXBlYWdNa3ZhVFhCNmxyLVFWMUhkOGd3SzYwOWtNRmh0Q3d0aFNwYkoxQlR2dEVmLXppTlJuQmdQX3hjMTZtVlo3Y01UMjhPTVRzeFFGakFhdF9DQVp3?oc=5\" target=\"_blank\">Francés Teleperformance compra LanguageLine Solutions de EE.UU. por US$ 1,520 mlns. | ECONOMIA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gestión</font>",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaE9MaUZkeEtZT3FqOHo0OHZKN1NKTnl6NFJUaXZsYXE3VEVnakZmQ291NHV3aTZLTTNfejlfSUpZTGY5SVpucGNLVFhoRUhOWGNHSVVpZUZBOS1YbGFxMV9mZFlSdXBjVFdkRnp3cXBlYWdNa3ZhVFhCNmxyLVFWMUhkOGd3SzYwOWtNRmh0Q3d0aFNwYkoxQlR2dEVmLXppTlJuQmdQX3hjMTZtVlo3Y01UMjhPTVRzeFFGakFhdF9DQVp3?oc=5",
+      "publishedAt": "2016-08-22T07:00:00.000Z",
+      "firstSeenAt": "2026-09-03T11:23:22.307Z",
+      "lastSeenAt": "2026-09-03T11:23:22.307Z",
+      "createdAt": "2026-09-03T11:23:22.307Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000014",
+      "clientName": "TELEPERFORMANCE",
+      "matchedKeywords": [],
+      "signalType": "inversion",
+      "relevanceScore": 50,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
       "id": "740fb172a28b09280ba8f44a31537d4867f1fa43e0e43a9e6f8acfd538461df6-10000041",
       "externalId": "740fb172a28b09280ba8f44a31537d4867f1fa43e0e43a9e6f8acfd538461df6-10000041",
       "sourceId": "google_news_daily",
@@ -6321,7 +7267,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRDh5WGVxazFWbnNhdE01Q0pVSGhsRHF0OWRIZlY1bmZKNUNCT2UxaUgzNmN3TUJnT2tVQ3BYSHdZd0ZZdWxqYXRscV9rNWRxa1VSb2VDS09IeXBPTVdkY3BsT21UNzFmYjdSN2hoQ1lCdDllZGZUbVJVTmtFak93dVNLVUVhVjF1RkVPMFFSbDB5dktmTHR3SnNMaVRwSDND0gGmAUFVX3lxTE5MRFM1bGRVejk0cFZ2YURWWTFJenlZS2xGNW85ZWxST3cyakZEMTAzZGxobXVaR2JRVjZzQjcydzkwbERjY0JjcVJZdTZrd3lib2IzZm9CbkdscEFqT3RPaXhEM21HTFZDTDRIdjg0WDJMb0hLUVdfTG41QzFsRU5NZ3VEdHJWczZBQ0htVXJVa1g3RUlxZGpBcF8zLUZIZkhla1F5T3c?oc=5",
       "publishedAt": "2015-11-13T08:00:00.000Z",
       "firstSeenAt": "2026-08-23T07:05:50.341Z",
-      "lastSeenAt": "2026-09-03T04:39:39.160Z",
+      "lastSeenAt": "2026-09-03T11:23:21.606Z",
       "createdAt": "2026-08-23T07:05:50.341Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6423,7 +7369,7 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaVR2ZGE5Vnk1RFVDTlNTd3VxRTd3V21zdE12Nnc5TDNOdTVMeGlkMWdPNHNybTVxVFJaNS11cjBWbHU5anIwSDBnU3NMSzlqT3EzN1gwaU1GamwzNXF0bjJCcWtoOHE0dndnVkx0RlhWNEpHekk5Tk1ueUNPbDc0aGVUT21GZ3ppT2RST2p5cnVUQ0FJeWh1dXVLN2twZnJ6M0I00gHEAUFVX3lxTFA5WFJCb3Y1UUgtZGNIR283WXlyV3lPOWMxYmpLdFR0dDVoWm9mek03TnNLLTVCLXZKN0hsVVZnNENFbkg1ZUZfTGpLYjJnazRIWVZ4bWFfU0lMTlNVODhaV1ZzQmpYS1dDZHJmT3BGVmhUNU9icHIzSUZ0enQ0dlVoVERyeEJSWFZSQjlhZnlDYWctVnMtSFFnRjFDc0c3eDJ0Wi11dXNXcVdBWC1ublVEQmp6V0Z5WFhkRUlPOF90eXg1Nng?oc=5",
       "publishedAt": "2011-03-14T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:55.114Z",
-      "lastSeenAt": "2026-09-03T04:39:41.918Z",
+      "lastSeenAt": "2026-09-03T11:23:24.574Z",
       "createdAt": "2026-08-19T18:56:55.114Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6447,7 +7393,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVUFhWU5ONVFlbTZwLXZrXzhFN1BrZE9DdG94V2l2bE0wZG1YR2wzdXJnRzc0YUx5WXpVbGxfdlJUX3R0WjZ6Nlh6Y3ViaEdNUFY4MExwYWZvZ2NlS09YZDBnSm9LSE1ialFONVZ4LUhDTDk3Mk9jb011WFd5akplamFrQ2tFaGx1QVIxTENacTBoOHlDUi1MTjdtYWhYRURYbUJOY0Nxa0RBb0dtZzcwQXdrczBwbjAw0gG-AUFVX3lxTE5fbWlzSjk2SngzY2JNUFZoNk1vNGVEYklmR3RhSmw5d1p6c1BReV9TMThTbGRzSGVPS255U3ZzZ2cxS2pPWVRPY3h1cUloSS15LTFZZnJPX3R6RFR2eDllc1d5RU1pOGh5dDNEQ2tXYmVjaTZUTDk2bEU2QlZTUnBNWGJoRFBkZGFfWTJPSE4weTd4YlRyVkFJMmlmSmw5aGtubmpfbER3N0pUek9xTnY4RzVQRkRfdGV5c0paalE?oc=5",
       "publishedAt": "2010-05-10T07:00:00.000Z",
       "firstSeenAt": "2026-08-22T01:54:00.282Z",
-      "lastSeenAt": "2026-09-03T04:39:41.918Z",
+      "lastSeenAt": "2026-09-03T11:23:24.574Z",
       "createdAt": "2026-08-22T01:54:00.282Z",
       "rawMetadata": {
         "method": "dynamic_rss"
