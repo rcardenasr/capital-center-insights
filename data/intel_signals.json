@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-03T16:29:04.356Z",
+  "generatedAt": "2026-10-03T21:29:04.799Z",
   "country": "PE",
   "sourcesConfigured": 12,
   "clientsConfigured": 33,
   "clientGoogleNewsEnabled": true,
   "totals": {
-    "itemsRead": 611,
-    "itemsNew": 2,
-    "itemsMatched": 149,
-    "sourcesOk": 43,
-    "sourcesError": 0
+    "itemsRead": 168,
+    "itemsNew": 0,
+    "itemsMatched": 3,
+    "sourcesOk": 10,
+    "sourcesError": 33
   },
   "signals": [
     {
@@ -22,7 +22,7 @@
       "url": "https://gestion.pe/economia/empresas/resemin-el-unico-fabricante-de-equipos-de-mineria-subterranea-en-latam-busca-duplicar-negocio-y-apunta-a-canada-y-estados-unidos-noticia/",
       "publishedAt": "2026-10-03T12:30:00.000Z",
       "firstSeenAt": "2026-10-03T16:28:21.347Z",
-      "lastSeenAt": "2026-10-03T16:28:21.347Z",
+      "lastSeenAt": "2026-10-03T21:24:38.244Z",
       "createdAt": "2026-10-03T16:28:21.347Z",
       "rawMetadata": {
         "method": "rss_directo",
@@ -49,7 +49,7 @@
       "url": "https://gestion.pe/economia/empresas/resemin-el-unico-fabricante-de-equipos-de-mineria-subterranea-en-latam-busca-duplicar-negocio-y-apunta-a-canada-y-estados-unidos-noticia/",
       "publishedAt": "2026-10-03T12:30:00.000Z",
       "firstSeenAt": "2026-10-03T16:28:21.349Z",
-      "lastSeenAt": "2026-10-03T16:28:21.349Z",
+      "lastSeenAt": "2026-10-03T21:24:38.245Z",
       "createdAt": "2026-10-03T16:28:21.349Z",
       "rawMetadata": {
         "method": "rss_directo",
@@ -76,7 +76,7 @@
       "url": "https://gestion.pe/economia/empresas/selectos-ibericos-acelera-en-peru-con-produccion-propia-y-mira-a-trujillo-y-arequipa-noticia/",
       "publishedAt": "2026-10-03T11:30:00.000Z",
       "firstSeenAt": "2026-10-03T11:47:24.269Z",
-      "lastSeenAt": "2026-10-03T16:28:21.352Z",
+      "lastSeenAt": "2026-10-03T21:24:38.249Z",
       "createdAt": "2026-10-03T11:47:24.269Z",
       "rawMetadata": {
         "method": "rss_directo",
