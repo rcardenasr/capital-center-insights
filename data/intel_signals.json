@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-09T06:18:29.788Z",
+  "generatedAt": "2026-10-09T18:28:45.400Z",
   "country": "PE",
   "sourcesConfigured": 12,
   "clientsConfigured": 33,
   "clientGoogleNewsEnabled": true,
   "totals": {
-    "itemsRead": 614,
-    "itemsNew": 2,
-    "itemsMatched": 145,
-    "sourcesOk": 43,
-    "sourcesError": 0
+    "itemsRead": 168,
+    "itemsNew": 0,
+    "itemsMatched": 0,
+    "sourcesOk": 10,
+    "sourcesError": 33
   },
   "signals": [
     {
