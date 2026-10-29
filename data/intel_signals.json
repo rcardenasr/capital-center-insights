@@ -1,17 +1,43 @@
 {
-  "generatedAt": "2026-10-29T05:57:42.217Z",
+  "generatedAt": "2026-10-29T13:15:50.616Z",
   "country": "PE",
   "sourcesConfigured": 12,
   "clientsConfigured": 33,
   "clientGoogleNewsEnabled": true,
   "totals": {
-    "itemsRead": 518,
-    "itemsNew": 1,
-    "itemsMatched": 128,
+    "itemsRead": 543,
+    "itemsNew": 2,
+    "itemsMatched": 133,
     "sourcesOk": 43,
     "sourcesError": 0
   },
   "signals": [
+    {
+      "id": "7f01f9a29c7aa7f3a3609f2e5d37c45df07da700e1fb490f3bd8fff3a240e089-10000001",
+      "externalId": "7f01f9a29c7aa7f3a3609f2e5d37c45df07da700e1fb490f3bd8fff3a240e089-10000001",
+      "sourceId": "google_news_bambas",
+      "sourceName": "Google News - BAMBAS",
+      "title": "Las Bambas proyecta extender su vida útil en Perú: el 83% de sus concesiones mineras sigue sin explorar - Revista Digital Minera REDIMIN",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM2hOYmE1cDZvVkNBSHBoYjNrTHNTUjJQT3J1ZWV5Tm5FMHlnZlQxSFVMeUdaM3g5ekk3SGpNOGowbEppWUlOY3Uwa3ZCeVNBMjAtaVRtcEZLUVFudGtQX3g2ZUV1amZRTksydjhMN0dmdS1OYk1LaUNHSUZ2NnVESmdYQkFHMHA4aHlnTkpSZUlueEg2cEZqOVRGY25idUc5MXd2SFJaNmlMRW5YQkVWNzAtdTZrMl9jU0cteHg5elg3Zw?oc=5\" target=\"_blank\">Las Bambas proyecta extender su vida útil en Perú: el 83% de sus concesiones mineras sigue sin explorar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Revista Digital Minera REDIMIN</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM2hOYmE1cDZvVkNBSHBoYjNrTHNTUjJQT3J1ZWV5Tm5FMHlnZlQxSFVMeUdaM3g5ekk3SGpNOGowbEppWUlOY3Uwa3ZCeVNBMjAtaVRtcEZLUVFudGtQX3g2ZUV1amZRTksydjhMN0dmdS1OYk1LaUNHSUZ2NnVESmdYQkFHMHA4aHlnTkpSZUlueEg2cEZqOVRGY25idUc5MXd2SFJaNmlMRW5YQkVWNzAtdTZrMl9jU0cteHg5elg3Zw?oc=5",
+      "publishedAt": "2026-10-28T23:40:24.000Z",
+      "firstSeenAt": "2026-10-29T13:15:35.576Z",
+      "lastSeenAt": "2026-10-29T13:15:35.576Z",
+      "createdAt": "2026-10-29T13:15:35.576Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000001",
+      "clientName": "BAMBAS",
+      "matchedKeywords": [
+        "las bambas"
+      ],
+      "signalType": "licitacion_concesion",
+      "relevanceScore": 69,
+      "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
     {
       "id": "a206b8c6e5fbb40c2981c872073d49a9bcca9970f333dc826ec539816e6afb48-10000001",
       "externalId": "a206b8c6e5fbb40c2981c872073d49a9bcca9970f333dc826ec539816e6afb48-10000001",
@@ -22,7 +48,7 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd3VZd1hJU0EyX081UEJpVGpCMEJTZ2hSREQ1WUhhVzJ4YUVvY1hleW9CdklCcURXVUJLZHF2eUZNdC1BbjV4RTZlRTJuOXVkQjc2ZUNsUFprMVM3bmJXN3NpUUdiNEc1aXFaeTRadTBOUkVvdHpuZkxXcGVTWEJNektQdVZ6N05HZ3BjU3N6aS1pTmJObjR3OEc2XzlIU1lpVmJzel96N2lSZlBoalRfNTlsTktqTkVWWFUwSnhlV3c2U2dRQ3UxY3lnLU1Ydw?oc=5",
       "publishedAt": "2026-10-28T21:01:45.000Z",
       "firstSeenAt": "2026-10-28T22:41:13.108Z",
-      "lastSeenAt": "2026-10-29T05:57:33.799Z",
+      "lastSeenAt": "2026-10-29T13:15:35.576Z",
       "createdAt": "2026-10-28T22:41:13.108Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -48,7 +74,7 @@
       "url": "https://elcomercio.pe/economia/luis-oganes-economista-peruano-de-jp-morgan-mas-alla-del-fen-hay-argumentos-para-que-el-bcr-tenga-que-subir-tasas-noticia/",
       "publishedAt": "2026-10-28T11:00:01.000Z",
       "firstSeenAt": "2026-10-28T13:08:35.947Z",
-      "lastSeenAt": "2026-10-29T05:57:10.317Z",
+      "lastSeenAt": "2026-10-29T13:15:02.217Z",
       "createdAt": "2026-10-28T13:08:35.947Z",
       "rawMetadata": {
         "method": "rss_directo",
@@ -75,7 +101,7 @@
       "url": "https://elcomercio.pe/economia/luis-oganes-economista-peruano-de-jp-morgan-mas-alla-del-fen-hay-argumentos-para-que-el-bcr-tenga-que-subir-tasas-noticia/",
       "publishedAt": "2026-10-28T11:00:01.000Z",
       "firstSeenAt": "2026-10-28T13:08:35.948Z",
-      "lastSeenAt": "2026-10-29T05:57:10.318Z",
+      "lastSeenAt": "2026-10-29T13:15:02.218Z",
       "createdAt": "2026-10-28T13:08:35.948Z",
       "rawMetadata": {
         "method": "rss_directo",
@@ -102,7 +128,7 @@
       "url": "https://elcomercio.pe/economia/luis-oganes-economista-peruano-de-jp-morgan-mas-alla-del-fen-hay-argumentos-para-que-el-bcr-tenga-que-subir-tasas-noticia/",
       "publishedAt": "2026-10-28T11:00:01.000Z",
       "firstSeenAt": "2026-10-28T13:08:35.953Z",
-      "lastSeenAt": "2026-10-29T05:57:10.323Z",
+      "lastSeenAt": "2026-10-29T13:15:02.224Z",
       "createdAt": "2026-10-28T13:08:35.953Z",
       "rawMetadata": {
         "method": "rss_directo",
@@ -130,7 +156,7 @@
       "url": "https://elcomercio.pe/economia/luis-oganes-economista-peruano-de-jp-morgan-mas-alla-del-fen-hay-argumentos-para-que-el-bcr-tenga-que-subir-tasas-noticia/",
       "publishedAt": "2026-10-28T11:00:01.000Z",
       "firstSeenAt": "2026-10-28T13:08:35.958Z",
-      "lastSeenAt": "2026-10-29T05:57:10.329Z",
+      "lastSeenAt": "2026-10-29T13:15:02.230Z",
       "createdAt": "2026-10-28T13:08:35.958Z",
       "rawMetadata": {
         "method": "rss_directo",
@@ -385,7 +411,7 @@
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdmlzOHVzUTZ2SXM3dDRXX3RsTTBUSGJua3luSWstSWMxNkh0aHdnWVU2RmMtSDR6ajQwdzFZU1pLTjg5RUtPV09Mb2doYWNXTXBMOUpGX1ZhaFRsWTdhWXFIeThaVUNmYzlEN3Y0enhiUjc0NmxVWVdIVXZESHBna0dONVF5ZlNTSkk1bml1al9RVkNKNUhOaW9LcXJPby1wTGZqb0pPRkkxSGFuYkI5WXdORV90MGItOVROU0M4dm81clozeFNmUk56MFptTlBnZHVScWZ6V1BZNzk2Qno2ZmxRR1RWSFVEUW82ZFJ1dU5hV2hncUZR0gGSAkFVX3lxTE5TaUgxZTlQajlVV2pUUWRiQjVMUnZELWdxNnAyWThrRS12dTM5b0lxeXA5QzBnVzlrUlpmamQ1bTktX3hjS012SHdOY1RyYjV0NFhoYUtpRlpQeFlDaDh0MUJUb2NBdE1qZXVTY182TE9RYmt3T0x3UmJSRXdWeC04dlhZLVY1WUk2TWxqdlg1Z1JyenAySjNocU9lcURaQXg5enlmSGFlODVlMmkzWWhtM09pWnYyVXA4WlJIbkJGeFRjN0hKM2F5bFRzRFFfVllNQTAtSG5FdlQ5ZnV4SkttLUxDN3RnZUJ3Y0w3SFZiS212MHRmR18tVXd4SDBRWGlENGJBcGRhbVlzS2E2a1NTTmc?oc=5",
       "publishedAt": "2026-10-26T12:53:15.000Z",
       "firstSeenAt": "2026-10-26T13:15:35.508Z",
-      "lastSeenAt": "2026-10-29T05:57:33.799Z",
+      "lastSeenAt": "2026-10-29T13:15:35.576Z",
       "createdAt": "2026-10-26T13:15:35.508Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -466,7 +492,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ0lOaUN0Q0xXM05LeUREdldvSGF1TnNGVnB2eUZVNWZZWGpRZnN3WE9Pcm9yMDhyaUI1MFhfd3I0bWpKMmNFanlneFlkNUdwaFg5aHBrWVltdm1Ec3FkRnF2eTNUdmw4ajhKRlNuMlhJcDQtQTZCa21SU29fMXZIdkFlVTBDcE9RQnRhYkJiMWhMbDhqRy1IOFN6NlBuemFYVWN5bWJFNnlTVjVZMGlsVlRHalRvNjVYTS1faUN5RVF5UWoxaTlTYnVyUWZpZ1BmdU1rZmNIZk4tUQ?oc=5",
       "publishedAt": "2026-10-23T17:54:00.000Z",
       "firstSeenAt": "2026-10-23T21:29:39.983Z",
-      "lastSeenAt": "2026-10-29T05:57:33.799Z",
+      "lastSeenAt": "2026-10-29T13:15:35.576Z",
       "createdAt": "2026-10-23T21:29:39.983Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -490,7 +516,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRDN6WjFWYmxaMmIxUDNsT1ltc2FscjZRem5tNzRhT0YwZl9tQUEyMkRvOWNTSklfcm51YkNBa1VmQjB3WWFCT0UyX3VvWnFLdTZkaFBXTUlBaFUzeFF1U3ZxenNTSUN2NzE3OGJfQTFOU0JuLWRaTjZ4akUyRVpUR1R1ckI3b21nWU5YeHZiU1JVeFEzTXIxcjZCdlNIbXBaNkUyMkpRellHRi1SaDd0SV9R?oc=5",
       "publishedAt": "2026-10-21T20:33:48.000Z",
       "firstSeenAt": "2026-10-22T04:59:47.265Z",
-      "lastSeenAt": "2026-10-29T05:57:41.730Z",
+      "lastSeenAt": "2026-10-29T13:15:49.780Z",
       "createdAt": "2026-10-22T04:59:47.265Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -649,7 +675,7 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BT0Rkc191YUF1NUdGNmF3X1h4Q1FKakphdDR0bnFYVlBRU0NDdlJYRWRGLXRMMVpRVGRvQktKb0dMVWRFMVZYcE1RNEpoU3NYVHUwTDhBanhUckRJWHQtV0lzNWtGbnd0bmctc0dTaDRQSTVtQ0hMSGpkMUFHdw?oc=5",
       "publishedAt": "2026-10-21T06:47:37.000Z",
       "firstSeenAt": "2026-10-21T12:00:17.873Z",
-      "lastSeenAt": "2026-10-27T22:22:31.034Z",
+      "lastSeenAt": "2026-10-29T13:15:47.553Z",
       "createdAt": "2026-10-21T12:00:17.873Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -673,7 +699,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON3A5dWI0M1A5anNFV2hCSDlKUDJscTR0SkhmOVQySVQtNDctWl85MmFtRnoxMWxRNUFpSjA4aUNCUnR2anNZajFVWXFScnZoUS1qQnhfRE9uYWFaN1AycDEzTU5aWU1HUjd0LXJNZmZaMnJiU2lBb3RxOUZSTnlDQm9iLXlrd0lXeVdhb195QVZvdldXQzZWbXRjMEUwemJseFhXZ2FuNDNyNkgxamRFdXV3?oc=5",
       "publishedAt": "2026-10-20T13:33:02.000Z",
       "firstSeenAt": "2026-10-20T21:42:41.942Z",
-      "lastSeenAt": "2026-10-29T05:57:39.069Z",
+      "lastSeenAt": "2026-10-29T13:15:44.568Z",
       "createdAt": "2026-10-20T21:42:41.942Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -975,7 +1001,7 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaURYNy1kQXVhQzZUM0RZQTVYUmRlZzAwRVpIYnJHblpWakg0aW83UTd2eTcyYTNkU3Jlc25HckZfX0E1ZkFpbjd2MjJpQ0xRMGdFaGpZUTN5NFQzUHRjeml5N2xhSFMwSHZVbWNjZlNROU5wWTFIYlVXdHptbjVDZGZ2dm9MV1VRb1hNRDJvZ3A3UGFPQV92enR0MXhWd2F2MUFV?oc=5",
       "publishedAt": "2026-10-16T20:51:35.000Z",
       "firstSeenAt": "2026-10-16T21:19:43.130Z",
-      "lastSeenAt": "2026-10-29T05:57:33.799Z",
+      "lastSeenAt": "2026-10-29T13:15:35.576Z",
       "createdAt": "2026-10-16T21:19:43.130Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1027,7 +1053,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa21fUWhfbzNPellYbzlHMnN6WWhnZm9JTHI3MHhHSDVKTGpld19wMVRIU2dsQlVMV3pSdy14cGFUcE5Fa2ItTUhNVmE1Ri1lcHd2YnFVMGs5QkVqbll2bndybzdqWkFCSTV2OUJ2RUdzSWM0T0UwTGpmd3dnRWFiR3ZsRXMxUU1wZzRlVWRZdTF1cFk4OUxEWndjUjlON1dXOVp2WUJBc1FSdkR1eFVLbVY4UUxHb2RtVWFlNmp6Tlppdw?oc=5",
       "publishedAt": "2026-10-16T16:58:11.000Z",
       "firstSeenAt": "2026-10-17T04:38:02.879Z",
-      "lastSeenAt": "2026-10-28T22:41:17.626Z",
+      "lastSeenAt": "2026-10-29T13:15:43.229Z",
       "createdAt": "2026-10-17T04:38:02.879Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -1836,7 +1862,7 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeTliRFlVU1FQTXBfdjlER09zdHlJMlhpUWpaaHZOTjJ3Wk05N3htdVhYelk4SUthQVB3WnpJRldWVlhPQkQwcE8zWUxlakotMGJGakUwSHVITUk0eXdfS0FOQ2lrcFNXVE1NcW1tQWtYdThDcGYzdllTTFRnalZ2aHBIVzJIQkkwSkFCVVMxcmxJVmNNTkhsaE9uWDVhRVFpRG5VWU1nemRIRDVYY1pfdXFkRUNyZmZqQWthREVpeXVteDdoX3pKV1A1QlRkVXM?oc=5",
       "publishedAt": "2026-09-25T11:16:54.000Z",
       "firstSeenAt": "2026-09-25T11:58:12.519Z",
-      "lastSeenAt": "2026-10-29T05:57:41.730Z",
+      "lastSeenAt": "2026-10-29T13:15:49.780Z",
       "createdAt": "2026-09-25T11:58:12.519Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2053,7 +2079,7 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLWNLY1J6c0M0dkF0U1FFRU81MFRPYk84QjRYWWt3M1ZScGNhb0c1VjRRRmZlTFRGYmZRMDdFRHJVZEM4SURHZEZfajdVanFpOE1fM2xXWUw5dHdLal94a2g3V1hIWUE4M0QyN0hmSnlRZFE4dUM1Q3MtNzA0ajJZOHFPbWZlWktxekZyU1VBQ2hQblFJUy0zaWlqak9XWnktV2tsZHN0TXYycmJmdndhdnkyaTB1eGtjaGFxYWlhUVFXOE9hQWNCNnVXY9IBywFBVV95cUxQNEl2NzM1bGpPbDB3bUR0RnpLc3N4VG8xeEdtZ1JWTXFZWWxFMWRmYzh5ZkNqYWs0XzVhUjl6U3RZelBHeC11QlpHWWZNU1QyLXlnLXh2MFV2MTV1ZFI1VEwtbVFXOE1CbW5EZkRfYmk4ZEQwV1VzRXdIa3l4UVlIT0tPckJPcjNGekFFTDlqa1lOZDJtVEJGU0N4MEJfZ0E1UWxWeEhUeVRzTDd5RExqQVpDNE9hU3lLRi0ycVdLYVpSZktyZGxQRUkwaw?oc=5",
       "publishedAt": "2026-09-24T07:00:00.000Z",
       "firstSeenAt": "2026-10-16T11:34:25.602Z",
-      "lastSeenAt": "2026-10-29T05:57:41.730Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-10-16T11:34:25.602Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2105,7 +2131,7 @@
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPYUFXdDZBSFBEWUYzQmZCTkVsRzUtcGxmdFhkODFiaHBCazU3cC0xTy14RmhzS21ZZlhMRkJKazZpdWQ3bzhaeFQ5dk8tX0pQRUQzMTVzdE5pTE9aRFdZUmhSSlJwR3YwbVItcmdXTVRmSWh4eW1HczRnYUh3by1YRTFTWFMwZUZ0Ulh6b1JHa1M2bnNmeDJua3dRbHZrTHpPMHo4ZHhObVZ4MVVDQnROX3R6MW1EMDFMcW5oX01LQjVtREVFODF6TFpjd0E2OUdFY1VMM2JxMW5JXzl4cmYzMHBjeFVhNVk0SV81Y243OEVQOE9IbHF2NlktMjF3NzV3QU9mUUNhdw?oc=5",
       "publishedAt": "2026-09-23T11:24:18.000Z",
       "firstSeenAt": "2026-09-23T11:47:46.017Z",
-      "lastSeenAt": "2026-10-29T05:57:40.334Z",
+      "lastSeenAt": "2026-10-29T13:15:46.903Z",
       "createdAt": "2026-09-23T11:47:46.017Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2132,7 +2158,7 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHk5UndXdG9nVE9RSUJhY3RoVW5VTXczVzBKX3ViTF9yanBGNV9EUDY2TEdGOFh3Ynl5MTNjeTFKX04ydFJseWhXSTF3UUpDRWZvZ3JGUndTQVZZNXdKNl9Bal9RMi1fdzBJTDJja1dFMU4xRm9TZ2NOd0RfcDRETVpXcTY2QUFjclE5VTlzVkxkbDJMNEhNMXlucVVxbnAy?oc=5",
       "publishedAt": "2026-09-23T07:00:00.000Z",
       "firstSeenAt": "2026-10-28T05:53:18.441Z",
-      "lastSeenAt": "2026-10-28T22:41:17.626Z",
+      "lastSeenAt": "2026-10-29T13:15:43.230Z",
       "createdAt": "2026-10-28T05:53:18.441Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2258,7 +2284,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdktvZnJYRE5HVnp4clplMjFib0NIVnZOQ3JJdmFLMC1idUt2dUV5TnNHRmpYdFpnMmJaMXFrOVVQdnBJaDNpX2h3TzZMaGJDajN6d2F6czFaVXVucDg3SFVrYXdPWEI4cGZZVFNya3VqRFlwV2pjcUt4OG9haVhZTllFdHVPRklMSGItTndrd0h6TVJzOHFZMXdXV3VQd0VPV1BlU052YTk?oc=5",
       "publishedAt": "2026-09-21T19:57:00.000Z",
       "firstSeenAt": "2026-09-23T11:47:43.664Z",
-      "lastSeenAt": "2026-10-29T05:57:38.248Z",
+      "lastSeenAt": "2026-10-29T13:15:43.228Z",
       "createdAt": "2026-09-23T11:47:43.664Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2446,7 +2472,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugNBVV95cUxNM3FucG1HVDM1X200NHBPT25RYlFNbHU1ZExreDZSZlQyeXJfUGNlTmRSeUR3UDAzYzVqUEhRUERnckNob2hndjdZTEs2ZE53NWdrbHFCZjBLUl9mMWVUQldvb2lYRnJhcTV5TWtydUlZMW5RZ2xSUUZkeHE5WmZMNUFwdnZaakZSUmJrMGJabXFNa2xFU0JqNWg5SU1YMVBJLVlQSDBEb1NFZTB1Nkp6LUFIdTRvdU5tY01lNHdKRGVJMHMzaWtYamlYbmdxMTNYOGRUVVcxX21oYXFudG9NOF9UYTBQcmJOOWNwT3dhN2VqemFKWVJMMXlnVkNFTDN2YTZSaEZySEZKZUdsWmZvZzJCd0xQZlgxS2k0WEI3VlkzODVOTktHaGpXOGpWY3p3TlY1cWliNzIyYnlOWEIxVEc2cGgyZTlWVkdzRi1uc3Mzdm9tYlU3bEdTVkJ5dXlaaXQ3Z2lMbUI2dmhHVkhGZXZhX2J6aXhTM2dCQ0UzWXVrUHZzMU5Bb0FaYUhwU1V2N3pPT0R5ZUFfdjFFdGdTbGFRQ19xUmU3OFdKU0xQVnJoeXhiTnhHeC1B?oc=5",
       "publishedAt": "2026-09-18T22:52:03.000Z",
       "firstSeenAt": "2026-09-20T05:00:12.373Z",
-      "lastSeenAt": "2026-10-27T22:22:31.035Z",
+      "lastSeenAt": "2026-10-29T13:15:47.555Z",
       "createdAt": "2026-09-20T05:00:12.373Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -2662,7 +2688,7 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTVltd2Z3aWtyV0Fhb3dBay1qWDdZenRBaVByZk5BYXY2Mno5UDRsZDVFYlVpZS1PWEUySWQtN2VBYkc1X2d4N1NoRkNEOTNUR19EcUxkYmFMMXhzcWY0dVRqR0tGS0VZeERpWEdsSEhUUnJnRTY2LUFTZE9NTFN2RzZHWW5SSllZU0xiWGdDejRQYVhJTjZiNWhtV0ttb19GdjNuRGMtTldlY3F1VVVVYzZGTDhDR0RlS3lJVkdOallRLU55aWc?oc=5",
       "publishedAt": "2026-09-17T18:27:19.000Z",
       "firstSeenAt": "2026-09-17T21:28:21.580Z",
-      "lastSeenAt": "2026-10-29T05:57:39.070Z",
+      "lastSeenAt": "2026-10-29T13:15:44.569Z",
       "createdAt": "2026-09-17T21:28:21.580Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3041,7 +3067,7 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1OZkwwUzRJQXk2OHFNRlVpLXlQTTN2YTdwa2N1MlJIVVlia3JCV0hOTWZXOUVlamNpWjJsSFdjSk1TZmZ2QWpGYUpLTS1LYUVNRUVsZEk5UDYwWk85eVZqb3kzVlJoX0F4UzFiMEpubVkxcW5yVnBqRmVnMFpfUQ?oc=5",
       "publishedAt": "2026-09-16T05:00:43.000Z",
       "firstSeenAt": "2026-09-18T11:25:28.993Z",
-      "lastSeenAt": "2026-10-29T05:57:41.215Z",
+      "lastSeenAt": "2026-10-29T13:15:48.713Z",
       "createdAt": "2026-09-18T11:25:28.993Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3692,7 +3718,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQQUM1ZHZjMDNGZnlCUDVpY1Y1N05Xci0xMDFZWndaLVRPMWIwTXBNQi1yNXpBS0p0R3VtSWRuR2VUQXdTejNjX1QwSTdrOHg3aXYyRDk1SGNkS1BtSFd4Mk1nRjl5c19oTzE5akRTcGxySEVhbndXNW8zRnZvV2ZRTzZnV0JVR2dOTHhWb2hPdXRwTGpCY2dXOTk3VU01ZGJINWZzcWdPaUdTVGNlRnRMNzhrMXBZXzRaWE1CdkdoNWlhaUtuS0xLdVBIeEdxS2NBNlJLbnhLZG1TcUlQNlRhNk1xS1ZBYm50cGJmdHJPcjRPVXRfRm5uV0lkRFlENDZ1YmJTTmkzc25LWEdYZ0hNRWFZVExrSjgyeHJCNzh1Mmx1S2pQaHhFZlc2dW8yY09XNUNrTlFSY0JpWDlrRkU0eXY5R1BaN1pnT3JCc3V0Q21oRWVtUVBJUlJPMUVqbXUzNnFVUzdzT29Wai1SUFFXclNNRE5GWmdvSkJEZDU3LTktcTRhZnc?oc=5",
       "publishedAt": "2026-09-07T22:29:10.000Z",
       "firstSeenAt": "2026-10-23T11:48:26.182Z",
-      "lastSeenAt": "2026-10-27T22:22:31.035Z",
+      "lastSeenAt": "2026-10-29T13:15:47.554Z",
       "createdAt": "2026-10-23T11:48:26.182Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -3849,7 +3875,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNZGFETEZxQ0RzWXBVT21wMVZoQ3JzMDV0dVlfR1JBcmhTemhkaUZvM0JhazAxbkR5RFhVa3YzYXNlZUUyZ3FPd0VEcC1QY1NZUng0SG9obU5iOENMRjV1MEtfZ1ZyVVRKT094Uzl1X2NvWGd5bThVdzdqakd3V3Z3a0xSWW00aWJ2cE91UE5NbXpBMWpqOVdlaTQwRHREcy15ZDdaYnJNaUZPR3dfdzNlWWxQZ3JBN3E5MWtaOExIMjdwZkNqSUxaNTBOOUVOUlFpcnh2emdIYzRQcy1rSVJXdTBLTE1WUlRuTVpwRk5Qa3J2cFJwR2gxWEhTSWlKdHhrS0NPMHpDOFhQTi1fbnQ4dnJ1bkJndFNNUFRJcjhVbFBuaTNKSEh2ZWFhRDhybzlIT0FRSUNUa0xSellmZkRxaEdSWEVzaXg3ZWZaYUpyTlUxYWFnRnkxY0VRZEJfR0I4SHhMTUJGVGRzWmxBaTJSRGdDMFYwOWJqX09GLXBkOHQ5ZGpPMVE?oc=5",
       "publishedAt": "2026-09-03T06:06:52.000Z",
       "firstSeenAt": "2026-10-21T17:20:12.610Z",
-      "lastSeenAt": "2026-10-27T22:22:31.035Z",
+      "lastSeenAt": "2026-10-29T13:15:47.555Z",
       "createdAt": "2026-10-21T17:20:12.610Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4133,7 +4159,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMXFqMnpXZ1NZWGhYQXZ6TGthRks4Tk45TU9BOFlCQ1dUSklQMGV5UC1OQmkyQ2duWmNJNm5EQklJMEJXRlR0WFViYzZmenNUYWI1MzlwdW4wQm1oSzBibm0xUGhpT0p2MXVYRVVRRGxtZEdldklUdUQ5eU9hNDFiVVpJY0Y3ZTBzOXI4Znd3SVhncEw4NlZRd0J1ZTItMGd6cHpZVlFyRnhINktB?oc=5",
       "publishedAt": "2026-08-26T12:59:00.000Z",
       "firstSeenAt": "2026-09-04T11:26:46.615Z",
-      "lastSeenAt": "2026-10-27T22:22:31.034Z",
+      "lastSeenAt": "2026-10-29T13:15:47.555Z",
       "createdAt": "2026-09-04T11:26:46.615Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4284,7 +4310,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa0JQOHlaQWZ2di1rWmRMNHViNUdpUmlwOHlhMGNpX3kxVVVXcDl1LWtEaFY0RmtmTEU1ZVk2UjA0cmVDMndNbWw3V3psdFljV2tCNnRnNExoNUphaTBJQ01zclBDbU9rb2xfLTVsMjFuejk0NlFScHplTk50N3lMdEo1WG5zakQ4WGpES0NKRHB0UVdxenprZkNHTEJpdzdxNTVpWWdZdEJQU19xZ3VDYnc5ekxkWnRGMWJKdHFBVmJJQW91VWszWkNvamR0OGpyeURfTmZ5Mlk?oc=5",
       "publishedAt": "2026-08-20T07:00:00.000Z",
       "firstSeenAt": "2026-10-11T13:02:36.531Z",
-      "lastSeenAt": "2026-10-29T05:57:33.800Z",
+      "lastSeenAt": "2026-10-29T13:15:35.577Z",
       "createdAt": "2026-10-11T13:02:36.531Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4549,7 +4575,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPaExZTHJ3MjZIOFBjU2M2N3JKUWlnUVJ4R2pHV0FMM1k1UzlKa1BkUmVob25hRXZOT2V4ZTJscnpzcUtRdXpjVFZrSzNBTXpwVmF5Y05uX0ZMLXJwSE1jTHFLVENLT04tdF93czRpMlMxTHp6aEt5VkFDWVYwTlViQ25YMzQ1X0cwMDVLcktMck5HZkhaZmFBbVc3cXVyVkdPbFVsaUdqSGpHNU9oZ2JVODlrei1HdlNrLWtqX3ZYV0Y1R1BwdE9nZ1pmWkRyenlocnZTaXZtMjZUaFhaNTZ6VEdVaW02c3NCdWVTT25IOVd2ODJJbmQxdHJEb2tGekVjN29DcnlLbEhxX1NvUVpnaWREWnVDSjdwZlBsUUw5ZTFzdy1BU3I0ZUtmbGcxTjhEM1QzSThLRTBMdVljczVYVGNyQTB6dGxiWnlMQzZzSHJTLVBqR1piSnd5Rk5EV0VySGdickIyMDU3U1I0U21PN2dwaUhHLUdUc0h4Tl9YbmZCWHpDRFdtRFZOdXZSQQ?oc=5",
       "publishedAt": "2026-08-19T06:15:30.000Z",
       "firstSeenAt": "2026-10-21T17:20:12.611Z",
-      "lastSeenAt": "2026-10-27T22:22:31.035Z",
+      "lastSeenAt": "2026-10-29T13:15:47.555Z",
       "createdAt": "2026-10-21T17:20:12.611Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -4797,7 +4823,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPc0pfTXZiVnVwd0FRR3dnNDZrMDZtNURCUVA2UlFudEFyejVPZVUxY093T2hBS3BvS3d4T0UyaFM0Vzd3V29kQUJITVQ0clRQZHlEU2FLUHhHdlJzalRhN1FOOWMxcUhpSGNSOW1HUnd0Z3Z0dk1IMjhyS3gwRFNsaTNSdzI5bE1wTVpkNDQ4QzNzZ2I4VWpLUmpkRDI3NlJRUUhScTBXSFlPc21NUzE0akFSRGk5alltdU5TdG0yN29DT0Jhdkxrdl9ENnRFa0FJb1lEU1JoeGZNUzNkcHZFcDlRTGI5QXU3?oc=5",
       "publishedAt": "2026-08-04T22:39:09.000Z",
       "firstSeenAt": "2026-08-19T16:37:21.823Z",
-      "lastSeenAt": "2026-10-29T05:57:41.214Z",
+      "lastSeenAt": "2026-10-29T13:15:48.713Z",
       "createdAt": "2026-08-19T16:37:21.823Z",
       "clientId": "entel",
       "clientName": "ENTEL",
@@ -5060,7 +5086,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNZFB4dWRjdkljUmFaTnctdnZtOGRvYU5yUGEzZjVQRDJvQVhPV0tEUElsYmhSM0gzd1puMm1yTDlWaEZPdDhqalRsX1g5ZTlUbTd3cDJqN3VjZXVlbU1MbzNUQ1lERXlTSEpEUWlNZFQ4TkY5ZkotU1ltSXpNNHhpbDhSRExsZGJGZUlsX0tGa3dEWkFZb1NoejB1cU5BcmNUMzNXd0xZWTNRQktWZ2VKaDlqRWRZenJ4QVRWaGxOb3piY21TZUNaeWFieUdJcF9YZnI3LUtjcnRFT0NRanNTWkpCN28zYl9rV2wtSl8taVNSd3ZVcGJrbTJJOUVyVjFZWDZRN3drY1ROUTAzUzBkNXAtM0hDY2doWk51RTBFOGlxQ1NFNEJkYmpNRXVfZVZaSWFBM2VoUlRnV0k2bDgyZFZsbDhaRlpNNURVVXpXRlYwNXpHSW1uZUU1Q0pNOVNGX0pDNXJMdUVBcVY1Y2M2ZEtjQ0VhU2RSRjB3dHlQMmdoUmVKdmc?oc=5",
       "publishedAt": "2026-07-31T10:54:59.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.200Z",
-      "lastSeenAt": "2026-10-29T05:57:40.577Z",
+      "lastSeenAt": "2026-10-29T13:15:47.554Z",
       "createdAt": "2026-08-19T18:56:59.200Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5084,7 +5110,7 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVU9LbGpCYlh6bnJEVms3VnhQbU9yQzB5aE53cUtuRkxTQ29NZmNzUU9kTFBXamUwNC1UQXp5VERGSllhNE54NUlUU0prdy1UMFNKNlU1ODNaRXVZREZKTTktQmh1XzY1WUxsYmhyVkFsRWdjVTlIWkdaaHhjb1JqWWQwX0tIYXh5Wnk5eFNaSTFKZzR4UEhpMVl5dEg3ZUh2eEE?oc=5",
       "publishedAt": "2026-07-30T07:00:00.000Z",
       "firstSeenAt": "2026-09-06T04:47:51.855Z",
-      "lastSeenAt": "2026-10-29T05:57:33.800Z",
+      "lastSeenAt": "2026-10-29T13:15:35.577Z",
       "createdAt": "2026-09-06T04:47:51.855Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5160,7 +5186,7 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeE8xaW84RFhpUmZUZ2pkejA3ZzBWb3AzcGRwSG51TUwxeGRkUzZrNld5a3lYTHVNMy02TFZ6R3JTcFJwdFk3RlAzYkNfYW9NbHdJSE9pY0IwWFo5QklWWFloMk0zeXItN003V3J3emhBWlRxUHZMci1QS0doWFhlSHJoWXQxVEF3S0FURWVJT19GeklYRTNKTmZuNnR2REJJRllkS1lEVHFCOWJT?oc=5",
       "publishedAt": "2026-07-27T07:00:00.000Z",
       "firstSeenAt": "2026-08-22T01:54:04.236Z",
-      "lastSeenAt": "2026-10-28T05:53:20.988Z",
+      "lastSeenAt": "2026-10-29T13:15:47.555Z",
       "createdAt": "2026-08-22T01:54:04.236Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5210,7 +5236,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR3h5VTFzeFd4MU5rTFdSX29GYjI4ZEc4c1I5NGZuTXRyUkFDemFaX0V2U2xhOERVbDcxc0cxTHVwenNzMGxLem9nMm5VU0o0dE43RnJpcVJ0SjJuVG5kOFNIV05IUzhGaEF6djNTakdnNERoYXZqdTZYdkloamM2RW16V2JXZmdCallOUXBJTklBMGs0LXd6akFyU21EUnpHbmdaR2dYeXhFbkU?oc=5",
       "publishedAt": "2026-07-27T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T11:23:29.320Z",
-      "lastSeenAt": "2026-10-29T05:57:41.215Z",
+      "lastSeenAt": "2026-10-29T13:15:48.713Z",
       "createdAt": "2026-09-03T11:23:29.320Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5525,7 +5551,7 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTUlXMkhQYW9CT3dRSEZjZnJBdy0tOGNvRFZrY00yOW9FOV9sX29CcmNld2hsM0lCdElqa2J0dkFSbU9HaWE1WFJQRzRuaGQtY1hkME0yZ3ZTd0xiR2ZPdnl5YVp1QW1yVC1FWnRjZGx3c1BHd0VoYTVxejE4Ulc4bFp2djFxbklMdU0yUjZwVTM?oc=5",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "firstSeenAt": "2026-08-30T21:13:03.823Z",
-      "lastSeenAt": "2026-10-29T05:57:33.800Z",
+      "lastSeenAt": "2026-10-29T13:15:35.577Z",
       "createdAt": "2026-08-30T21:13:03.823Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -5936,7 +5962,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOWE1Bd3I4OHZVZFdMa2ZWcjlMRnVMRnJucFlnM1dOanNJckhSX2UzZXFwblFRMDRSTkdYcUVjclMzTG9ibC1Ecnk1ekZwX1VMY1psNU9JaTA4YmpIQVN4UGpOS3VuZWVqMmNkSVhQSEdrc0l2NWpSVXByLWxScVd5SXhFR2Q4T2h3aWE0cDRlQkZlQjhZT1NnT1lmUEFMY1h0U00xMnlOOE1ySl9MYm44bGpYR3J1NExfcFpxM3M1d3BfR3YybU8xSXlDblFHWDc1VmtNWEpJUnQ3eHN5SzFRQTdkQWFyQ1lNN2ZfZUwzRDNUZ1l3dVVEbmtWdlhNQktLalMzdThCVm5ueEU?oc=5",
       "publishedAt": "2026-06-22T08:22:53.000Z",
       "firstSeenAt": "2026-08-22T18:52:24.559Z",
-      "lastSeenAt": "2026-10-29T05:57:40.578Z",
+      "lastSeenAt": "2026-10-29T13:15:47.554Z",
       "createdAt": "2026-08-22T18:52:24.559Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6286,7 +6312,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVlZmWkdwbmNwZXJTWnR3aW9vRVU4QjlCWHNRbUNyYjlfa0xGZl9fdUdCbFpMOTA3UjNYNktOSXRlSG4wTmpETTZKamtlSmVXUklvS0VkdkFDS1dhXzE0VmE0bmZ0Ni1ybi12MW1XMExmRHZ5ajFpZFhVWkIzV2JPcng4ZFdMZThSN2c?oc=5",
       "publishedAt": "2026-05-26T00:56:34.000Z",
       "firstSeenAt": "2026-08-27T22:24:57.927Z",
-      "lastSeenAt": "2026-10-29T05:57:41.215Z",
+      "lastSeenAt": "2026-10-29T13:15:48.714Z",
       "createdAt": "2026-08-27T22:24:57.927Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6387,7 +6413,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTFdGVklQd1dGRnpXZmRabUpfNGRTTEJBUmhjMUd4MFpBR3JYWWIzTHhhR19DRVlidHVpM2xrSzVCVDhNVk16WnJXZDRCV3U3N2VyTW8yTHlYWmo2SkVydS1NSDltS0RsRk9CV3BzLWFhUXdjYmx5NjEwUzFaWDZaTmFrWkp2NkJzanJWRmtCV2JubVpyVnBNSTJYbkZyaTJlUXhhM09ONkUtVXlHQ3lyV0dCSHVzaFk4azdoVUhxQ2g1TDVITldKNGQyRnZ5UnAzYXUwRnlyTDd1RElJbGZlb3phd2F4emFOa2c?oc=5",
       "publishedAt": "2026-05-15T16:05:09.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-10-29T05:57:41.730Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6414,7 +6440,7 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTFczSnNKSHFhOHNrX0FpaVlNSXl0OVVOejFYd0NBb2JDV2MxSkdIQkZyY244UnFJQlZZNTNEc1Z2SENfY2t2RzEzU284NEZVX09CR015dS1Qb1hkT1Nra3ZGdzdseVFEZmVINU55SFpNNjJMVlB6STM5VFp3UUp5d3hWeXR4MmctSEg4T0Y4QjdMaWdXQ016RXVxTFlRQWNaQVdtdTVhaw?oc=5",
       "publishedAt": "2026-05-14T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.588Z",
-      "lastSeenAt": "2026-10-29T05:57:41.730Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-08-19T18:57:00.588Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6440,7 +6466,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONUVOTXJpeVlscVhIUzc3bHRtRzM1OU9LUzF3cUtaVl9CUVd1Q1RvQ0xTMnA3c2ktVHhTdFlLaXFZTFl2QmY4X2tSaW1PUzdzS3N4WWNDakRvQjZvZVFqdDBxbXI5NVByRmlrRjhqMFBmZEhfbk1WSkY4S1NBNnY0c0MtVnl6Sk1JVlJRTHgzdlpiMGdTcEQyOXRZTmhjdWRkS2JyOUczRzczYTJmYTBHU05ZSUNSMEljb3NPM05kVFp4a3djcnd1S0g3OFk2SDlKSUtCTHMyRQ?oc=5",
       "publishedAt": "2026-05-14T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-10-29T05:57:41.730Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6566,7 +6592,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTnJBZy1xTGRPcXlHOXAzZUk5UDgxNmtJNGRBQTRqNXdKMnpKRGZ0dHlSbGlhY2dteEFBYnlaSVRJTWJRVmZfUHdzQjdkMGR2U29kaXlJOFhubUFHTFJ5Z2xnVjh4MWxId1NYd1VIQVFqVkhmd3ZGdlA3VHVrOTBwQk9EaFZ3VWFpdjExd1JJbnVrSmtSejlTbzJrNHVBQTVNYVR6cW1yUDJuNS10Tk04RXZnajNUVlFQOXJQS0hwcVpRM2xZUW92RkFhYlRmdXZ1dllPV1AtWW0yUl8wWklWdmo3Y05uZk0?oc=5",
       "publishedAt": "2026-05-07T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:55.113Z",
-      "lastSeenAt": "2026-10-29T05:57:37.262Z",
+      "lastSeenAt": "2026-10-29T13:15:41.443Z",
       "createdAt": "2026-08-19T18:56:55.113Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6592,7 +6618,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONDJocFREMnpxQTFYYVhzSkdScDVHdTltQ1FGM3ZLUzhpNU9VaFAxNUNxcVVBdFpSY1RpZGJDdjFUbVVfWFQ2U0xrRS1raDh2MG9yTlFwSTcyaDRrc1RELS1OUS1DTE9QNW9Xa3p5SFpldHZFdmt3TXFvMllPaW95MTNkNllEVm53X09GT1JKWmxwVWxkZ0JDTHN6WEtBcGVHQkE1azhuWklWS1VoZzczQTB3?oc=5",
       "publishedAt": "2026-05-07T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:55.114Z",
-      "lastSeenAt": "2026-10-29T05:57:37.262Z",
+      "lastSeenAt": "2026-10-29T13:15:41.444Z",
       "createdAt": "2026-08-19T18:56:55.114Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6644,7 +6670,7 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTJFekdLRmlkcnliU2stSXhuRWkxNzFVMnNYbDluUnpHYU5rMHFkNWNWdENDdHFxTllrSDVtTm1ya3hwVkx4Ump5RmNPM0tuTHZDWjR0RlRuV0lNNmptLUdOMkxDOFRQUFVrVDdYZTJhVWxCQ1VCR0F2amd1X3V6R05EZHdHU19TLWNsd25JT2w3c3JxNVI5QldZRGN2bVdlVFc5R21PMHFpbVh2TTJ1ZnBydlpUSEhwelcxZGJSTjB5T2lDSXdrM3BEdTFCNWs?oc=5",
       "publishedAt": "2026-05-06T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:09.371Z",
-      "lastSeenAt": "2026-10-29T05:57:33.800Z",
+      "lastSeenAt": "2026-10-29T13:15:35.576Z",
       "createdAt": "2026-08-19T16:37:09.371Z",
       "clientId": "10000001",
       "clientName": "BAMBAS",
@@ -6715,7 +6741,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWWZaM01kRDFuYnlyVUNfemxZZm15Ym1oREs5cGpoOE9TdU5ZZTNsdGQzaTJxZzBDa1huSUFHaXdUUHZaci1lQTNzZlI4dnRLN2VSMk1Sbi1pc3p3WW42SnJtY3E2SmlyY2pFOFdJcXA2em1TZjlUMjNmNWlVUXljY3YycDVEQmNsTUFNMkRpRTFpLVNVLTdrRTZ0bzhBVHJQLTllUUlQOVhNSkh2eDAzM0JzdVJKbERDOG1seWVXRFRURVozaHdfQm5kU3l0d2Y3RmhTU2xMVThIRzQ2UFE?oc=5",
       "publishedAt": "2026-05-04T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:56.259Z",
-      "lastSeenAt": "2026-10-29T05:57:38.248Z",
+      "lastSeenAt": "2026-10-29T13:15:43.229Z",
       "createdAt": "2026-08-19T18:56:56.259Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6765,7 +6791,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbkxtbVFqUVBaWEg1eTR2Nk5NaDNoU2FoUkNaMWpGLTR4N0FrSGFPZ0RpWExHdExZM1J1ZHdTUG9aRnVCMGx6Y09WNjk0MWpXdl9FRnJhVkRSSDAtT2c5bUhodTR6eUJNanBSYzdQbGQxS2xQMTZvcHRvU1piaVpLZlJTZzJScHludTNTYmx1UEVEaGtuZkpWbzhzbnA4dnIxTnJpN2pDU0RERmcxX21ibVlVSUR6bmJiU0k2WHlCSU0?oc=5",
       "publishedAt": "2026-04-23T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.200Z",
-      "lastSeenAt": "2026-10-27T12:23:12.557Z",
+      "lastSeenAt": "2026-10-29T13:15:47.554Z",
       "createdAt": "2026-08-19T18:56:59.200Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6867,7 +6893,7 @@
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTV9zaGRRSHk4NmJRVnEzWmZCbjdWUVhiX3BQMzdidktoNHcxSjZ3VWVfRnRsOUpsdXdJWnhCWkF1RTdDeUg4VHE2eV9XcndsdmdLSzlfU01MX3EtSXhtd0xfUG01SWs3WTVzd2haQjl2bm90bERKTGI2LVZCenN4X2RBb2FsZFdyR3FrMm9najdwRUMwUHRrVUltYUV3TVl6UzFVdU5EcG1YelE4NVJJN3puZWdlYnNRbzFMaTZXRVlxQWx0eWdCcjFkQXcyWUwyc2Z1TEVwbUVwc1V1Z21OTG40U3lwNUJkbmtLWE5HSURUVVhwUVIwSm43RS1hT1XSAYQCQVVfeXFMUGM3cGphc01PNnZPV3Z1UjdvTzdXQnlmN0xYTS1WTXpIa2pjZjRDbzBfVmh1VUw5WUNFQVFaQ3N5aXhTM3BZb1Y1NG9qQTBMTmZKS1RaSUtWN08xYkdZQVVmb2JLUGJsOTl4ajItRmlrVWZ6andHdTg3cldVMWFRcTRQOGZYc0dEcFdEZENVMTFIWjU5OUNhZWhHUUprMkFOSWhOWEpLMGdOMjNVaWhOZ1NPbzBzM1dJYXpjWTRsUHlkTlY1XzYzSDdpMFdoZG5OazRWNDdPd0dzanlRX2M3YjBSczZKeHZiSlpxcWNTZkNubjhEWUJnekx4dmxqQUlGT0Eyb3A?oc=5",
       "publishedAt": "2026-04-22T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.863Z",
-      "lastSeenAt": "2026-10-29T05:57:41.213Z",
+      "lastSeenAt": "2026-10-29T13:15:48.713Z",
       "createdAt": "2026-08-19T18:56:59.863Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6893,7 +6919,7 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPakRobURvYmlYSzJQMzB5VEpSRWxyMGZLUmltQ3VjQjVKaTFfRWI2LWhWc1RqdTlWMUtFRlcyOUZ6akx1UVZGWWZnT2RmbDBndm1ZRkVKVENERlBqOW9tOWtDUDRXZGlIZVBMaThmR2I5U3J0NThrdnJ1SzV2SWhFUW1yc2Fzc1ZhSndHeHpDRk80cEtlTjczbGZJQk9iVHlNYXR3bkpVQXdQb0d3Z04w?oc=5",
       "publishedAt": "2026-04-22T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.863Z",
-      "lastSeenAt": "2026-10-28T22:41:20.854Z",
+      "lastSeenAt": "2026-10-29T13:15:48.713Z",
       "createdAt": "2026-08-19T18:56:59.863Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -6971,7 +6997,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxObWFFamx6MnBoNDlJTmh6OW1GWHh2TEpDNHVBWWNBVl9jdmVaRzBLN2M4dHVwTWZCZndpcWM2a2E3MnJnOXZCM0UzMGhuUHlITmpzWG42S3l1R2dTMVdRbWpvMHRJNzB1MG52cWhGQ3BVbW9qMWxIY2FDQUJjMjlGd3FKSGxXMlZQcVZoaFRubVptVU5EYktDRS1hVlcwMF9KXy1BOEV6b1VXRE9mQk9BalU3TkxHWFBJSnUteHY4X2c5ZHBLY243Ym9CTDdJenpuYlhaTU5zeU5ja2gwRXJpOUxiQ1JmZXFGY3VEakd0bjdRUHpPRWdUMVlvSklnc1o4aXhwbnVn0gGgAkFVX3lxTE9yT2hzRFAzZlRhZ3l1X3U4Vl9BeEt0MmxERElWVU0xektldTNzYmgtSlFyQ0tqc3J5MHVMNm1IZUt4Z3FvUnBhTFhKNm5veDZTaG5FekVCVXRxUUNJamNlYl9XamgtZVp6Z2pTZ0NWT085VkluVHhwSy1XM0F1bXdvZW94ZHY1QlNORGZWVUxsd2hyZURJbUt3YTNNY0ZXdmozY2Rza3B3Zk0wZzZYanhuRVAxZ1ZHSVpva1NVYmstUVZPYTNCRnVENlFuSHl6cjFEQTB4LU5wbXBWaHdGbkU1aG5SZVFfemVOVXY5ZUx5Z1NzUXMzRDBaM3B1R3V6YzFUU3h5Vlc4X1dXV09DV0MyZzFGU05KMlZZUWNUSDJmUw?oc=5",
       "publishedAt": "2026-04-20T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T21:07:12.626Z",
-      "lastSeenAt": "2026-10-29T05:57:36.909Z",
+      "lastSeenAt": "2026-10-29T13:15:40.907Z",
       "createdAt": "2026-09-03T21:07:12.626Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -7022,7 +7048,7 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUDZUdkQxMk1OandWTDdYUmx0YTFSUFphdEQyb05YeXR5Vlc3dmR4V3JDUUY2S1plUXkzNmppOUxkb0RqNlU0dzB3d2RuMVZ2b0VnanhtX28xWUR4ZjZLTGFZcXpTX3YyN1BrOWptcG5DMXg3U2hXeUFKb3ZwdTY2SndQVTZHZXJvZXJWSVlldG83TWpzVG5pU2RHVmdDY0xyamtsTDV4dGtrd1c1T1Y2Wk1hX2RsX3BQWFZ0b2swUXlQUEJIY3hnZmo1OA?oc=5",
       "publishedAt": "2026-04-09T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.429Z",
-      "lastSeenAt": "2026-10-29T05:57:39.070Z",
+      "lastSeenAt": "2026-10-29T13:15:44.569Z",
       "createdAt": "2026-08-19T18:56:57.429Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -7074,7 +7100,7 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1RwSHI2WVdiajJPOGVXbkJaazdfRDVzRFA4X0lWUUhWY2NKQW9sal9nN3FSd1VLdjFVcUxKRkYyS194eG9pVWpxYXFPTlFNS2RvbXJXYVBnQ0VySFdoRTBOWHZaWkhaaEdkaThxOGJ6TWtXdFdVUWJZRnNSWTY2UXN2SjdCa2JaOXN6S241X0lBVmEyVXFPbmJ0azNVSGdPUkdMQXRNaV9SUFlVT0FV?oc=5",
       "publishedAt": "2026-04-07T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T11:23:20.644Z",
-      "lastSeenAt": "2026-10-28T22:41:13.109Z",
+      "lastSeenAt": "2026-10-29T13:15:35.577Z",
       "createdAt": "2026-09-03T11:23:20.644Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -7176,7 +7202,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa21EZFNERUd1TXJtUnRVNlpyMnJyRUNpYnFOMmVFQTVrTnBIS0NLcWcxX0k2RW1xYjlxdEJrSG5tTGxOQzE2Qk9QYXZ5T2ExZkxLMEc3NVRoTHZoNFduaFM2TkVuTDRGZXZYbHU4OTc5d19TbGMyYjRsbXpXSHEySWRoSFk3SEVEd1hCRDNB0gGOAUFVX3lxTE5UMkQtLTdyWXRJVF9idVFQMXlfWFozc0hheG5lNGMwSmdNNnNvTGFWbktiNk54XzVkOG9oUElXeE9RcVlqNV93LUR1ZzJ6ODhjS094eVNRSnIzeWpLVlJNaW9xck1uZjZmdTlXbWNLOXdLRUMzNmRTc3hKSER0Y2JFMUlnVG03MEo3WEhTWnc?oc=5",
       "publishedAt": "2026-04-03T07:00:00.000Z",
       "firstSeenAt": "2026-08-24T13:18:01.456Z",
-      "lastSeenAt": "2026-10-28T22:41:17.625Z",
+      "lastSeenAt": "2026-10-29T13:15:43.229Z",
       "createdAt": "2026-08-24T13:18:01.456Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -7202,7 +7228,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNXJTcDVtVXNVYTktOEhwOHRjck01aDR0VGNxZzRqSHVvUVZBVHE4Q2I3akYzVmd5b0M4V1lWbE1Ca1FqZ2YtSEg0bmNjM1dYVjluU1RIT2xOaC1WUER4bTFXZ25zVGxONE9WdDY0SWV4MTl3R2dIa2F6S0hDSldTckJCcnVsX2tjWEVV?oc=5",
       "publishedAt": "2026-04-03T07:00:00.000Z",
       "firstSeenAt": "2026-09-05T10:43:16.837Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-09-05T10:43:16.837Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -7228,7 +7254,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcXFMTnNOOHJCcUNVYzNrNVIwTzg0U1E1V3RSam9fQTljVjBkNjNnRTFvakZMMy0xSlZiQzA2OE9GeXlqS2lLSUYwS0tzR0gxOVpPSjVDaTJwNHRjdWx0YVlIeUJFNEpINzJuRl81eWF4d05aUmYycHk0X1VqMmQ0c3ZYX0Q2SGlVSDRRM3FRaFNCbDZUb19INUk2Vjk0bXZMVUp2UktnMG9ZTHFKYWFCanZYb0dhRWpTOWVFbmZsaGJGR29MZGpjbDZLYUhNUk9idkhJNXlZOFoydXpfRjBoTDVUNS1YUGZt0gGDAkFVX3lxTFAwMVNaejRlVTFTcXI3Nm5nTlNSdzRuZFBsZUxRMzQwTmwzZ2tyUU5jTTlTaEpTeVFFaW55cGJCTnNzMVgxZmxjRnE5UkpyRWhEQTZ1dmNJeUQzVzd0VldzMUgwRU50SjRWSmgzSmJRUGxTZndnZENnYnJ4RnVUYUNjbzNYclEzaTRfTk9iY1NuN3dIM1R1MjNkUGlpak9hNjhlWHo1SjVKVFExOU1OQXJ6RVJ3aENSUjNLZHlIN0NIcmxkbnl4bTN1cURUeF9Ec1dWMWlwak9ZR0d1RWl1SE5rVGwtTTRPSEFWWkJPbVd4RWJsUTk0Uk9peG9JRnQwZXQtNnc?oc=5",
       "publishedAt": "2026-04-02T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-10-29T05:57:41.730Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -7426,7 +7452,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYW45WEM3SmlCbHdPRHRtUENtN3lkMVFXaXV6bmV1WDBXMjJnTkU4VHYwR005S1hRVG0tMDNyU00zVjlTVmNTbERmdjRBSHlZc05YN3ZlWUxnN2Z2bGhTU0dvT3J4d2w2WFNYSUJ3WUdUNkpSNE5IcS1XMmF2S2hveklCcGs4cUh4UjRQUDN4VEZYQmFsZ3RJc2ZGTnVsclZBRjJWbms0Nms?oc=5",
       "publishedAt": "2026-03-06T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:09.370Z",
-      "lastSeenAt": "2026-10-29T05:57:33.800Z",
+      "lastSeenAt": "2026-10-29T13:15:35.576Z",
       "createdAt": "2026-08-19T16:37:09.370Z",
       "clientId": "10000001",
       "clientName": "BAMBAS",
@@ -7626,7 +7652,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeXBESGUzNS1yd0dER1lXQ1BrVktQaU5iVkFpUTRnY0EyX2hNUUFqSlR1V0l5aG10NDBrMDQtRmNJd2hTYkxiV0R3RlZZaGZHUFZCRVhieVpqby1qYm5pM081MnpRQVpGUEYwQVVOS3dRdndCaktKQmJuMHBCSzM5RnRQVlo2cmtEb1JYOE1KTXJJSmVPN1dRTXJRNVhNWS01b0M3SGZxS1k1Tk1ZdDdvUG9zMHdLWGpQSDktRjZQNzkxNDk2alEtLXFpUlhYOUxGdU9PX3U4b0h6ejQ?oc=5",
       "publishedAt": "2026-02-20T08:00:00.000Z",
       "firstSeenAt": "2026-10-28T05:53:22.686Z",
-      "lastSeenAt": "2026-10-28T22:41:21.920Z",
+      "lastSeenAt": "2026-10-29T13:15:50.615Z",
       "createdAt": "2026-10-28T05:53:22.686Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -7752,7 +7778,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT0pieGQzMW1LWnZFYWcyVFJSVnI3VTJiVTZMWE1FR1lRSzNnXzdTSmNFeE91dzJyekFQYzZpNktFbW9LaFgySlpScG8za3RiWGlxbFN6TXZhRjNmZWs0ekgtRHZxZ1htRU13TUk1WGJiRFNBUXhGZFM2OHdieW5BdjdJMWRNc1h6bldOMFJEWFgtV1NMOUxTYnFfandPdVYwUFFMQkhkeXhmZ0lmWDRQdFZkeHBwSzBRN0Rz?oc=5",
       "publishedAt": "2026-01-15T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.079Z",
-      "lastSeenAt": "2026-10-29T05:57:36.324Z",
+      "lastSeenAt": "2026-10-29T13:15:39.930Z",
       "createdAt": "2026-08-19T18:56:54.079Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -7898,7 +7924,7 @@
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNekEtelFEaGlxbkdDRTdRWG5jUUZYSm1OXzVSQno4RWNnNk8zSkh0QXExN1poOU84MURRYW9lODFhQTdobGVCZ3hoU2Rjd005blJzRlVnYlJ6a2s2Q0pLTENpQy0wOXJjcW5ZQlgwQk51a1BrbDROVG5Qc0FDS3dSVVduU3lZNlhuQml0T0VtaFlYWWx3UzhNcl85UWJBSzl6Y1pPWndBd0FqTFNnSF9jYXZiYjllLXl5QXFfemJuUm1mc1RKZjQtZGwxWE5ZWkZTTXNFZ01JSjVVOTVLZDZyVmU2bzVqazNGcldnRFlFaElheknSAY4CQVVfeXFMTVFESEZHbUk3T3Y1MVFkRVFmTTlpTlFtSGc3ckFjN01XUi1JZ2hmN0xBZy1ScURXbUVNZ01hMjBlTzZINmlnUGM1aE1rTDJuOEVkSTNLMWx5TzJHMzJweVFnWl9kSjU3YTBMTjFRT0k2UEM4OGl5SU0tMjFsX3l2cmRlSXlDajdFQjRGVVFqaEZ6VzRBTDVjRE5ZaGxKTDI2WFNVWFZYMGRWWUVrVHpWeC1INkNBNGpYclVycFRha3NkbFFhRllYZ1ltZURRZGI3Qm1RMFN1NU5qUGZoZ2lUclRLZVctSm5XUmhhQXdHNUMwVlhRcUxfZjg2aFJadkRxcHpGY3lfUS1lT2xmcUdR?oc=5",
       "publishedAt": "2025-12-16T08:00:00.000Z",
       "firstSeenAt": "2026-09-07T21:35:24.057Z",
-      "lastSeenAt": "2026-10-28T22:41:18.549Z",
+      "lastSeenAt": "2026-10-29T13:15:44.570Z",
       "createdAt": "2026-09-07T21:35:24.057Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -7946,7 +7972,7 @@
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOLXpSTC1zR1BHT0U4dUlLY0hUd1dSNW90ZFVqYUdYeC1qR0I0dHlTaEdGSjVQNEFvU190cjR3eGctYzJCNkdJN1hsREptcEViWFVBN1VBVnNySXczYS1qb3BWM2Z1dk51c3E2dGk4ckxmeXZCSzVIVVpLWlpMMktYelFFR2FQYTcyMnRiVkYyN3pmdGRPazdaWlk5c2pEQmphVFI4VTdESnltUngwTHBQSVliX3MtNVozZWd3QXZWNktFeHBqUTRzcmo2YnU4a2E5bUZua3FYOU1yeFZCV3J4Z2o0cWVJTENsZnpJdkdvci02eTZxYUE?oc=5",
       "publishedAt": "2025-12-15T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:21.820Z",
-      "lastSeenAt": "2026-10-29T05:57:41.215Z",
+      "lastSeenAt": "2026-10-29T13:15:48.713Z",
       "createdAt": "2026-08-19T16:37:21.820Z",
       "clientId": "entel",
       "clientName": "ENTEL",
@@ -7970,7 +7996,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ3Z6SVQ2OTZWa0lPc29ka0dzS3pnOFpxVjdVdlBxdDdTRGpyTnM2bGdtLXpyVVNrNVVSOXI4YUpDRHpKeHpXc0xNcUxWZ1dPbmN1aXlQX2lPanhZMEZQb0xIZk9lVEJKTlNmSTlGQmJRTFNtaTJzdnVwUE9UZE4xQTViWHpVa21nR1MwejF5ODhUY1lfVGJhald4ZTI1M3Q0cFhMX3IwSkFwUHEzdHN0cU9INDhpcTNnd0tlYV94S2o?oc=5",
       "publishedAt": "2025-12-11T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.079Z",
-      "lastSeenAt": "2026-10-29T05:57:36.324Z",
+      "lastSeenAt": "2026-10-29T13:15:39.930Z",
       "createdAt": "2026-08-19T18:56:54.079Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -8017,7 +8043,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSzZNOU9ncl9oLTN6RkJLU1ZUWHQteGdDdFJ1dm1VQmRVSGVKTzlzdDRJTFB3TEdVM3FHTTYzbmJ2T2N0UmRRclM0blV5UGI3Mk8xZ2t2VFFjUFhGWV9TMkNEVGxKdURNVXY0elRxNVBFXy1oY0REVXlSaVdUa3BwTUZBZXJLLWZqeFU3aEtKUWFVdWx6VFNUdUkxR3pTYm9NQVV5TEU4YUtaYmNXYkl0LTVsUnRDRTJqdjBBeS1jaXB5d3Y1ZW1YdF9MV3JuYl8wdEE4bXZMUW13cEZkWjByR2Fwc3cyWEN6V0E?oc=5",
       "publishedAt": "2025-12-03T08:00:00.000Z",
       "firstSeenAt": "2026-08-21T02:01:13.118Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-08-21T02:01:13.118Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -8141,7 +8167,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWUdDOE45Ri11Q1loWjUwLV9sRE9Iczd3UVlZa2llQXVwdmE0RElQZy1aVXF2UndJLUlFVDMtOTloallTX1Rwdy1DN0ZlWXNKUW9SVFA4cGJFVnNwZjI5OHVxRDBNQlFsb2NPYTh1c0RqUHZQMnJLdlJ4dEFQaTc3aGFoZWppNHZlS1NfaUpoLXVEOGVNSG1paGdOaGg5YTVsUDVLVWw2Wi1CQm9yUGo5M19wOXVCMFk4c0JzQ240T0ZzYzlhaHI0Ti1JYldOY0pGVXI3Zg?oc=5",
       "publishedAt": "2025-11-18T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.429Z",
-      "lastSeenAt": "2026-10-29T05:57:39.070Z",
+      "lastSeenAt": "2026-10-29T13:15:44.570Z",
       "createdAt": "2026-08-19T18:56:57.429Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -8167,7 +8193,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1pQZWtra2JDdVBwYi05QUY2WURUVmZaVWZKa1BWUUI3SlFWdC1HS05qZUQtS2FIMThaNDVhQ1ZiRTRlWE9RdG5yUmFJN01HT19ROF94SUVHS2NObWlaSGVIc3JxdEU2a3NfYXBSY0VBTGtNanJsZW0wOXVLYjBhQVRhQjF1Slo4Y2FUMTBwWnVySk1INFRya0x1eGtpdFlrMm1GWl95Zkx6QjF4UnZJRHFUMU5oVEk?oc=5",
       "publishedAt": "2025-11-18T08:00:00.000Z",
       "firstSeenAt": "2026-09-03T11:23:20.645Z",
-      "lastSeenAt": "2026-10-04T12:30:17.660Z",
+      "lastSeenAt": "2026-10-29T13:15:35.577Z",
       "createdAt": "2026-09-03T11:23:20.645Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -8625,7 +8651,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS09DWkl6SDhPRVI2MkJEWXNFQ3l6NnM3MWtqYU1SV21CbFJvQWU5NnZnMm5DeW5SVkh6alNZYTlkTVpSREdoaHVNNWdVbjRxX2hPOFR3Ym1BRFMyQkw1UE9HSXFGMUJ3R3phMTM1VnQyUmREeDg3YWhwOGE5YXdJZUdjT2NDS2tVMFF0Q3VDRlBZdko4T3dySG93VHlNREY0c1VmYkRINE1oOGh2Y1VHRFdaWXZVNTNSMEs1SGUxTm94eVpNd0pETG84WklEYzZ0aUdKMg?oc=5",
       "publishedAt": "2025-08-18T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.430Z",
-      "lastSeenAt": "2026-10-29T05:57:39.070Z",
+      "lastSeenAt": "2026-10-29T13:15:44.571Z",
       "createdAt": "2026-08-19T18:56:57.430Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -8808,7 +8834,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTnpFaURELU1MUjdvWnJTV1hQSTAyZ1lkSzN6MVZsNWFXOGlEeVBvM2h2WWNlRGZTYXZ1YklpMXduS2FOLTBmem45ZnVFTlhEMWNHODFFNmo1NlN4ZTdXd05GVGhYUUFNOXoxbi1kTGJLYmJlbkpLZWhVdW1PLTFMNGxmck1ac0JZZU9HMk93?oc=5",
       "publishedAt": "2025-08-14T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -8858,7 +8884,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPNm1DZExQRDEyTUxySVN2X25wSEFJUnRHOXVaZHg3Rm5DMDBTU1lDTlZxaENFNGFSZDFfUHh4X0YzMXJEb21aZWhEX1E0eVlUa0ZYX0tiMTM0ZV9RS0lzUU1jMXRVeHVodlFzMzJpTXZrZ1lvU1pSU1lmUmlVc1VBb0l1eFMxdEkzNFRFRV94eEFhUlNpaExzWFo3QXBZQXZTekdxR3U3RmlMbXMyaW1KVGhVNy1RQUVBODVobWhCZUh1UFYwaGpZRTR6OUYxemM0WmpXaEJKNXRtSFRuZjdrSVJzYWduZjhUQVNoODktUzJFVzBTSmtsaFRTdWoxVDNGcXVOTDl3cE9HMmFOMk84WTlNUzdFWE5MSm1ETTBwbUMxa0JhLXRNM9IBvAJBVV95cUxQZFlqSm9DX29BTWNYM3FrakhSakJZUjV5WktGazJoV214R1Y0VnN5MlhTV2M3R3pOSHFyanNWWWp3OXVfSF9DVWhBUmlPNjNQZTAzajhxQnQ4S2VVYWhUVHVOeFdTMFdUWENJSnJNZDZ4VlNuREN6U3ZwWnFmTzhYSjVaRXVfa1FkcEl5VUppWVFEcExaNzJQMy11SUdabnFydmlSVy1mZVhuWWQtaDhYV2dCVnoxeUMyUWNaenRTbm12RmN5SnVpNGNFMkdmamg4UzZQM05JcjZXamN2U1UyT2x3VDAyNnBqVVlRQW5oa05SeUl6aGJ2QmZ3dTdKN3pCZmV6MkExZUZZRWxnMFdhMzFVai02OWc2QUtBSHlqNTZoUEV2QkJVU1RURDg4M3ctcVg3UU1mNFJqRUN5?oc=5",
       "publishedAt": "2025-08-14T07:00:00.000Z",
       "firstSeenAt": "2026-09-08T16:42:59.830Z",
-      "lastSeenAt": "2026-10-29T05:57:36.324Z",
+      "lastSeenAt": "2026-10-29T13:15:39.931Z",
       "createdAt": "2026-09-08T16:42:59.830Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9030,7 +9056,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWV85UlJVNkQtbjkwUTZSUEtnWG5paWtLUEtkeldZQTJXaENLaTFjTFY5Ylp3SElCYlB3aU04TF9qVkM5SXE4R04zQlZGUDc5d2JnUk4tcmJGUmFPSjNleVdwUW5aam02Y3B1b3VKOHlTUmVFNXl5bmhPUHlaaXV0Vy1KUEduUkFVMXN1YmhTak5uRk8yNllUY0xMcmRrU19kU0o2dGhnejZQYmRQdDdIUnZEMU5qNmdGa1lHc1MybmdqUHc4SkFRVU5UM3N6cjdmbU9hMXM4eVlyQmRobUV1d09QNGJUNGdnNG5NSdIB9wFBVV95cUxPTEdXZDJ6Nlc1eGZyd212V2lDT3ZpT0Naa05vRm5WbUMxX293aHkwX3VYbnpRWmNnc0JjREk0Nk9XZ3dWTGpxXzlGU0NRbGJFTkdCUlhwTWk4M2RJRzl2NC1TU1hRUUdVUDFqQlZYU2NDYzVjeU9UX0kta1JpNm9OZjNPYnRsVkNQOHdVbkFtWU9fZ25FRWdGU2tsSk01aVo5QXRuODU5SFpQOU43NzUwYThwczNxVUtDVjFFVEVhTVpHU0pud1htaEFVZldVdjlTTE93UmxrY3I3UmdMYlpsTHE2djJaVkpYSm5VNXdEMmtqM0V6d3RV?oc=5",
       "publishedAt": "2025-07-18T07:00:00.000Z",
       "firstSeenAt": "2026-09-04T11:26:41.116Z",
-      "lastSeenAt": "2026-10-29T05:57:35.725Z",
+      "lastSeenAt": "2026-10-29T13:15:38.980Z",
       "createdAt": "2026-09-04T11:26:41.116Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9078,7 +9104,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWlM0T2tBR3U0NHpQRmRmbTNPMFo3MnRIU3hPS3JUZWV4T2kxanF0NzdldjRvZXB3aGdJQXRaaHhtTmU3R1BlMExXTEktNkhEejJwTkNBYnBoZVdtVm5wVm5fODFEZWhyX2ZVdHJTVTdPMVlwTDZfWUpDZW8zSnZoV1JNWDd1ZkRQY2dhR09qWVU3MTFILXR4cmNxeXVINm4zWFlOdQ?oc=5",
       "publishedAt": "2025-07-01T07:00:00.000Z",
       "firstSeenAt": "2026-08-27T22:24:48.790Z",
-      "lastSeenAt": "2026-10-28T22:41:13.109Z",
+      "lastSeenAt": "2026-10-29T13:15:35.578Z",
       "createdAt": "2026-08-27T22:24:48.790Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9156,7 +9182,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObkdDcUVHaUJOdTNlb0xRN2ZPdDBYTXIxTlQ5U1c5SUNrdnVxQmlkY2FIWnJEUF9WcWdxRVlzTENMYkVyNmxlaFBKTE1qeGhaMnpQSl9RVnl6X3B2bF9Zckk5M2hhZFU1cEtaXzl0Y2MxLWFCVFNQeklhaUpBN1h3UTlqTFlnSVVheWVEcFh3SEhHV0NwWkNUNzhTblpVanp3d3M4QS1kM00zUTlyWExpTG4yMGxvUzhLV1ZSVVVtVE5zQ2JnaGVQbDJneVF6cXNLS2hNWWRWcW4ydTl2aC1qU2F1dTl1WjJwSnl0UjFR?oc=5",
       "publishedAt": "2025-06-24T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.590Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.782Z",
       "createdAt": "2026-08-19T18:57:00.590Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9235,7 +9261,7 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaFFsdEZCdmhlb3RoWTZDdVJhLVZtWHE2OW1jbngwbzk2WmxXQ2I5M1VoZVFRYjctSVNiYjVib3d5RVlxRE9TM1FMaF9qNlQycEtUOG8wVExMSV83M3pHem1uazRnS0RScUc3TUNFMjdoaXV5ZWZQaXBGRDBlZVE2WktMOUxfSV80dkdYMVY3UEc2eDhOWUFKVVB0U1lHUm1lWjhzRkdYaFFTeHJ0ZVVtQkxsb0g4MzI0dFZvUms2V0xnVW40LXprclRybw?oc=5",
       "publishedAt": "2025-06-01T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.430Z",
-      "lastSeenAt": "2026-10-28T22:41:18.549Z",
+      "lastSeenAt": "2026-10-29T13:15:44.572Z",
       "createdAt": "2026-08-19T18:56:57.430Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9283,7 +9309,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSXBKcWdlWW9PQlFzWHhvSGFKelZnbUhBb3FmbFQ2OFlyWC12SjhnOTF6dWRHek1JQk5qMWc2SkxJUGNUcmR2ZFZkTHVoMFJMd0VWRG5saFk5Mk9QZnF0aXM5TTBSbFMzUmw2QWJodDRDZnZLVU9lUU95Vzk2Zm50RGFqUWhsTkQxOTM0dWdMMXNuOE5LVGFKVnN6WjJqcGYtR2ROZ01pZGZ6dGh5Rmd0V3lDdmgtM3prbkIxTTk3YVZfYkZNenZr?oc=5",
       "publishedAt": "2025-05-21T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.430Z",
-      "lastSeenAt": "2026-10-29T05:57:39.070Z",
+      "lastSeenAt": "2026-10-29T13:15:44.570Z",
       "createdAt": "2026-08-19T18:56:57.430Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9406,7 +9432,7 @@
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNSmlmcTJtdS1xandBOXc4WWdqQlhUSkl5cUtYLVIzOC1vMjRTTjRmd2dMOUVaN2dDN1I2S2dqT3ZXMGcxcVRpNzN0bHEzSU9xdzRIdVB1V2ZHVUIzbFlsc09ITWwtZWFORFNQa2ZYNl9IRGJUVk9XYVFYUTI2Ukk3ME1FVXcwbGkxcjY1VzB6TzhxdDdTUllaSUo5VzZfMmZkR1BLektHUGN6ZEJSN1hTQUhwZ2FGaEQ0STF0VElJTWVieGUyNEFBZzNvUUE1cFpCQTAxZjZscWczT19sdU5jNFFjR3JiWXo0T2tHcDJJTldib3llbmc?oc=5",
       "publishedAt": "2025-04-28T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:22.542Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-08-19T16:37:22.542Z",
       "clientId": "jinzhao",
       "clientName": "JINZHAO",
@@ -9506,7 +9532,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQY1hvSEdSXzJnNWdCb1pEQ21YZFVyVEJZR0pNdEpNWDJDOEExWUxjcEVBNXFMcXd5YzdyeGxxXzRDbklla0plMDU3YXRSVUdsYnd3WkI4QmQ5Z0Z2TF92aDBTWHplOTBFaFFDYjVJR0NYTnVNZDRqRmFHTUxNdEo0ekVHSlE5MHBDUkFiS01rQkMzbFRNYThhUlZnN1BXUUhVYlRsLV9sOUI2SmtkRU9MajliTkdDV2l6R0RuallhQ2hMWHlVeElhemNVbklhTFNBV0g40gHuAUFVX3lxTFBEZTVWYXJVSmF3TmxKMEF4RzNDaWhBaGNjVXRaY19MNGJ3MGZfQWJiazZ4VVQ4cmN3NHVHeXdSRklMQmwtb3Y4a1FZSjhYR2lhVm5BXzd3RVVaWXM2Y0l4eDEzSWZJNWlOLXhrTk55d2V0SWFaQ0lqTDhUMTROMUUycmRhcnpEZEU2ZDhCVXZRLXVvNWRzeXdrVW51TGJlX3JmaGdOcU9fUUpqZ1Z4SjZUYmFVdGV4MlRjaW00OXN6SExvZEJpeUthMVhldXdaSnZ5Z1RLMzROZ3FNNnVLRXc1MDBqelZWbWgxN21PT2c?oc=5",
       "publishedAt": "2025-04-09T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:56.260Z",
-      "lastSeenAt": "2026-10-29T05:57:38.248Z",
+      "lastSeenAt": "2026-10-29T13:15:43.229Z",
       "createdAt": "2026-08-19T18:56:56.260Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9582,7 +9608,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUks4S2hWdmVSQUpsSlVvS19IZGE5QldnZkYtU21obnVzOHpla1JNNHlIRm95MWF3ZjdEWmI5MUZwbzUtbHRjZE1JdmY1cm94cDBIclQwcFJMYTZDNmxaLWpIVG9ST0szbFpPeVJOcGxhRUJTLXVHbmxZNlJYRVlRS24wdEtTb3MzVDhjQ0lCNjRlU0JwTUVyS3FrVkRnWDVyVUxHdzZyOHhkVkNwbXNETUMyTm9heEZ5RTJfT20zdEZFS2NPdTFZ?oc=5",
       "publishedAt": "2025-04-07T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:56.259Z",
-      "lastSeenAt": "2026-10-29T05:57:38.248Z",
+      "lastSeenAt": "2026-10-29T13:15:43.229Z",
       "createdAt": "2026-08-19T18:56:56.259Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9635,7 +9661,7 @@
       "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxNU2hRNHYtV1FxeG82aUdQTXJyelMwWl94Nm8xelU5X2kwMV9QcDhJY0w0U3NHZ004T056b3Ixb01nQWtOd1JJMFR1VHMxSldfLWNCU3J4YTZOWThUX3hrSU0xN0VtUTBnaU9jZDF4ZzgwZ0ZROHZsR1dDWFpZcVhIcWdkYmRZTk01YTlacFBxRmdNd1FlTUpGcHFSd0h0czBpdUZXbXdacnhQY1dpYk5JbXZzNzNOamc5X214TXdYMFBrMVJtSm12MzU3RWE2bFNvWHM1N3FtQUxFamIxUXgyOFQxcVVjRWNIazlsdUF5Z2t1TGY1am1lUzRKQnFZTE1fb2tTdThTbjc2VXJKMENHNUtJTGY4TVBXcXlsb1RDVFN5REdueFl4dC12eURXODEtZ0QxMHZoNngwY2JLdF9EdWlaYkVPNUh3b3hxZk5MbXEwa3Bta2lBN1pfLVlmckRSTE9OSUQwbXczRU5MOUVlMw?oc=5",
       "publishedAt": "2025-03-25T07:00:00.000Z",
       "firstSeenAt": "2026-08-28T11:30:34.222Z",
-      "lastSeenAt": "2026-10-29T05:57:39.070Z",
+      "lastSeenAt": "2026-10-29T13:15:44.571Z",
       "createdAt": "2026-08-28T11:30:34.222Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9662,7 +9688,7 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSnkySjRSYWIwNV9iRC13bl9QZngwRC1LRFBXUDlGWlQ4MEtqdmE4dHZlMTZ6SmVkaUotUUtlbEd5dlVOMHZLY2Rsd09yOUJWSUxRNXBiYnp0bVVxeFU1TkhBcTU2MEJoVi1VblBYbmZCQlItbjgzSHFaRmEzRDhVemh0ai1mQnJYY21Gb0lCN0VDbmM0QjJvck1Zd0w?oc=5",
       "publishedAt": "2025-03-24T00:21:03.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-10-29T05:57:39.384Z",
+      "lastSeenAt": "2026-10-29T13:15:45.157Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9686,7 +9712,7 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTE85dkp3Ty15SzdRVDZ1S3N6ZHN4bVlHN2JyNjkta0tJalVzM2RaUEF1OHc3UkJYWjhzRTViRTNqc3FvX21YZUpXcklaeWxiUy0yajhUQl9lcWVYUHFyYmtzNDFhQjFuWEdMbFNOUGJwdlptRGNmWEFFOUg5YllGUWxYU3pweWpGaklvbGptdHdzR1lXVm0w?oc=5",
       "publishedAt": "2025-03-17T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.781Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9786,7 +9812,7 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbTNHel9rdlE4TVV4VVJzRHpVNDJoR0lfTGNuQ1o0SkNfdlVRQmpNRHJMOEg0TkExMzRZSFF0eWhFYl9hM0NabHF5eWVqOVM1bFo4RnFrVm5mVmtDOGVla0szbFE5ZFVaMkRPWkY4aDd0VWRTdlZMektza1hHNUNONjBLZU80dk10eXF0MzVHYVBpUUVxdE9ITjNncWZ2WnVkY0NtakVXS3hpQkRvMnc?oc=5",
       "publishedAt": "2025-03-13T08:15:09.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-10-29T05:57:39.384Z",
+      "lastSeenAt": "2026-10-29T13:15:45.157Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9810,7 +9836,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbnE3Z1lUQ284YU50YWF5Z1JaTG92S3RqdW0yRTZtb0JvNUFIYXpOWHJVelRpQVRNdmd6aFBSdGlVeDdEWG1hNi14VlZFNkdlQ0VNcTlER0N1SjRwWnlMaVpMb24xNnF1Xzc2SWUxdEtHbVpMeXhyTm9JV1oxUmswekU5RHN1a1hCNEZGa29MbzJaek1LZGViVVJEcy13YklUY2xFNDlFeXczaGN1YVlLNkw5bTZuWFZOODAyUi01R211NzVPZGhLTFo5UTUzVUg4NjY0Yw?oc=5",
       "publishedAt": "2025-03-12T07:00:00.000Z",
       "firstSeenAt": "2026-09-06T04:47:51.856Z",
-      "lastSeenAt": "2026-10-28T22:41:13.109Z",
+      "lastSeenAt": "2026-10-29T13:15:35.578Z",
       "createdAt": "2026-09-06T04:47:51.856Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -9823,6 +9849,32 @@
       "signalType": "licitacion_concesion",
       "relevanceScore": 59,
       "priority": "Media",
+      "locationText": "",
+      "status": "new"
+    },
+    {
+      "id": "d9013a0e789e1561491bd8aade53f9c483d397e6200007d623f49ce6efb745f3-10000020",
+      "externalId": "d9013a0e789e1561491bd8aade53f9c483d397e6200007d623f49ce6efb745f3-10000020",
+      "sourceId": "google_news_carbonell",
+      "sourceName": "Google News - CARBONELL",
+      "title": "Perú proyecta adjudicar $35.000 millones en obras de inversión a 2026 - La Estrella de Panamá",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUtOQjVVYTlsZDN4emhzWGhhTG5lZkViRGN4NXNRb0RyRlplM1RFdlFfODEzdVZQYUdaSlRta0dJRXoyR2djVXVVcFZSSmhzck9lXzU5ZnQ5eDNpNlItOHZkb2RMNXdMVFZwNnVqZUVXRXJJcy1iUlZzV0NKNTR1XzQwRzJPeWRHSGx3dlhZTkJkNmZ4NkFBN1VnTDBqakU4UjNmOU9Hd2hOeElxcmFENVFLZlhrMEpS0gG-AUFVX3lxTE1MOEFJSHVGY085bElPazdaZWdQMkZwMWNUaEJtV0RoRWdRNW90NktrSlhhRVZxTlIydUk5TDRIdHdyRUQ4R0FRb0gzeUxoYk1STEJaTnJZb1B1MXVtRVBMSnZYNnY5VkxUN05TNmlJb3BNLVVaWGp6Y2JLSjlTQ0xRVHFiX2pjUEZTSXpucnNRTGJrV0p2Szk2N3Q4YmRzVzZvMFdlckxyeDRSSzMzeW1DRnhyY0J6ZG5ENUwyN2c?oc=5\" target=\"_blank\">Perú proyecta adjudi",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUtOQjVVYTlsZDN4emhzWGhhTG5lZkViRGN4NXNRb0RyRlplM1RFdlFfODEzdVZQYUdaSlRta0dJRXoyR2djVXVVcFZSSmhzck9lXzU5ZnQ5eDNpNlItOHZkb2RMNXdMVFZwNnVqZUVXRXJJcy1iUlZzV0NKNTR1XzQwRzJPeWRHSGx3dlhZTkJkNmZ4NkFBN1VnTDBqakU4UjNmOU9Hd2hOeElxcmFENVFLZlhrMEpS0gG-AUFVX3lxTE1MOEFJSHVGY085bElPazdaZWdQMkZwMWNUaEJtV0RoRWdRNW90NktrSlhhRVZxTlIydUk5TDRIdHdyRUQ4R0FRb0gzeUxoYk1STEJaTnJZb1B1MXVtRVBMSnZYNnY5VkxUN05TNmlJb3BNLVVaWGp6Y2JLSjlTQ0xRVHFiX2pjUEZTSXpucnNRTGJrV0p2Szk2N3Q4YmRzVzZvMFdlckxyeDRSSzMzeW1DRnhyY0J6ZG5ENUwyN2c?oc=5",
+      "publishedAt": "2025-03-11T07:00:00.000Z",
+      "firstSeenAt": "2026-10-29T13:15:40.907Z",
+      "lastSeenAt": "2026-10-29T13:15:40.907Z",
+      "createdAt": "2026-10-29T13:15:40.907Z",
+      "rawMetadata": {
+        "method": "dynamic_rss"
+      },
+      "clientId": "10000020",
+      "clientName": "CARBONELL",
+      "matchedKeywords": [
+        "obra"
+      ],
+      "signalType": "inversion",
+      "relevanceScore": 25,
+      "priority": "Baja",
       "locationText": "",
       "status": "new"
     },
@@ -9860,7 +9912,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY2dINEN0ajI3d2ZJMkdaRVVna3pLVkhmWWs0eFY2SDBfQWN5U1lKSE51SFFVTGtid1c3NFpZdkhxLU8wQUZuT0F6NWQxMVNKMmtudFhWYks1VFdMSEtWV2Z5MUFsd1BOTWpjcTl6X0xiR01Ld1pfOXQ4VHhlY25SVzdkenVxWWNGeWRBSm5Bb2J0NUdTN19LYS1jQTVXckJmalY1RXpQb2pjY0NHRzhNRThlVm91bkJTTERjRGZHY0JPdjZ3eXRKWGVPdmNyTnBFTWV4X3dCMDZKYS02THc?oc=5",
       "publishedAt": "2025-02-19T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:40:17.554Z",
-      "lastSeenAt": "2026-10-29T05:57:33.389Z",
+      "lastSeenAt": "2026-10-29T13:15:35.084Z",
       "createdAt": "2026-08-19T16:40:17.554Z",
       "clientId": "10000000",
       "clientName": "BACKUS ESTRATEGIA",
@@ -9931,7 +9983,7 @@
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNaVpwdy1CWVhoM3Z4MzJ0SDYyRml4UHhJbURHcEFMZnJqYWJ5U3VJZWRmbndsalg0U3h5YWtMZ0F1V1l5Q3BkU21hNV9rRWc4anVHMmR2aVdCTkYyclpIT1A4Z1dyaGp6S1Z2bFg0OWw5a3FvOXhwNFRZbGRPVFdpOVpmR0tXMnhBcjVmdDlFZGYzcmlWYWFQcmlGVTNPUlFvakNTRm9NVXFaT0FnN0RyblhwU2x2bWlNSFNBLTdFdUU2Nm03M0RDMndEVlQxTmdPZzF3YTVrcERvcHJPRU5tWXFCd2ZqUVJ0bzAtR1ZuRUVfR214c2c?oc=5",
       "publishedAt": "2025-01-10T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:13.833Z",
-      "lastSeenAt": "2026-10-29T05:57:36.324Z",
+      "lastSeenAt": "2026-10-29T13:15:39.930Z",
       "createdAt": "2026-08-19T16:37:13.833Z",
       "clientId": "10000018",
       "clientName": "SCANIA",
@@ -9978,7 +10030,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOak92WUNBSG1weE1JWmQ2THVDbmhPdU0tQWpYdVdYZ2J6UXNCWU1BWlV1cTBiY1pLMmRQUUFaNktJbTNwLVNNZ1ZqckR0ZFFCcGstSkJnYm1wd2p6UU9vU1BMeVVZRDJJUzB2cy1JaDZLRU5fbEVYeHEzWVBDT3BhcFNOZGYtRjFYOTVaSDRKWFFqRndPWmFtZXdsT3pTQUlBck1qWEo4SFFRWjlZWDl5RzFyVGNoUG9KbmNLSHB2Z3J1UEhEMFlYSU1DV1J6eHp3V01sWkNrazN5Nk1XN3ZjUDQ0WExvNDBFWXRxc3o5QmFIUDFiWFE4X0JLQjU3VVVPay1aTzVIeDJjUk9ZZ1ljQ2p0R3d3ODV2RUh1TmlWdlVKcUI5SlZULTA3TENLUTJuTVE?oc=5",
       "publishedAt": "2024-11-29T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:15.575Z",
-      "lastSeenAt": "2026-10-29T05:57:37.262Z",
+      "lastSeenAt": "2026-10-29T13:15:41.443Z",
       "createdAt": "2026-08-19T16:37:15.575Z",
       "clientId": "10000021",
       "clientName": "ILKO",
@@ -10003,7 +10055,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS0NHQVROVnFfRm1jSWFhQlQxLVpTZ1pfZ2xOTFJCanYzeEJyVENIc2d4TDFkc1hKZVlLMldwV3NEQ29LcktKYUFrdXpVWUUtUk9BQV9fekVYNWRhelRrTEVxd1dwSjJuREtoR2dpandyQ1ZZMUcxWjdrTUpqdktuRnYwSlIyR0tTeERnZlB1T1dILXdSTTJnQ3ZQejVKQlpQZHhHSllsbWVSZTVIalpOQ0ZoQVdUcUNQa2hPSDAzSklWY3M?oc=5",
       "publishedAt": "2024-11-28T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:40:24.909Z",
-      "lastSeenAt": "2026-10-29T05:57:39.070Z",
+      "lastSeenAt": "2026-10-29T13:15:44.570Z",
       "createdAt": "2026-08-19T16:40:24.909Z",
       "clientId": "10000028",
       "clientName": "UNACEM",
@@ -10026,7 +10078,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcE13LUN5Y0xFUDFOUHU4ZE81Wm9ZYmUycHlONFFMQVFXcThKdDdQeVV2LTFXVmJoUWxDOXpBc29aMnhESHN5WlZ1TDBMV0VBU0JvaFRoZzNwSEdIa3BlT2VMTndMajE0aUJGSHNaX2k1ajRDOUlycVhuaFZfQnFucHlySFN3RmFienNjeHVqLTNQQldIeGQzYnJGNzBoZms5TWFqeDRiRHFxc0JPRXp3ek56MDRXcGFkQU9PVDRvVFRiUEVNRktidE1sbDlTNDdxRC1sTENTSDEyY0tfZFFF?oc=5",
       "publishedAt": "2024-11-15T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.722Z",
-      "lastSeenAt": "2026-10-29T05:57:36.909Z",
+      "lastSeenAt": "2026-10-29T13:15:40.907Z",
       "createdAt": "2026-08-19T18:56:54.722Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -10268,7 +10320,7 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUHpfa0MyWGNhcU0wQkg3VndnNzZvUC11WHk0ZG9FMEhISVZldEJiT2ZBajVSN0hHVlpJVTBYcjZUS2xpU2NOdzNjVGZuYk1TWXp2ck1CX3p3bWw4UkNzc096VTRkNjJOWW80a2JtVWFCd2VFclFNNWxYMS1ocV93YVoxRHNvU2NzUVVEYURkU3hBRTlYYUxuR1FtVHNXV2ZqNkpOdldKTk9kd3pWOWhEcUZsRGJ6d2xReHhKTERWQ2pucGF3MXlKWDdn?oc=5",
       "publishedAt": "2024-10-21T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:56.259Z",
-      "lastSeenAt": "2026-10-29T05:57:38.249Z",
+      "lastSeenAt": "2026-10-29T13:15:43.230Z",
       "createdAt": "2026-08-19T18:56:56.259Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -10420,7 +10472,7 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHhFNkx0eXlrOUFUSE9MTGgwQXBsV3hUQXZxcGVvMXNySE5EcnRWdTRoSVZtekRRZUhaMHZ6WjBLLS1iSkgxSF95WkVuQmxCaHBDQktqZHN0X1dQYzRCUU9zdmtDZVFrRTNkMHdJekN4NnRrWFBlT19LbFhCQmtFQjN2QzByT1BjUXZXVFNMTTFUQUlV?oc=5",
       "publishedAt": "2024-07-11T07:00:00.000Z",
       "firstSeenAt": "2026-10-22T12:03:10.130Z",
-      "lastSeenAt": "2026-10-29T05:57:41.732Z",
+      "lastSeenAt": "2026-10-29T13:15:49.783Z",
       "createdAt": "2026-10-22T12:03:10.130Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -10446,7 +10498,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOEJZMkdad0RYQVBCN1liT0pYVl95c3BnVXRwQXkxb1ZXZWNJWmNxUmtSYTNSSUlNRmt0NkdzZzI3ajZpQmE1Y2VxMHJ4LWRIbTRYT2hIUS0ySmhpWVhnQ1VpNzBienZGR1kxdjROdldMejVfbC1aWndYWFhyTDJJdXRrcktBYlM3MEhUZmFQaks1Y2t0WWxPekxlLVpqaVdOY296RkF6cEgySG1kN1NURWhDNGpfQnVPdkxOSkF5cDFTUUxvY2dUUGZ0WU9sV0ZMSk9rbWwzQ01oNTg?oc=5",
       "publishedAt": "2024-06-24T07:00:00.000Z",
       "firstSeenAt": "2026-09-04T11:26:48.350Z",
-      "lastSeenAt": "2026-10-29T05:57:42.216Z",
+      "lastSeenAt": "2026-10-29T13:15:50.615Z",
       "createdAt": "2026-09-04T11:26:48.350Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -10524,7 +10576,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkVhaU5zSGJROTBWWnhWMW4xQ2F4a1lnMzZPRC1qUlhuLW1DRDEtYzd3TlRkNmJNNnZBQnp3c3lpNk5MSEZBdzhxanJWeW1JQkhmUXpEQ2NMTFhjblN0VGxwbzRIeWVZb25ycUdXaGJfOW1wMnNCOWF2NEV0alg2SnA3WGs1R2NaWnJWNmJKWjdQZEFwVEMzM3RWeG9CX1V3T1NxQ0RZZGtDdFVzcjMtdnhRMjBkQkXSAbwBQVVfeXFMUG5RNHZRNEt2NDNSR2QzWkVybFpvdEtmQ25TSVVxNXZycFItaVd4eERXMDlZTEwtdm1lTlUwOGlXeU1XaFJvTVdUenpjZTFISFVlYS1QVkYzbFJrRlNRSmNHRDNFTVN5ck9rWWpuMW5WbXNtN3d2RzVlaHh1OE9jWjViMVJoOGRRY29vUG9Oa1ptQkZDS2NiWlJJMWpXRjRaODB6NTRla29BbHNBUjBSd3cxODRlb3dsRnQ2djU?oc=5",
       "publishedAt": "2024-06-06T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T11:23:28.536Z",
-      "lastSeenAt": "2026-10-27T22:22:31.037Z",
+      "lastSeenAt": "2026-10-29T13:15:47.556Z",
       "createdAt": "2026-09-03T11:23:28.536Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -10548,7 +10600,7 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaG5TLVNHTGNsb3hjR3JyMEotY0tnOThVeFFQUDMxMkJCQ1BOSzVrY04zWW15elY2VTNKRk13OTFvNTJMWm5EVXVsNjQ0bnZlaU9GMDBGek9ac0VCTE4tVTJEdS1sanZTem9TZ0xvNXRmQ1BPY3FMbVc1SXB3RmxOY2VTOTNvd2FOMjFtazZDeGtDNWhpbk1qX0JQaGZBcFJmU25SdDM3Mzk5S0xOYjgzdXcwYy1GRFloVUNIZXBRUHJzZWFUQ1pVRVBJS2VYNmg4TkliY9IB6AFBVV95cUxPcmlvSFc5ZEdxbF9LaHRRSjVJcENSM3J1Vk5OZGFQb0t3YXN5bnQ1b3FXVk1Zb3o3dzRGRlhDeG0tLW1yblFON2ZYVzJ6cXdkNGRxbl9NNXVkd3VENlZkdVk0RTFxZ0xmXzJyaHJwS2dLdXpTdlk3aWQyUHZkZnc3TnUxSEhRcTVOcDlOcGxIYVRReFhDRGRLWUpKQXhWbjgwTzUtV25teWl0M2swcDBWLUJEZkJSdzdWb1BmVzlqdHRPUHNPOTZxNnBjV2dvR1AzUWkwNDltWDFVbVJKZTFxcGNBTWhHbFBT?oc=5",
       "publishedAt": "2024-05-23T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:09.382Z",
-      "lastSeenAt": "2026-10-28T22:41:13.109Z",
+      "lastSeenAt": "2026-10-29T13:15:35.578Z",
       "createdAt": "2026-08-19T16:37:09.382Z",
       "clientId": "10000001",
       "clientName": "BAMBAS",
@@ -10826,7 +10878,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM2RKSDZYTVFBRWtOZTh6Zm5YOGZRRHZNOGVBX202Yk5LeFNDT3RwdVlUZlNRc1ktYi1UTnQ2dlVnUXRBdk9HTGNiRTJZVm9nVTBreElQNW4xbktnNjJmZl9wRlhSY1pMNUhDcGpiQmNaMnIxM1BWR0JkYUcxNUlJRHdCTU1Eb2YyYlM1VWFoRFNORmtyZ1hRUXZNc0xyNHlsS3E2MWlR?oc=5",
       "publishedAt": "2024-03-25T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.590Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.782Z",
       "createdAt": "2026-08-19T18:57:00.590Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -10930,7 +10982,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTXVLcnZmX2Q2bkk4eURNZGdsYWpFMXc0Szg3T0xvUXNtSlZSbWRxMEUzWU9tcEpacGFEbkpZRnNzdE14QTZhVFNob2w3SHFVWGpIdFBIOW5rRGFMRmgtdk5uQmQ0VTVteGhrM0poakEtQ21YYl81N2lBblNYdmVlcHJ5MFZpNnBaNnAxOUdkR1VrSGp5SmF4NFZoUDc1SF96Z3F1VEp0ZThsTWRIZkZwY0poYWdPbG5iR2fSAdQBQVVfeXFMUEZWSWpINndjNmp6Mk54SV96U0FmLVZGZVJYN0daY0NEa3o0VVd6N3FzcmNlM3ltR0xFcklUMkRlV3pjbzdCMnRYWUJ0X0VfNzBqRUUxb0lsQWUyamlDVS1pSXhZOEI0aFJCQzZBbU5ObXhudmgzX3d6ekZ1ZkpuVDRrNlc2eVh1Sm5ndEQ3SjE5ODRDYWdCWXlBQmR1dm5na1c5cFlVZG9DbzYzQkVTeFVjeGFkS0pLaFNzY3VSS00tVlRTVm1hSUZDSWJCRV9nZU1tSEY?oc=5",
       "publishedAt": "2024-03-23T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.782Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -10956,7 +11008,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV09KM2hlV29vLTBiMmpqc2V5ay1aeURfUXpLR1lfTWhTQzdWcDA5SmMxcGg1T25LYkpqZ1lJQVdxRUlqeHRaQVNjdHRIb28xdVc3VDF3eTVhdDN2LVh0emVqN1o1bWZTT1pfUjU4by1WUTNBak5Cc0FsOU1nM2tFZDJTZU5LNTMyTVV6N09ISFBmVDF2eS1GUW1nOEpJVWNEaTQ3bUZXZFFwZGpBNzNPc21NdmtnTXR3VUZGOVJ0ZnB2bzhQY1ZfUWhBYkxHZlpiYmkw?oc=5",
       "publishedAt": "2024-03-23T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.590Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.782Z",
       "createdAt": "2026-08-19T18:57:00.590Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -10982,7 +11034,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUh4SlNBeGRhaFJYaUJwV3o4a1lWUWZ6SUtHTzM2bE9QdGp6SVpScnVBelN1R3FQS0g3RnFndjd1aERSSE5kN25Qc2R3R3hoUjY4WHhfQzNndXJZSVd6NWpEVnZDS0Q1aUNuRnFFd3J1MjNMSENwaVdMaF9ZVV8zT3BXLVdDa3FQOFNBbnUxQ214MXlfOThfTTUzaEFiWWlaTV9hZ2h0TVE?oc=5",
       "publishedAt": "2024-03-23T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.591Z",
-      "lastSeenAt": "2026-10-29T05:57:41.732Z",
+      "lastSeenAt": "2026-10-29T13:15:49.783Z",
       "createdAt": "2026-08-19T18:57:00.591Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11061,7 +11113,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUC1DN3d6bEhsNS1ZSk1lR3kxUGhvOFhmcEprTzhnbVlXdWs4ZmJvanF1azJDWktSQUNCLXIzOEYxUy1TMEFpTDlPR0dMd1pwZHJJODh3UVFSb0RsN0RIUV9taFRGV0lzdmJhSDJPUmxhcXA2NWxuTVczZXgwcnE5RWRpZDRtaUt0aDVmWmNKS2dNLVpRUFVyQWJoeTJBMlBJcEJySXVHRERLdXl2YVgzUHlWRzRCTkV0MEFpYkt2d2FJLUF1cFRTalBmc0R2Ym1wLXc?oc=5",
       "publishedAt": "2024-03-22T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.590Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.782Z",
       "createdAt": "2026-08-19T18:57:00.590Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11214,7 +11266,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJZVM3eDFZUGVvbTFlNjhhRGRCZkI5WTIycjBoZm02VHdSdnNlQnNlMFlXN2V2QXVkRG1LV24yaDhyWjdRbFBnU04yTWJ1azVmVUJzZTBJSTIydG9RbnVYeE5IRjBIc0VaUUR4UmdOLU5ST2xuMkE?oc=5",
       "publishedAt": "2024-03-20T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T04:39:45.692Z",
-      "lastSeenAt": "2026-10-27T22:22:31.036Z",
+      "lastSeenAt": "2026-10-29T13:15:47.555Z",
       "createdAt": "2026-09-03T04:39:45.692Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11340,7 +11392,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT1EwNURidU5QZXBBWXV2S0pIcjZYZkxBTEt3THU5MzVZYjdVcUVDNnJHWm5hVnlXenlmaXVTWTJGd1ZuM05rZWxfUW5mbFRlU1VLQlEzYk5EdW1zQ0dTMk5uV3FxZWlUVG9leGlFMklJT0FCMS02LXlYVFZNeWNmdW5rSGxWM2ZOUWREM1pTWEEzQ29iU3lIWVZrMllxMnFXOWZsekdMcWHSAa4BQVVfeXFMUEhCN2FVVmJBQzZyM2Y0SWRfMmhlWW5YS19ZMXlTVWlPdlFJWXpqOUZzc3BNUTR5OU1JWmJZUTA3TDFXUFNrVDlMYkVHZVdxVWhrMnVCZmxpNHdHSXJhbmVIVXBpV3FfWlFSc1Z6ZldyZGJHbWQ1RzNmQkFmWS1lcUJfNEhTUTVMa3RMb3IzUHBLVW00SWpjczBsUWg3OHlZWDZma3BpLUQyZThnQTNR?oc=5",
       "publishedAt": "2024-03-07T08:00:00.000Z",
       "firstSeenAt": "2026-10-03T05:25:56.977Z",
-      "lastSeenAt": "2026-10-29T05:57:41.967Z",
+      "lastSeenAt": "2026-10-29T13:15:50.130Z",
       "createdAt": "2026-10-03T05:25:56.977Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11366,7 +11418,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQi01M2pMQ0tGTjNNZmRFa2hjbGRwNm5vaTdubzlfemVSUnlDeXM1TXJvamd2RzE5OTFFLUhaS0wwM0ZTTnhWcHJJZnh3bm91UTF0ZkhTb0pURzZxRFo1X1NmNWFGdWlhOGdSZnA1eFhMRjRYbzJSZXBpdVZVUUVmSllJMkd3RXF1V1lqOFlXZFJic0FQTXB6eHFJYzVoNy0yems3SVZOSzRSSVpaZEVEYnBBaGszZlpYNE4wQ29JLU5sdE5JWFZaUGc5YS1FOG1UOW9NWkVjeFRVT2dHNzFvT3pRRU9Idw?oc=5",
       "publishedAt": "2024-03-06T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.430Z",
-      "lastSeenAt": "2026-10-29T05:57:39.070Z",
+      "lastSeenAt": "2026-10-29T13:15:44.571Z",
       "createdAt": "2026-08-19T18:56:57.430Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11444,7 +11496,7 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVnFIY3JmN1VnTm9ILXl4eW5BYUpjcnlPMzhUc1dzRmhsLW1lQlZBUlJTdlZjUEtva2MxSXhlTjBPMUhXUUFwV3hXTElZeDd0VEFmWi1DRWxvRjREYVZoQUdvdG1BcWFkaThBb2xMODJFeUtRMWlzWENaRjRFcHliVEs2RTNjZEhVU2dqbA?oc=5",
       "publishedAt": "2024-03-06T08:00:00.000Z",
       "firstSeenAt": "2026-10-29T05:57:35.725Z",
-      "lastSeenAt": "2026-10-29T05:57:35.725Z",
+      "lastSeenAt": "2026-10-29T13:15:38.980Z",
       "createdAt": "2026-10-29T05:57:35.725Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11540,7 +11592,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX0l3V2VOOFk3YVJzWHVRYy1lS0UzUE1la3YzUjJyLVRlMXNCMDBZcHpiTVZqZUE4Y1R6VnFXcmpsbTVqVTJ5WlBYOS1rSVFWNlliamtqSTNpUHdWZnBnM1dCS1JwYl9rMWRQM1l3U2xKVUhJOVp6aTFEM3FvRk9tVWx2bVl0VDgwWVpOazdtdy1kcmVpVENPNkR0RlVWcjZGT1RLOTlrV0Q?oc=5",
       "publishedAt": "2024-03-04T04:09:52.000Z",
       "firstSeenAt": "2026-08-25T19:02:13.149Z",
-      "lastSeenAt": "2026-10-29T05:57:39.384Z",
+      "lastSeenAt": "2026-10-29T13:15:45.157Z",
       "createdAt": "2026-08-25T19:02:13.149Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11564,7 +11616,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOGp2LUJMMmxRcDhUZTBOU09VeERJMnc3RWhIbzJDSVNqcWVhZ0RSY0dUZzlEMU9UWjhwRmtIRl9GV0JWRG5IbEMyQy1rWHg1YTBzQ2ZLV1prazhsVUFIYi15bFQ4OFNBNnhUNHFwNUJVclNrRzlUbVBFNjBwazRRYURvZXJkSHFMN0FsdG93U1ROeVNQTzBRN2JIUkRYVnFyclF1bjhFZXNpbV9LVnZDcFVyRTZHOVE?oc=5",
       "publishedAt": "2024-03-04T04:09:13.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-10-29T05:57:39.383Z",
+      "lastSeenAt": "2026-10-29T13:15:45.157Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11588,7 +11640,7 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQc0F4NkxGZVRmdEV3aUlqTTVndlg4dDhld2kxZWFjNE9Zcy1Bcmw4QjZIdC01bzFiSktjbmJLekJhbFFfYlFMQjZJbnNNdUwtSm16OTVUSlNOOWhDNGM4NGhnVEM0UVBZZV92WEJRYzctTS1CRGdaTld6VEJQUXoyLXZ1eEJKaW9QQ1ZnTklQOXpkZTNDM1VlRjgzMS1DVmhxQ1R1RThDaUF5ZjBzYTZ5eXM4dXhwVjU0clNZQmpkd0I0aE0tNVJjckFqWjFWa1RiMXZMdXhEeVJRNDhqTEpFTnRSdEFvaURnM0FubWNnNXpXYVlCcUR6X0xjcC1kZXZzVmc?oc=5",
       "publishedAt": "2024-03-01T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:53.453Z",
-      "lastSeenAt": "2026-10-29T05:57:35.724Z",
+      "lastSeenAt": "2026-10-29T13:15:38.979Z",
       "createdAt": "2026-08-19T18:56:53.453Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11684,7 +11736,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTXNkd1RXdU00Nm81SVlNZU1tT3BDbWhoWXl1dmtXaDBvd3FqcmZ6VTlnamoxVHJyT0hMaXBiQ0pZdDAteEkxMTJ5NjhIdHphelFjX1lPbDRmQ3U0cXpmVlVObU85NTZmMHU0enQ4cmNjSWo0UGY5aTRjc3pROHc2dHprY244Y0pIYXRaTXhOWGZRcXoyTkluQzl1Qm1NVy1zX2gwRkVHUVZQTmRRQ2xfd1ZXY3NJbTQ4Q3dncVNSMFU?oc=5",
       "publishedAt": "2024-01-14T14:56:02.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-10-29T05:57:39.384Z",
+      "lastSeenAt": "2026-10-29T13:15:45.157Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11783,7 +11835,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNDlmM1NwRFVBNlhKMjJBMG8yem1ObDZpTE5TSWltNjV1YlZvRXV2NTFsUG10bHhrejRLOUY3RWtuaWVBbVFpV255T3lvUW1hTF9FT2VGNHdZX3hXVjlFZlpQSE83NGFJSjlOZDBncmtSOXZaTFI3bTZkWWx4em96YzJ1ZHl3N0FmUk94VEtKdEU1S3RRcFlFZVdWS0phUjd2NWdHbFpvTWlyUENrRE1MM2l4MC1wbUNBOWRrZ0FnS2MzdmVWVkVrYlZTdnkyd25rZzZHZ01ZeGpzMEJZSDlMekJwR1rSAfQBQVVfeXFMUE5Wa2FnbmdnRFNGZGZqUWprN0ptVmFQV2VZOWpycnFlOTd5V2ZtbnVxWHYwdDdTb196LU1XbTByd19kMVBJdXJDc1BOal94X0liR2Z2emV0clIteVpoMDZKQ2czQjZxMnhQZFd2Uy1DaDROMDRudXB4NnJxamRIWUJ4c3dFcFp1MW56NnFDb0xvbHVtTmM4QWVyczJBbXgyd3otVldFSnN3YXlfZlYzMEo3RUw1Qy1sNnR0OVdaRkZyQXRHV2lqUWIwUzRmZFhJU21nY09sX1lzUFR4WGFCVjB3WjNXZTNOMl9VVmg2S3NNRUZvZA?oc=5",
       "publishedAt": "2023-12-15T08:00:00.000Z",
       "firstSeenAt": "2026-09-03T11:23:30.552Z",
-      "lastSeenAt": "2026-10-29T05:57:42.216Z",
+      "lastSeenAt": "2026-10-29T13:15:50.615Z",
       "createdAt": "2026-09-03T11:23:30.552Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -11986,7 +12038,7 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14MktPeFNnOFpPaWpvX3R1NUdmU3Uzdm9BTG9OSVJUSnFCbUtaMnAxR21icldSWHI4NlBfajBpWmRRUGVpNUVpQ0NCQy1FalllSl8tZk8xQzdfMFpR?oc=5",
       "publishedAt": "2023-10-31T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.589Z",
-      "lastSeenAt": "2026-10-29T05:57:41.731Z",
+      "lastSeenAt": "2026-10-29T13:15:49.782Z",
       "createdAt": "2026-08-19T18:57:00.589Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12090,7 +12142,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXloc1V5dVpsTVlCTTUyNnlTa2cyODRQMmhCZ0VBVlQ1X0tNNGJwZDYxUm5Ed2sxTUNhSE44NVVkbGdHbURmb1FINVpEZUVlQTdfYy0taFhIR2FWdXNsUFVXcFJ5SzN4Mi1MdTU0cGhfVmV6VEpYS1d3RmJRZzgzeWpWVWNtd1Yw?oc=5",
       "publishedAt": "2023-10-01T07:27:29.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-10-29T05:57:39.384Z",
+      "lastSeenAt": "2026-10-29T13:15:45.157Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12114,7 +12166,7 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaW1HOFFJLVU0aDVhUnIzaEV6bGY0cXNLSlJ3YXZTbFdZVFVVT01oR0MzblZDNjM3bGR2ZW9pV2xUZ2dXWk56YVpUWlJsNEhremtPSGFIMVd2WU9hUFlnNXNJT1RkS3NiOFZCOTFIN3JsTFJmaUVqRUZrNDJEcnk2dllCdTFFTlNQa256U2JmaDdERjBqUnlveC1yTzlWYUVnZEpTTEFmMkd1XzNWaXVWZjNZNktwcmJpTHdvb25Od3BZTU9m?oc=5",
       "publishedAt": "2023-09-22T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:40:17.553Z",
-      "lastSeenAt": "2026-10-29T05:57:33.389Z",
+      "lastSeenAt": "2026-10-29T13:15:35.084Z",
       "createdAt": "2026-08-19T16:40:17.553Z",
       "clientId": "10000000",
       "clientName": "BACKUS ESTRATEGIA",
@@ -12287,7 +12339,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWGdBQm1xSzZfWE1lTlZTVzBNdUNzWURnOTFBSHEtdW1DSjFVamo0alJuMnp5Mk95MXBYUUZGUFVoUms5TFk3dkFzZzBNejh0UFpwc0hQWE1FbVVsQTJGMk9iSDJ6QjVmVmxBXzJJMkI5MGFZVkhNNzFIVEpJdUdRamdyZjViYWMycDFiWE5EWlRjWmFQdm9US3FLb2h4Rm9QeGJyQjhFR0RPQQ?oc=5",
       "publishedAt": "2023-08-02T07:00:00.000Z",
       "firstSeenAt": "2026-10-17T04:38:07.486Z",
-      "lastSeenAt": "2026-10-29T05:57:42.215Z",
+      "lastSeenAt": "2026-10-29T13:15:50.615Z",
       "createdAt": "2026-10-17T04:38:07.486Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12389,7 +12441,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMWNpa2J2bVNXVk5ubHcxNFdhREtzWjBlalRtQTV5bjBOTjZxanpQd0stbEdTTzJpOHRuc2dRZThxUkYyX1NYek9SczRaeVlQaEJ1YnFhT1RXUEkxTFNKcEFSMHMySkFJLURhVkpBTXUyWXpsQkt5YXFFSVhscDZzQkgwS281Ql95c3c?oc=5",
       "publishedAt": "2023-07-31T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:23.557Z",
-      "lastSeenAt": "2026-10-29T05:57:42.215Z",
+      "lastSeenAt": "2026-10-29T13:15:50.615Z",
       "createdAt": "2026-08-19T16:37:23.557Z",
       "clientId": "celeo",
       "clientName": "CELEO",
@@ -12412,7 +12464,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOejRMeXBzRFFJdzRKUFFaQkNia0lWTFdyWGk5aEE4bTF1QnZuT0FvRDhWTU1ZbEJEaXRERlU1OF9BemFlejVzRm1kVlE2Z2RkdTFYN3lLbktxcUxqT18xTnJnM3p1RWhBS05OTnpRTWtnZjB0SDNjYXRsQklwSEhSWV9BbWo1eXJ1Nnh5WDNEbDNzNlVSRFp6VXhkZUJDcGxDbHBZbVJmNUg5THFYZllXRlN6ZFhBdDlrd2YzQzY3UkdxdW8?oc=5",
       "publishedAt": "2023-07-31T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:01.205Z",
-      "lastSeenAt": "2026-10-29T05:57:42.216Z",
+      "lastSeenAt": "2026-10-29T13:15:50.615Z",
       "createdAt": "2026-08-19T18:57:01.205Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12439,7 +12491,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPajVYeEdiUGVvQ0xoRGloZWFZZThVWWdjc3FaeDRqczd5cmtncEF4ZWV6TzVELUNSMzAtOW5rR24zcjE1azZIZTZSdDRJOVdMZ05tQ2pxd0s5VXJ6N05Wc1R1Yk1NWmRTM0g4MEhKSFhyUG9qZ1piaWQxeDhFWk5rQVlQUmRGUEtiM05rb3lpTjZsMDZDZTNuTkhES2lMcTRaX3hNQU1wNHJyb0ZSODZtREx6NXRVdW9mUDNoeEY2NzRsb0lSbVNjbHZZeG9lbUVQSkJXLTRHaXRPOFBneXfSAeMBQVVfeXFMTi1sd0dtOF9iTVFXZ2dyaXVyeTEwMXo3UkpTRnlaTHhoOGotMGlSbmJVa3RQaDJSR1RzaktWM2Z6ZVJEVE82V2s3TGNERFl6aUc1QV9heWdkbzEwS1d3WmtCZmlXMVJVVkRXSlJFX1ozWV9qbDJsd1BMNEx5T2trNWcwRFNYSU9tR3Z4ZlBjOThvU052Tk9rLVE2ckZXTmFfZ2VtcW4xaHRVT3JEcmpDUjRMMHp5S3pYUFA3T0w4WGlGdEk4X1c4OHQ5S3RNTHpMRHUzUmFfMnRrSXBxUU14RlRya3M?oc=5",
       "publishedAt": "2023-07-31T07:00:00.000Z",
       "firstSeenAt": "2026-08-21T07:11:39.682Z",
-      "lastSeenAt": "2026-10-29T05:57:42.216Z",
+      "lastSeenAt": "2026-10-29T13:15:50.615Z",
       "createdAt": "2026-08-21T07:11:39.682Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12466,7 +12518,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPS0gxZmN1aEJZUGNSYW1icXpBa2RwMTYzTHZuUDJBZXB4UklBeFpJVHdISHZiMkt3NEpNSElwcExHaE13TnpBazZoSEJUakFIaHl6MzEyZV9heDdOY3ZZcTVHd3BGTElPU0paUHNtUjFHQUZCc3dkNkFHQWw0OGswazVEZUZQSHdkTGEtQVc3VzRMbW1jWE5jUEF2dEdteUZzM0ltMy1UM184Q1RmMnFCODlYRTVaYU1sd0dTeEVKcWJtX0lCWXJ3M19rTEdIQU1nWTMySm5VR2tBZTdFQlJ2STJpU1pKSGdVaTdtMndEWGF1dlFpV0VYcE45Ykxmb2xCTkxPWTF5Q2hseGtxbHMzQ1FIOU54dVZDUllpWDR6WElhNDhSb0x6N1BTeTdzNHR0Q3IwOURGVnhZQdIBzgJBVV95cUxNaW5heVY3b0lpeDFSSGpTaDhlUnNMVVBHbGw5MWJwTXhqcnBIUEZ3a29UWEhBQ3V1cW1Fa1ZqLWRJcXFwN0xPSVJKcjF0UThMS1JpRVpCZjZodnZmMzV3QXZLUnlUd2EwSE1qMFJGNDNkTnlrY19aQktIcXB0WGQtaENKbXF2ekYtM2E5bzdYR0tQUlJWWGlXNU9hbWlEZER3U2VOdVh6a1pOcXJMdVBWcFhYbTI2anJDeGpVdWdMQmh0bGlKYTZvTmYzT3p0cllqZmtUMlVPUXV0TlFvMkhrc0lpODBrQ2hjVnc1a0JPai04bGo4T0VNbGxVNEIyMDBTM3l4SUJxZ2YyUWJ3ZWNxX29FTDRTMHJ6dkF1a0pFbU5KM2VvV2JHWFdINXZpd1NJZXlBa2pnM1J4bWFYSmdVQjJ1eEtyd1lpRWxhaW93?oc=5",
       "publishedAt": "2023-07-31T07:00:00.000Z",
       "firstSeenAt": "2026-09-26T05:07:47.442Z",
-      "lastSeenAt": "2026-10-29T05:57:42.215Z",
+      "lastSeenAt": "2026-10-29T13:15:50.615Z",
       "createdAt": "2026-09-26T05:07:47.442Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12595,7 +12647,7 @@
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNnJWYVc4bWx1M0RBSzFhT0hpOUZWME5GVGJ0NmVCckE0NDV6SDhlSUVzZVRxNkZWQVAtR3QyZFpBcUd2YmVicGJCaFJVbDNsTXhpQ1Vqcnl5cWFHYy1JREw3NHhKU0V5OVRNbWtWbDBpM1FMMk9jbS1hclpxZnhseTdncjlTLTlvN05HZDZ1WWZHaHpuRGRfc2JRWTNpaG1TamZOQXpsMDZvR1V3TkJQbzBaSEVQOHJJcDJNVUpkUFRMenZrOVpGSTBpY3V1YzVoSVVvcWlLc19jUmpHWF9nSnhRMFNuVHF0bWV4bUM0Q3FXQWxzZnNERmdqYw?oc=5",
       "publishedAt": "2023-07-10T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.590Z",
-      "lastSeenAt": "2026-10-29T05:57:41.732Z",
+      "lastSeenAt": "2026-10-29T13:15:49.783Z",
       "createdAt": "2026-08-19T18:57:00.590Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12619,7 +12671,7 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMG1BTlNSRTdmUkZxeTloWjg0UHhKejJsZkdtVFc1QXdCdkNpaGMzb29PYkp1cVdBbFB3QWJNV2ZXZE56U2JPeUJKYTJ4YzlITnVkTFNOX3hhVkhUT2dZaTNhRzRYTXhleDNXTkcxaEtxOHhJTEsyOGhFSnVUVUdNdFpHTWQzRXdRbTJfc1lmOXE5WTdkMkp0UUhCLVZEWERLS2lPUjhGa01OUTlMZEZQSVZvMC11MkNTc3dYZWpVNzEzRVpfR2RnUzc5Zw?oc=5",
       "publishedAt": "2023-07-05T10:26:54.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-10-29T05:57:39.384Z",
+      "lastSeenAt": "2026-10-29T13:15:45.157Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12643,7 +12695,7 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtYm0zMnR2c2E4Nk40UldzMmIxNDlvTHVTSUdvZGRwZUVGd1BZeVUzT1ZzLUhJa2dlT2UzZXhuRTA2akJOTnJ4dVNOXy1RQTdJWTd6bWV0VjBDMHNzYm9VS19YRFFvZmRVTFNLaUpZUk10UDA1?oc=5",
       "publishedAt": "2023-07-05T10:03:05.000Z",
       "firstSeenAt": "2026-08-19T18:56:57.730Z",
-      "lastSeenAt": "2026-10-29T05:57:39.384Z",
+      "lastSeenAt": "2026-10-29T13:15:45.157Z",
       "createdAt": "2026-08-19T18:56:57.730Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12691,7 +12743,7 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeXYyUjNlZnpDam9kMkI4TWdLeF9HcUdveGRTNjV0ZjBjY3F4ZDVkYUNTdlRqMFQ5LVJ0bDQ5dE94TEJia2FzZjdxX0Z1Q1R2bVFkTEFHb1Fub3l4Q3JyRVpwU3dFamEzSUJZVVdyWFp6dndYT0hWLXdEdXNrcHBfc0lsWG5XQlUtbk9QeHBwenNGdkVSYjBrSlFUSjRDWjU3cGZLeVVzb08zQ01sdnhUNTZ5RVlUbDJVMEswWHVzRE8xQzJHU1paRWdMQnBrdEE?oc=5",
       "publishedAt": "2023-07-05T09:49:46.000Z",
       "firstSeenAt": "2026-10-06T18:27:52.982Z",
-      "lastSeenAt": "2026-10-29T05:57:39.384Z",
+      "lastSeenAt": "2026-10-29T13:15:45.157Z",
       "createdAt": "2026-10-06T18:27:52.982Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12811,7 +12863,7 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRHl3QVl3UUtnZWFrdEczRDI5SlB4U0xWS3gtV2xBRnBqR1dvNjU2YmdxTmJWM0V0b3Mtb1RQNjRPTkJaS3gzMmllMUkydU5lVDZLYU5QUm5MRXRxcFhvbUpwNVNPMTZwTlRFUVNqOXhDMWJaS0VxeTYxUmU3aXg1TkJ3bTdSeU9Sc1NSalRUQmdVTkJ3Y0NSV0Nkb2lqbkZYQ3Y1SklzUGI1MUZWMVUtWGVtT0I5TFJNWVJ2SVQtUQ?oc=5",
       "publishedAt": "2023-05-25T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.079Z",
-      "lastSeenAt": "2026-10-29T05:57:36.324Z",
+      "lastSeenAt": "2026-10-29T13:15:39.931Z",
       "createdAt": "2026-08-19T18:56:54.079Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -12910,7 +12962,7 @@
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVHlLV2xzR0hINWVLU3k5TG5jdVkwX0g2NjZ1cUQ3UG10WGdyMmNXRkoxOUdGSy1TVjVxc1g5T3Rha1hzM0FTVFZlMnJwNEdLUTMybzRuTHZtVUVfbmw5SVBXSlRZWEVPa3ZicmszWmtkT1BEbkliRG8wTUJtLWk5bF90eVdfNWxOeHMxUVYxMFA1a2xleTNyenBsVU0tQU5ERG5hM0pqbGNTZkdDZWVaMkZoSjJZWm5iZXN1bjVMRFdpM1lkSzktQVZVdXJ5dEhvNThpcTJGNVMzQQ?oc=5",
       "publishedAt": "2023-03-22T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.864Z",
-      "lastSeenAt": "2026-10-28T22:41:20.854Z",
+      "lastSeenAt": "2026-10-29T13:15:48.714Z",
       "createdAt": "2026-08-19T18:56:59.864Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13167,7 +13219,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS0o0dV85U2pqZGphQ3dTb3pNazR2ZDdJV2M4dWtUYW8xOHZDcjluT2FFT2tMZkhiZGQyZjVENkctczJMUEFKSmZCbzlpQlkwZnJuRlRmb2xZbU1WX210MzlzaXlxZzYxV0xJQVNyU2p2TVFxX3FYa2dsTFJsaElYQm1Za0hZam1HaVVaWVdMUHM1UQ?oc=5",
       "publishedAt": "2022-11-23T08:00:00.000Z",
       "firstSeenAt": "2026-10-28T22:41:13.895Z",
-      "lastSeenAt": "2026-10-29T05:57:34.638Z",
+      "lastSeenAt": "2026-10-29T13:15:37.097Z",
       "createdAt": "2026-10-28T22:41:13.895Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13294,7 +13346,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMDJjU05QMWlTTGhPc0hjMXV5ODY5NUNUMGpyWEthV21pMnpGdVc3b3B2LWcwbGFEOHZxU2VheURadUN4TnZGNGlidGt5bTdFVk45eGlfaEtGSmt2Y0NBX3lBVWZnNmV0WTVFQ3E0Wk54OXRVdjl4dVBwcEFqX1dKVmhHQWpuTnVrNFo2RVJqelBtcVpyWWlnRGhBWnFzZ3J2aDVTblRn?oc=5",
       "publishedAt": "2022-08-16T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T21:07:17.399Z",
-      "lastSeenAt": "2026-10-27T22:22:31.037Z",
+      "lastSeenAt": "2026-10-29T13:15:47.556Z",
       "createdAt": "2026-09-03T21:07:17.399Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13342,7 +13394,7 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSUdzSFlEU2tfTmZDaXdvMHo0Mi15a2h3WkRDNXdUeW45VGhONVlNclNHYUV3NzZlSWwyOTdJNW5TeUNnQ25VbEhTU3R1MXZsVzlHN0hwbEJ0YTg5TVRtMUlCZ2hLTzRyX0VMaGdvcDE3QWtjNlJKc3RqNXNpOWdFVmt2ODVEWkFkSDRFbTZqS0ttZ3NDcTNXaHU3NEdLMlZkeVh5MmpHNFNBaTMyd3p2UGpYSzRha1V4dHM2VzlUeVI0b1BoR0t4d0pn0gHkAUFVX3lxTE5nYW4wRm9OUU5yU29raldpV2t4Mm14elVna0VKT0xGMGF3UTczXzQ3VlJfdlkySkYtSmVxTE5BSzZZSnp6cDRBT1B0dTdfTklsNXRmbVRWVWVRejZCV1lzbGNjd0xmN3ppSmd1YkFyUVRNaVBRZndUQ0tPY3labml2Uzk0MUcwY2Eyd1BvbERMUWIyYjBOdEE4eFliM1ZOQ2VMZzdVaEtyOTR3QnA2SzF2S2R3TmRLT1FHcnV4UFNPcHJ4azlSVDVSRTc1UnRDa1gzZVh0MTlSZnhmV241VzRRVGcycQ?oc=5",
       "publishedAt": "2022-08-10T07:00:00.000Z",
       "firstSeenAt": "2026-08-27T22:24:51.190Z",
-      "lastSeenAt": "2026-10-29T05:57:35.725Z",
+      "lastSeenAt": "2026-10-29T13:15:38.979Z",
       "createdAt": "2026-08-27T22:24:51.190Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13366,7 +13418,7 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUjd0T3dHdm02S0RtWmVndWNpdFpPVktIbjRQdm9xeWtCWXVySV82RFZDVlg5YUNPV255Z3MtMlhnaXMwVG55SDcxVVUxMFMyN3paTmw4TDFnUFVvQWUtYjRqdG9YVFN3eGtJakF4WGdfQVRuQjdBeF9DTmVTbVRkajM0NC05OEZI0gGIAUFVX3lxTE85V3FmelV5VTl4YzVZbTJHWDRDNWJCRWhIUnBFMUJubUExcFZFSzVCN0dFY0NZRFY4SGxweUsyaC1kTzhmMWtlblhVeE0zbWpxdmpRQjc2RVZiNElTMFlNUzcxbXA0YWFYVF9mNUVGS1JPbDIwdFdNanJUc2VEaUozbkVrZG1sUEk?oc=5",
       "publishedAt": "2022-08-01T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:53.454Z",
-      "lastSeenAt": "2026-10-29T05:57:35.724Z",
+      "lastSeenAt": "2026-10-29T13:15:38.979Z",
       "createdAt": "2026-08-19T18:56:53.454Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13418,7 +13470,7 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XNXpjMzRYbGhaLWVvVU03aEFfcFdnQ195LUVaMXMwMjFLNTc5VjFoaVI1UUEzVS1PUEdxYk1zQ3RWcTNPcTZmdmMzb29fZHpPRHQtbWkxaVRwM0Q0WDlISmhTaE8zQTg?oc=5",
       "publishedAt": "2022-06-03T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:55.113Z",
-      "lastSeenAt": "2026-10-29T05:57:37.262Z",
+      "lastSeenAt": "2026-10-29T13:15:41.443Z",
       "createdAt": "2026-08-19T18:56:55.113Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13567,7 +13619,7 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUFU0UEpWbS1LZ09kWngxYzFVWWducGhvOG82dVFyMmR2bmRtZEdYZjdjaHRoQmtNb2dienlFVEwtNm5hLVdNdXBnT2xlcTRSUVJCNk5GdzVPLTUtRmlsNGpFZlRrREc5LThuWGhsNC1HcDNJeC1NajBzN0JCc1ZhNUNNMl9EOFlrSFlibUJrU1lVWnp0elRpVk9UaVg?oc=5",
       "publishedAt": "2022-01-18T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:55.600Z",
-      "lastSeenAt": "2026-10-29T05:57:37.741Z",
+      "lastSeenAt": "2026-10-29T13:15:42.151Z",
       "createdAt": "2026-08-19T18:56:55.600Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13769,7 +13821,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWE1MMnhMLUlzSjRKR0dHMUE5ekVsdGh6VENWbExqZWNlVTdhMTB6d0xaeTBMSXY3NjduenpEaDgzVG5WaS14TXVXM2NfbDZXY1d3cW9jamhnNE9rWWVLaUgxb3U3Y1hUejAyVTJaUU9vY21OTzF4WUIwc08tTkdnMWNpay1rdUI5blJja0UtNnQwODhoQkc2THk1bVMzYjZjWHRTRnREdXZPc0NZczJmb3dKVlpacTQ?oc=5",
       "publishedAt": "2021-06-25T07:00:00.000Z",
       "firstSeenAt": "2026-08-28T22:27:01.933Z",
-      "lastSeenAt": "2026-10-29T05:57:36.325Z",
+      "lastSeenAt": "2026-10-29T13:15:39.932Z",
       "createdAt": "2026-08-28T22:27:01.933Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13795,7 +13847,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdHkwM2x6NUxmTzRhbHdTVUVOWGZ5NjVPZjZYb3RrWVNTa3BmZmJ5M3J3YzAzY19LRC1TeGRid0k1TUZNMmJNZHBhTXozWFBnRS1zWDFRc3pPbklVQWRWV1A5ODRmY2ZIWWs1VmdJWjRrWjBqXzR3LUZweDZqV1ZpbDV6aHRuTVpIakNnTm9R?oc=5",
       "publishedAt": "2021-05-25T07:00:00.000Z",
       "firstSeenAt": "2026-09-05T04:37:39.995Z",
-      "lastSeenAt": "2026-10-29T05:57:42.215Z",
+      "lastSeenAt": "2026-10-29T13:15:50.615Z",
       "createdAt": "2026-09-05T04:37:39.995Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13874,7 +13926,7 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcGU4dzY5T2d5WGl5aG81d0M5bUh5UDE5XzFNbUw3UTFUQmstVXV6RV9KVERteXZpYTBuTWtCRHJzS3BrYmRpbHlYaGlFa216cWpwUTJ3eUp3UWxnV2xzYUVrb1dqUFI3WGR3MldMaWktcnV2MEk0MllIMzY5aGRZcUZKbU1McmFTb1ZMa21DV1lNMWNfenB1Z3VZSFRvdDMza3fSAaoBQVVfeXFMT05wS2J6Y0VaMlhSRENPNEFzY0tSVVJMRWpmZGpPdXZNOERabEdyYklrQmhsYzBFdzBZR3o5WjdjeGRBc2g1UzE2UE1haW1MbDFPbWRRem9ZcGtGbWlhRW5BRXAxa0llaWF0NWJGMWgtMHd3S2ZvNl9XSG9KUUwxWWVMSkU0R3J1THA3VEZXb0NoOExTMmExc3NHYkF0ODRzSUJaVmV4YjRfdlE?oc=5",
       "publishedAt": "2021-01-20T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:57:00.306Z",
-      "lastSeenAt": "2026-10-29T05:57:41.452Z",
+      "lastSeenAt": "2026-10-29T13:15:49.237Z",
       "createdAt": "2026-08-19T18:57:00.306Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -13975,7 +14027,7 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZWZSdUhrLUFrVVZlbVVHd0V5VEJTOXEzLXdQV1hadHNCSEhQaXRFWlo1a2RVWVYyQWo4RWxrekZnSzF2N2pfaERoQUQ3YWlHMzlVWVFocG56ZDlDLUJtRTlGMmtMcjI0R1VrY3J5WkxCeGJSSWNSZUprbmhDQzBQTGtIWDNmc1plSE1JeHItUGc?oc=5",
       "publishedAt": "2020-05-30T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T16:31:35.716Z",
-      "lastSeenAt": "2026-10-27T22:22:31.037Z",
+      "lastSeenAt": "2026-10-29T13:15:47.556Z",
       "createdAt": "2026-09-03T16:31:35.716Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -14049,7 +14101,7 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUTdRYTRRMkZ6Vnc0Z3ZTVVd0NE03UTlLZWNxekowV251SGlQVG8zTGI0SmNLNDFFVjNOUUViQko0QWVPaF9Pa3czaUhwV2xrcFF1S3lQMFdrTDdEay1Sdkc3QUp0NGJkRGxKWW1yeGt1RU8xMjBYVkEta2hZczVNRFhLdGhBN09ZXzlvN9IBjAFBVV95cUxPUTdRYTRRMkZ6Vnc0Z3ZTVVd0NE03UTlLZWNxekowV251SGlQVG8zTGI0SmNLNDFFVjNOUUViQko0QWVPaF9Pa3czaUhwV2xrcFF1S3lQMFdrTDdEay1Sdkc3QUp0NGJkRGxKWW1yeGt1RU8xMjBYVkEta2hZczVNRFhLdGhBN09ZXzlvNw?oc=5",
       "publishedAt": "2019-12-12T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:52.925Z",
-      "lastSeenAt": "2026-10-29T05:57:35.165Z",
+      "lastSeenAt": "2026-10-29T13:15:38.038Z",
       "createdAt": "2026-08-19T18:56:52.925Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -14075,7 +14127,7 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX3h1ZFlveG80TGJxYmJROFhqQjVJM1lZQ3RnVWM3WFJCQjVLcjBsWWxyMml2eG9ONUx1Y0tMXzZiOHdzN0VNd2EyZmhMZ2lIRERkU2EwTkFVUmJ1M0tiYkhWdDZVanU0R2N3V0c4NTRfM0RsckVPSG9ERzZhY2hDUWFPZGVIWlVCaWZpMjdMdlRSekc1YmFPbHNGREVkRTJxYkFycHBaX1hBS014WDNNUUxROU5zQnZGc0szNFVLc1M0MUdQb0HSAcYBQVVfeXFMTjVpQmpzODRpZ3RzZkxpMEgyWHJUT0hjYi1BaGxheEd1cDJnYkZaN1ZJeXluUmhZYy0wcFdxX2tRU1p1SXNKVVBYN2hjVWdsSE9veUxiSWhjTnN3Rl9oNDNVRlVZUUpfZ0FtbDdsMnNRX1JmUF9xWk1uUmNFSThQQXFKbDluMkl5bzdiWVlIVktEZEVZR2pMM2I5YTZkTU4wREVqeTFTbE1MdURiNGI2aG01bUNma2V6dXhuVlpSYWljLUUtNzh3?oc=5",
       "publishedAt": "2019-12-09T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T16:37:11.893Z",
-      "lastSeenAt": "2026-10-29T05:57:35.165Z",
+      "lastSeenAt": "2026-10-29T13:15:38.038Z",
       "createdAt": "2026-08-19T16:37:11.893Z",
       "clientId": "10000014",
       "clientName": "TELEPERFORMANCE",
@@ -14272,7 +14324,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbWh4bXNhb3RkNkY2anZVUC1WYS1VWXpnMUJVVmZVX0l1a0o0TFlNSkwzSnRwWnZtOGkySGpLVzRWdDhsUFhsWUV4dTR3eXBnbi1obUlhUVh4OFVFNmlQNmdZQjBXLWw4MkdfS2NGeXBNTXdlaWlVOTdwYWMtNTkyVFJ4YmczYlYtRGNOT045OEZGVU5nUi0wanF0aXJDRFFmejFfOW9hUGZGOHY5V2lRYzFlakNaT19sbVNPS01IOTfSAcYBQVVfeXFMTndzTnAzWU1YUm1TclI1TlF1T3hnQVpUYnZ5Z1BjY1F4cWo5bmlmaGY1QXdoSThBSkd5SnR5TDlGRGFpTVg2RXpiWTZ3X2pOT1g4eExMR3VURlNFWmZrdzlUZC0xbVlmV1RGWEVFRFBmNzlTalB5Y25NMy1DSUR2TUFyYjRxTDFSZ2gzM3BHRk84dXEtcU5kM1IwUUZGU0NZQjBvQ1ZadDZHd1JYZExrcUhINklib01Sb2txeGJHdE0zRHM2MDR3?oc=5",
       "publishedAt": "2018-03-05T08:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:54.722Z",
-      "lastSeenAt": "2026-10-29T05:57:36.908Z",
+      "lastSeenAt": "2026-10-29T13:15:40.906Z",
       "createdAt": "2026-08-19T18:56:54.722Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -14348,7 +14400,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWXRUSko5bG1xMDFVZ2NLbTBDc0xqXzZsdzRicHZnZmJSZVkzVlA4TzZxbUltZXRCaGVMdHF0dTJNMTRCU1hPZjBXb1ROMk5vbm1mQ2NQMVl1Z1FIU3FRZVlhQ2JaS3dGbnEtU2FXNXRaaXplZDYtcFFxZ1RQN0tIWFYxZ2J0N0k3QS03Zy1laVZkOU5QS2xvU9IBngFBVV95cUxQVTRWYklwTVNxX1ViMTA5RkZPM3ZtZ0JFaXRkdFBUQXNzRFo4ZkxETFRGZVdBakRYZ2dSRG5VcmgxcVFWakVtTVlTNGhXUzFvOGdHM3Y3TVk0aGNqRkNiVW1KQy1rWm9OaTVicXNvOVgyMHlWcjQ0Z1VKMXhpck1STDN4ajdrUnMtaUhLWmFYUjVGUmNuUVpiYjhCdkJDUQ?oc=5",
       "publishedAt": "2017-10-13T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:52.925Z",
-      "lastSeenAt": "2026-10-29T05:57:35.165Z",
+      "lastSeenAt": "2026-10-29T13:15:38.037Z",
       "createdAt": "2026-08-19T18:56:52.925Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -14396,7 +14448,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVXgtU1BEZHdfMDI5Z3Q2WHZSTDB4aEVxR1gtY00wczV2RkNpcXFLVmZ5WjBtZjB1ZnRhb18yYmpSaWdDYWFGOW9ub0p1YzJmbzdXaXdJT1FiMGt5dEV2NGFUVXNLOEt6ZzBJaGFVNGsyMEQ5cnVfc1dHTnQtamtfbUVnY2h3SjNsRlZTT0JRQ1JUNmt3SnFKVHAwVFA3aWFTRnZHanNFakxSdzJvQnBubjdpa21Kc0FyRlduNVZLWElMZ3A3M2pPeXhWZ0xHM3M3S1B3?oc=5",
       "publishedAt": "2017-06-27T07:00:00.000Z",
       "firstSeenAt": "2026-08-19T18:56:59.201Z",
-      "lastSeenAt": "2026-10-27T22:22:31.037Z",
+      "lastSeenAt": "2026-10-29T13:15:47.556Z",
       "createdAt": "2026-08-19T18:56:59.201Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -14468,7 +14520,7 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbjlJYTZXeUZpSFpBd3dSYzMxazc4QVFmdkpXZTBmTGFiMlp6RjY5UUNiYzd4REFabHRRV0ZFZWFkZER1QnN1V01xZ2hNYm1FWlhJS0cwUGpvSVMwRG9PR25CUGlyVkVheFFDYXRfNEhMNTZ0VnM2TG5SRXc1NzVhOGt3MXFYMGpHbV83V0lYWjlDdTZOVllkd0NCT2nSAbABQVVfeXFMTnVoVHYyZUF5OU5uUEFWVWNSeUxXcW1pU1Z4aXNKeTRodk4wNEthWk42VUNiU2J5SS1kVDVOSmpuMUpXclFVLXhNR3l2ZUthTFRCYU9FM3FPOGtCSnAzX0RWNndIaU54LWs2UEdfbXJCN1A2dGRvUUMyR0tvX0RhZHlNTzBqSWJtc041Y1VjdmluQm44Q0liSkRGZ3JDWm53a0YxOENHZ3ZsejgwV2pScTA?oc=5",
       "publishedAt": "2017-04-21T07:00:00.000Z",
       "firstSeenAt": "2026-09-04T20:50:19.600Z",
-      "lastSeenAt": "2026-10-29T05:57:35.723Z",
+      "lastSeenAt": "2026-10-29T13:15:38.979Z",
       "createdAt": "2026-09-04T20:50:19.600Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -14542,7 +14594,7 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaE9MaUZkeEtZT3FqOHo0OHZKN1NKTnl6NFJUaXZsYXE3VEVnakZmQ291NHV3aTZLTTNfejlfSUpZTGY5SVpucGNLVFhoRUhOWGNHSVVpZUZBOS1YbGFxMV9mZFlSdXBjVFdkRnp3cXBlYWdNa3ZhVFhCNmxyLVFWMUhkOGd3SzYwOWtNRmh0Q3d0aFNwYkoxQlR2dEVmLXppTlJuQmdQX3hjMTZtVlo3Y01UMjhPTVRzeFFGakFhdF9DQVp3?oc=5",
       "publishedAt": "2016-08-22T07:00:00.000Z",
       "firstSeenAt": "2026-09-03T11:23:22.307Z",
-      "lastSeenAt": "2026-10-29T05:57:35.165Z",
+      "lastSeenAt": "2026-10-29T13:15:38.037Z",
       "createdAt": "2026-09-03T11:23:22.307Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -14690,7 +14742,7 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HY3JSenVQbFRlM01GZll5ZmRySXp4cm93VjdHalhLVGpWcXlJSHc4LWJGRWlnWnZuWEFWa0kxd2pyQndUT2VncXh1YWJoNmVqN1BYSFoyaHljamliQlB4YQ?oc=5",
       "publishedAt": "2014-09-08T07:00:00.000Z",
       "firstSeenAt": "2026-10-13T22:52:39.141Z",
-      "lastSeenAt": "2026-10-29T05:57:34.088Z",
+      "lastSeenAt": "2026-10-29T13:15:35.967Z",
       "createdAt": "2026-10-13T22:52:39.141Z",
       "rawMetadata": {
         "method": "dynamic_rss"
@@ -14738,7 +14790,7 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVmhERzZCMk9QOHJJMktBRTBWZnI2aUU0THczNDZiUXlWTDYwWkJjeENtN2hHWW85TkgxREdibjdpcnlzMTdnV2xXOXdmQ1B0bjRrdVlaRGNscDlJMGlsRFRRTEQyaGYyT3ltYXlyUHZJUTQwcnVfanl4N1EtNmpjaWtn0gGHAUFVX3lxTFBJX1IyeXRLV0EtRmQzVktuRDdBbFFrWE5aMGNBdmlxaXFqRk9KbWZyS2p2dEhVLWo2NE9XU3pYUEQ1UXpvdy1WcGIxU2FBTllDWngxZGEyYUUzV1p1MVQ1OVVHMkpxY2ZySXh6LXByd1NTVlBobGZEUUdHbXN5ZW5uX1NnZlBEWQ?oc=5",
       "publishedAt": "2012-11-29T08:00:00.000Z",
       "firstSeenAt": "2026-08-21T13:15:24.330Z",
-      "lastSeenAt": "2026-10-29T05:57:37.262Z",
+      "lastSeenAt": "2026-10-29T13:15:41.443Z",
       "createdAt": "2026-08-21T13:15:24.330Z",
       "rawMetadata": {
         "method": "dynamic_rss"
