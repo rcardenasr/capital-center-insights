@@ -5,7 +5,19 @@ const rssSources = [
   ["Gestion Ultimas Noticias", "https://gestion.pe/arc/outboundfeeds/rss/?outputType=xml"]
 ];
 
-const fetchText = async (url) => {
+function newsHttpUrl(value, baseUrl) {
+  if (!String(value || "").trim()) return "";
+  try {
+    const url = new URL(String(value).trim(), baseUrl);
+    return ["http:", "https:"].includes(url.protocol) && !url.username && !url.password ? url.href : "";
+  } catch {
+    return "";
+  }
+}
+
+const fetchText = async (value) => {
+  const url = newsHttpUrl(value);
+  if (!url) throw new Error("La fuente debe tener una URL http o https válida.");
   const urls = [
     url,
     `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
@@ -13,12 +25,16 @@ const fetchText = async (url) => {
   ];
   let lastError = null;
   for (const u of urls) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12000);
     try {
-      const res = await fetch(u);
+      const res = await fetch(u, { signal: controller.signal });
       if (res.ok) return await res.text();
       lastError = new Error(`HTTP ${res.status}`);
     } catch (err) {
-      lastError = err;
+      lastError = err.name === "AbortError" ? new Error("La fuente tardó demasiado en responder.") : err;
+    } finally {
+      clearTimeout(timeout);
     }
   }
   throw lastError || new Error("No se pudo leer el RSS.");
@@ -28,47 +44,84 @@ function cleanHtml(text) {
   return String(text || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 }
 
-function parseRss(xmlText, sourceName) {
+function parseNewsFeed(xmlText, feedUrl, limit = 35) {
   const xml = new DOMParser().parseFromString(xmlText, "text/xml");
-  return [...xml.querySelectorAll("item")].slice(0, 30).map((item) => {
-    const get = (tag) => item.querySelector(tag)?.textContent?.trim() || "";
-    const date = get("pubDate") ? new Date(get("pubDate")).toISOString().slice(0, 10) : d();
+  if (xml.querySelector("parsererror") || !["rss", "rdf", "feed"].includes(xml.documentElement?.localName?.toLowerCase())) {
+    throw new Error("El enlace no contiene un canal RSS o Atom válido.");
+  }
+  const atom = xml.documentElement.localName.toLowerCase() === "feed";
+  return [...xml.getElementsByTagNameNS("*", atom ? "entry" : "item")].slice(0, limit).map((item) => {
+    const children = [...item.children];
+    const get = (tag) => children.find((node) => node.localName === tag)?.textContent?.trim() || "";
+    const date = new Date(get("pubDate") || get("published") || get("updated") || get("date"));
     const title = cleanHtml(get("title"));
-    const summary = cleanHtml(get("description"));
-    const link = get("link");
-    const categories = [...item.querySelectorAll("category")].map((x) => cleanHtml(x.textContent));
+    const summary = cleanHtml(get("description") || get("summary") || get("content"));
+    const atomLink = children.find((node) => node.localName === "link" && [null, "", "alternate"].includes(node.getAttribute("rel")));
+    const link = atom ? atomLink?.getAttribute("href") : get("link") || (/^https?:\/\//i.test(get("guid")) ? get("guid") : "");
+    const categories = children.filter((node) => node.localName === "category").map((node) => cleanHtml(node.getAttribute("term") || node.textContent));
+    return {
+      title,
+      summary,
+      url: newsHttpUrl(link, feedUrl),
+      publishedAt: Number.isNaN(date.getTime()) ? new Date().toISOString() : date.toISOString(),
+      categories
+    };
+  }).filter((item) => item.title);
+}
+
+function parseRss(xmlText, sourceName, feedUrl) {
+  return parseNewsFeed(xmlText, feedUrl, 30).map(({ title, summary, url, publishedAt, categories }) => {
     return {
       id: `RSS-${key(sourceName)}-${key(title).slice(0, 60)}`,
       title,
       summary,
       source: sourceName,
-      date,
-      link,
+      date: publishedAt.slice(0, 10),
+      url,
       tags: [...categories, title, summary].join(" ").split(/[,;/\s]+/).filter((x) => x.length > 3).slice(0, 40),
       type: /riesgo|alerta|sunat|multa|crisis|conflicto|cae|frena|ilegal/i.test(`${title} ${summary}`) ? "Riesgo" : "Oportunidad"
     };
-  }).filter((x) => x.title);
+  });
+}
+
+function configuredNewsSources(config) {
+  const configured = (config?.sources || []).filter((source) => source.userManaged === true && source.backendEnabled && source.feedUrl && source.method !== "html_polling");
+  const seen = new Set();
+  return [...rssSources, ...configured.map((source) => [source.name, source.feedUrl])].filter(([, url]) => {
+    const normalized = newsHttpUrl(url);
+    if (!normalized || seen.has(normalized)) return false;
+    seen.add(normalized);
+    return true;
+  });
 }
 
 async function refreshGestionRss() {
   const btns = $$('[data-action="refresh-rss"]');
   btns.forEach((b) => { b.disabled = true; b.textContent = "Actualizando..."; });
   try {
+    const config = typeof loadIntelConfig === "function" ? await loadIntelConfig() : null;
     const batches = [];
-    for (const [name, url] of rssSources) {
+    let succeeded = 0, failed = 0;
+    for (const [name, url] of configuredNewsSources(config)) {
       try {
-        batches.push(...parseRss(await fetchText(url), name));
+        batches.push(...parseRss(await fetchText(url), name, url));
+        succeeded++;
       } catch (err) {
+        failed++;
         console.warn("RSS source failed", name, err);
       }
     }
-    if (!batches.length) throw new Error("No se pudo leer ningun canal RSS de Gestion.");
+    if (!succeeded) throw new Error("No se pudo leer ningún canal RSS. Revisa las fuentes o vuelve a intentarlo.");
     const existing = new Set(state.signals.map((s) => s.id || key(`${s.source}-${s.title}`)));
-    const fresh = batches.filter((s) => !existing.has(s.id));
+    const fresh = batches.filter((s) => {
+      if (existing.has(s.id)) return false;
+      existing.add(s.id);
+      return true;
+    });
     state.signals = [...fresh, ...state.signals].slice(0, 240);
     state.settings.lastRssSync = new Date().toISOString();
     save();
-    toast("Noticias actualizadas", `${fresh.length} titulares nuevos de Gestion.`);
+    toast("Noticias actualizadas", `${fresh.length} titulares nuevos. ${succeeded} fuentes leídas${failed ? `; ${failed} no respondieron o no tienen un RSS válido` : ""}.`);
     render();
   } catch (err) {
     toast("No se pudo actualizar", err.message || "Revisa conexion o CORS del RSS.");
@@ -105,7 +158,7 @@ if (typeof routes !== "undefined") {
     const last = state.settings.lastRssSync ? new Date(state.settings.lastRssSync).toLocaleString() : "Aun no ejecutado";
     return oldSettings().replace(
       "<strong>RSS y feeds publicos</strong><p>Capa prevista para titulares de mercado, infraestructura y normativa.</p>",
-      `<strong>RSS Gestion activo</strong><p>Economia, Empresas, Inmobiliaria y ultimas noticias. Ultima actualizacion: ${h(last)}.</p>`
+      `<strong>Fuentes de noticias</strong><p>Gestión y canales RSS agregados por la administradora. Última actualización: ${h(last)}.</p>`
     );
   };
 }

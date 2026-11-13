@@ -49,7 +49,7 @@ function decodeEntities(value) {
       const base = code[1]?.toLowerCase() === "x" ? 16 : 10;
       const raw = code[1]?.toLowerCase() === "x" ? code.slice(2) : code.slice(1);
       const n = Number.parseInt(raw, base);
-      return Number.isFinite(n) ? String.fromCodePoint(n) : match;
+      return Number.isInteger(n) && n >= 0 && n <= 0x10ffff ? String.fromCodePoint(n) : match;
     }
     return named[code.toLowerCase()] || match;
   });
@@ -73,35 +73,70 @@ function sha256(value) {
   return crypto.createHash("sha256").update(String(value || "")).digest("hex");
 }
 
-async function fetchText(url) {
-  const res = await fetch(url, {
-    headers: {
-      "user-agent": "CapitalCenterIntelligence/1.0 (+https://rcardenasr.github.io/capital-center-insights/)",
-      "accept": "application/rss+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8"
-    }
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
-  const charset = res.headers.get("content-type")?.match(/charset=([^;]+)/i)?.[1]?.trim() || "utf-8";
-  const bytes = await res.arrayBuffer();
+async function fetchText(url, { timeoutMs = 15000 } = {}) {
+  if (!absoluteUrl(url)) throw new Error("La fuente debe usar una URL HTTP o HTTPS sin credenciales.");
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    return new TextDecoder(charset).decode(bytes);
-  } catch {
-    return new TextDecoder("utf-8").decode(bytes);
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        "user-agent": "CapitalCenterIntelligence/1.0 (+https://rcardenasr.github.io/capital-center-insights/)",
+        "accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8"
+      }
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+    const charset = res.headers.get("content-type")?.match(/charset=([^;]+)/i)?.[1]?.trim() || "utf-8";
+    const bytes = await res.arrayBuffer();
+    try {
+      return new TextDecoder(charset).decode(bytes);
+    } catch {
+      return new TextDecoder("utf-8").decode(bytes);
+    }
+  } catch (error) {
+    if (controller.signal.aborted) throw new Error("La fuente tardó demasiado en responder.");
+    throw error;
+  } finally {
+    clearTimeout(timer);
   }
 }
 
 function tagValue(xml, tag) {
-  const match = xml.match(new RegExp(`<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tag}>`, "i"));
+  const qualifiedTag = tag.includes(":") ? tag : `(?:[\\w.-]+:)?${tag}`;
+  const match = xml.match(new RegExp(`<${qualifiedTag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${qualifiedTag}>`, "i"));
   if (!match) return "";
-  return stripHtml(match[1].replace(/^<!\[CDATA\[|\]\]>$/g, ""));
+  return stripHtml(match[1].trim().replace(/^<!\[CDATA\[|\]\]>$/g, ""));
+}
+
+function atomLink(item) {
+  const attribute = (tag, name) => {
+    const match = tag.match(new RegExp(`\\s${name}\\s*=\\s*(["'])([\\s\\S]*?)\\1`, "i"));
+    return match ? decodeEntities(match[2]) : "";
+  };
+  for (const match of item.matchAll(/<(?:[\w.-]+:)?link\b[^>]*>/gi)) {
+    const rel = attribute(match[0], "rel").toLowerCase();
+    if (!rel || rel === "alternate") {
+      const href = attribute(match[0], "href");
+      if (href) return href;
+    }
+  }
+  return "";
 }
 
 function parseRss(xmlText, source) {
-  const itemBlocks = [...String(xmlText || "").matchAll(/<item\b[\s\S]*?<\/item>/gi)].map((m) => m[0]);
+  const xml = String(xmlText || "").replace(/^\uFEFF/, "").replace(/<!--[^]*?-->/g, "").replace(/^\s*<\?xml[^]*?\?>/i, "").trim();
+  const root = xml.match(/^<((?:[\w.-]+:)?(?:rss|RDF|feed))\b[^>]*>/i)?.[1];
+  if (!root || !new RegExp(`<\\/${root}\\s*>\\s*$`, "i").test(xml)) {
+    throw new Error("El enlace no contiene un canal RSS o Atom válido. Usa una URL RSS/Atom o agrega la página como sitio web.");
+  }
+  const isAtom = /(?:^|:)feed$/i.test(root);
+  const entryTag = isAtom ? "entry" : "item";
+  const itemBlocks = [...xml.matchAll(new RegExp(`<(?:[\\w.-]+:)?${entryTag}\\b[\\s\\S]*?<\\/(?:[\\w.-]+:)?${entryTag}>`, "gi"))].map((m) => m[0]);
   return itemBlocks.slice(0, MAX_RSS_ITEMS).map((item) => {
     const title = tagValue(item, "title");
-    const summary = tagValue(item, "description") || tagValue(item, "content:encoded");
-    const url = tagValue(item, "link") || tagValue(item, "guid");
+    const summary = isAtom ? tagValue(item, "summary") || tagValue(item, "content") : tagValue(item, "description") || tagValue(item, "content:encoded");
+    const rawUrl = isAtom ? atomLink(item) : tagValue(item, "link") || tagValue(item, "guid");
+    const url = absoluteUrl(rawUrl, source.feedUrl || source.pageUrl);
     const rawDate = tagValue(item, "pubDate") || tagValue(item, "published") || tagValue(item, "updated");
     const parsedDate = rawDate ? new Date(rawDate) : new Date();
     return {
@@ -117,10 +152,12 @@ function parseRss(xmlText, source) {
 }
 
 function absoluteUrl(url, baseUrl) {
+  if (!String(url || "").trim()) return "";
   try {
-    return new URL(url, baseUrl).toString();
+    const parsed = new URL(String(url).trim(), baseUrl);
+    return ["http:", "https:"].includes(parsed.protocol) && !parsed.username && !parsed.password ? parsed.href : "";
   } catch {
-    return url;
+    return "";
   }
 }
 
@@ -130,7 +167,7 @@ function parseHtmlLinks(html, source) {
     const text = stripHtml(match[2]);
     if (text.length < 18 || text.length > 220) continue;
     const url = absoluteUrl(decodeEntities(match[1]), source.pageUrl);
-    if (!/^https?:\/\//i.test(url)) continue;
+    if (!url) continue;
     items.push({
       sourceId: source.id,
       sourceName: source.name,
@@ -308,7 +345,7 @@ async function main() {
   let signals = signalListFromPayload(loadJson(SIGNALS_PATH, []));
   let runs = loadJson(RUNS_PATH, []);
 
-  const sources = (config.sources || []).filter((source) => source.backendEnabled && (source.feedUrl || source.pageUrl) && source.method !== "manual_email");
+  const sources = configuredSources(config);
   const googleClients = ENABLE_CLIENT_GOOGLE_NEWS
     ? (config.clients || []).filter((client) => client.enabled && client.googleNewsRssUrl).slice(0, MAX_GOOGLE_CLIENTS)
     : [];
@@ -347,7 +384,15 @@ async function main() {
   console.log(`Generated ${signals.length} signals at ${SIGNALS_PATH}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+function configuredSources(config) {
+  return (config.sources || []).filter((source) => source.backendEnabled && (source.feedUrl || source.pageUrl) && source.method !== "manual_email");
+}
+
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = { parseRss, parseHtmlLinks, absoluteUrl, fetchText, fetchSource, configuredSources };

@@ -170,20 +170,17 @@ function matchClientToItem(client, item, config, forcedClientConfig = null) {
 }
 
 function parseRssIntel(xmlText, source) {
-  const xml = new DOMParser().parseFromString(xmlText, "text/xml");
-  return [...xml.querySelectorAll("item")].slice(0, 35).map((item) => {
-    const get = (tag) => item.querySelector(tag)?.textContent?.trim() || "";
-    const publishedAt = get("pubDate") ? new Date(get("pubDate")).toISOString() : new Date().toISOString();
+  return parseNewsFeed(xmlText, source.feedUrl || source.url).map((item) => {
     return {
       sourceId: source.id,
       sourceName: source.name,
-      title: cleanHtml(get("title")),
-      summary: cleanHtml(get("description")),
-      url: get("link") || get("guid"),
-      publishedAt,
-      rawMetadata: { category: [...item.querySelectorAll("category")].map((x) => cleanHtml(x.textContent)) }
+      title: item.title,
+      summary: item.summary,
+      url: item.url,
+      publishedAt: item.publishedAt,
+      rawMetadata: { category: item.categories }
     };
-  }).filter((x) => x.title);
+  });
 }
 
 function rssClientSource(clientConfig) {
@@ -249,6 +246,7 @@ async function normalizeAndStoreItems(items, config, forcedClientConfig = null) 
         rawMetadata: item.rawMetadata || {},
         ...match
       };
+      existing.set(id, signal);
       intel.signals.unshift(signal);
       state.signals.unshift(compatibleStateSignal(signal));
     }
@@ -264,7 +262,8 @@ async function runIntelRefresh() {
   try {
     const config = await loadIntelConfig();
     const directSources = (config.sources || []).filter((s) =>
-      s.backendEnabled && s.feedUrl && ["gestion_economia_rss", "elcomercio_economia_rss", "elcomercio_dia1_rss", "elcomercio_casaymas_rss"].includes(s.id)
+      s.backendEnabled && s.feedUrl && s.method !== "html_polling" &&
+      (s.userManaged === true || ["gestion_economia_rss", "elcomercio_economia_rss", "elcomercio_dia1_rss", "elcomercio_casaymas_rss"].includes(s.id))
     );
     const googleClients = ENABLE_BROWSER_CLIENT_GOOGLE_NEWS
       ? (config.clients || []).filter((c) => c.enabled && c.googleNewsRssUrl && c.confidence !== "bajo").slice(0, 8)
@@ -273,7 +272,7 @@ async function runIntelRefresh() {
       ...directSources.map((source) => ({ source })),
       ...googleClients.map((client) => ({ source: rssClientSource(client), client }))
     ];
-    let totalRead = 0, totalNew = 0, totalMatched = 0;
+    let totalRead = 0, totalNew = 0, totalMatched = 0, sourcesFailed = 0;
     for (const job of jobs) {
       const result = await fetchIntelSource(job.source);
       const stored = await normalizeAndStoreItems(result.items, config, job.client || null);
@@ -282,12 +281,13 @@ async function runIntelRefresh() {
       totalRead += result.run.itemsRead;
       totalNew += stored.itemsNew;
       totalMatched += stored.itemsMatched;
+      if (result.run.status === "error") sourcesFailed++;
       intel.runs.unshift(result.run);
     }
     state.settings.lastIntelSync = new Date().toISOString();
     saveIntel();
     save();
-    toast("Inteligencia actualizada", `${totalNew} nuevas señales, ${totalMatched} coincidencias, ${totalRead} items leidos.`);
+    toast(sourcesFailed === jobs.length && jobs.length ? "No se pudo actualizar" : "Inteligencia actualizada", `${totalNew} nuevas señales, ${totalMatched} coincidencias, ${totalRead} items leídos.${sourcesFailed ? ` ${sourcesFailed} fuentes no se pudieron leer.` : ""}`);
     render();
   } catch (err) {
     toast("Error de inteligencia", err.message || String(err));
@@ -316,12 +316,11 @@ function intelligenceView() {
   const rows = filteredIntelSignals();
   const last = state.settings.lastIntelSync ? new Date(state.settings.lastIntelSync).toLocaleString() : "Aun no ejecutado";
   const remoteLast = intel.remoteMeta?.generatedAt ? new Date(intel.remoteMeta.generatedAt).toLocaleString() : "Pendiente";
-  const remoteTotals = intel.remoteMeta?.totals;
   return `${head("Inteligencia comercial", "Alertas reales", `<button class="btn primary" data-action="run-intel">Actualizar inteligencia</button>`)}
     <section class="grid kpi-grid">
       ${kpi("Señales guardadas", intel.signals.length, "Deduplicadas por URL y cliente")}
       ${kpi("Alta relevancia", intel.signals.filter((s) => s.priority === "Alta").length, "Score >= 70")}
-      ${kpi("Fuentes configuradas", intel.config?.sources?.length || 12, remoteTotals ? `${remoteTotals.sourcesOk || 0} OK / ${remoteTotals.sourcesError || 0} con error` : "RSS, Google News y HTML")}
+      ${kpi("Fuentes configuradas", intel.config?.sources?.length ?? "—", intel.config ? `${(intel.config.sources || []).filter((source) => source.backendEnabled).length} activas · RSS, Google News y HTML` : "Cargando configuración")}
       ${kpi("Scheduler", remoteLast, `Manual: ${last}`)}
     </section>
     <section class="card pad" style="margin-top:16px">
