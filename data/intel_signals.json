@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-14T22:35:10.928Z",
+  "generatedAt": "2026-11-15T06:49:47.784Z",
   "country": "PE",
   "sourcesConfigured": 13,
   "clientsConfigured": 33,
   "clientGoogleNewsEnabled": true,
   "totals": {
-    "itemsRead": 467,
-    "itemsNew": 12,
-    "itemsMatched": 124,
-    "sourcesOk": 43,
-    "sourcesError": 1
+    "itemsRead": 180,
+    "itemsNew": 0,
+    "itemsMatched": 3,
+    "sourcesOk": 11,
+    "sourcesError": 33
   },
   "signals": [
     {
@@ -22,7 +22,7 @@
       "url": "https://elcomercio.pe/economia/entel-vendio-su-operacion-peruana-a-millicom-como-le-iba-en-el-pais-y-que-decia-su-ceo-hace-pocos-meses-apuesplan-noticia/",
       "publishedAt": "2026-11-14T01:27:00.000Z",
       "firstSeenAt": "2026-11-14T06:39:13.154Z",
-      "lastSeenAt": "2026-11-14T22:34:38.106Z",
+      "lastSeenAt": "2026-11-15T06:45:16.165Z",
       "createdAt": "2026-11-14T06:39:13.154Z",
       "rawMetadata": {
         "method": "rss_directo",
@@ -101,7 +101,7 @@
       "url": "https://gestion.pe/economia/empresas/millicom-llega-al-peru-con-la-compra-de-entel-por-us-1714-millones-y-apunta-a-expandir-sus-negocios-noticia/",
       "publishedAt": "2026-11-13T22:36:34.000Z",
       "firstSeenAt": "2026-11-14T06:39:12.829Z",
-      "lastSeenAt": "2026-11-14T22:34:37.778Z",
+      "lastSeenAt": "2026-11-15T06:45:16.071Z",
       "createdAt": "2026-11-14T06:39:12.829Z",
       "rawMetadata": {
         "method": "rss_directo",
@@ -232,7 +232,7 @@
       "url": "https://gestion.pe/economia/empresas/entel-podria-dejar-de-operar-bajo-su-actual-propietario-que-cambiaria-para-sus-millones-de-clientes-noticia/",
       "publishedAt": "2026-11-13T19:42:29.000Z",
       "firstSeenAt": "2026-11-13T19:50:05.182Z",
-      "lastSeenAt": "2026-11-14T22:34:37.785Z",
+      "lastSeenAt": "2026-11-15T06:45:16.080Z",
       "createdAt": "2026-11-13T19:50:05.182Z",
       "rawMetadata": {
         "method": "rss_directo",
